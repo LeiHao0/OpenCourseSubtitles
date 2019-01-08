@@ -1,0 +1,8035 @@
+1
+00:00:00,000 --> 00:00:02,149
+
+the following is a conversation with
+
+2
+00:00:02,149 --> 00:00:02,159
+the following is a conversation with
+ 
+
+3
+00:00:02,159 --> 00:00:04,160
+the following is a conversation with
+Eric Schmidt he was the CEO of Google
+
+4
+00:00:04,160 --> 00:00:04,170
+Eric Schmidt he was the CEO of Google
+ 
+
+5
+00:00:04,170 --> 00:00:06,289
+Eric Schmidt he was the CEO of Google
+for 10 years and a chairman for six more
+
+6
+00:00:06,289 --> 00:00:06,299
+for 10 years and a chairman for six more
+ 
+
+7
+00:00:06,299 --> 00:00:08,059
+for 10 years and a chairman for six more
+guiding the company through an
+
+8
+00:00:08,059 --> 00:00:08,069
+guiding the company through an
+ 
+
+9
+00:00:08,069 --> 00:00:10,759
+guiding the company through an
+incredible period of growth and a series
+
+10
+00:00:10,759 --> 00:00:10,769
+incredible period of growth and a series
+ 
+
+11
+00:00:10,769 --> 00:00:13,459
+incredible period of growth and a series
+of world-changing innovations he is one
+
+12
+00:00:13,459 --> 00:00:13,469
+of world-changing innovations he is one
+ 
+
+13
+00:00:13,469 --> 00:00:15,740
+of world-changing innovations he is one
+of the most impactful leaders in the era
+
+14
+00:00:15,740 --> 00:00:15,750
+of the most impactful leaders in the era
+ 
+
+15
+00:00:15,750 --> 00:00:18,680
+of the most impactful leaders in the era
+of the Internet and the powerful voice
+
+16
+00:00:18,680 --> 00:00:18,690
+of the Internet and the powerful voice
+ 
+
+17
+00:00:18,690 --> 00:00:21,050
+of the Internet and the powerful voice
+for the promise of technology in our
+
+18
+00:00:21,050 --> 00:00:21,060
+for the promise of technology in our
+ 
+
+19
+00:00:21,060 --> 00:00:23,900
+for the promise of technology in our
+society it was truly an honor to speak
+
+20
+00:00:23,900 --> 00:00:23,910
+society it was truly an honor to speak
+ 
+
+21
+00:00:23,910 --> 00:00:26,990
+society it was truly an honor to speak
+with him as part of the MIT course on
+
+22
+00:00:26,990 --> 00:00:27,000
+with him as part of the MIT course on
+ 
+
+23
+00:00:27,000 --> 00:00:28,970
+with him as part of the MIT course on
+artificial general intelligence and the
+
+24
+00:00:28,970 --> 00:00:28,980
+artificial general intelligence and the
+ 
+
+25
+00:00:28,980 --> 00:00:32,240
+artificial general intelligence and the
+artificial intelligence podcast and now
+
+26
+00:00:32,240 --> 00:00:32,250
+artificial intelligence podcast and now
+ 
+
+27
+00:00:32,250 --> 00:00:36,190
+artificial intelligence podcast and now
+here's my conversation with Eric Schmidt
+
+28
+00:00:36,190 --> 00:00:36,200
+here's my conversation with Eric Schmidt
+ 
+
+29
+00:00:36,200 --> 00:00:38,450
+here's my conversation with Eric Schmidt
+what was the first moment when you fell
+
+30
+00:00:38,450 --> 00:00:38,460
+what was the first moment when you fell
+ 
+
+31
+00:00:38,460 --> 00:00:42,110
+what was the first moment when you fell
+in love with technology I grew up in the
+
+32
+00:00:42,110 --> 00:00:42,120
+in love with technology I grew up in the
+ 
+
+33
+00:00:42,120 --> 00:00:46,010
+in love with technology I grew up in the
+1960s as a boy where every boy wanted to
+
+34
+00:00:46,010 --> 00:00:46,020
+1960s as a boy where every boy wanted to
+ 
+
+35
+00:00:46,020 --> 00:00:47,450
+1960s as a boy where every boy wanted to
+be an astronaut and part of the space
+
+36
+00:00:47,450 --> 00:00:47,460
+be an astronaut and part of the space
+ 
+
+37
+00:00:47,460 --> 00:00:50,810
+be an astronaut and part of the space
+program so like everyone else of my age
+
+38
+00:00:50,810 --> 00:00:50,820
+program so like everyone else of my age
+ 
+
+39
+00:00:50,820 --> 00:00:52,729
+program so like everyone else of my age
+we would go out to the cow pasture
+
+40
+00:00:52,729 --> 00:00:52,739
+we would go out to the cow pasture
+ 
+
+41
+00:00:52,739 --> 00:00:55,069
+we would go out to the cow pasture
+behind my house which was literally a
+
+42
+00:00:55,069 --> 00:00:55,079
+behind my house which was literally a
+ 
+
+43
+00:00:55,079 --> 00:00:57,229
+behind my house which was literally a
+cow pasture and we would shoot model
+
+44
+00:00:57,229 --> 00:00:57,239
+cow pasture and we would shoot model
+ 
+
+45
+00:00:57,239 --> 00:00:59,479
+cow pasture and we would shoot model
+rockets off and that I think is the
+
+46
+00:00:59,479 --> 00:00:59,489
+rockets off and that I think is the
+ 
+
+47
+00:00:59,489 --> 00:01:02,150
+rockets off and that I think is the
+beginning and of course generationally
+
+48
+00:01:02,150 --> 00:01:02,160
+beginning and of course generationally
+ 
+
+49
+00:01:02,160 --> 00:01:04,939
+beginning and of course generationally
+today it would be video games and all
+
+50
+00:01:04,939 --> 00:01:04,949
+today it would be video games and all
+ 
+
+51
+00:01:04,949 --> 00:01:06,230
+today it would be video games and all
+the amazing things that you can do
+
+52
+00:01:06,230 --> 00:01:06,240
+the amazing things that you can do
+ 
+
+53
+00:01:06,240 --> 00:01:09,350
+the amazing things that you can do
+online with computers there's a
+
+54
+00:01:09,350 --> 00:01:09,360
+online with computers there's a
+ 
+
+55
+00:01:09,360 --> 00:01:12,080
+online with computers there's a
+transformative inspiring aspect of
+
+56
+00:01:12,080 --> 00:01:12,090
+transformative inspiring aspect of
+ 
+
+57
+00:01:12,090 --> 00:01:14,870
+transformative inspiring aspect of
+science and math that maybe Rockets
+
+58
+00:01:14,870 --> 00:01:14,880
+science and math that maybe Rockets
+ 
+
+59
+00:01:14,880 --> 00:01:16,789
+science and math that maybe Rockets
+would bring wood in stone and
+
+60
+00:01:16,789 --> 00:01:16,799
+would bring wood in stone and
+ 
+
+61
+00:01:16,799 --> 00:01:18,200
+would bring wood in stone and
+individuals you've mentioned yesterday
+
+62
+00:01:18,200 --> 00:01:18,210
+individuals you've mentioned yesterday
+ 
+
+63
+00:01:18,210 --> 00:01:20,510
+individuals you've mentioned yesterday
+that eighth grade math is where the
+
+64
+00:01:20,510 --> 00:01:20,520
+that eighth grade math is where the
+ 
+
+65
+00:01:20,520 --> 00:01:21,890
+that eighth grade math is where the
+journey through mathematical universe
+
+66
+00:01:21,890 --> 00:01:21,900
+journey through mathematical universe
+ 
+
+67
+00:01:21,900 --> 00:01:25,460
+journey through mathematical universe
+diverges for many people it's this fork
+
+68
+00:01:25,460 --> 00:01:25,470
+diverges for many people it's this fork
+ 
+
+69
+00:01:25,470 --> 00:01:28,070
+diverges for many people it's this fork
+in the road way there's a professor of
+
+70
+00:01:28,070 --> 00:01:28,080
+in the road way there's a professor of
+ 
+
+71
+00:01:28,080 --> 00:01:31,490
+in the road way there's a professor of
+math a Buckley Edward Frenkel he I'm not
+
+72
+00:01:31,490 --> 00:01:31,500
+math a Buckley Edward Frenkel he I'm not
+ 
+
+73
+00:01:31,500 --> 00:01:33,530
+math a Buckley Edward Frenkel he I'm not
+sure of you familiar with him I am he
+
+74
+00:01:33,530 --> 00:01:33,540
+sure of you familiar with him I am he
+ 
+
+75
+00:01:33,540 --> 00:01:35,480
+sure of you familiar with him I am he
+has written this amazing book I
+
+76
+00:01:35,480 --> 00:01:35,490
+has written this amazing book I
+ 
+
+77
+00:01:35,490 --> 00:01:36,920
+has written this amazing book I
+recommend to everybody called love and
+
+78
+00:01:36,920 --> 00:01:36,930
+recommend to everybody called love and
+ 
+
+79
+00:01:36,930 --> 00:01:41,020
+recommend to everybody called love and
+math to my favorite word's
+
+80
+00:01:41,020 --> 00:01:41,030
+math to my favorite word's
+ 
+
+81
+00:01:41,030 --> 00:01:45,620
+math to my favorite word's
+he says that if if painting was taught
+
+82
+00:01:45,620 --> 00:01:45,630
+he says that if if painting was taught
+ 
+
+83
+00:01:45,630 --> 00:01:48,080
+he says that if if painting was taught
+like math then students would be asked
+
+84
+00:01:48,080 --> 00:01:48,090
+like math then students would be asked
+ 
+
+85
+00:01:48,090 --> 00:01:50,569
+like math then students would be asked
+to paint a fence just his analogy of
+
+86
+00:01:50,569 --> 00:01:50,579
+to paint a fence just his analogy of
+ 
+
+87
+00:01:50,579 --> 00:01:53,090
+to paint a fence just his analogy of
+essentially how math is taught and you
+
+88
+00:01:53,090 --> 00:01:53,100
+essentially how math is taught and you
+ 
+
+89
+00:01:53,100 --> 00:01:54,710
+essentially how math is taught and you
+never get a chance to discover the
+
+90
+00:01:54,710 --> 00:01:54,720
+never get a chance to discover the
+ 
+
+91
+00:01:54,720 --> 00:01:57,319
+never get a chance to discover the
+beauty of the art of painting or the
+
+92
+00:01:57,319 --> 00:01:57,329
+beauty of the art of painting or the
+ 
+
+93
+00:01:57,329 --> 00:02:01,100
+beauty of the art of painting or the
+beauty of the art of math so how when
+
+94
+00:02:01,100 --> 00:02:01,110
+beauty of the art of math so how when
+ 
+
+95
+00:02:01,110 --> 00:02:04,460
+beauty of the art of math so how when
+and where did you discover that beauty
+
+96
+00:02:04,460 --> 00:02:04,470
+and where did you discover that beauty
+ 
+
+97
+00:02:04,470 --> 00:02:07,130
+and where did you discover that beauty
+I think what happens with people like
+
+98
+00:02:07,130 --> 00:02:07,140
+I think what happens with people like
+ 
+
+99
+00:02:07,140 --> 00:02:10,249
+I think what happens with people like
+myself is that your math enabled pretty
+
+100
+00:02:10,249 --> 00:02:10,259
+myself is that your math enabled pretty
+ 
+
+101
+00:02:10,259 --> 00:02:13,010
+myself is that your math enabled pretty
+early and all of a sudden you discover
+
+102
+00:02:13,010 --> 00:02:13,020
+early and all of a sudden you discover
+ 
+
+103
+00:02:13,020 --> 00:02:14,960
+early and all of a sudden you discover
+that you can use that to discover new
+
+104
+00:02:14,960 --> 00:02:14,970
+that you can use that to discover new
+ 
+
+105
+00:02:14,970 --> 00:02:18,050
+that you can use that to discover new
+insights the great scientists will all
+
+106
+00:02:18,050 --> 00:02:18,060
+insights the great scientists will all
+ 
+
+107
+00:02:18,060 --> 00:02:20,150
+insights the great scientists will all
+tell a story the men and women who are
+
+108
+00:02:20,150 --> 00:02:20,160
+tell a story the men and women who are
+ 
+
+109
+00:02:20,160 --> 00:02:22,940
+tell a story the men and women who are
+fantastic today it's somewhere when they
+
+110
+00:02:22,940 --> 00:02:22,950
+fantastic today it's somewhere when they
+ 
+
+111
+00:02:22,950 --> 00:02:24,710
+fantastic today it's somewhere when they
+were in high school or in college they
+
+112
+00:02:24,710 --> 00:02:24,720
+were in high school or in college they
+ 
+
+113
+00:02:24,720 --> 00:02:26,000
+were in high school or in college they
+discovered that they could discover
+
+114
+00:02:26,000 --> 00:02:26,010
+discovered that they could discover
+ 
+
+115
+00:02:26,010 --> 00:02:28,760
+discovered that they could discover
+something themselves and that sense of
+
+116
+00:02:28,760 --> 00:02:28,770
+something themselves and that sense of
+ 
+
+117
+00:02:28,770 --> 00:02:30,710
+something themselves and that sense of
+building something of having an impact
+
+118
+00:02:30,710 --> 00:02:30,720
+building something of having an impact
+ 
+
+119
+00:02:30,720 --> 00:02:33,260
+building something of having an impact
+that you own drives knowledge
+
+120
+00:02:33,260 --> 00:02:33,270
+that you own drives knowledge
+ 
+
+121
+00:02:33,270 --> 00:02:36,110
+that you own drives knowledge
+acquisition and learning in my case he
+
+122
+00:02:36,110 --> 00:02:36,120
+acquisition and learning in my case he
+ 
+
+123
+00:02:36,120 --> 00:02:38,750
+acquisition and learning in my case he
+was programming and the notion that I
+
+124
+00:02:38,750 --> 00:02:38,760
+was programming and the notion that I
+ 
+
+125
+00:02:38,760 --> 00:02:40,520
+was programming and the notion that I
+could build things that had not existed
+
+126
+00:02:40,520 --> 00:02:40,530
+could build things that had not existed
+ 
+
+127
+00:02:40,530 --> 00:02:43,550
+could build things that had not existed
+that I had built that had my name on it
+
+128
+00:02:43,550 --> 00:02:43,560
+that I had built that had my name on it
+ 
+
+129
+00:02:43,560 --> 00:02:46,460
+that I had built that had my name on it
+and this was before open-source but you
+
+130
+00:02:46,460 --> 00:02:46,470
+and this was before open-source but you
+ 
+
+131
+00:02:46,470 --> 00:02:47,660
+and this was before open-source but you
+could think of it as open source
+
+132
+00:02:47,660 --> 00:02:47,670
+could think of it as open source
+ 
+
+133
+00:02:47,670 --> 00:02:50,540
+could think of it as open source
+contributions so today if I were a 16 or
+
+134
+00:02:50,540 --> 00:02:50,550
+contributions so today if I were a 16 or
+ 
+
+135
+00:02:50,550 --> 00:02:52,670
+contributions so today if I were a 16 or
+17 year old boy I'm sure that I would
+
+136
+00:02:52,670 --> 00:02:52,680
+17 year old boy I'm sure that I would
+ 
+
+137
+00:02:52,680 --> 00:02:55,040
+17 year old boy I'm sure that I would
+aspire as a computer scientist to make a
+
+138
+00:02:55,040 --> 00:02:55,050
+aspire as a computer scientist to make a
+ 
+
+139
+00:02:55,050 --> 00:02:57,470
+aspire as a computer scientist to make a
+contribution like the open-source heroes
+
+140
+00:02:57,470 --> 00:02:57,480
+contribution like the open-source heroes
+ 
+
+141
+00:02:57,480 --> 00:02:59,480
+contribution like the open-source heroes
+of the world today that would be what
+
+142
+00:02:59,480 --> 00:02:59,490
+of the world today that would be what
+ 
+
+143
+00:02:59,490 --> 00:03:01,340
+of the world today that would be what
+will be driving me and I'd be trying and
+
+144
+00:03:01,340 --> 00:03:01,350
+will be driving me and I'd be trying and
+ 
+
+145
+00:03:01,350 --> 00:03:03,980
+will be driving me and I'd be trying and
+learning and making mistakes and so
+
+146
+00:03:03,980 --> 00:03:03,990
+learning and making mistakes and so
+ 
+
+147
+00:03:03,990 --> 00:03:06,610
+learning and making mistakes and so
+forth in the ways that it works the
+
+148
+00:03:06,610 --> 00:03:06,620
+forth in the ways that it works the
+ 
+
+149
+00:03:06,620 --> 00:03:09,110
+forth in the ways that it works the
+repository that represent that github
+
+150
+00:03:09,110 --> 00:03:09,120
+repository that represent that github
+ 
+
+151
+00:03:09,120 --> 00:03:10,699
+repository that represent that github
+represents and that open-source
+
+152
+00:03:10,699 --> 00:03:10,709
+represents and that open-source
+ 
+
+153
+00:03:10,709 --> 00:03:13,550
+represents and that open-source
+libraries represent is an enormous Bank
+
+154
+00:03:13,550 --> 00:03:13,560
+libraries represent is an enormous Bank
+ 
+
+155
+00:03:13,560 --> 00:03:16,070
+libraries represent is an enormous Bank
+of knowledge of all of the people who
+
+156
+00:03:16,070 --> 00:03:16,080
+of knowledge of all of the people who
+ 
+
+157
+00:03:16,080 --> 00:03:17,750
+of knowledge of all of the people who
+are doing that and one of the lessons
+
+158
+00:03:17,750 --> 00:03:17,760
+are doing that and one of the lessons
+ 
+
+159
+00:03:17,760 --> 00:03:19,940
+are doing that and one of the lessons
+that I learned at Google was that the
+
+160
+00:03:19,940 --> 00:03:19,950
+that I learned at Google was that the
+ 
+
+161
+00:03:19,950 --> 00:03:21,800
+that I learned at Google was that the
+world is a very big place there's an
+
+162
+00:03:21,800 --> 00:03:21,810
+world is a very big place there's an
+ 
+
+163
+00:03:21,810 --> 00:03:24,290
+world is a very big place there's an
+awful lot of smart people and awful lot
+
+164
+00:03:24,290 --> 00:03:24,300
+awful lot of smart people and awful lot
+ 
+
+165
+00:03:24,300 --> 00:03:26,840
+awful lot of smart people and awful lot
+of them are underutilized so here's an
+
+166
+00:03:26,840 --> 00:03:26,850
+of them are underutilized so here's an
+ 
+
+167
+00:03:26,850 --> 00:03:29,780
+of them are underutilized so here's an
+opportunity for example building parts
+
+168
+00:03:29,780 --> 00:03:29,790
+opportunity for example building parts
+ 
+
+169
+00:03:29,790 --> 00:03:31,820
+opportunity for example building parts
+of programs building new ideas to
+
+170
+00:03:31,820 --> 00:03:31,830
+of programs building new ideas to
+ 
+
+171
+00:03:31,830 --> 00:03:36,710
+of programs building new ideas to
+contribute to the greater of society so
+
+172
+00:03:36,710 --> 00:03:36,720
+contribute to the greater of society so
+ 
+
+173
+00:03:36,720 --> 00:03:38,930
+contribute to the greater of society so
+in that moment in the seventies the the
+
+174
+00:03:38,930 --> 00:03:38,940
+in that moment in the seventies the the
+ 
+
+175
+00:03:38,940 --> 00:03:40,610
+in that moment in the seventies the the
+inspiring moment where there was nothing
+
+176
+00:03:40,610 --> 00:03:40,620
+inspiring moment where there was nothing
+ 
+
+177
+00:03:40,620 --> 00:03:42,080
+inspiring moment where there was nothing
+and then you created something through
+
+178
+00:03:42,080 --> 00:03:42,090
+and then you created something through
+ 
+
+179
+00:03:42,090 --> 00:03:45,170
+and then you created something through
+programming that magical moment so in
+
+180
+00:03:45,170 --> 00:03:45,180
+programming that magical moment so in
+ 
+
+181
+00:03:45,180 --> 00:03:47,840
+programming that magical moment so in
+1975 I think you've created a program
+
+182
+00:03:47,840 --> 00:03:47,850
+1975 I think you've created a program
+ 
+
+183
+00:03:47,850 --> 00:03:50,090
+1975 I think you've created a program
+called Lex which I especially like
+
+184
+00:03:50,090 --> 00:03:50,100
+called Lex which I especially like
+ 
+
+185
+00:03:50,100 --> 00:03:52,190
+called Lex which I especially like
+because my name is Lex so thank you
+
+186
+00:03:52,190 --> 00:03:52,200
+because my name is Lex so thank you
+ 
+
+187
+00:03:52,200 --> 00:03:54,740
+because my name is Lex so thank you
+thank you for creating a brand that
+
+188
+00:03:54,740 --> 00:03:54,750
+thank you for creating a brand that
+ 
+
+189
+00:03:54,750 --> 00:03:56,990
+thank you for creating a brand that
+established a reputation this long
+
+190
+00:03:56,990 --> 00:03:57,000
+established a reputation this long
+ 
+
+191
+00:03:57,000 --> 00:03:59,300
+established a reputation this long
+lasting reliable and has a big impact on
+
+192
+00:03:59,300 --> 00:03:59,310
+lasting reliable and has a big impact on
+ 
+
+193
+00:03:59,310 --> 00:04:01,520
+lasting reliable and has a big impact on
+the world and still used today so thank
+
+194
+00:04:01,520 --> 00:04:01,530
+the world and still used today so thank
+ 
+
+195
+00:04:01,530 --> 00:04:07,039
+the world and still used today so thank
+you for that but more seriously in that
+
+196
+00:04:07,039 --> 00:04:07,049
+you for that but more seriously in that
+ 
+
+197
+00:04:07,049 --> 00:04:09,800
+you for that but more seriously in that
+time in the 70s as an engineer personal
+
+198
+00:04:09,800 --> 00:04:09,810
+time in the 70s as an engineer personal
+ 
+
+199
+00:04:09,810 --> 00:04:13,040
+time in the 70s as an engineer personal
+computers were being born do you think
+
+200
+00:04:13,040 --> 00:04:13,050
+computers were being born do you think
+ 
+
+201
+00:04:13,050 --> 00:04:14,839
+computers were being born do you think
+you'll be able to predict the 80s 90s
+
+202
+00:04:14,839 --> 00:04:14,849
+you'll be able to predict the 80s 90s
+ 
+
+203
+00:04:14,849 --> 00:04:16,849
+you'll be able to predict the 80s 90s
+and the arts
+
+204
+00:04:16,849 --> 00:04:16,859
+and the arts
+ 
+
+205
+00:04:16,859 --> 00:04:19,819
+and the arts
+of what computers would go I'm sure I
+
+206
+00:04:19,819 --> 00:04:19,829
+of what computers would go I'm sure I
+ 
+
+207
+00:04:19,829 --> 00:04:21,529
+of what computers would go I'm sure I
+could not and would not have gotten it
+
+208
+00:04:21,529 --> 00:04:21,539
+could not and would not have gotten it
+ 
+
+209
+00:04:21,539 --> 00:04:22,969
+could not and would not have gotten it
+right
+
+210
+00:04:22,969 --> 00:04:22,979
+right
+ 
+
+211
+00:04:22,979 --> 00:04:25,339
+right
+I was the beneficiary of the great work
+
+212
+00:04:25,339 --> 00:04:25,349
+I was the beneficiary of the great work
+ 
+
+213
+00:04:25,349 --> 00:04:27,439
+I was the beneficiary of the great work
+of many many people who saw it clearer
+
+214
+00:04:27,439 --> 00:04:27,449
+of many many people who saw it clearer
+ 
+
+215
+00:04:27,449 --> 00:04:30,740
+of many many people who saw it clearer
+than I did with Lex I worked with a
+
+216
+00:04:30,740 --> 00:04:30,750
+than I did with Lex I worked with a
+ 
+
+217
+00:04:30,750 --> 00:04:33,140
+than I did with Lex I worked with a
+fella named Michael Lesk who was my
+
+218
+00:04:33,140 --> 00:04:33,150
+fella named Michael Lesk who was my
+ 
+
+219
+00:04:33,150 --> 00:04:35,450
+fella named Michael Lesk who was my
+supervisor and he essentially helped me
+
+220
+00:04:35,450 --> 00:04:35,460
+supervisor and he essentially helped me
+ 
+
+221
+00:04:35,460 --> 00:04:37,339
+supervisor and he essentially helped me
+architect and deliver a system that's
+
+222
+00:04:37,339 --> 00:04:37,349
+architect and deliver a system that's
+ 
+
+223
+00:04:37,349 --> 00:04:38,540
+architect and deliver a system that's
+still in use today
+
+224
+00:04:38,540 --> 00:04:38,550
+still in use today
+ 
+
+225
+00:04:38,550 --> 00:04:40,730
+still in use today
+after that I worked at Xerox Palo Alto
+
+226
+00:04:40,730 --> 00:04:40,740
+after that I worked at Xerox Palo Alto
+ 
+
+227
+00:04:40,740 --> 00:04:43,100
+after that I worked at Xerox Palo Alto
+Research Center where the Alto was
+
+228
+00:04:43,100 --> 00:04:43,110
+Research Center where the Alto was
+ 
+
+229
+00:04:43,110 --> 00:04:45,469
+Research Center where the Alto was
+invented and the Alto is the predecessor
+
+230
+00:04:45,469 --> 00:04:45,479
+invented and the Alto is the predecessor
+ 
+
+231
+00:04:45,479 --> 00:04:48,200
+invented and the Alto is the predecessor
+of the modern personal computer or
+
+232
+00:04:48,200 --> 00:04:48,210
+of the modern personal computer or
+ 
+
+233
+00:04:48,210 --> 00:04:51,200
+of the modern personal computer or
+Macintosh and so forth and the Altos
+
+234
+00:04:51,200 --> 00:04:51,210
+Macintosh and so forth and the Altos
+ 
+
+235
+00:04:51,210 --> 00:04:53,209
+Macintosh and so forth and the Altos
+were very rare and I had to drive an
+
+236
+00:04:53,209 --> 00:04:53,219
+were very rare and I had to drive an
+ 
+
+237
+00:04:53,219 --> 00:04:55,399
+were very rare and I had to drive an
+hour from Berkeley to go use them but I
+
+238
+00:04:55,399 --> 00:04:55,409
+hour from Berkeley to go use them but I
+ 
+
+239
+00:04:55,409 --> 00:04:57,499
+hour from Berkeley to go use them but I
+made a point of skipping classes and
+
+240
+00:04:57,499 --> 00:04:57,509
+made a point of skipping classes and
+ 
+
+241
+00:04:57,509 --> 00:05:01,070
+made a point of skipping classes and
+doing whatever it took to have access to
+
+242
+00:05:01,070 --> 00:05:01,080
+doing whatever it took to have access to
+ 
+
+243
+00:05:01,080 --> 00:05:02,929
+doing whatever it took to have access to
+this extraordinary achievement I knew
+
+244
+00:05:02,929 --> 00:05:02,939
+this extraordinary achievement I knew
+ 
+
+245
+00:05:02,939 --> 00:05:05,570
+this extraordinary achievement I knew
+that they were consequential what I did
+
+246
+00:05:05,570 --> 00:05:05,580
+that they were consequential what I did
+ 
+
+247
+00:05:05,580 --> 00:05:08,689
+that they were consequential what I did
+not understand was scaling I did not
+
+248
+00:05:08,689 --> 00:05:08,699
+not understand was scaling I did not
+ 
+
+249
+00:05:08,699 --> 00:05:10,070
+not understand was scaling I did not
+understand what would happen when you
+
+250
+00:05:10,070 --> 00:05:10,080
+understand what would happen when you
+ 
+
+251
+00:05:10,080 --> 00:05:11,779
+understand what would happen when you
+had a hundred million as opposed to a
+
+252
+00:05:11,779 --> 00:05:11,789
+had a hundred million as opposed to a
+ 
+
+253
+00:05:11,789 --> 00:05:14,570
+had a hundred million as opposed to a
+hundred and so the since then and I have
+
+254
+00:05:14,570 --> 00:05:14,580
+hundred and so the since then and I have
+ 
+
+255
+00:05:14,580 --> 00:05:16,790
+hundred and so the since then and I have
+learned the benefit of scale I always
+
+256
+00:05:16,790 --> 00:05:16,800
+learned the benefit of scale I always
+ 
+
+257
+00:05:16,800 --> 00:05:18,200
+learned the benefit of scale I always
+look for things which are going to scale
+
+258
+00:05:18,200 --> 00:05:18,210
+look for things which are going to scale
+ 
+
+259
+00:05:18,210 --> 00:05:20,869
+look for things which are going to scale
+to platforms right so mobile phones
+
+260
+00:05:20,869 --> 00:05:20,879
+to platforms right so mobile phones
+ 
+
+261
+00:05:20,879 --> 00:05:23,689
+to platforms right so mobile phones
+Android all those things there are the
+
+262
+00:05:23,689 --> 00:05:23,699
+Android all those things there are the
+ 
+
+263
+00:05:23,699 --> 00:05:26,329
+Android all those things there are the
+world is a numerous there are many many
+
+264
+00:05:26,329 --> 00:05:26,339
+world is a numerous there are many many
+ 
+
+265
+00:05:26,339 --> 00:05:28,159
+world is a numerous there are many many
+people in the world people really have
+
+266
+00:05:28,159 --> 00:05:28,169
+people in the world people really have
+ 
+
+267
+00:05:28,169 --> 00:05:29,390
+people in the world people really have
+needs they really will use these
+
+268
+00:05:29,390 --> 00:05:29,400
+needs they really will use these
+ 
+
+269
+00:05:29,400 --> 00:05:30,680
+needs they really will use these
+platforms and you can build big
+
+270
+00:05:30,680 --> 00:05:30,690
+platforms and you can build big
+ 
+
+271
+00:05:30,690 --> 00:05:32,809
+platforms and you can build big
+businesses on top of them so it's
+
+272
+00:05:32,809 --> 00:05:32,819
+businesses on top of them so it's
+ 
+
+273
+00:05:32,819 --> 00:05:34,129
+businesses on top of them so it's
+interesting so when you see a piece of
+
+274
+00:05:34,129 --> 00:05:34,139
+interesting so when you see a piece of
+ 
+
+275
+00:05:34,139 --> 00:05:36,110
+interesting so when you see a piece of
+technology now you think what will this
+
+276
+00:05:36,110 --> 00:05:36,120
+technology now you think what will this
+ 
+
+277
+00:05:36,120 --> 00:05:37,760
+technology now you think what will this
+technology look like when it's in the
+
+278
+00:05:37,760 --> 00:05:37,770
+technology look like when it's in the
+ 
+
+279
+00:05:37,770 --> 00:05:39,320
+technology look like when it's in the
+hands of a billion people that's right
+
+280
+00:05:39,320 --> 00:05:39,330
+hands of a billion people that's right
+ 
+
+281
+00:05:39,330 --> 00:05:43,070
+hands of a billion people that's right
+so an example would be that the market
+
+282
+00:05:43,070 --> 00:05:43,080
+so an example would be that the market
+ 
+
+283
+00:05:43,080 --> 00:05:46,189
+so an example would be that the market
+is so competitive now that if you can't
+
+284
+00:05:46,189 --> 00:05:46,199
+is so competitive now that if you can't
+ 
+
+285
+00:05:46,199 --> 00:05:48,019
+is so competitive now that if you can't
+figure out a way for something to have a
+
+286
+00:05:48,019 --> 00:05:48,029
+figure out a way for something to have a
+ 
+
+287
+00:05:48,029 --> 00:05:50,869
+figure out a way for something to have a
+million users or a billion users it
+
+288
+00:05:50,869 --> 00:05:50,879
+million users or a billion users it
+ 
+
+289
+00:05:50,879 --> 00:05:52,459
+million users or a billion users it
+probably is not going to be successful
+
+290
+00:05:52,459 --> 00:05:52,469
+probably is not going to be successful
+ 
+
+291
+00:05:52,469 --> 00:05:55,490
+probably is not going to be successful
+because something else will become the
+
+292
+00:05:55,490 --> 00:05:55,500
+because something else will become the
+ 
+
+293
+00:05:55,500 --> 00:05:57,800
+because something else will become the
+general platform and your idea will
+
+294
+00:05:57,800 --> 00:05:57,810
+general platform and your idea will
+ 
+
+295
+00:05:57,810 --> 00:06:01,820
+general platform and your idea will
+become a lost idea or a specialized
+
+296
+00:06:01,820 --> 00:06:01,830
+become a lost idea or a specialized
+ 
+
+297
+00:06:01,830 --> 00:06:04,399
+become a lost idea or a specialized
+service with relatively few users so
+
+298
+00:06:04,399 --> 00:06:04,409
+service with relatively few users so
+ 
+
+299
+00:06:04,409 --> 00:06:06,619
+service with relatively few users so
+it's a path to generality it's a path to
+
+300
+00:06:06,619 --> 00:06:06,629
+it's a path to generality it's a path to
+ 
+
+301
+00:06:06,629 --> 00:06:08,300
+it's a path to generality it's a path to
+general platform use it's a path to
+
+302
+00:06:08,300 --> 00:06:08,310
+general platform use it's a path to
+ 
+
+303
+00:06:08,310 --> 00:06:10,579
+general platform use it's a path to
+broad applicability now there are plenty
+
+304
+00:06:10,579 --> 00:06:10,589
+broad applicability now there are plenty
+ 
+
+305
+00:06:10,589 --> 00:06:12,769
+broad applicability now there are plenty
+of good businesses that are tiny so
+
+306
+00:06:12,769 --> 00:06:12,779
+of good businesses that are tiny so
+ 
+
+307
+00:06:12,779 --> 00:06:15,499
+of good businesses that are tiny so
+luxury goods for example but if you want
+
+308
+00:06:15,499 --> 00:06:15,509
+luxury goods for example but if you want
+ 
+
+309
+00:06:15,509 --> 00:06:18,980
+luxury goods for example but if you want
+to have an impact at scale you have to
+
+310
+00:06:18,980 --> 00:06:18,990
+to have an impact at scale you have to
+ 
+
+311
+00:06:18,990 --> 00:06:20,869
+to have an impact at scale you have to
+look for things which are of common
+
+312
+00:06:20,869 --> 00:06:20,879
+look for things which are of common
+ 
+
+313
+00:06:20,879 --> 00:06:23,240
+look for things which are of common
+value common pricing common distribution
+
+314
+00:06:23,240 --> 00:06:23,250
+value common pricing common distribution
+ 
+
+315
+00:06:23,250 --> 00:06:25,159
+value common pricing common distribution
+and self common problems the problems
+
+316
+00:06:25,159 --> 00:06:25,169
+and self common problems the problems
+ 
+
+317
+00:06:25,169 --> 00:06:26,749
+and self common problems the problems
+that everyone has and by the way people
+
+318
+00:06:26,749 --> 00:06:26,759
+that everyone has and by the way people
+ 
+
+319
+00:06:26,759 --> 00:06:28,730
+that everyone has and by the way people
+have lots of problems information
+
+320
+00:06:28,730 --> 00:06:28,740
+have lots of problems information
+ 
+
+321
+00:06:28,740 --> 00:06:30,570
+have lots of problems information
+medicine health education
+
+322
+00:06:30,570 --> 00:06:30,580
+medicine health education
+ 
+
+323
+00:06:30,580 --> 00:06:33,149
+medicine health education
+so forth work on those problems like you
+
+324
+00:06:33,149 --> 00:06:33,159
+so forth work on those problems like you
+ 
+
+325
+00:06:33,159 --> 00:06:35,899
+so forth work on those problems like you
+said your big fan of the middle class
+
+326
+00:06:35,899 --> 00:06:35,909
+said your big fan of the middle class
+ 
+
+327
+00:06:35,909 --> 00:06:37,980
+said your big fan of the middle class
+because there's so many of them there's
+
+328
+00:06:37,980 --> 00:06:37,990
+because there's so many of them there's
+ 
+
+329
+00:06:37,990 --> 00:06:40,499
+because there's so many of them there's
+so many of them by definition so any
+
+330
+00:06:40,499 --> 00:06:40,509
+so many of them by definition so any
+ 
+
+331
+00:06:40,509 --> 00:06:43,920
+so many of them by definition so any
+product any any thing that has a huge
+
+332
+00:06:43,920 --> 00:06:43,930
+product any any thing that has a huge
+ 
+
+333
+00:06:43,930 --> 00:06:46,379
+product any any thing that has a huge
+impact it improves their lives as a
+
+334
+00:06:46,379 --> 00:06:46,389
+impact it improves their lives as a
+ 
+
+335
+00:06:46,389 --> 00:06:47,969
+impact it improves their lives as a
+great business decision it's just good
+
+336
+00:06:47,969 --> 00:06:47,979
+great business decision it's just good
+ 
+
+337
+00:06:47,979 --> 00:06:49,709
+great business decision it's just good
+for society and there's nothing wrong
+
+338
+00:06:49,709 --> 00:06:49,719
+for society and there's nothing wrong
+ 
+
+339
+00:06:49,719 --> 00:06:52,379
+for society and there's nothing wrong
+with starting off in the high end as
+
+340
+00:06:52,379 --> 00:06:52,389
+with starting off in the high end as
+ 
+
+341
+00:06:52,389 --> 00:06:54,300
+with starting off in the high end as
+long as you have a plan to get to the
+
+342
+00:06:54,300 --> 00:06:54,310
+long as you have a plan to get to the
+ 
+
+343
+00:06:54,310 --> 00:06:56,129
+long as you have a plan to get to the
+middle class there's nothing wrong with
+
+344
+00:06:56,129 --> 00:06:56,139
+middle class there's nothing wrong with
+ 
+
+345
+00:06:56,139 --> 00:06:58,140
+middle class there's nothing wrong with
+starting with a specialized market in
+
+346
+00:06:58,140 --> 00:06:58,150
+starting with a specialized market in
+ 
+
+347
+00:06:58,150 --> 00:07:00,240
+starting with a specialized market in
+order to learn and to build and to fund
+
+348
+00:07:00,240 --> 00:07:00,250
+order to learn and to build and to fund
+ 
+
+349
+00:07:00,250 --> 00:07:02,670
+order to learn and to build and to fund
+things so you start a luxury market to
+
+350
+00:07:02,670 --> 00:07:02,680
+things so you start a luxury market to
+ 
+
+351
+00:07:02,680 --> 00:07:04,680
+things so you start a luxury market to
+build a general purpose market but if
+
+352
+00:07:04,680 --> 00:07:04,690
+build a general purpose market but if
+ 
+
+353
+00:07:04,690 --> 00:07:06,510
+build a general purpose market but if
+you define yourself as only a narrow
+
+354
+00:07:06,510 --> 00:07:06,520
+you define yourself as only a narrow
+ 
+
+355
+00:07:06,520 --> 00:07:09,149
+you define yourself as only a narrow
+market someone else can come along with
+
+356
+00:07:09,149 --> 00:07:09,159
+market someone else can come along with
+ 
+
+357
+00:07:09,159 --> 00:07:11,399
+market someone else can come along with
+a general purpose market that can push
+
+358
+00:07:11,399 --> 00:07:11,409
+a general purpose market that can push
+ 
+
+359
+00:07:11,409 --> 00:07:13,469
+a general purpose market that can push
+you to the corner can restrict the scale
+
+360
+00:07:13,469 --> 00:07:13,479
+you to the corner can restrict the scale
+ 
+
+361
+00:07:13,479 --> 00:07:15,390
+you to the corner can restrict the scale
+of operation can force you to be a
+
+362
+00:07:15,390 --> 00:07:15,400
+of operation can force you to be a
+ 
+
+363
+00:07:15,400 --> 00:07:18,089
+of operation can force you to be a
+lesser impact than you might be so it's
+
+364
+00:07:18,089 --> 00:07:18,099
+lesser impact than you might be so it's
+ 
+
+365
+00:07:18,099 --> 00:07:19,980
+lesser impact than you might be so it's
+very important to think in terms of
+
+366
+00:07:19,980 --> 00:07:19,990
+very important to think in terms of
+ 
+
+367
+00:07:19,990 --> 00:07:22,529
+very important to think in terms of
+broad businesses and broad impact even
+
+368
+00:07:22,529 --> 00:07:22,539
+broad businesses and broad impact even
+ 
+
+369
+00:07:22,539 --> 00:07:24,119
+broad businesses and broad impact even
+if you start in a little corner
+
+370
+00:07:24,119 --> 00:07:24,129
+if you start in a little corner
+ 
+
+371
+00:07:24,129 --> 00:07:27,749
+if you start in a little corner
+somewhere so as you look to the
+
+372
+00:07:27,749 --> 00:07:27,759
+somewhere so as you look to the
+ 
+
+373
+00:07:27,759 --> 00:07:29,999
+somewhere so as you look to the
+seventies but also in the decades to
+
+374
+00:07:29,999 --> 00:07:30,009
+seventies but also in the decades to
+ 
+
+375
+00:07:30,009 --> 00:07:33,570
+seventies but also in the decades to
+come and you saw computers did you see
+
+376
+00:07:33,570 --> 00:07:33,580
+come and you saw computers did you see
+ 
+
+377
+00:07:33,580 --> 00:07:36,360
+come and you saw computers did you see
+them as tools or was there a little
+
+378
+00:07:36,360 --> 00:07:36,370
+them as tools or was there a little
+ 
+
+379
+00:07:36,370 --> 00:07:41,010
+them as tools or was there a little
+element of another entity I remember a
+
+380
+00:07:41,010 --> 00:07:41,020
+element of another entity I remember a
+ 
+
+381
+00:07:41,020 --> 00:07:44,760
+element of another entity I remember a
+quote saying AI began with our dream to
+
+382
+00:07:44,760 --> 00:07:44,770
+quote saying AI began with our dream to
+ 
+
+383
+00:07:44,770 --> 00:07:47,579
+quote saying AI began with our dream to
+create the gods is there a feeling when
+
+384
+00:07:47,579 --> 00:07:47,589
+create the gods is there a feeling when
+ 
+
+385
+00:07:47,589 --> 00:07:48,959
+create the gods is there a feeling when
+you wrote that program that you were
+
+386
+00:07:48,959 --> 00:07:48,969
+you wrote that program that you were
+ 
+
+387
+00:07:48,969 --> 00:07:51,869
+you wrote that program that you were
+creating another entity giving life to
+
+388
+00:07:51,869 --> 00:07:51,879
+creating another entity giving life to
+ 
+
+389
+00:07:51,879 --> 00:07:54,180
+creating another entity giving life to
+something I wish I could say otherwise
+
+390
+00:07:54,180 --> 00:07:54,190
+something I wish I could say otherwise
+ 
+
+391
+00:07:54,190 --> 00:07:56,450
+something I wish I could say otherwise
+but I simply found the technology
+
+392
+00:07:56,450 --> 00:07:56,460
+but I simply found the technology
+ 
+
+393
+00:07:56,460 --> 00:07:59,249
+but I simply found the technology
+platforms so exciting that's what I was
+
+394
+00:07:59,249 --> 00:07:59,259
+platforms so exciting that's what I was
+ 
+
+395
+00:07:59,259 --> 00:08:01,769
+platforms so exciting that's what I was
+focused on I think the majority of the
+
+396
+00:08:01,769 --> 00:08:01,779
+focused on I think the majority of the
+ 
+
+397
+00:08:01,779 --> 00:08:03,600
+focused on I think the majority of the
+people that I've worked with and there
+
+398
+00:08:03,600 --> 00:08:03,610
+people that I've worked with and there
+ 
+
+399
+00:08:03,610 --> 00:08:05,550
+people that I've worked with and there
+are a few exceptions Steve Jobs being an
+
+400
+00:08:05,550 --> 00:08:05,560
+are a few exceptions Steve Jobs being an
+ 
+
+401
+00:08:05,560 --> 00:08:08,189
+are a few exceptions Steve Jobs being an
+example really saw this as a great
+
+402
+00:08:08,189 --> 00:08:08,199
+example really saw this as a great
+ 
+
+403
+00:08:08,199 --> 00:08:10,829
+example really saw this as a great
+technological play I think relatively
+
+404
+00:08:10,829 --> 00:08:10,839
+technological play I think relatively
+ 
+
+405
+00:08:10,839 --> 00:08:12,990
+technological play I think relatively
+few of the technical people understood
+
+406
+00:08:12,990 --> 00:08:13,000
+few of the technical people understood
+ 
+
+407
+00:08:13,000 --> 00:08:16,920
+few of the technical people understood
+the scale of its impact so I used NC P
+
+408
+00:08:16,920 --> 00:08:16,930
+the scale of its impact so I used NC P
+ 
+
+409
+00:08:16,930 --> 00:08:19,890
+the scale of its impact so I used NC P
+which is a predecessor to tcp/ip it just
+
+410
+00:08:19,890 --> 00:08:19,900
+which is a predecessor to tcp/ip it just
+ 
+
+411
+00:08:19,900 --> 00:08:21,570
+which is a predecessor to tcp/ip it just
+made sense to connect things we didn't
+
+412
+00:08:21,570 --> 00:08:21,580
+made sense to connect things we didn't
+ 
+
+413
+00:08:21,580 --> 00:08:23,879
+made sense to connect things we didn't
+think of it in terms of the internet and
+
+414
+00:08:23,879 --> 00:08:23,889
+think of it in terms of the internet and
+ 
+
+415
+00:08:23,889 --> 00:08:26,249
+think of it in terms of the internet and
+then companies and then Facebook and
+
+416
+00:08:26,249 --> 00:08:26,259
+then companies and then Facebook and
+ 
+
+417
+00:08:26,259 --> 00:08:28,499
+then companies and then Facebook and
+then Twitter and then you know politics
+
+418
+00:08:28,499 --> 00:08:28,509
+then Twitter and then you know politics
+ 
+
+419
+00:08:28,509 --> 00:08:30,809
+then Twitter and then you know politics
+and so forth we never did that build we
+
+420
+00:08:30,809 --> 00:08:30,819
+and so forth we never did that build we
+ 
+
+421
+00:08:30,819 --> 00:08:33,569
+and so forth we never did that build we
+didn't have that vision and I think most
+
+422
+00:08:33,569 --> 00:08:33,579
+didn't have that vision and I think most
+ 
+
+423
+00:08:33,579 --> 00:08:35,850
+didn't have that vision and I think most
+people it's a rare person who can see
+
+424
+00:08:35,850 --> 00:08:35,860
+people it's a rare person who can see
+ 
+
+425
+00:08:35,860 --> 00:08:38,880
+people it's a rare person who can see
+compounding at scale most people can see
+
+426
+00:08:38,880 --> 00:08:38,890
+compounding at scale most people can see
+ 
+
+427
+00:08:38,890 --> 00:08:40,469
+compounding at scale most people can see
+if you ask people to predict the future
+
+428
+00:08:40,469 --> 00:08:40,479
+if you ask people to predict the future
+ 
+
+429
+00:08:40,479 --> 00:08:41,850
+if you ask people to predict the future
+they'll say they'll give you an answer
+
+430
+00:08:41,850 --> 00:08:41,860
+they'll say they'll give you an answer
+ 
+
+431
+00:08:41,860 --> 00:08:44,340
+they'll say they'll give you an answer
+of six to nine months or twelve months
+
+432
+00:08:44,340 --> 00:08:44,350
+of six to nine months or twelve months
+ 
+
+433
+00:08:44,350 --> 00:08:46,140
+of six to nine months or twelve months
+because that's about as far as people
+
+434
+00:08:46,140 --> 00:08:46,150
+because that's about as far as people
+ 
+
+435
+00:08:46,150 --> 00:08:48,330
+because that's about as far as people
+can imagine but there's an old saying
+
+436
+00:08:48,330 --> 00:08:48,340
+can imagine but there's an old saying
+ 
+
+437
+00:08:48,340 --> 00:08:49,860
+can imagine but there's an old saying
+which actually was attributed to a
+
+438
+00:08:49,860 --> 00:08:49,870
+which actually was attributed to a
+ 
+
+439
+00:08:49,870 --> 00:08:52,850
+which actually was attributed to a
+professor at MIT a long time ago that we
+
+440
+00:08:52,850 --> 00:08:52,860
+professor at MIT a long time ago that we
+ 
+
+441
+00:08:52,860 --> 00:08:55,320
+professor at MIT a long time ago that we
+overestimate what can be done in one
+
+442
+00:08:55,320 --> 00:08:55,330
+overestimate what can be done in one
+ 
+
+443
+00:08:55,330 --> 00:08:58,380
+overestimate what can be done in one
+year and we underestimate what can be
+
+444
+00:08:58,380 --> 00:08:58,390
+year and we underestimate what can be
+ 
+
+445
+00:08:58,390 --> 00:08:59,430
+year and we underestimate what can be
+done in a decade
+
+446
+00:08:59,430 --> 00:08:59,440
+done in a decade
+ 
+
+447
+00:08:59,440 --> 00:09:02,220
+done in a decade
+and there's a great deal of evidence
+
+448
+00:09:02,220 --> 00:09:02,230
+and there's a great deal of evidence
+ 
+
+449
+00:09:02,230 --> 00:09:04,830
+and there's a great deal of evidence
+that these core platforms at hardware
+
+450
+00:09:04,830 --> 00:09:04,840
+that these core platforms at hardware
+ 
+
+451
+00:09:04,840 --> 00:09:07,350
+that these core platforms at hardware
+and software take a decade right
+
+452
+00:09:07,350 --> 00:09:07,360
+and software take a decade right
+ 
+
+453
+00:09:07,360 --> 00:09:09,210
+and software take a decade right
+so think about self-driving cars
+
+454
+00:09:09,210 --> 00:09:09,220
+so think about self-driving cars
+ 
+
+455
+00:09:09,220 --> 00:09:11,430
+so think about self-driving cars
+self-driving cars were thought about in
+
+456
+00:09:11,430 --> 00:09:11,440
+self-driving cars were thought about in
+ 
+
+457
+00:09:11,440 --> 00:09:13,260
+self-driving cars were thought about in
+the 90s there were projects around them
+
+458
+00:09:13,260 --> 00:09:13,270
+the 90s there were projects around them
+ 
+
+459
+00:09:13,270 --> 00:09:15,030
+the 90s there were projects around them
+the first DARPA Challenger and challenge
+
+460
+00:09:15,030 --> 00:09:15,040
+the first DARPA Challenger and challenge
+ 
+
+461
+00:09:15,040 --> 00:09:18,270
+the first DARPA Challenger and challenge
+was roughly 2004 so that's roughly 15
+
+462
+00:09:18,270 --> 00:09:18,280
+was roughly 2004 so that's roughly 15
+ 
+
+463
+00:09:18,280 --> 00:09:21,000
+was roughly 2004 so that's roughly 15
+years ago and today we have self-driving
+
+464
+00:09:21,000 --> 00:09:21,010
+years ago and today we have self-driving
+ 
+
+465
+00:09:21,010 --> 00:09:22,740
+years ago and today we have self-driving
+cars operating in a city in Arizona
+
+466
+00:09:22,740 --> 00:09:22,750
+cars operating in a city in Arizona
+ 
+
+467
+00:09:22,750 --> 00:09:25,950
+cars operating in a city in Arizona
+right it's 15 years and we still have a
+
+468
+00:09:25,950 --> 00:09:25,960
+right it's 15 years and we still have a
+ 
+
+469
+00:09:25,960 --> 00:09:27,600
+right it's 15 years and we still have a
+ways to go before they're more generally
+
+470
+00:09:27,600 --> 00:09:27,610
+ways to go before they're more generally
+ 
+
+471
+00:09:27,610 --> 00:09:32,790
+ways to go before they're more generally
+available so you've spoken about the
+
+472
+00:09:32,790 --> 00:09:32,800
+available so you've spoken about the
+ 
+
+473
+00:09:32,800 --> 00:09:34,410
+available so you've spoken about the
+importance you just talked about
+
+474
+00:09:34,410 --> 00:09:34,420
+importance you just talked about
+ 
+
+475
+00:09:34,420 --> 00:09:37,320
+importance you just talked about
+predicting into the future he's spoken
+
+476
+00:09:37,320 --> 00:09:37,330
+predicting into the future he's spoken
+ 
+
+477
+00:09:37,330 --> 00:09:40,290
+predicting into the future he's spoken
+about the importance of thinking 5 years
+
+478
+00:09:40,290 --> 00:09:40,300
+about the importance of thinking 5 years
+ 
+
+479
+00:09:40,300 --> 00:09:41,880
+about the importance of thinking 5 years
+ahead and having a plan for those 5
+
+480
+00:09:41,880 --> 00:09:41,890
+ahead and having a plan for those 5
+ 
+
+481
+00:09:41,890 --> 00:09:44,790
+ahead and having a plan for those 5
+years the way to say it is that almost
+
+482
+00:09:44,790 --> 00:09:44,800
+years the way to say it is that almost
+ 
+
+483
+00:09:44,800 --> 00:09:48,210
+years the way to say it is that almost
+everybody has a 1 year plan almost no
+
+484
+00:09:48,210 --> 00:09:48,220
+everybody has a 1 year plan almost no
+ 
+
+485
+00:09:48,220 --> 00:09:51,330
+everybody has a 1 year plan almost no
+one has a proper 5-year plan and the key
+
+486
+00:09:51,330 --> 00:09:51,340
+one has a proper 5-year plan and the key
+ 
+
+487
+00:09:51,340 --> 00:09:53,010
+one has a proper 5-year plan and the key
+thing to have on a 5-year plan is having
+
+488
+00:09:53,010 --> 00:09:53,020
+thing to have on a 5-year plan is having
+ 
+
+489
+00:09:53,020 --> 00:09:55,320
+thing to have on a 5-year plan is having
+a model for what's going to happen under
+
+490
+00:09:55,320 --> 00:09:55,330
+a model for what's going to happen under
+ 
+
+491
+00:09:55,330 --> 00:09:57,450
+a model for what's going to happen under
+the underlying platforms so here's an
+
+492
+00:09:57,450 --> 00:09:57,460
+the underlying platforms so here's an
+ 
+
+493
+00:09:57,460 --> 00:10:00,750
+the underlying platforms so here's an
+example compute Moore's law as we know
+
+494
+00:10:00,750 --> 00:10:00,760
+example compute Moore's law as we know
+ 
+
+495
+00:10:00,760 --> 00:10:03,120
+example compute Moore's law as we know
+it the thing that powered improvements
+
+496
+00:10:03,120 --> 00:10:03,130
+it the thing that powered improvements
+ 
+
+497
+00:10:03,130 --> 00:10:05,910
+it the thing that powered improvements
+in CPUs has largely halted in its
+
+498
+00:10:05,910 --> 00:10:05,920
+in CPUs has largely halted in its
+ 
+
+499
+00:10:05,920 --> 00:10:07,620
+in CPUs has largely halted in its
+traditional shrinking mechanism because
+
+500
+00:10:07,620 --> 00:10:07,630
+traditional shrinking mechanism because
+ 
+
+501
+00:10:07,630 --> 00:10:10,410
+traditional shrinking mechanism because
+the costs have just gotten so high it's
+
+502
+00:10:10,410 --> 00:10:10,420
+the costs have just gotten so high it's
+ 
+
+503
+00:10:10,420 --> 00:10:12,420
+the costs have just gotten so high it's
+getting harder and harder but there's
+
+504
+00:10:12,420 --> 00:10:12,430
+getting harder and harder but there's
+ 
+
+505
+00:10:12,430 --> 00:10:14,550
+getting harder and harder but there's
+plenty of algorithmic improvements and
+
+506
+00:10:14,550 --> 00:10:14,560
+plenty of algorithmic improvements and
+ 
+
+507
+00:10:14,560 --> 00:10:16,770
+plenty of algorithmic improvements and
+specialized Hardware improvements so you
+
+508
+00:10:16,770 --> 00:10:16,780
+specialized Hardware improvements so you
+ 
+
+509
+00:10:16,780 --> 00:10:18,990
+specialized Hardware improvements so you
+need to understand the nature of those
+
+510
+00:10:18,990 --> 00:10:19,000
+need to understand the nature of those
+ 
+
+511
+00:10:19,000 --> 00:10:21,060
+need to understand the nature of those
+improvements and where they'll go in
+
+512
+00:10:21,060 --> 00:10:21,070
+improvements and where they'll go in
+ 
+
+513
+00:10:21,070 --> 00:10:22,470
+improvements and where they'll go in
+order to understand how it will change
+
+514
+00:10:22,470 --> 00:10:22,480
+order to understand how it will change
+ 
+
+515
+00:10:22,480 --> 00:10:25,290
+order to understand how it will change
+the platform in the area of network
+
+516
+00:10:25,290 --> 00:10:25,300
+the platform in the area of network
+ 
+
+517
+00:10:25,300 --> 00:10:27,090
+the platform in the area of network
+connectivity what are the gains that are
+
+518
+00:10:27,090 --> 00:10:27,100
+connectivity what are the gains that are
+ 
+
+519
+00:10:27,100 --> 00:10:29,910
+connectivity what are the gains that are
+gonna be possible in wireless it looks
+
+520
+00:10:29,910 --> 00:10:29,920
+gonna be possible in wireless it looks
+ 
+
+521
+00:10:29,920 --> 00:10:33,390
+gonna be possible in wireless it looks
+like there's an enormous expansion of
+
+522
+00:10:33,390 --> 00:10:33,400
+like there's an enormous expansion of
+ 
+
+523
+00:10:33,400 --> 00:10:35,460
+like there's an enormous expansion of
+wireless connectivity at many different
+
+524
+00:10:35,460 --> 00:10:35,470
+wireless connectivity at many different
+ 
+
+525
+00:10:35,470 --> 00:10:38,190
+wireless connectivity at many different
+bands right and that we will primarily
+
+526
+00:10:38,190 --> 00:10:38,200
+bands right and that we will primarily
+ 
+
+527
+00:10:38,200 --> 00:10:40,050
+bands right and that we will primarily
+historically I've always thought that we
+
+528
+00:10:40,050 --> 00:10:40,060
+historically I've always thought that we
+ 
+
+529
+00:10:40,060 --> 00:10:41,340
+historically I've always thought that we
+were primarily going to be using fiber
+
+530
+00:10:41,340 --> 00:10:41,350
+were primarily going to be using fiber
+ 
+
+531
+00:10:41,350 --> 00:10:43,200
+were primarily going to be using fiber
+but now it looks like we're going to be
+
+532
+00:10:43,200 --> 00:10:43,210
+but now it looks like we're going to be
+ 
+
+533
+00:10:43,210 --> 00:10:45,810
+but now it looks like we're going to be
+using fiber plus very powerful high
+
+534
+00:10:45,810 --> 00:10:45,820
+using fiber plus very powerful high
+ 
+
+535
+00:10:45,820 --> 00:10:48,360
+using fiber plus very powerful high
+bandwidth sort of short distance
+
+536
+00:10:48,360 --> 00:10:48,370
+bandwidth sort of short distance
+ 
+
+537
+00:10:48,370 --> 00:10:50,850
+bandwidth sort of short distance
+connectivity to to bridge the last mile
+
+538
+00:10:50,850 --> 00:10:50,860
+connectivity to to bridge the last mile
+ 
+
+539
+00:10:50,860 --> 00:10:53,040
+connectivity to to bridge the last mile
+right that's an amazing achievement if
+
+540
+00:10:53,040 --> 00:10:53,050
+right that's an amazing achievement if
+ 
+
+541
+00:10:53,050 --> 00:10:55,020
+right that's an amazing achievement if
+you know that then you're going to build
+
+542
+00:10:55,020 --> 00:10:55,030
+you know that then you're going to build
+ 
+
+543
+00:10:55,030 --> 00:10:57,180
+you know that then you're going to build
+your systems differently by the way
+
+544
+00:10:57,180 --> 00:10:57,190
+your systems differently by the way
+ 
+
+545
+00:10:57,190 --> 00:10:58,090
+your systems differently by the way
+those networks
+
+546
+00:10:58,090 --> 00:10:58,100
+those networks
+ 
+
+547
+00:10:58,100 --> 00:11:00,040
+those networks
+latency properties right because they're
+
+548
+00:11:00,040 --> 00:11:00,050
+latency properties right because they're
+ 
+
+549
+00:11:00,050 --> 00:11:02,530
+latency properties right because they're
+more symmetric the algorithms feel
+
+550
+00:11:02,530 --> 00:11:02,540
+more symmetric the algorithms feel
+ 
+
+551
+00:11:02,540 --> 00:11:05,470
+more symmetric the algorithms feel
+faster for that reason and so when you
+
+552
+00:11:05,470 --> 00:11:05,480
+faster for that reason and so when you
+ 
+
+553
+00:11:05,480 --> 00:11:07,660
+faster for that reason and so when you
+think about whether there's a fiber or
+
+554
+00:11:07,660 --> 00:11:07,670
+think about whether there's a fiber or
+ 
+
+555
+00:11:07,670 --> 00:11:10,180
+think about whether there's a fiber or
+just technologies in general so there's
+
+556
+00:11:10,180 --> 00:11:10,190
+just technologies in general so there's
+ 
+
+557
+00:11:10,190 --> 00:11:14,259
+just technologies in general so there's
+this Barbara wouldn't poem or quote that
+
+558
+00:11:14,259 --> 00:11:14,269
+this Barbara wouldn't poem or quote that
+ 
+
+559
+00:11:14,269 --> 00:11:17,139
+this Barbara wouldn't poem or quote that
+I really like it's from the champions of
+
+560
+00:11:17,139 --> 00:11:17,149
+I really like it's from the champions of
+ 
+
+561
+00:11:17,149 --> 00:11:19,509
+I really like it's from the champions of
+the impossible rather than the slaves of
+
+562
+00:11:19,509 --> 00:11:19,519
+the impossible rather than the slaves of
+ 
+
+563
+00:11:19,519 --> 00:11:21,460
+the impossible rather than the slaves of
+the possible that evolution draws its
+
+564
+00:11:21,460 --> 00:11:21,470
+the possible that evolution draws its
+ 
+
+565
+00:11:21,470 --> 00:11:24,759
+the possible that evolution draws its
+creative force so in predicting the next
+
+566
+00:11:24,759 --> 00:11:24,769
+creative force so in predicting the next
+ 
+
+567
+00:11:24,769 --> 00:11:27,040
+creative force so in predicting the next
+five years I'd like to talk about the
+
+568
+00:11:27,040 --> 00:11:27,050
+five years I'd like to talk about the
+ 
+
+569
+00:11:27,050 --> 00:11:29,470
+five years I'd like to talk about the
+impossible and the possible well and
+
+570
+00:11:29,470 --> 00:11:29,480
+impossible and the possible well and
+ 
+
+571
+00:11:29,480 --> 00:11:31,150
+impossible and the possible well and
+again and again one of the great things
+
+572
+00:11:31,150 --> 00:11:31,160
+again and again one of the great things
+ 
+
+573
+00:11:31,160 --> 00:11:32,800
+again and again one of the great things
+about humanity is that we produce
+
+574
+00:11:32,800 --> 00:11:32,810
+about humanity is that we produce
+ 
+
+575
+00:11:32,810 --> 00:11:35,530
+about humanity is that we produce
+dreamers right right we literally have
+
+576
+00:11:35,530 --> 00:11:35,540
+dreamers right right we literally have
+ 
+
+577
+00:11:35,540 --> 00:11:36,879
+dreamers right right we literally have
+people who have a vision and a dream
+
+578
+00:11:36,879 --> 00:11:36,889
+people who have a vision and a dream
+ 
+
+579
+00:11:36,889 --> 00:11:40,300
+people who have a vision and a dream
+they are if you will disagreeable in the
+
+580
+00:11:40,300 --> 00:11:40,310
+they are if you will disagreeable in the
+ 
+
+581
+00:11:40,310 --> 00:11:42,819
+they are if you will disagreeable in the
+sense that they disagree with the they
+
+582
+00:11:42,819 --> 00:11:42,829
+sense that they disagree with the they
+ 
+
+583
+00:11:42,829 --> 00:11:45,160
+sense that they disagree with the they
+disagree with what the sort of zeitgeist
+
+584
+00:11:45,160 --> 00:11:45,170
+disagree with what the sort of zeitgeist
+ 
+
+585
+00:11:45,170 --> 00:11:47,740
+disagree with what the sort of zeitgeist
+is they they say there is another way
+
+586
+00:11:47,740 --> 00:11:47,750
+is they they say there is another way
+ 
+
+587
+00:11:47,750 --> 00:11:50,230
+is they they say there is another way
+they have a belief they have a vision if
+
+588
+00:11:50,230 --> 00:11:50,240
+they have a belief they have a vision if
+ 
+
+589
+00:11:50,240 --> 00:11:52,660
+they have a belief they have a vision if
+you look at science science is always
+
+590
+00:11:52,660 --> 00:11:52,670
+you look at science science is always
+ 
+
+591
+00:11:52,670 --> 00:11:56,170
+you look at science science is always
+marked by such people who who went
+
+592
+00:11:56,170 --> 00:11:56,180
+marked by such people who who went
+ 
+
+593
+00:11:56,180 --> 00:11:58,900
+marked by such people who who went
+against some commercial wisdom collected
+
+594
+00:11:58,900 --> 00:11:58,910
+against some commercial wisdom collected
+ 
+
+595
+00:11:58,910 --> 00:12:00,850
+against some commercial wisdom collected
+the knowledge at the time and assembled
+
+596
+00:12:00,850 --> 00:12:00,860
+the knowledge at the time and assembled
+ 
+
+597
+00:12:00,860 --> 00:12:02,290
+the knowledge at the time and assembled
+it in a way that produced a powerful
+
+598
+00:12:02,290 --> 00:12:02,300
+it in a way that produced a powerful
+ 
+
+599
+00:12:02,300 --> 00:12:06,519
+it in a way that produced a powerful
+platform and you've been amazingly
+
+600
+00:12:06,519 --> 00:12:06,529
+platform and you've been amazingly
+ 
+
+601
+00:12:06,529 --> 00:12:10,059
+platform and you've been amazingly
+honest about in an inspiring way about
+
+602
+00:12:10,059 --> 00:12:10,069
+honest about in an inspiring way about
+ 
+
+603
+00:12:10,069 --> 00:12:11,439
+honest about in an inspiring way about
+things you've been wrong about
+
+604
+00:12:11,439 --> 00:12:11,449
+things you've been wrong about
+ 
+
+605
+00:12:11,449 --> 00:12:13,360
+things you've been wrong about
+predicting and you've obviously been
+
+606
+00:12:13,360 --> 00:12:13,370
+predicting and you've obviously been
+ 
+
+607
+00:12:13,370 --> 00:12:15,790
+predicting and you've obviously been
+right about a lot of things but in this
+
+608
+00:12:15,790 --> 00:12:15,800
+right about a lot of things but in this
+ 
+
+609
+00:12:15,800 --> 00:12:20,319
+right about a lot of things but in this
+kind of tension how do you balance as a
+
+610
+00:12:20,319 --> 00:12:20,329
+kind of tension how do you balance as a
+ 
+
+611
+00:12:20,329 --> 00:12:22,389
+kind of tension how do you balance as a
+company in predicting the next five
+
+612
+00:12:22,389 --> 00:12:22,399
+company in predicting the next five
+ 
+
+613
+00:12:22,399 --> 00:12:25,240
+company in predicting the next five
+years the impossible planning for the
+
+614
+00:12:25,240 --> 00:12:25,250
+years the impossible planning for the
+ 
+
+615
+00:12:25,250 --> 00:12:27,550
+years the impossible planning for the
+impossible so listening to those crazy
+
+616
+00:12:27,550 --> 00:12:27,560
+impossible so listening to those crazy
+ 
+
+617
+00:12:27,560 --> 00:12:30,999
+impossible so listening to those crazy
+dreamers letting them do letting them
+
+618
+00:12:30,999 --> 00:12:31,009
+dreamers letting them do letting them
+ 
+
+619
+00:12:31,009 --> 00:12:33,220
+dreamers letting them do letting them
+run away and make make thing possible
+
+620
+00:12:33,220 --> 00:12:33,230
+run away and make make thing possible
+ 
+
+621
+00:12:33,230 --> 00:12:36,790
+run away and make make thing possible
+real make it happen and slow you know
+
+622
+00:12:36,790 --> 00:12:36,800
+real make it happen and slow you know
+ 
+
+623
+00:12:36,800 --> 00:12:38,740
+real make it happen and slow you know
+that's how programmers often think and
+
+624
+00:12:38,740 --> 00:12:38,750
+that's how programmers often think and
+ 
+
+625
+00:12:38,750 --> 00:12:42,040
+that's how programmers often think and
+slowing things down and saying well this
+
+626
+00:12:42,040 --> 00:12:42,050
+slowing things down and saying well this
+ 
+
+627
+00:12:42,050 --> 00:12:44,889
+slowing things down and saying well this
+is the rational this is the possible the
+
+628
+00:12:44,889 --> 00:12:44,899
+is the rational this is the possible the
+ 
+
+629
+00:12:44,899 --> 00:12:47,889
+is the rational this is the possible the
+pragmatic the dreamer versus the
+
+630
+00:12:47,889 --> 00:12:47,899
+pragmatic the dreamer versus the
+ 
+
+631
+00:12:47,899 --> 00:12:49,840
+pragmatic the dreamer versus the
+pragmatist so it's so so it's helpful to
+
+632
+00:12:49,840 --> 00:12:49,850
+pragmatist so it's so so it's helpful to
+ 
+
+633
+00:12:49,850 --> 00:12:53,110
+pragmatist so it's so so it's helpful to
+have a model which including encourages
+
+634
+00:12:53,110 --> 00:12:53,120
+have a model which including encourages
+ 
+
+635
+00:12:53,120 --> 00:12:56,530
+have a model which including encourages
+a predictable revenue stream as well as
+
+636
+00:12:56,530 --> 00:12:56,540
+a predictable revenue stream as well as
+ 
+
+637
+00:12:56,540 --> 00:12:58,870
+a predictable revenue stream as well as
+the ability to do new things so in
+
+638
+00:12:58,870 --> 00:12:58,880
+the ability to do new things so in
+ 
+
+639
+00:12:58,880 --> 00:13:00,999
+the ability to do new things so in
+Google's case were big enough and well
+
+640
+00:13:00,999 --> 00:13:01,009
+Google's case were big enough and well
+ 
+
+641
+00:13:01,009 --> 00:13:02,679
+Google's case were big enough and well
+enough managed and so forth that we have
+
+642
+00:13:02,679 --> 00:13:02,689
+enough managed and so forth that we have
+ 
+
+643
+00:13:02,689 --> 00:13:04,569
+enough managed and so forth that we have
+a pretty good sense of what our revenue
+
+644
+00:13:04,569 --> 00:13:04,579
+a pretty good sense of what our revenue
+ 
+
+645
+00:13:04,579 --> 00:13:06,309
+a pretty good sense of what our revenue
+will be for the next year or two at
+
+646
+00:13:06,309 --> 00:13:06,319
+will be for the next year or two at
+ 
+
+647
+00:13:06,319 --> 00:13:09,220
+will be for the next year or two at
+least for a while and so we have enough
+
+648
+00:13:09,220 --> 00:13:09,230
+least for a while and so we have enough
+ 
+
+649
+00:13:09,230 --> 00:13:11,070
+least for a while and so we have enough
+cash generation
+
+650
+00:13:11,070 --> 00:13:11,080
+cash generation
+ 
+
+651
+00:13:11,080 --> 00:13:14,850
+cash generation
+that we can make bets and indeed Google
+
+652
+00:13:14,850 --> 00:13:14,860
+that we can make bets and indeed Google
+ 
+
+653
+00:13:14,860 --> 00:13:17,820
+that we can make bets and indeed Google
+has become alphabet so the corporation
+
+654
+00:13:17,820 --> 00:13:17,830
+has become alphabet so the corporation
+ 
+
+655
+00:13:17,830 --> 00:13:19,920
+has become alphabet so the corporation
+is organized around these bets and these
+
+656
+00:13:19,920 --> 00:13:19,930
+is organized around these bets and these
+ 
+
+657
+00:13:19,930 --> 00:13:21,990
+is organized around these bets and these
+in bets are in areas of fundamental
+
+658
+00:13:21,990 --> 00:13:22,000
+in bets are in areas of fundamental
+ 
+
+659
+00:13:22,000 --> 00:13:24,270
+in bets are in areas of fundamental
+importance to to the world or whether
+
+660
+00:13:24,270 --> 00:13:24,280
+importance to to the world or whether
+ 
+
+661
+00:13:24,280 --> 00:13:27,090
+importance to to the world or whether
+its artificial intelligence medical
+
+662
+00:13:27,090 --> 00:13:27,100
+its artificial intelligence medical
+ 
+
+663
+00:13:27,100 --> 00:13:29,270
+its artificial intelligence medical
+technology self-driving cars
+
+664
+00:13:29,270 --> 00:13:29,280
+technology self-driving cars
+ 
+
+665
+00:13:29,280 --> 00:13:32,130
+technology self-driving cars
+connectivity through balloons the on and
+
+666
+00:13:32,130 --> 00:13:32,140
+connectivity through balloons the on and
+ 
+
+667
+00:13:32,140 --> 00:13:34,740
+connectivity through balloons the on and
+on and on and there's more coming and
+
+668
+00:13:34,740 --> 00:13:34,750
+on and on and there's more coming and
+ 
+
+669
+00:13:34,750 --> 00:13:37,680
+on and on and there's more coming and
+more coming so one way you could rest
+
+670
+00:13:37,680 --> 00:13:37,690
+more coming so one way you could rest
+ 
+
+671
+00:13:37,690 --> 00:13:39,600
+more coming so one way you could rest
+this is that the current business is
+
+672
+00:13:39,600 --> 00:13:39,610
+this is that the current business is
+ 
+
+673
+00:13:39,610 --> 00:13:41,940
+this is that the current business is
+successful enough that we have the
+
+674
+00:13:41,940 --> 00:13:41,950
+successful enough that we have the
+ 
+
+675
+00:13:41,950 --> 00:13:45,150
+successful enough that we have the
+luxury of making bets and another one
+
+676
+00:13:45,150 --> 00:13:45,160
+luxury of making bets and another one
+ 
+
+677
+00:13:45,160 --> 00:13:46,590
+luxury of making bets and another one
+that you could say is that we have the
+
+678
+00:13:46,590 --> 00:13:46,600
+that you could say is that we have the
+ 
+
+679
+00:13:46,600 --> 00:13:49,260
+that you could say is that we have the
+wisdom of being able to see that a
+
+680
+00:13:49,260 --> 00:13:49,270
+wisdom of being able to see that a
+ 
+
+681
+00:13:49,270 --> 00:13:51,450
+wisdom of being able to see that a
+corporate structure needs to be created
+
+682
+00:13:51,450 --> 00:13:51,460
+corporate structure needs to be created
+ 
+
+683
+00:13:51,460 --> 00:13:53,790
+corporate structure needs to be created
+to enhance the likelihood of the success
+
+684
+00:13:53,790 --> 00:13:53,800
+to enhance the likelihood of the success
+ 
+
+685
+00:13:53,800 --> 00:13:56,190
+to enhance the likelihood of the success
+of those bets so we essentially turned
+
+686
+00:13:56,190 --> 00:13:56,200
+of those bets so we essentially turned
+ 
+
+687
+00:13:56,200 --> 00:13:59,250
+of those bets so we essentially turned
+ourselves into a conglomerate of bets
+
+688
+00:13:59,250 --> 00:13:59,260
+ourselves into a conglomerate of bets
+ 
+
+689
+00:13:59,260 --> 00:14:01,650
+ourselves into a conglomerate of bets
+and then this underlying corporation
+
+690
+00:14:01,650 --> 00:14:01,660
+and then this underlying corporation
+ 
+
+691
+00:14:01,660 --> 00:14:04,830
+and then this underlying corporation
+Google which is itself innovative so in
+
+692
+00:14:04,830 --> 00:14:04,840
+Google which is itself innovative so in
+ 
+
+693
+00:14:04,840 --> 00:14:06,300
+Google which is itself innovative so in
+order to pull this off you have to have
+
+694
+00:14:06,300 --> 00:14:06,310
+order to pull this off you have to have
+ 
+
+695
+00:14:06,310 --> 00:14:08,520
+order to pull this off you have to have
+a bunch of belief systems and one of
+
+696
+00:14:08,520 --> 00:14:08,530
+a bunch of belief systems and one of
+ 
+
+697
+00:14:08,530 --> 00:14:10,020
+a bunch of belief systems and one of
+them is that you have to have bottoms up
+
+698
+00:14:10,020 --> 00:14:10,030
+them is that you have to have bottoms up
+ 
+
+699
+00:14:10,030 --> 00:14:12,990
+them is that you have to have bottoms up
+and tops down the bottoms up we call 20%
+
+700
+00:14:12,990 --> 00:14:13,000
+and tops down the bottoms up we call 20%
+ 
+
+701
+00:14:13,000 --> 00:14:14,610
+and tops down the bottoms up we call 20%
+time and the idea is that people can
+
+702
+00:14:14,610 --> 00:14:14,620
+time and the idea is that people can
+ 
+
+703
+00:14:14,620 --> 00:14:16,200
+time and the idea is that people can
+spend 20% of the time on whatever they
+
+704
+00:14:16,200 --> 00:14:16,210
+spend 20% of the time on whatever they
+ 
+
+705
+00:14:16,210 --> 00:14:18,210
+spend 20% of the time on whatever they
+want and the top down is that our
+
+706
+00:14:18,210 --> 00:14:18,220
+want and the top down is that our
+ 
+
+707
+00:14:18,220 --> 00:14:20,490
+want and the top down is that our
+founders in particular have a keen eye
+
+708
+00:14:20,490 --> 00:14:20,500
+founders in particular have a keen eye
+ 
+
+709
+00:14:20,500 --> 00:14:22,470
+founders in particular have a keen eye
+on technology and they're reviewing
+
+710
+00:14:22,470 --> 00:14:22,480
+on technology and they're reviewing
+ 
+
+711
+00:14:22,480 --> 00:14:24,750
+on technology and they're reviewing
+things constantly so an example would be
+
+712
+00:14:24,750 --> 00:14:24,760
+things constantly so an example would be
+ 
+
+713
+00:14:24,760 --> 00:14:27,030
+things constantly so an example would be
+they'll hear about an idea or I'll hear
+
+714
+00:14:27,030 --> 00:14:27,040
+they'll hear about an idea or I'll hear
+ 
+
+715
+00:14:27,040 --> 00:14:28,050
+they'll hear about an idea or I'll hear
+about something and it sounds
+
+716
+00:14:28,050 --> 00:14:28,060
+about something and it sounds
+ 
+
+717
+00:14:28,060 --> 00:14:29,820
+about something and it sounds
+interesting let's go visit them
+
+718
+00:14:29,820 --> 00:14:29,830
+interesting let's go visit them
+ 
+
+719
+00:14:29,830 --> 00:14:32,250
+interesting let's go visit them
+and then let's begin to assemble the
+
+720
+00:14:32,250 --> 00:14:32,260
+and then let's begin to assemble the
+ 
+
+721
+00:14:32,260 --> 00:14:35,070
+and then let's begin to assemble the
+pieces to see if that's possible and if
+
+722
+00:14:35,070 --> 00:14:35,080
+pieces to see if that's possible and if
+ 
+
+723
+00:14:35,080 --> 00:14:36,570
+pieces to see if that's possible and if
+you do this long enough you get pretty
+
+724
+00:14:36,570 --> 00:14:36,580
+you do this long enough you get pretty
+ 
+
+725
+00:14:36,580 --> 00:14:38,960
+you do this long enough you get pretty
+good at predicting what's likely to work
+
+726
+00:14:38,960 --> 00:14:38,970
+good at predicting what's likely to work
+ 
+
+727
+00:14:38,970 --> 00:14:41,250
+good at predicting what's likely to work
+so that's that's a beautiful balance
+
+728
+00:14:41,250 --> 00:14:41,260
+so that's that's a beautiful balance
+ 
+
+729
+00:14:41,260 --> 00:14:42,720
+so that's that's a beautiful balance
+that struck is this something that
+
+730
+00:14:42,720 --> 00:14:42,730
+that struck is this something that
+ 
+
+731
+00:14:42,730 --> 00:14:45,270
+that struck is this something that
+applies at all scale so in the zone
+
+732
+00:14:45,270 --> 00:14:45,280
+applies at all scale so in the zone
+ 
+
+733
+00:14:45,280 --> 00:14:51,180
+applies at all scale so in the zone
+seems to be that Sergey again 15 years
+
+734
+00:14:51,180 --> 00:14:51,190
+seems to be that Sergey again 15 years
+ 
+
+735
+00:14:51,190 --> 00:14:54,450
+seems to be that Sergey again 15 years
+ago it came up with a concept called ten
+
+736
+00:14:54,450 --> 00:14:54,460
+ago it came up with a concept called ten
+ 
+
+737
+00:14:54,460 --> 00:14:57,330
+ago it came up with a concept called ten
+ten percent of the budget should be on
+
+738
+00:14:57,330 --> 00:14:57,340
+ten percent of the budget should be on
+ 
+
+739
+00:14:57,340 --> 00:14:59,340
+ten percent of the budget should be on
+things that are unrelated it was called
+
+740
+00:14:59,340 --> 00:14:59,350
+things that are unrelated it was called
+ 
+
+741
+00:14:59,350 --> 00:15:01,620
+things that are unrelated it was called
+seventy twenty ten seventy percent of
+
+742
+00:15:01,620 --> 00:15:01,630
+seventy twenty ten seventy percent of
+ 
+
+743
+00:15:01,630 --> 00:15:04,140
+seventy twenty ten seventy percent of
+our time on core business twenty percent
+
+744
+00:15:04,140 --> 00:15:04,150
+our time on core business twenty percent
+ 
+
+745
+00:15:04,150 --> 00:15:05,790
+our time on core business twenty percent
+on adjacent business and ten percent on
+
+746
+00:15:05,790 --> 00:15:05,800
+on adjacent business and ten percent on
+ 
+
+747
+00:15:05,800 --> 00:15:08,130
+on adjacent business and ten percent on
+other and he proved mathematically
+
+748
+00:15:08,130 --> 00:15:08,140
+other and he proved mathematically
+ 
+
+749
+00:15:08,140 --> 00:15:10,140
+other and he proved mathematically
+course he's a brilliant mathematician
+
+750
+00:15:10,140 --> 00:15:10,150
+course he's a brilliant mathematician
+ 
+
+751
+00:15:10,150 --> 00:15:12,840
+course he's a brilliant mathematician
+that you needed that ten percent right
+
+752
+00:15:12,840 --> 00:15:12,850
+that you needed that ten percent right
+ 
+
+753
+00:15:12,850 --> 00:15:14,730
+that you needed that ten percent right
+to make the sum of the growth work and
+
+754
+00:15:14,730 --> 00:15:14,740
+to make the sum of the growth work and
+ 
+
+755
+00:15:14,740 --> 00:15:19,140
+to make the sum of the growth work and
+it turns out he was right so getting
+
+756
+00:15:19,140 --> 00:15:19,150
+it turns out he was right so getting
+ 
+
+757
+00:15:19,150 --> 00:15:20,740
+it turns out he was right so getting
+into the world of artificial
+
+758
+00:15:20,740 --> 00:15:20,750
+into the world of artificial
+ 
+
+759
+00:15:20,750 --> 00:15:24,340
+into the world of artificial
+you've talked quite extensively and
+
+760
+00:15:24,340 --> 00:15:24,350
+you've talked quite extensively and
+ 
+
+761
+00:15:24,350 --> 00:15:28,030
+you've talked quite extensively and
+effectively to the impact in the near
+
+762
+00:15:28,030 --> 00:15:28,040
+effectively to the impact in the near
+ 
+
+763
+00:15:28,040 --> 00:15:30,190
+effectively to the impact in the near
+term the positive impact of artificial
+
+764
+00:15:30,190 --> 00:15:30,200
+term the positive impact of artificial
+ 
+
+765
+00:15:30,200 --> 00:15:32,830
+term the positive impact of artificial
+intelligence whether it's a machine
+
+766
+00:15:32,830 --> 00:15:32,840
+intelligence whether it's a machine
+ 
+
+767
+00:15:32,840 --> 00:15:35,890
+intelligence whether it's a machine
+especially machine learning in medical
+
+768
+00:15:35,890 --> 00:15:35,900
+especially machine learning in medical
+ 
+
+769
+00:15:35,900 --> 00:15:38,980
+especially machine learning in medical
+applications and education and just
+
+770
+00:15:38,980 --> 00:15:38,990
+applications and education and just
+ 
+
+771
+00:15:38,990 --> 00:15:41,170
+applications and education and just
+making information more accessible right
+
+772
+00:15:41,170 --> 00:15:41,180
+making information more accessible right
+ 
+
+773
+00:15:41,180 --> 00:15:44,320
+making information more accessible right
+in the AI community there is a kind of
+
+774
+00:15:44,320 --> 00:15:44,330
+in the AI community there is a kind of
+ 
+
+775
+00:15:44,330 --> 00:15:46,630
+in the AI community there is a kind of
+debate so there's the shroud of
+
+776
+00:15:46,630 --> 00:15:46,640
+debate so there's the shroud of
+ 
+
+777
+00:15:46,640 --> 00:15:48,850
+debate so there's the shroud of
+uncertainty as we face this new world
+
+778
+00:15:48,850 --> 00:15:48,860
+uncertainty as we face this new world
+ 
+
+779
+00:15:48,860 --> 00:15:50,500
+uncertainty as we face this new world
+with artificial intelligence in it and
+
+780
+00:15:50,500 --> 00:15:50,510
+with artificial intelligence in it and
+ 
+
+781
+00:15:50,510 --> 00:15:54,310
+with artificial intelligence in it and
+there is some people like Elon Musk
+
+782
+00:15:54,310 --> 00:15:54,320
+there is some people like Elon Musk
+ 
+
+783
+00:15:54,320 --> 00:15:56,560
+there is some people like Elon Musk
+you've disagreed on at least on the
+
+784
+00:15:56,560 --> 00:15:56,570
+you've disagreed on at least on the
+ 
+
+785
+00:15:56,570 --> 00:15:58,390
+you've disagreed on at least on the
+degree of emphasis he places on the
+
+786
+00:15:58,390 --> 00:15:58,400
+degree of emphasis he places on the
+ 
+
+787
+00:15:58,400 --> 00:16:00,040
+degree of emphasis he places on the
+existential threat of AI
+
+788
+00:16:00,040 --> 00:16:00,050
+existential threat of AI
+ 
+
+789
+00:16:00,050 --> 00:16:02,770
+existential threat of AI
+so I've spoken with Stuart Russell Max
+
+790
+00:16:02,770 --> 00:16:02,780
+so I've spoken with Stuart Russell Max
+ 
+
+791
+00:16:02,780 --> 00:16:05,280
+so I've spoken with Stuart Russell Max
+tegmark who share Elon Musk's view and
+
+792
+00:16:05,280 --> 00:16:05,290
+tegmark who share Elon Musk's view and
+ 
+
+793
+00:16:05,290 --> 00:16:08,500
+tegmark who share Elon Musk's view and
+yoshua bengio Steven Pinker who do not
+
+794
+00:16:08,500 --> 00:16:08,510
+yoshua bengio Steven Pinker who do not
+ 
+
+795
+00:16:08,510 --> 00:16:10,630
+yoshua bengio Steven Pinker who do not
+and so there's a there's a there's a lot
+
+796
+00:16:10,630 --> 00:16:10,640
+and so there's a there's a there's a lot
+ 
+
+797
+00:16:10,640 --> 00:16:13,000
+and so there's a there's a there's a lot
+of very smart people who are thinking
+
+798
+00:16:13,000 --> 00:16:13,010
+of very smart people who are thinking
+ 
+
+799
+00:16:13,010 --> 00:16:14,860
+of very smart people who are thinking
+about the stuff disagreeing which is
+
+800
+00:16:14,860 --> 00:16:14,870
+about the stuff disagreeing which is
+ 
+
+801
+00:16:14,870 --> 00:16:17,890
+about the stuff disagreeing which is
+really healthy of course so what do you
+
+802
+00:16:17,890 --> 00:16:17,900
+really healthy of course so what do you
+ 
+
+803
+00:16:17,900 --> 00:16:19,510
+really healthy of course so what do you
+think is the healthiest way for the AI
+
+804
+00:16:19,510 --> 00:16:19,520
+think is the healthiest way for the AI
+ 
+
+805
+00:16:19,520 --> 00:16:22,870
+think is the healthiest way for the AI
+community to and and really for the
+
+806
+00:16:22,870 --> 00:16:22,880
+community to and and really for the
+ 
+
+807
+00:16:22,880 --> 00:16:25,750
+community to and and really for the
+general public to think about AI and the
+
+808
+00:16:25,750 --> 00:16:25,760
+general public to think about AI and the
+ 
+
+809
+00:16:25,760 --> 00:16:29,350
+general public to think about AI and the
+concern of the technology being
+
+810
+00:16:29,350 --> 00:16:29,360
+concern of the technology being
+ 
+
+811
+00:16:29,360 --> 00:16:32,500
+concern of the technology being
+mismanaged in some in some kind of way
+
+812
+00:16:32,500 --> 00:16:32,510
+mismanaged in some in some kind of way
+ 
+
+813
+00:16:32,510 --> 00:16:34,390
+mismanaged in some in some kind of way
+so the source of Education for the
+
+814
+00:16:34,390 --> 00:16:34,400
+so the source of Education for the
+ 
+
+815
+00:16:34,400 --> 00:16:36,610
+so the source of Education for the
+general public has been robot killer
+
+816
+00:16:36,610 --> 00:16:36,620
+general public has been robot killer
+ 
+
+817
+00:16:36,620 --> 00:16:41,950
+general public has been robot killer
+movies right and terminator etc and the
+
+818
+00:16:41,950 --> 00:16:41,960
+movies right and terminator etc and the
+ 
+
+819
+00:16:41,960 --> 00:16:43,570
+movies right and terminator etc and the
+one thing I can assure you were not
+
+820
+00:16:43,570 --> 00:16:43,580
+one thing I can assure you were not
+ 
+
+821
+00:16:43,580 --> 00:16:46,079
+one thing I can assure you were not
+building are those kinds of solutions
+
+822
+00:16:46,079 --> 00:16:46,089
+building are those kinds of solutions
+ 
+
+823
+00:16:46,089 --> 00:16:48,070
+building are those kinds of solutions
+furthermore if they were to show up
+
+824
+00:16:48,070 --> 00:16:48,080
+furthermore if they were to show up
+ 
+
+825
+00:16:48,080 --> 00:16:50,020
+furthermore if they were to show up
+someone would notice and unplug them
+
+826
+00:16:50,020 --> 00:16:50,030
+someone would notice and unplug them
+ 
+
+827
+00:16:50,030 --> 00:16:53,020
+someone would notice and unplug them
+right so as exciting as those movies are
+
+828
+00:16:53,020 --> 00:16:53,030
+right so as exciting as those movies are
+ 
+
+829
+00:16:53,030 --> 00:16:55,360
+right so as exciting as those movies are
+and they're great movies were the killer
+
+830
+00:16:55,360 --> 00:16:55,370
+and they're great movies were the killer
+ 
+
+831
+00:16:55,370 --> 00:16:58,480
+and they're great movies were the killer
+robots to start we would find a way to
+
+832
+00:16:58,480 --> 00:16:58,490
+robots to start we would find a way to
+ 
+
+833
+00:16:58,490 --> 00:17:01,840
+robots to start we would find a way to
+to stop them right so I'm not concerned
+
+834
+00:17:01,840 --> 00:17:01,850
+to stop them right so I'm not concerned
+ 
+
+835
+00:17:01,850 --> 00:17:05,949
+to stop them right so I'm not concerned
+about that and much of this has to do
+
+836
+00:17:05,949 --> 00:17:05,959
+about that and much of this has to do
+ 
+
+837
+00:17:05,959 --> 00:17:08,710
+about that and much of this has to do
+with the time frame of conversation so
+
+838
+00:17:08,710 --> 00:17:08,720
+with the time frame of conversation so
+ 
+
+839
+00:17:08,720 --> 00:17:12,010
+with the time frame of conversation so
+you can imagine a situation a hundred
+
+840
+00:17:12,010 --> 00:17:12,020
+you can imagine a situation a hundred
+ 
+
+841
+00:17:12,020 --> 00:17:14,470
+you can imagine a situation a hundred
+years from now when the human brain is
+
+842
+00:17:14,470 --> 00:17:14,480
+years from now when the human brain is
+ 
+
+843
+00:17:14,480 --> 00:17:17,020
+years from now when the human brain is
+fully understood in the next generation
+
+844
+00:17:17,020 --> 00:17:17,030
+fully understood in the next generation
+ 
+
+845
+00:17:17,030 --> 00:17:18,910
+fully understood in the next generation
+and next generation of brilliant MIT
+
+846
+00:17:18,910 --> 00:17:18,920
+and next generation of brilliant MIT
+ 
+
+847
+00:17:18,920 --> 00:17:20,439
+and next generation of brilliant MIT
+scientists have figured all this out
+
+848
+00:17:20,439 --> 00:17:20,449
+scientists have figured all this out
+ 
+
+849
+00:17:20,449 --> 00:17:23,079
+scientists have figured all this out
+we're going to have a large number of
+
+850
+00:17:23,079 --> 00:17:23,089
+we're going to have a large number of
+ 
+
+851
+00:17:23,089 --> 00:17:25,960
+we're going to have a large number of
+ethics questions right around science
+
+852
+00:17:25,960 --> 00:17:25,970
+ethics questions right around science
+ 
+
+853
+00:17:25,970 --> 00:17:27,520
+ethics questions right around science
+and thinking and robots and computers
+
+854
+00:17:27,520 --> 00:17:27,530
+and thinking and robots and computers
+ 
+
+855
+00:17:27,530 --> 00:17:30,340
+and thinking and robots and computers
+and so forth and so on so it depends on
+
+856
+00:17:30,340 --> 00:17:30,350
+and so forth and so on so it depends on
+ 
+
+857
+00:17:30,350 --> 00:17:31,500
+and so forth and so on so it depends on
+the question of the time
+
+858
+00:17:31,500 --> 00:17:31,510
+the question of the time
+ 
+
+859
+00:17:31,510 --> 00:17:35,070
+the question of the time
+in the next five to ten years we're not
+
+860
+00:17:35,070 --> 00:17:35,080
+in the next five to ten years we're not
+ 
+
+861
+00:17:35,080 --> 00:17:37,740
+in the next five to ten years we're not
+facing those questions what we're facing
+
+862
+00:17:37,740 --> 00:17:37,750
+facing those questions what we're facing
+ 
+
+863
+00:17:37,750 --> 00:17:39,510
+facing those questions what we're facing
+in the next five to ten years is how do
+
+864
+00:17:39,510 --> 00:17:39,520
+in the next five to ten years is how do
+ 
+
+865
+00:17:39,520 --> 00:17:42,240
+in the next five to ten years is how do
+we spread this disruptive technology as
+
+866
+00:17:42,240 --> 00:17:42,250
+we spread this disruptive technology as
+ 
+
+867
+00:17:42,250 --> 00:17:44,280
+we spread this disruptive technology as
+broadly as possible to gain the maximum
+
+868
+00:17:44,280 --> 00:17:44,290
+broadly as possible to gain the maximum
+ 
+
+869
+00:17:44,290 --> 00:17:45,900
+broadly as possible to gain the maximum
+benefit of of it
+
+870
+00:17:45,900 --> 00:17:45,910
+benefit of of it
+ 
+
+871
+00:17:45,910 --> 00:17:48,210
+benefit of of it
+the primary benefit should be in
+
+872
+00:17:48,210 --> 00:17:48,220
+the primary benefit should be in
+ 
+
+873
+00:17:48,220 --> 00:17:51,240
+the primary benefit should be in
+healthcare and in education healthcare
+
+874
+00:17:51,240 --> 00:17:51,250
+healthcare and in education healthcare
+ 
+
+875
+00:17:51,250 --> 00:17:52,860
+healthcare and in education healthcare
+because it's obvious we're all the same
+
+876
+00:17:52,860 --> 00:17:52,870
+because it's obvious we're all the same
+ 
+
+877
+00:17:52,870 --> 00:17:54,810
+because it's obvious we're all the same
+even though we don't we somehow believe
+
+878
+00:17:54,810 --> 00:17:54,820
+even though we don't we somehow believe
+ 
+
+879
+00:17:54,820 --> 00:17:57,660
+even though we don't we somehow believe
+we're not as a medical matter the fact
+
+880
+00:17:57,660 --> 00:17:57,670
+we're not as a medical matter the fact
+ 
+
+881
+00:17:57,670 --> 00:17:59,040
+we're not as a medical matter the fact
+that we have big data about our health
+
+882
+00:17:59,040 --> 00:17:59,050
+that we have big data about our health
+ 
+
+883
+00:17:59,050 --> 00:18:01,380
+that we have big data about our health
+will save lives allow us to get you know
+
+884
+00:18:01,380 --> 00:18:01,390
+will save lives allow us to get you know
+ 
+
+885
+00:18:01,390 --> 00:18:03,650
+will save lives allow us to get you know
+deal with skin cancer and other cancers
+
+886
+00:18:03,650 --> 00:18:03,660
+deal with skin cancer and other cancers
+ 
+
+887
+00:18:03,660 --> 00:18:05,790
+deal with skin cancer and other cancers
+therma logical problems there's people
+
+888
+00:18:05,790 --> 00:18:05,800
+therma logical problems there's people
+ 
+
+889
+00:18:05,800 --> 00:18:08,610
+therma logical problems there's people
+working on psychological diseases and so
+
+890
+00:18:08,610 --> 00:18:08,620
+working on psychological diseases and so
+ 
+
+891
+00:18:08,620 --> 00:18:10,860
+working on psychological diseases and so
+forth using these techniques I go on and
+
+892
+00:18:10,860 --> 00:18:10,870
+forth using these techniques I go on and
+ 
+
+893
+00:18:10,870 --> 00:18:13,800
+forth using these techniques I go on and
+on the promise of AI in medicine is
+
+894
+00:18:13,800 --> 00:18:13,810
+on the promise of AI in medicine is
+ 
+
+895
+00:18:13,810 --> 00:18:16,620
+on the promise of AI in medicine is
+extraordinary there are many many
+
+896
+00:18:16,620 --> 00:18:16,630
+extraordinary there are many many
+ 
+
+897
+00:18:16,630 --> 00:18:18,690
+extraordinary there are many many
+companies and startups and funds and
+
+898
+00:18:18,690 --> 00:18:18,700
+companies and startups and funds and
+ 
+
+899
+00:18:18,700 --> 00:18:20,670
+companies and startups and funds and
+solutions and we will all live much
+
+900
+00:18:20,670 --> 00:18:20,680
+solutions and we will all live much
+ 
+
+901
+00:18:20,680 --> 00:18:23,450
+solutions and we will all live much
+better for that the same argument in in
+
+902
+00:18:23,450 --> 00:18:23,460
+better for that the same argument in in
+ 
+
+903
+00:18:23,460 --> 00:18:26,820
+better for that the same argument in in
+education can you imagine that for each
+
+904
+00:18:26,820 --> 00:18:26,830
+education can you imagine that for each
+ 
+
+905
+00:18:26,830 --> 00:18:29,850
+education can you imagine that for each
+generation of child and even adult you
+
+906
+00:18:29,850 --> 00:18:29,860
+generation of child and even adult you
+ 
+
+907
+00:18:29,860 --> 00:18:32,580
+generation of child and even adult you
+have a tutor educator that's AI based
+
+908
+00:18:32,580 --> 00:18:32,590
+have a tutor educator that's AI based
+ 
+
+909
+00:18:32,590 --> 00:18:35,370
+have a tutor educator that's AI based
+it's not a human but is properly trained
+
+910
+00:18:35,370 --> 00:18:35,380
+it's not a human but is properly trained
+ 
+
+911
+00:18:35,380 --> 00:18:37,560
+it's not a human but is properly trained
+it helps you get smarter helps you
+
+912
+00:18:37,560 --> 00:18:37,570
+it helps you get smarter helps you
+ 
+
+913
+00:18:37,570 --> 00:18:39,390
+it helps you get smarter helps you
+address your language difficulties or
+
+914
+00:18:39,390 --> 00:18:39,400
+address your language difficulties or
+ 
+
+915
+00:18:39,400 --> 00:18:40,860
+address your language difficulties or
+your math difficulties or what have you
+
+916
+00:18:40,860 --> 00:18:40,870
+your math difficulties or what have you
+ 
+
+917
+00:18:40,870 --> 00:18:43,440
+your math difficulties or what have you
+why don't we focus on those two the
+
+918
+00:18:43,440 --> 00:18:43,450
+why don't we focus on those two the
+ 
+
+919
+00:18:43,450 --> 00:18:45,840
+why don't we focus on those two the
+gains societally of making humans
+
+920
+00:18:45,840 --> 00:18:45,850
+gains societally of making humans
+ 
+
+921
+00:18:45,850 --> 00:18:48,840
+gains societally of making humans
+smarter and healthier are enormous right
+
+922
+00:18:48,840 --> 00:18:48,850
+smarter and healthier are enormous right
+ 
+
+923
+00:18:48,850 --> 00:18:50,850
+smarter and healthier are enormous right
+and those translate for decades and
+
+924
+00:18:50,850 --> 00:18:50,860
+and those translate for decades and
+ 
+
+925
+00:18:50,860 --> 00:18:53,030
+and those translate for decades and
+decades and we'll all benefit from them
+
+926
+00:18:53,030 --> 00:18:53,040
+decades and we'll all benefit from them
+ 
+
+927
+00:18:53,040 --> 00:18:55,590
+decades and we'll all benefit from them
+there are people who are working on AI
+
+928
+00:18:55,590 --> 00:18:55,600
+there are people who are working on AI
+ 
+
+929
+00:18:55,600 --> 00:18:57,210
+there are people who are working on AI
+safety which is the issue that you're
+
+930
+00:18:57,210 --> 00:18:57,220
+safety which is the issue that you're
+ 
+
+931
+00:18:57,220 --> 00:18:59,550
+safety which is the issue that you're
+describing and there are conversations
+
+932
+00:18:59,550 --> 00:18:59,560
+describing and there are conversations
+ 
+
+933
+00:18:59,560 --> 00:19:01,470
+describing and there are conversations
+in the community that should there be
+
+934
+00:19:01,470 --> 00:19:01,480
+in the community that should there be
+ 
+
+935
+00:19:01,480 --> 00:19:03,480
+in the community that should there be
+such problems what should the rules be
+
+936
+00:19:03,480 --> 00:19:03,490
+such problems what should the rules be
+ 
+
+937
+00:19:03,490 --> 00:19:05,640
+such problems what should the rules be
+like Google for example has announced
+
+938
+00:19:05,640 --> 00:19:05,650
+like Google for example has announced
+ 
+
+939
+00:19:05,650 --> 00:19:08,700
+like Google for example has announced
+its policies with respect to AI safety
+
+940
+00:19:08,700 --> 00:19:08,710
+its policies with respect to AI safety
+ 
+
+941
+00:19:08,710 --> 00:19:10,410
+its policies with respect to AI safety
+which I certainly support and I think
+
+942
+00:19:10,410 --> 00:19:10,420
+which I certainly support and I think
+ 
+
+943
+00:19:10,420 --> 00:19:12,570
+which I certainly support and I think
+most everybody would support and they
+
+944
+00:19:12,570 --> 00:19:12,580
+most everybody would support and they
+ 
+
+945
+00:19:12,580 --> 00:19:14,910
+most everybody would support and they
+make sense right so it helps guide the
+
+946
+00:19:14,910 --> 00:19:14,920
+make sense right so it helps guide the
+ 
+
+947
+00:19:14,920 --> 00:19:17,850
+make sense right so it helps guide the
+research but the killer robots are not
+
+948
+00:19:17,850 --> 00:19:17,860
+research but the killer robots are not
+ 
+
+949
+00:19:17,860 --> 00:19:20,100
+research but the killer robots are not
+arriving this year and they're not even
+
+950
+00:19:20,100 --> 00:19:20,110
+arriving this year and they're not even
+ 
+
+951
+00:19:20,110 --> 00:19:24,930
+arriving this year and they're not even
+being built and end on that line of
+
+952
+00:19:24,930 --> 00:19:24,940
+being built and end on that line of
+ 
+
+953
+00:19:24,940 --> 00:19:28,740
+being built and end on that line of
+thinking is at the time scale in in in
+
+954
+00:19:28,740 --> 00:19:28,750
+thinking is at the time scale in in in
+ 
+
+955
+00:19:28,750 --> 00:19:30,720
+thinking is at the time scale in in in
+this topic or other topics have you
+
+956
+00:19:30,720 --> 00:19:30,730
+this topic or other topics have you
+ 
+
+957
+00:19:30,730 --> 00:19:34,380
+this topic or other topics have you
+found it useful on the business side of
+
+958
+00:19:34,380 --> 00:19:34,390
+found it useful on the business side of
+ 
+
+959
+00:19:34,390 --> 00:19:36,480
+found it useful on the business side of
+the intellectual side to think beyond
+
+960
+00:19:36,480 --> 00:19:36,490
+the intellectual side to think beyond
+ 
+
+961
+00:19:36,490 --> 00:19:39,480
+the intellectual side to think beyond
+five ten years to think 50 years out has
+
+962
+00:19:39,480 --> 00:19:39,490
+five ten years to think 50 years out has
+ 
+
+963
+00:19:39,490 --> 00:19:42,210
+five ten years to think 50 years out has
+it ever been useful or productive our
+
+964
+00:19:42,210 --> 00:19:42,220
+it ever been useful or productive our
+ 
+
+965
+00:19:42,220 --> 00:19:44,310
+it ever been useful or productive our
+industry there are essentially no
+
+966
+00:19:44,310 --> 00:19:44,320
+industry there are essentially no
+ 
+
+967
+00:19:44,320 --> 00:19:45,120
+industry there are essentially no
+example
+
+968
+00:19:45,120 --> 00:19:45,130
+example
+ 
+
+969
+00:19:45,130 --> 00:19:46,680
+example
+50 year predictions that have been
+
+970
+00:19:46,680 --> 00:19:46,690
+50 year predictions that have been
+ 
+
+971
+00:19:46,690 --> 00:19:50,910
+50 year predictions that have been
+correct let's review a I write AI which
+
+972
+00:19:50,910 --> 00:19:50,920
+correct let's review a I write AI which
+ 
+
+973
+00:19:50,920 --> 00:19:53,250
+correct let's review a I write AI which
+was largely invented here at MIT and a
+
+974
+00:19:53,250 --> 00:19:53,260
+was largely invented here at MIT and a
+ 
+
+975
+00:19:53,260 --> 00:19:55,440
+was largely invented here at MIT and a
+couple of other universities in the 1956
+
+976
+00:19:55,440 --> 00:19:55,450
+couple of other universities in the 1956
+ 
+
+977
+00:19:55,450 --> 00:19:59,910
+couple of other universities in the 1956
+1957 1958 the original claims were a
+
+978
+00:19:59,910 --> 00:19:59,920
+1957 1958 the original claims were a
+ 
+
+979
+00:19:59,920 --> 00:20:02,910
+1957 1958 the original claims were a
+decade or two and when I was a PhD
+
+980
+00:20:02,910 --> 00:20:02,920
+decade or two and when I was a PhD
+ 
+
+981
+00:20:02,920 --> 00:20:05,820
+decade or two and when I was a PhD
+student I studied a I bet and it entered
+
+982
+00:20:05,820 --> 00:20:05,830
+student I studied a I bet and it entered
+ 
+
+983
+00:20:05,830 --> 00:20:08,310
+student I studied a I bet and it entered
+during my looking at it a period which
+
+984
+00:20:08,310 --> 00:20:08,320
+during my looking at it a period which
+ 
+
+985
+00:20:08,320 --> 00:20:10,860
+during my looking at it a period which
+is known as AI winter which went on for
+
+986
+00:20:10,860 --> 00:20:10,870
+is known as AI winter which went on for
+ 
+
+987
+00:20:10,870 --> 00:20:13,290
+is known as AI winter which went on for
+about thirty years which is a whole
+
+988
+00:20:13,290 --> 00:20:13,300
+about thirty years which is a whole
+ 
+
+989
+00:20:13,300 --> 00:20:15,510
+about thirty years which is a whole
+generation of science scientists and a
+
+990
+00:20:15,510 --> 00:20:15,520
+generation of science scientists and a
+ 
+
+991
+00:20:15,520 --> 00:20:17,220
+generation of science scientists and a
+whole group of people who didn't make a
+
+992
+00:20:17,220 --> 00:20:17,230
+whole group of people who didn't make a
+ 
+
+993
+00:20:17,230 --> 00:20:19,440
+whole group of people who didn't make a
+lot of progress because the algorithms
+
+994
+00:20:19,440 --> 00:20:19,450
+lot of progress because the algorithms
+ 
+
+995
+00:20:19,450 --> 00:20:20,850
+lot of progress because the algorithms
+had not improved and the computers had
+
+996
+00:20:20,850 --> 00:20:20,860
+had not improved and the computers had
+ 
+
+997
+00:20:20,860 --> 00:20:22,860
+had not improved and the computers had
+not approved it took some brilliant
+
+998
+00:20:22,860 --> 00:20:22,870
+not approved it took some brilliant
+ 
+
+999
+00:20:22,870 --> 00:20:24,510
+not approved it took some brilliant
+mathematicians starting with a fellow
+
+1000
+00:20:24,510 --> 00:20:24,520
+mathematicians starting with a fellow
+ 
+
+1001
+00:20:24,520 --> 00:20:26,280
+mathematicians starting with a fellow
+named geoff hinton at toronto and
+
+1002
+00:20:26,280 --> 00:20:26,290
+named geoff hinton at toronto and
+ 
+
+1003
+00:20:26,290 --> 00:20:29,550
+named geoff hinton at toronto and
+montreal who basically invented this
+
+1004
+00:20:29,550 --> 00:20:29,560
+montreal who basically invented this
+ 
+
+1005
+00:20:29,560 --> 00:20:31,590
+montreal who basically invented this
+deep learning model which empowers us
+
+1006
+00:20:31,590 --> 00:20:31,600
+deep learning model which empowers us
+ 
+
+1007
+00:20:31,600 --> 00:20:34,440
+deep learning model which empowers us
+today those the seminal work there was
+
+1008
+00:20:34,440 --> 00:20:34,450
+today those the seminal work there was
+ 
+
+1009
+00:20:34,450 --> 00:20:37,860
+today those the seminal work there was
+20 years ago and in the last 10 years
+
+1010
+00:20:37,860 --> 00:20:37,870
+20 years ago and in the last 10 years
+ 
+
+1011
+00:20:37,870 --> 00:20:40,530
+20 years ago and in the last 10 years
+it's become popularized so think about
+
+1012
+00:20:40,530 --> 00:20:40,540
+it's become popularized so think about
+ 
+
+1013
+00:20:40,540 --> 00:20:42,780
+it's become popularized so think about
+the timeframes for that level of
+
+1014
+00:20:42,780 --> 00:20:42,790
+the timeframes for that level of
+ 
+
+1015
+00:20:42,790 --> 00:20:46,080
+the timeframes for that level of
+discovery it's very hard to predict many
+
+1016
+00:20:46,080 --> 00:20:46,090
+discovery it's very hard to predict many
+ 
+
+1017
+00:20:46,090 --> 00:20:47,460
+discovery it's very hard to predict many
+people think that we'll be flying around
+
+1018
+00:20:47,460 --> 00:20:47,470
+people think that we'll be flying around
+ 
+
+1019
+00:20:47,470 --> 00:20:50,280
+people think that we'll be flying around
+in the equivalent of flying cars who
+
+1020
+00:20:50,280 --> 00:20:50,290
+in the equivalent of flying cars who
+ 
+
+1021
+00:20:50,290 --> 00:20:54,000
+in the equivalent of flying cars who
+knows my own view if I want to go out on
+
+1022
+00:20:54,000 --> 00:20:54,010
+knows my own view if I want to go out on
+ 
+
+1023
+00:20:54,010 --> 00:20:55,860
+knows my own view if I want to go out on
+a limb is to say that well we know a
+
+1024
+00:20:55,860 --> 00:20:55,870
+a limb is to say that well we know a
+ 
+
+1025
+00:20:55,870 --> 00:20:57,690
+a limb is to say that well we know a
+couple of things about 50 years from now
+
+1026
+00:20:57,690 --> 00:20:57,700
+couple of things about 50 years from now
+ 
+
+1027
+00:20:57,700 --> 00:21:00,570
+couple of things about 50 years from now
+we know there'll be more people alive we
+
+1028
+00:21:00,570 --> 00:21:00,580
+we know there'll be more people alive we
+ 
+
+1029
+00:21:00,580 --> 00:21:02,070
+we know there'll be more people alive we
+know that we'll have to have platforms
+
+1030
+00:21:02,070 --> 00:21:02,080
+know that we'll have to have platforms
+ 
+
+1031
+00:21:02,080 --> 00:21:03,840
+know that we'll have to have platforms
+that are more sustainable because the
+
+1032
+00:21:03,840 --> 00:21:03,850
+that are more sustainable because the
+ 
+
+1033
+00:21:03,850 --> 00:21:06,180
+that are more sustainable because the
+earth is limited you know in the ways we
+
+1034
+00:21:06,180 --> 00:21:06,190
+earth is limited you know in the ways we
+ 
+
+1035
+00:21:06,190 --> 00:21:09,090
+earth is limited you know in the ways we
+all know and that the kind of platforms
+
+1036
+00:21:09,090 --> 00:21:09,100
+all know and that the kind of platforms
+ 
+
+1037
+00:21:09,100 --> 00:21:10,710
+all know and that the kind of platforms
+that are gonna get billed will be
+
+1038
+00:21:10,710 --> 00:21:10,720
+that are gonna get billed will be
+ 
+
+1039
+00:21:10,720 --> 00:21:12,270
+that are gonna get billed will be
+consistent with the principles that I've
+
+1040
+00:21:12,270 --> 00:21:12,280
+consistent with the principles that I've
+ 
+
+1041
+00:21:12,280 --> 00:21:14,460
+consistent with the principles that I've
+described they will be much more
+
+1042
+00:21:14,460 --> 00:21:14,470
+described they will be much more
+ 
+
+1043
+00:21:14,470 --> 00:21:15,960
+described they will be much more
+empowering of individuals they'll be
+
+1044
+00:21:15,960 --> 00:21:15,970
+empowering of individuals they'll be
+ 
+
+1045
+00:21:15,970 --> 00:21:17,640
+empowering of individuals they'll be
+much more sensitive to the ecology
+
+1046
+00:21:17,640 --> 00:21:17,650
+much more sensitive to the ecology
+ 
+
+1047
+00:21:17,650 --> 00:21:19,440
+much more sensitive to the ecology
+because they have to be they just have
+
+1048
+00:21:19,440 --> 00:21:19,450
+because they have to be they just have
+ 
+
+1049
+00:21:19,450 --> 00:21:21,960
+because they have to be they just have
+to be I also think that humans are going
+
+1050
+00:21:21,960 --> 00:21:21,970
+to be I also think that humans are going
+ 
+
+1051
+00:21:21,970 --> 00:21:24,030
+to be I also think that humans are going
+to be a great deal smarter and I think
+
+1052
+00:21:24,030 --> 00:21:24,040
+to be a great deal smarter and I think
+ 
+
+1053
+00:21:24,040 --> 00:21:25,320
+to be a great deal smarter and I think
+they're gonna be a lot smarter because
+
+1054
+00:21:25,320 --> 00:21:25,330
+they're gonna be a lot smarter because
+ 
+
+1055
+00:21:25,330 --> 00:21:27,300
+they're gonna be a lot smarter because
+of the tools that I've I've discussed
+
+1056
+00:21:27,300 --> 00:21:27,310
+of the tools that I've I've discussed
+ 
+
+1057
+00:21:27,310 --> 00:21:28,710
+of the tools that I've I've discussed
+with you and of course people who live
+
+1058
+00:21:28,710 --> 00:21:28,720
+with you and of course people who live
+ 
+
+1059
+00:21:28,720 --> 00:21:31,200
+with you and of course people who live
+longer a life extension is continuing a
+
+1060
+00:21:31,200 --> 00:21:31,210
+longer a life extension is continuing a
+ 
+
+1061
+00:21:31,210 --> 00:21:34,140
+longer a life extension is continuing a
+pace a baby born today has a reasonable
+
+1062
+00:21:34,140 --> 00:21:34,150
+pace a baby born today has a reasonable
+ 
+
+1063
+00:21:34,150 --> 00:21:35,910
+pace a baby born today has a reasonable
+chance of living to a hundred right
+
+1064
+00:21:35,910 --> 00:21:35,920
+chance of living to a hundred right
+ 
+
+1065
+00:21:35,920 --> 00:21:37,800
+chance of living to a hundred right
+which is pretty exciting well past the
+
+1066
+00:21:37,800 --> 00:21:37,810
+which is pretty exciting well past the
+ 
+
+1067
+00:21:37,810 --> 00:21:39,420
+which is pretty exciting well past the
+21st century so we better take care of
+
+1068
+00:21:39,420 --> 00:21:39,430
+21st century so we better take care of
+ 
+
+1069
+00:21:39,430 --> 00:21:41,940
+21st century so we better take care of
+them and you mentioned an interesting
+
+1070
+00:21:41,940 --> 00:21:41,950
+them and you mentioned an interesting
+ 
+
+1071
+00:21:41,950 --> 00:21:44,190
+them and you mentioned an interesting
+statistic on some very large percentage
+
+1072
+00:21:44,190 --> 00:21:44,200
+statistic on some very large percentage
+ 
+
+1073
+00:21:44,200 --> 00:21:46,440
+statistic on some very large percentage
+sixty seventy percent of people may live
+
+1074
+00:21:46,440 --> 00:21:46,450
+sixty seventy percent of people may live
+ 
+
+1075
+00:21:46,450 --> 00:21:49,530
+sixty seventy percent of people may live
+in cities today more than half the world
+
+1076
+00:21:49,530 --> 00:21:49,540
+in cities today more than half the world
+ 
+
+1077
+00:21:49,540 --> 00:21:51,480
+in cities today more than half the world
+lives in cities and one of the great
+
+1078
+00:21:51,480 --> 00:21:51,490
+lives in cities and one of the great
+ 
+
+1079
+00:21:51,490 --> 00:21:54,600
+lives in cities and one of the great
+stories of humanity in the last 20 years
+
+1080
+00:21:54,600 --> 00:21:54,610
+stories of humanity in the last 20 years
+ 
+
+1081
+00:21:54,610 --> 00:21:56,540
+stories of humanity in the last 20 years
+has been the rural to urban migration
+
+1082
+00:21:56,540 --> 00:21:56,550
+has been the rural to urban migration
+ 
+
+1083
+00:21:56,550 --> 00:21:58,799
+has been the rural to urban migration
+this is occurred in the United States
+
+1084
+00:21:58,799 --> 00:21:58,809
+this is occurred in the United States
+ 
+
+1085
+00:21:58,809 --> 00:22:01,619
+this is occurred in the United States
+it's occurred in Europe it's occurring
+
+1086
+00:22:01,619 --> 00:22:01,629
+it's occurred in Europe it's occurring
+ 
+
+1087
+00:22:01,629 --> 00:22:03,769
+it's occurred in Europe it's occurring
+in Asia and it's occurring in Africa
+
+1088
+00:22:03,769 --> 00:22:03,779
+in Asia and it's occurring in Africa
+ 
+
+1089
+00:22:03,779 --> 00:22:06,299
+in Asia and it's occurring in Africa
+when people move to cities the cities
+
+1090
+00:22:06,299 --> 00:22:06,309
+when people move to cities the cities
+ 
+
+1091
+00:22:06,309 --> 00:22:08,669
+when people move to cities the cities
+get more crowded but believe it or not
+
+1092
+00:22:08,669 --> 00:22:08,679
+get more crowded but believe it or not
+ 
+
+1093
+00:22:08,679 --> 00:22:10,619
+get more crowded but believe it or not
+their health gets better their
+
+1094
+00:22:10,619 --> 00:22:10,629
+their health gets better their
+ 
+
+1095
+00:22:10,629 --> 00:22:11,820
+their health gets better their
+productivity gets better
+
+1096
+00:22:11,820 --> 00:22:11,830
+productivity gets better
+ 
+
+1097
+00:22:11,830 --> 00:22:13,739
+productivity gets better
+there are IQ and educational
+
+1098
+00:22:13,739 --> 00:22:13,749
+there are IQ and educational
+ 
+
+1099
+00:22:13,749 --> 00:22:16,499
+there are IQ and educational
+capabilities improve so it's good news
+
+1100
+00:22:16,499 --> 00:22:16,509
+capabilities improve so it's good news
+ 
+
+1101
+00:22:16,509 --> 00:22:18,749
+capabilities improve so it's good news
+that people are moving the cities but we
+
+1102
+00:22:18,749 --> 00:22:18,759
+that people are moving the cities but we
+ 
+
+1103
+00:22:18,759 --> 00:22:22,799
+that people are moving the cities but we
+have to make them livable and safe so
+
+1104
+00:22:22,799 --> 00:22:22,809
+have to make them livable and safe so
+ 
+
+1105
+00:22:22,809 --> 00:22:26,340
+have to make them livable and safe so
+you you first of all you are but you've
+
+1106
+00:22:26,340 --> 00:22:26,350
+you you first of all you are but you've
+ 
+
+1107
+00:22:26,350 --> 00:22:27,899
+you you first of all you are but you've
+also worked with some of the greatest
+
+1108
+00:22:27,899 --> 00:22:27,909
+also worked with some of the greatest
+ 
+
+1109
+00:22:27,909 --> 00:22:30,180
+also worked with some of the greatest
+leaders in the history of tech what
+
+1110
+00:22:30,180 --> 00:22:30,190
+leaders in the history of tech what
+ 
+
+1111
+00:22:30,190 --> 00:22:32,639
+leaders in the history of tech what
+insights do you draw from the difference
+
+1112
+00:22:32,639 --> 00:22:32,649
+insights do you draw from the difference
+ 
+
+1113
+00:22:32,649 --> 00:22:36,239
+insights do you draw from the difference
+in leadership styles of yourself Steve
+
+1114
+00:22:36,239 --> 00:22:36,249
+in leadership styles of yourself Steve
+ 
+
+1115
+00:22:36,249 --> 00:22:39,720
+in leadership styles of yourself Steve
+Jobs Elon Musk Larry Page now the new
+
+1116
+00:22:39,720 --> 00:22:39,730
+Jobs Elon Musk Larry Page now the new
+ 
+
+1117
+00:22:39,730 --> 00:22:43,529
+Jobs Elon Musk Larry Page now the new
+CEO sundar Pichai and others from the I
+
+1118
+00:22:43,529 --> 00:22:43,539
+CEO sundar Pichai and others from the I
+ 
+
+1119
+00:22:43,539 --> 00:22:48,649
+CEO sundar Pichai and others from the I
+would say calm sages to the mad geniuses
+
+1120
+00:22:48,649 --> 00:22:48,659
+would say calm sages to the mad geniuses
+ 
+
+1121
+00:22:48,659 --> 00:22:51,149
+would say calm sages to the mad geniuses
+one of these that I learned as a young
+
+1122
+00:22:51,149 --> 00:22:51,159
+one of these that I learned as a young
+ 
+
+1123
+00:22:51,159 --> 00:22:53,460
+one of these that I learned as a young
+executive is that there is no single
+
+1124
+00:22:53,460 --> 00:22:53,470
+executive is that there is no single
+ 
+
+1125
+00:22:53,470 --> 00:22:56,909
+executive is that there is no single
+formula for leadership they try to teach
+
+1126
+00:22:56,909 --> 00:22:56,919
+formula for leadership they try to teach
+ 
+
+1127
+00:22:56,919 --> 00:22:59,090
+formula for leadership they try to teach
+one but that's not how it really works
+
+1128
+00:22:59,090 --> 00:22:59,100
+one but that's not how it really works
+ 
+
+1129
+00:22:59,100 --> 00:23:01,980
+one but that's not how it really works
+there are people who just understand
+
+1130
+00:23:01,980 --> 00:23:01,990
+there are people who just understand
+ 
+
+1131
+00:23:01,990 --> 00:23:03,239
+there are people who just understand
+what they need to do and they need to do
+
+1132
+00:23:03,239 --> 00:23:03,249
+what they need to do and they need to do
+ 
+
+1133
+00:23:03,249 --> 00:23:03,869
+what they need to do and they need to do
+it quickly
+
+1134
+00:23:03,869 --> 00:23:03,879
+it quickly
+ 
+
+1135
+00:23:03,879 --> 00:23:05,759
+it quickly
+those teeps people are often
+
+1136
+00:23:05,759 --> 00:23:05,769
+those teeps people are often
+ 
+
+1137
+00:23:05,769 --> 00:23:07,680
+those teeps people are often
+entrepreneurs they just know and they
+
+1138
+00:23:07,680 --> 00:23:07,690
+entrepreneurs they just know and they
+ 
+
+1139
+00:23:07,690 --> 00:23:09,779
+entrepreneurs they just know and they
+move fast there are other people who are
+
+1140
+00:23:09,779 --> 00:23:09,789
+move fast there are other people who are
+ 
+
+1141
+00:23:09,789 --> 00:23:11,759
+move fast there are other people who are
+systems thinkers and planners that's
+
+1142
+00:23:11,759 --> 00:23:11,769
+systems thinkers and planners that's
+ 
+
+1143
+00:23:11,769 --> 00:23:13,820
+systems thinkers and planners that's
+more Who I am somewhat more conservative
+
+1144
+00:23:13,820 --> 00:23:13,830
+more Who I am somewhat more conservative
+ 
+
+1145
+00:23:13,830 --> 00:23:17,129
+more Who I am somewhat more conservative
+more thorough in execution a little bit
+
+1146
+00:23:17,129 --> 00:23:17,139
+more thorough in execution a little bit
+ 
+
+1147
+00:23:17,139 --> 00:23:17,940
+more thorough in execution a little bit
+more risk-averse
+
+1148
+00:23:17,940 --> 00:23:17,950
+more risk-averse
+ 
+
+1149
+00:23:17,950 --> 00:23:20,310
+more risk-averse
+there's also people who are sort of
+
+1150
+00:23:20,310 --> 00:23:20,320
+there's also people who are sort of
+ 
+
+1151
+00:23:20,320 --> 00:23:22,710
+there's also people who are sort of
+slightly insane right in the sense that
+
+1152
+00:23:22,710 --> 00:23:22,720
+slightly insane right in the sense that
+ 
+
+1153
+00:23:22,720 --> 00:23:26,129
+slightly insane right in the sense that
+they are emphatic and charismatic and
+
+1154
+00:23:26,129 --> 00:23:26,139
+they are emphatic and charismatic and
+ 
+
+1155
+00:23:26,139 --> 00:23:28,230
+they are emphatic and charismatic and
+they feel it and they drive it and so
+
+1156
+00:23:28,230 --> 00:23:28,240
+they feel it and they drive it and so
+ 
+
+1157
+00:23:28,240 --> 00:23:30,419
+they feel it and they drive it and so
+forth there's no single formula to
+
+1158
+00:23:30,419 --> 00:23:30,429
+forth there's no single formula to
+ 
+
+1159
+00:23:30,429 --> 00:23:32,759
+forth there's no single formula to
+success there is one thing that unifies
+
+1160
+00:23:32,759 --> 00:23:32,769
+success there is one thing that unifies
+ 
+
+1161
+00:23:32,769 --> 00:23:34,680
+success there is one thing that unifies
+all of the people that you named which
+
+1162
+00:23:34,680 --> 00:23:34,690
+all of the people that you named which
+ 
+
+1163
+00:23:34,690 --> 00:23:37,139
+all of the people that you named which
+is very high intelligence right at the
+
+1164
+00:23:37,139 --> 00:23:37,149
+is very high intelligence right at the
+ 
+
+1165
+00:23:37,149 --> 00:23:39,570
+is very high intelligence right at the
+end of the day the thing that
+
+1166
+00:23:39,570 --> 00:23:39,580
+end of the day the thing that
+ 
+
+1167
+00:23:39,580 --> 00:23:41,310
+end of the day the thing that
+characterizes all of them is that they
+
+1168
+00:23:41,310 --> 00:23:41,320
+characterizes all of them is that they
+ 
+
+1169
+00:23:41,320 --> 00:23:43,799
+characterizes all of them is that they
+saw the world quicker faster they
+
+1170
+00:23:43,799 --> 00:23:43,809
+saw the world quicker faster they
+ 
+
+1171
+00:23:43,809 --> 00:23:46,080
+saw the world quicker faster they
+processed information faster they didn't
+
+1172
+00:23:46,080 --> 00:23:46,090
+processed information faster they didn't
+ 
+
+1173
+00:23:46,090 --> 00:23:47,430
+processed information faster they didn't
+necessarily make the right decisions all
+
+1174
+00:23:47,430 --> 00:23:47,440
+necessarily make the right decisions all
+ 
+
+1175
+00:23:47,440 --> 00:23:49,889
+necessarily make the right decisions all
+the time but they were on top of it and
+
+1176
+00:23:49,889 --> 00:23:49,899
+the time but they were on top of it and
+ 
+
+1177
+00:23:49,899 --> 00:23:51,330
+the time but they were on top of it and
+the other thing that's interesting about
+
+1178
+00:23:51,330 --> 00:23:51,340
+the other thing that's interesting about
+ 
+
+1179
+00:23:51,340 --> 00:23:53,100
+the other thing that's interesting about
+all those people is they all started
+
+1180
+00:23:53,100 --> 00:23:53,110
+all those people is they all started
+ 
+
+1181
+00:23:53,110 --> 00:23:55,859
+all those people is they all started
+young so think about Steve Jobs started
+
+1182
+00:23:55,859 --> 00:23:55,869
+young so think about Steve Jobs started
+ 
+
+1183
+00:23:55,869 --> 00:23:57,960
+young so think about Steve Jobs started
+a starting Apple roughly at 18 or 19
+
+1184
+00:23:57,960 --> 00:23:57,970
+a starting Apple roughly at 18 or 19
+ 
+
+1185
+00:23:57,970 --> 00:23:59,820
+a starting Apple roughly at 18 or 19
+think about Bill Gates starting at
+
+1186
+00:23:59,820 --> 00:23:59,830
+think about Bill Gates starting at
+ 
+
+1187
+00:23:59,830 --> 00:24:01,200
+think about Bill Gates starting at
+roughly 2021
+
+1188
+00:24:01,200 --> 00:24:01,210
+roughly 2021
+ 
+
+1189
+00:24:01,210 --> 00:24:03,539
+roughly 2021
+think about by the time they were 30
+
+1190
+00:24:03,539 --> 00:24:03,549
+think about by the time they were 30
+ 
+
+1191
+00:24:03,549 --> 00:24:05,730
+think about by the time they were 30
+Mark Zuckerberg a more a good example at
+
+1192
+00:24:05,730 --> 00:24:05,740
+Mark Zuckerberg a more a good example at
+ 
+
+1193
+00:24:05,740 --> 00:24:08,609
+Mark Zuckerberg a more a good example at
+1920 by the time they were 30 they had
+
+1194
+00:24:08,609 --> 00:24:08,619
+1920 by the time they were 30 they had
+ 
+
+1195
+00:24:08,619 --> 00:24:10,120
+1920 by the time they were 30 they had
+10 years
+
+1196
+00:24:10,120 --> 00:24:10,130
+10 years
+ 
+
+1197
+00:24:10,130 --> 00:24:12,580
+10 years
+at 30 years old they had ten years of
+
+1198
+00:24:12,580 --> 00:24:12,590
+at 30 years old they had ten years of
+ 
+
+1199
+00:24:12,590 --> 00:24:15,310
+at 30 years old they had ten years of
+experience of dealing with people and
+
+1200
+00:24:15,310 --> 00:24:15,320
+experience of dealing with people and
+ 
+
+1201
+00:24:15,320 --> 00:24:17,980
+experience of dealing with people and
+products and shipments and the press and
+
+1202
+00:24:17,980 --> 00:24:17,990
+products and shipments and the press and
+ 
+
+1203
+00:24:17,990 --> 00:24:20,980
+products and shipments and the press and
+business and so forth it's incredible
+
+1204
+00:24:20,980 --> 00:24:20,990
+business and so forth it's incredible
+ 
+
+1205
+00:24:20,990 --> 00:24:23,140
+business and so forth it's incredible
+how much experience they had compared to
+
+1206
+00:24:23,140 --> 00:24:23,150
+how much experience they had compared to
+ 
+
+1207
+00:24:23,150 --> 00:24:24,610
+how much experience they had compared to
+the rest of us who are busy getting our
+
+1208
+00:24:24,610 --> 00:24:24,620
+the rest of us who are busy getting our
+ 
+
+1209
+00:24:24,620 --> 00:24:25,210
+the rest of us who are busy getting our
+PhDs
+
+1210
+00:24:25,210 --> 00:24:25,220
+PhDs
+ 
+
+1211
+00:24:25,220 --> 00:24:28,060
+PhDs
+yes exactly so we should celebrate these
+
+1212
+00:24:28,060 --> 00:24:28,070
+yes exactly so we should celebrate these
+ 
+
+1213
+00:24:28,070 --> 00:24:30,100
+yes exactly so we should celebrate these
+people because they've just had more
+
+1214
+00:24:30,100 --> 00:24:30,110
+people because they've just had more
+ 
+
+1215
+00:24:30,110 --> 00:24:32,800
+people because they've just had more
+life experience right and that helps
+
+1216
+00:24:32,800 --> 00:24:32,810
+life experience right and that helps
+ 
+
+1217
+00:24:32,810 --> 00:24:35,410
+life experience right and that helps
+inform the judgment at the end of the
+
+1218
+00:24:35,410 --> 00:24:35,420
+inform the judgment at the end of the
+ 
+
+1219
+00:24:35,420 --> 00:24:38,470
+inform the judgment at the end of the
+day when you're at the top of these
+
+1220
+00:24:38,470 --> 00:24:38,480
+day when you're at the top of these
+ 
+
+1221
+00:24:38,480 --> 00:24:41,320
+day when you're at the top of these
+organizations all the easy questions
+
+1222
+00:24:41,320 --> 00:24:41,330
+organizations all the easy questions
+ 
+
+1223
+00:24:41,330 --> 00:24:44,020
+organizations all the easy questions
+have been dealt with right how should we
+
+1224
+00:24:44,020 --> 00:24:44,030
+have been dealt with right how should we
+ 
+
+1225
+00:24:44,030 --> 00:24:46,390
+have been dealt with right how should we
+design the buildings where should we put
+
+1226
+00:24:46,390 --> 00:24:46,400
+design the buildings where should we put
+ 
+
+1227
+00:24:46,400 --> 00:24:48,220
+design the buildings where should we put
+the colors on our product
+
+1228
+00:24:48,220 --> 00:24:48,230
+the colors on our product
+ 
+
+1229
+00:24:48,230 --> 00:24:51,460
+the colors on our product
+what should the Box look like right the
+
+1230
+00:24:51,460 --> 00:24:51,470
+what should the Box look like right the
+ 
+
+1231
+00:24:51,470 --> 00:24:53,140
+what should the Box look like right the
+problems that's why it's so interesting
+
+1232
+00:24:53,140 --> 00:24:53,150
+problems that's why it's so interesting
+ 
+
+1233
+00:24:53,150 --> 00:24:55,330
+problems that's why it's so interesting
+to be in these rooms the problems that
+
+1234
+00:24:55,330 --> 00:24:55,340
+to be in these rooms the problems that
+ 
+
+1235
+00:24:55,340 --> 00:24:57,280
+to be in these rooms the problems that
+they face right in terms of the way they
+
+1236
+00:24:57,280 --> 00:24:57,290
+they face right in terms of the way they
+ 
+
+1237
+00:24:57,290 --> 00:24:59,170
+they face right in terms of the way they
+operate the way they deal with their
+
+1238
+00:24:59,170 --> 00:24:59,180
+operate the way they deal with their
+ 
+
+1239
+00:24:59,180 --> 00:25:01,450
+operate the way they deal with their
+employees their customers or innovation
+
+1240
+00:25:01,450 --> 00:25:01,460
+employees their customers or innovation
+ 
+
+1241
+00:25:01,460 --> 00:25:04,690
+employees their customers or innovation
+are profoundly challenging each of the
+
+1242
+00:25:04,690 --> 00:25:04,700
+are profoundly challenging each of the
+ 
+
+1243
+00:25:04,700 --> 00:25:07,900
+are profoundly challenging each of the
+companies is demonstrably different
+
+1244
+00:25:07,900 --> 00:25:07,910
+companies is demonstrably different
+ 
+
+1245
+00:25:07,910 --> 00:25:10,330
+companies is demonstrably different
+culturally right they are not in fact
+
+1246
+00:25:10,330 --> 00:25:10,340
+culturally right they are not in fact
+ 
+
+1247
+00:25:10,340 --> 00:25:12,280
+culturally right they are not in fact
+cut of the same they behave differently
+
+1248
+00:25:12,280 --> 00:25:12,290
+cut of the same they behave differently
+ 
+
+1249
+00:25:12,290 --> 00:25:15,310
+cut of the same they behave differently
+based on input their internal cultures
+
+1250
+00:25:15,310 --> 00:25:15,320
+based on input their internal cultures
+ 
+
+1251
+00:25:15,320 --> 00:25:16,990
+based on input their internal cultures
+are different their compensation schemes
+
+1252
+00:25:16,990 --> 00:25:17,000
+are different their compensation schemes
+ 
+
+1253
+00:25:17,000 --> 00:25:18,540
+are different their compensation schemes
+are different their values are different
+
+1254
+00:25:18,540 --> 00:25:18,550
+are different their values are different
+ 
+
+1255
+00:25:18,550 --> 00:25:25,740
+are different their values are different
+so there's proof that diversity works so
+
+1256
+00:25:25,740 --> 00:25:25,750
+so there's proof that diversity works so
+ 
+
+1257
+00:25:25,750 --> 00:25:29,380
+so there's proof that diversity works so
+so one faced with a tough decision in
+
+1258
+00:25:29,380 --> 00:25:29,390
+so one faced with a tough decision in
+ 
+
+1259
+00:25:29,390 --> 00:25:32,890
+so one faced with a tough decision in
+need of advice it's been said that the
+
+1260
+00:25:32,890 --> 00:25:32,900
+need of advice it's been said that the
+ 
+
+1261
+00:25:32,900 --> 00:25:35,050
+need of advice it's been said that the
+best thing one can do is to find the
+
+1262
+00:25:35,050 --> 00:25:35,060
+best thing one can do is to find the
+ 
+
+1263
+00:25:35,060 --> 00:25:37,300
+best thing one can do is to find the
+best person in the world who can give
+
+1264
+00:25:37,300 --> 00:25:37,310
+best person in the world who can give
+ 
+
+1265
+00:25:37,310 --> 00:25:41,020
+best person in the world who can give
+that advice and find a way to be in a
+
+1266
+00:25:41,020 --> 00:25:41,030
+that advice and find a way to be in a
+ 
+
+1267
+00:25:41,030 --> 00:25:44,890
+that advice and find a way to be in a
+room with them one on one and ask so
+
+1268
+00:25:44,890 --> 00:25:44,900
+room with them one on one and ask so
+ 
+
+1269
+00:25:44,900 --> 00:25:47,170
+room with them one on one and ask so
+here we are and let me ask in a
+
+1270
+00:25:47,170 --> 00:25:47,180
+here we are and let me ask in a
+ 
+
+1271
+00:25:47,180 --> 00:25:50,670
+here we are and let me ask in a
+long-winded way I wrote this down in
+
+1272
+00:25:50,670 --> 00:25:50,680
+long-winded way I wrote this down in
+ 
+
+1273
+00:25:50,680 --> 00:25:53,140
+long-winded way I wrote this down in
+1998 there are many good search engines
+
+1274
+00:25:53,140 --> 00:25:53,150
+1998 there are many good search engines
+ 
+
+1275
+00:25:53,150 --> 00:25:56,860
+1998 there are many good search engines
+like us excite AltaVista Infoseek Ask
+
+1276
+00:25:56,860 --> 00:25:56,870
+like us excite AltaVista Infoseek Ask
+ 
+
+1277
+00:25:56,870 --> 00:26:02,410
+like us excite AltaVista Infoseek Ask
+Jeeves maybe Yahoo even so Google
+
+1278
+00:26:02,410 --> 00:26:02,420
+Jeeves maybe Yahoo even so Google
+ 
+
+1279
+00:26:02,420 --> 00:26:04,810
+Jeeves maybe Yahoo even so Google
+stepped in and disrupted everything they
+
+1280
+00:26:04,810 --> 00:26:04,820
+stepped in and disrupted everything they
+ 
+
+1281
+00:26:04,820 --> 00:26:06,670
+stepped in and disrupted everything they
+disrupted the nature of search the
+
+1282
+00:26:06,670 --> 00:26:06,680
+disrupted the nature of search the
+ 
+
+1283
+00:26:06,680 --> 00:26:08,920
+disrupted the nature of search the
+nature of our access to information the
+
+1284
+00:26:08,920 --> 00:26:08,930
+nature of our access to information the
+ 
+
+1285
+00:26:08,930 --> 00:26:12,310
+nature of our access to information the
+way we discover new knowledge so now
+
+1286
+00:26:12,310 --> 00:26:12,320
+way we discover new knowledge so now
+ 
+
+1287
+00:26:12,320 --> 00:26:15,150
+way we discover new knowledge so now
+it's 2018 actually twenty years later
+
+1288
+00:26:15,150 --> 00:26:15,160
+it's 2018 actually twenty years later
+ 
+
+1289
+00:26:15,160 --> 00:26:17,380
+it's 2018 actually twenty years later
+there are many good personal AI
+
+1290
+00:26:17,380 --> 00:26:17,390
+there are many good personal AI
+ 
+
+1291
+00:26:17,390 --> 00:26:20,110
+there are many good personal AI
+assistants including of course the bus
+
+1292
+00:26:20,110 --> 00:26:20,120
+assistants including of course the bus
+ 
+
+1293
+00:26:20,120 --> 00:26:21,890
+assistants including of course the bus
+from Google
+
+1294
+00:26:21,890 --> 00:26:21,900
+from Google
+ 
+
+1295
+00:26:21,900 --> 00:26:24,950
+from Google
+so you've spoken in medical and
+
+1296
+00:26:24,950 --> 00:26:24,960
+so you've spoken in medical and
+ 
+
+1297
+00:26:24,960 --> 00:26:26,450
+so you've spoken in medical and
+education the impact of such an AI
+
+1298
+00:26:26,450 --> 00:26:26,460
+education the impact of such an AI
+ 
+
+1299
+00:26:26,460 --> 00:26:29,420
+education the impact of such an AI
+assistant could bring so we arrived at
+
+1300
+00:26:29,420 --> 00:26:29,430
+assistant could bring so we arrived at
+ 
+
+1301
+00:26:29,430 --> 00:26:31,550
+assistant could bring so we arrived at
+this question so it's a personal one for
+
+1302
+00:26:31,550 --> 00:26:31,560
+this question so it's a personal one for
+ 
+
+1303
+00:26:31,560 --> 00:26:31,820
+this question so it's a personal one for
+me
+
+1304
+00:26:31,820 --> 00:26:31,830
+me
+ 
+
+1305
+00:26:31,830 --> 00:26:35,120
+me
+but I hope my situation represents that
+
+1306
+00:26:35,120 --> 00:26:35,130
+but I hope my situation represents that
+ 
+
+1307
+00:26:35,130 --> 00:26:39,080
+but I hope my situation represents that
+of many other as we said dreamers and
+
+1308
+00:26:39,080 --> 00:26:39,090
+of many other as we said dreamers and
+ 
+
+1309
+00:26:39,090 --> 00:26:41,960
+of many other as we said dreamers and
+the crazy engineers so my whole life
+
+1310
+00:26:41,960 --> 00:26:41,970
+the crazy engineers so my whole life
+ 
+
+1311
+00:26:41,970 --> 00:26:44,750
+the crazy engineers so my whole life
+I've dreamed of creating such an AI
+
+1312
+00:26:44,750 --> 00:26:44,760
+I've dreamed of creating such an AI
+ 
+
+1313
+00:26:44,760 --> 00:26:47,720
+I've dreamed of creating such an AI
+assistant every step I've taken has been
+
+1314
+00:26:47,720 --> 00:26:47,730
+assistant every step I've taken has been
+ 
+
+1315
+00:26:47,730 --> 00:26:49,730
+assistant every step I've taken has been
+towards that goal now I'm a research
+
+1316
+00:26:49,730 --> 00:26:49,740
+towards that goal now I'm a research
+ 
+
+1317
+00:26:49,740 --> 00:26:51,830
+towards that goal now I'm a research
+scientist in human centered AI here at
+
+1318
+00:26:51,830 --> 00:26:51,840
+scientist in human centered AI here at
+ 
+
+1319
+00:26:51,840 --> 00:26:54,800
+scientist in human centered AI here at
+MIT so the next step for me as I sit
+
+1320
+00:26:54,800 --> 00:26:54,810
+MIT so the next step for me as I sit
+ 
+
+1321
+00:26:54,810 --> 00:26:59,330
+MIT so the next step for me as I sit
+here so facing my passion is to do what
+
+1322
+00:26:59,330 --> 00:26:59,340
+here so facing my passion is to do what
+ 
+
+1323
+00:26:59,340 --> 00:27:03,260
+here so facing my passion is to do what
+Larry and Sergey did in 98 this simple
+
+1324
+00:27:03,260 --> 00:27:03,270
+Larry and Sergey did in 98 this simple
+ 
+
+1325
+00:27:03,270 --> 00:27:06,070
+Larry and Sergey did in 98 this simple
+startup and so here's my simple question
+
+1326
+00:27:06,070 --> 00:27:06,080
+startup and so here's my simple question
+ 
+
+1327
+00:27:06,080 --> 00:27:09,170
+startup and so here's my simple question
+given the low odds of success the timing
+
+1328
+00:27:09,170 --> 00:27:09,180
+given the low odds of success the timing
+ 
+
+1329
+00:27:09,180 --> 00:27:11,330
+given the low odds of success the timing
+and luck required the countless other
+
+1330
+00:27:11,330 --> 00:27:11,340
+and luck required the countless other
+ 
+
+1331
+00:27:11,340 --> 00:27:12,770
+and luck required the countless other
+factors that can't be controlled or
+
+1332
+00:27:12,770 --> 00:27:12,780
+factors that can't be controlled or
+ 
+
+1333
+00:27:12,780 --> 00:27:14,780
+factors that can't be controlled or
+predicted which is all the things that
+
+1334
+00:27:14,780 --> 00:27:14,790
+predicted which is all the things that
+ 
+
+1335
+00:27:14,790 --> 00:27:17,060
+predicted which is all the things that
+Larry and Sergey faced is there some
+
+1336
+00:27:17,060 --> 00:27:17,070
+Larry and Sergey faced is there some
+ 
+
+1337
+00:27:17,070 --> 00:27:20,870
+Larry and Sergey faced is there some
+calculation some strategy to follow in
+
+1338
+00:27:20,870 --> 00:27:20,880
+calculation some strategy to follow in
+ 
+
+1339
+00:27:20,880 --> 00:27:23,270
+calculation some strategy to follow in
+this step or do you simply follow the
+
+1340
+00:27:23,270 --> 00:27:23,280
+this step or do you simply follow the
+ 
+
+1341
+00:27:23,280 --> 00:27:24,740
+this step or do you simply follow the
+passion just because there's no other
+
+1342
+00:27:24,740 --> 00:27:24,750
+passion just because there's no other
+ 
+
+1343
+00:27:24,750 --> 00:27:28,820
+passion just because there's no other
+choice I think the people who are in
+
+1344
+00:27:28,820 --> 00:27:28,830
+choice I think the people who are in
+ 
+
+1345
+00:27:28,830 --> 00:27:31,060
+choice I think the people who are in
+universities are always trying to study
+
+1346
+00:27:31,060 --> 00:27:31,070
+universities are always trying to study
+ 
+
+1347
+00:27:31,070 --> 00:27:33,980
+universities are always trying to study
+the extraordinarily chaotic nature of
+
+1348
+00:27:33,980 --> 00:27:33,990
+the extraordinarily chaotic nature of
+ 
+
+1349
+00:27:33,990 --> 00:27:37,430
+the extraordinarily chaotic nature of
+innovation and entrepreneurship my
+
+1350
+00:27:37,430 --> 00:27:37,440
+innovation and entrepreneurship my
+ 
+
+1351
+00:27:37,440 --> 00:27:40,220
+innovation and entrepreneurship my
+answer is that they didn't have that
+
+1352
+00:27:40,220 --> 00:27:40,230
+answer is that they didn't have that
+ 
+
+1353
+00:27:40,230 --> 00:27:42,890
+answer is that they didn't have that
+conversation they just did it they
+
+1354
+00:27:42,890 --> 00:27:42,900
+conversation they just did it they
+ 
+
+1355
+00:27:42,900 --> 00:27:46,280
+conversation they just did it they
+sensed a moment when in the case of
+
+1356
+00:27:46,280 --> 00:27:46,290
+sensed a moment when in the case of
+ 
+
+1357
+00:27:46,290 --> 00:27:48,470
+sensed a moment when in the case of
+Google there was all of this data that
+
+1358
+00:27:48,470 --> 00:27:48,480
+Google there was all of this data that
+ 
+
+1359
+00:27:48,480 --> 00:27:50,150
+Google there was all of this data that
+needed to be organized and they had a
+
+1360
+00:27:50,150 --> 00:27:50,160
+needed to be organized and they had a
+ 
+
+1361
+00:27:50,160 --> 00:27:52,220
+needed to be organized and they had a
+better algorithm they had invented a
+
+1362
+00:27:52,220 --> 00:27:52,230
+better algorithm they had invented a
+ 
+
+1363
+00:27:52,230 --> 00:27:55,850
+better algorithm they had invented a
+better way so today with human centered
+
+1364
+00:27:55,850 --> 00:27:55,860
+better way so today with human centered
+ 
+
+1365
+00:27:55,860 --> 00:27:58,160
+better way so today with human centered
+AI which is your area of research there
+
+1366
+00:27:58,160 --> 00:27:58,170
+AI which is your area of research there
+ 
+
+1367
+00:27:58,170 --> 00:28:01,790
+AI which is your area of research there
+must be new approaches it's such a big
+
+1368
+00:28:01,790 --> 00:28:01,800
+must be new approaches it's such a big
+ 
+
+1369
+00:28:01,800 --> 00:28:04,270
+must be new approaches it's such a big
+field there must be new approaches
+
+1370
+00:28:04,270 --> 00:28:04,280
+field there must be new approaches
+ 
+
+1371
+00:28:04,280 --> 00:28:07,010
+field there must be new approaches
+different from what we and others are
+
+1372
+00:28:07,010 --> 00:28:07,020
+different from what we and others are
+ 
+
+1373
+00:28:07,020 --> 00:28:09,320
+different from what we and others are
+doing there must be startups to fund
+
+1374
+00:28:09,320 --> 00:28:09,330
+doing there must be startups to fund
+ 
+
+1375
+00:28:09,330 --> 00:28:11,420
+doing there must be startups to fund
+there must be research projects to try
+
+1376
+00:28:11,420 --> 00:28:11,430
+there must be research projects to try
+ 
+
+1377
+00:28:11,430 --> 00:28:13,310
+there must be research projects to try
+there must be graduate students to work
+
+1378
+00:28:13,310 --> 00:28:13,320
+there must be graduate students to work
+ 
+
+1379
+00:28:13,320 --> 00:28:16,640
+there must be graduate students to work
+on new approaches here at MIT there are
+
+1380
+00:28:16,640 --> 00:28:16,650
+on new approaches here at MIT there are
+ 
+
+1381
+00:28:16,650 --> 00:28:18,170
+on new approaches here at MIT there are
+people who are looking at learning from
+
+1382
+00:28:18,170 --> 00:28:18,180
+people who are looking at learning from
+ 
+
+1383
+00:28:18,180 --> 00:28:19,610
+people who are looking at learning from
+the standpoint of looking at child
+
+1384
+00:28:19,610 --> 00:28:19,620
+the standpoint of looking at child
+ 
+
+1385
+00:28:19,620 --> 00:28:21,380
+the standpoint of looking at child
+learning yes right how do children learn
+
+1386
+00:28:21,380 --> 00:28:21,390
+learning yes right how do children learn
+ 
+
+1387
+00:28:21,390 --> 00:28:23,990
+learning yes right how do children learn
+starting at one above another and the
+
+1388
+00:28:23,990 --> 00:28:24,000
+starting at one above another and the
+ 
+
+1389
+00:28:24,000 --> 00:28:26,180
+starting at one above another and the
+work is fantastic those approaches are
+
+1390
+00:28:26,180 --> 00:28:26,190
+work is fantastic those approaches are
+ 
+
+1391
+00:28:26,190 --> 00:28:28,520
+work is fantastic those approaches are
+different from the approach that most
+
+1392
+00:28:28,520 --> 00:28:28,530
+different from the approach that most
+ 
+
+1393
+00:28:28,530 --> 00:28:30,860
+different from the approach that most
+people are taking perhaps that's a bet
+
+1394
+00:28:30,860 --> 00:28:30,870
+people are taking perhaps that's a bet
+ 
+
+1395
+00:28:30,870 --> 00:28:32,570
+people are taking perhaps that's a bet
+that you should make or perhaps there's
+
+1396
+00:28:32,570 --> 00:28:32,580
+that you should make or perhaps there's
+ 
+
+1397
+00:28:32,580 --> 00:28:35,510
+that you should make or perhaps there's
+another one but at the end of the day
+
+1398
+00:28:35,510 --> 00:28:35,520
+another one but at the end of the day
+ 
+
+1399
+00:28:35,520 --> 00:28:38,330
+another one but at the end of the day
+the successful entrepreneurs are not as
+
+1400
+00:28:38,330 --> 00:28:38,340
+the successful entrepreneurs are not as
+ 
+
+1401
+00:28:38,340 --> 00:28:40,670
+the successful entrepreneurs are not as
+crazy as they sound they see an
+
+1402
+00:28:40,670 --> 00:28:40,680
+crazy as they sound they see an
+ 
+
+1403
+00:28:40,680 --> 00:28:42,680
+crazy as they sound they see an
+opportunity based on what's happened
+
+1404
+00:28:42,680 --> 00:28:42,690
+opportunity based on what's happened
+ 
+
+1405
+00:28:42,690 --> 00:28:45,800
+opportunity based on what's happened
+let's use uber as an example as Travis
+
+1406
+00:28:45,800 --> 00:28:45,810
+let's use uber as an example as Travis
+ 
+
+1407
+00:28:45,810 --> 00:28:47,420
+let's use uber as an example as Travis
+tells the story he and his co-founder
+
+1408
+00:28:47,420 --> 00:28:47,430
+tells the story he and his co-founder
+ 
+
+1409
+00:28:47,430 --> 00:28:49,550
+tells the story he and his co-founder
+were sitting in Paris and they had this
+
+1410
+00:28:49,550 --> 00:28:49,560
+were sitting in Paris and they had this
+ 
+
+1411
+00:28:49,560 --> 00:28:51,830
+were sitting in Paris and they had this
+idea because they couldn't get a cab and
+
+1412
+00:28:51,830 --> 00:28:51,840
+idea because they couldn't get a cab and
+ 
+
+1413
+00:28:51,840 --> 00:28:55,430
+idea because they couldn't get a cab and
+they said we have smartphones and the
+
+1414
+00:28:55,430 --> 00:28:55,440
+they said we have smartphones and the
+ 
+
+1415
+00:28:55,440 --> 00:28:57,830
+they said we have smartphones and the
+rest is history so what's the equivalent
+
+1416
+00:28:57,830 --> 00:28:57,840
+rest is history so what's the equivalent
+ 
+
+1417
+00:28:57,840 --> 00:29:01,370
+rest is history so what's the equivalent
+of that Travis Eiffel Tower where is a
+
+1418
+00:29:01,370 --> 00:29:01,380
+of that Travis Eiffel Tower where is a
+ 
+
+1419
+00:29:01,380 --> 00:29:04,220
+of that Travis Eiffel Tower where is a
+cab moment that you could as an
+
+1420
+00:29:04,220 --> 00:29:04,230
+cab moment that you could as an
+ 
+
+1421
+00:29:04,230 --> 00:29:06,140
+cab moment that you could as an
+entrepreneur take advantage of whether
+
+1422
+00:29:06,140 --> 00:29:06,150
+entrepreneur take advantage of whether
+ 
+
+1423
+00:29:06,150 --> 00:29:07,910
+entrepreneur take advantage of whether
+it's in human centered AI or something
+
+1424
+00:29:07,910 --> 00:29:07,920
+it's in human centered AI or something
+ 
+
+1425
+00:29:07,920 --> 00:29:10,010
+it's in human centered AI or something
+else that's the next great startup and
+
+1426
+00:29:10,010 --> 00:29:10,020
+else that's the next great startup and
+ 
+
+1427
+00:29:10,020 --> 00:29:14,030
+else that's the next great startup and
+the psychology of that moment so when
+
+1428
+00:29:14,030 --> 00:29:14,040
+the psychology of that moment so when
+ 
+
+1429
+00:29:14,040 --> 00:29:17,300
+the psychology of that moment so when
+Sergey and Larry talk about it
+
+1430
+00:29:17,300 --> 00:29:17,310
+Sergey and Larry talk about it
+ 
+
+1431
+00:29:17,310 --> 00:29:19,220
+Sergey and Larry talk about it
+in listen to a few interviews it's very
+
+1432
+00:29:19,220 --> 00:29:19,230
+in listen to a few interviews it's very
+ 
+
+1433
+00:29:19,230 --> 00:29:22,220
+in listen to a few interviews it's very
+nonchalant well here's here's the very
+
+1434
+00:29:22,220 --> 00:29:22,230
+nonchalant well here's here's the very
+ 
+
+1435
+00:29:22,230 --> 00:29:26,300
+nonchalant well here's here's the very
+fascinating web data and here's an
+
+1436
+00:29:26,300 --> 00:29:26,310
+fascinating web data and here's an
+ 
+
+1437
+00:29:26,310 --> 00:29:28,040
+fascinating web data and here's an
+algorithm we have for you know we just
+
+1438
+00:29:28,040 --> 00:29:28,050
+algorithm we have for you know we just
+ 
+
+1439
+00:29:28,050 --> 00:29:29,000
+algorithm we have for you know we just
+kind of want to play around with that
+
+1440
+00:29:29,000 --> 00:29:29,010
+kind of want to play around with that
+ 
+
+1441
+00:29:29,010 --> 00:29:30,620
+kind of want to play around with that
+data and it seems like that's a really
+
+1442
+00:29:30,620 --> 00:29:30,630
+data and it seems like that's a really
+ 
+
+1443
+00:29:30,630 --> 00:29:33,620
+data and it seems like that's a really
+nice way to organize this data yeah well
+
+1444
+00:29:33,620 --> 00:29:33,630
+nice way to organize this data yeah well
+ 
+
+1445
+00:29:33,630 --> 00:29:35,090
+nice way to organize this data yeah well
+I can say I should say what happened
+
+1446
+00:29:35,090 --> 00:29:35,100
+I can say I should say what happened
+ 
+
+1447
+00:29:35,100 --> 00:29:36,650
+I can say I should say what happened
+remember is that they were graduate
+
+1448
+00:29:36,650 --> 00:29:36,660
+remember is that they were graduate
+ 
+
+1449
+00:29:36,660 --> 00:29:38,540
+remember is that they were graduate
+students at Stanford and they thought
+
+1450
+00:29:38,540 --> 00:29:38,550
+students at Stanford and they thought
+ 
+
+1451
+00:29:38,550 --> 00:29:39,920
+students at Stanford and they thought
+there's just interesting so they built a
+
+1452
+00:29:39,920 --> 00:29:39,930
+there's just interesting so they built a
+ 
+
+1453
+00:29:39,930 --> 00:29:41,510
+there's just interesting so they built a
+search engine and they kept it in their
+
+1454
+00:29:41,510 --> 00:29:41,520
+search engine and they kept it in their
+ 
+
+1455
+00:29:41,520 --> 00:29:45,410
+search engine and they kept it in their
+room and they had to get power from the
+
+1456
+00:29:45,410 --> 00:29:45,420
+room and they had to get power from the
+ 
+
+1457
+00:29:45,420 --> 00:29:46,940
+room and they had to get power from the
+room next door because they were using
+
+1458
+00:29:46,940 --> 00:29:46,950
+room next door because they were using
+ 
+
+1459
+00:29:46,950 --> 00:29:48,440
+room next door because they were using
+too much power in the room so they ran
+
+1460
+00:29:48,440 --> 00:29:48,450
+too much power in the room so they ran
+ 
+
+1461
+00:29:48,450 --> 00:29:51,260
+too much power in the room so they ran
+an extension cord over yeah yeah and
+
+1462
+00:29:51,260 --> 00:29:51,270
+an extension cord over yeah yeah and
+ 
+
+1463
+00:29:51,270 --> 00:29:53,300
+an extension cord over yeah yeah and
+then they went and they found a house
+
+1464
+00:29:53,300 --> 00:29:53,310
+then they went and they found a house
+ 
+
+1465
+00:29:53,310 --> 00:29:54,920
+then they went and they found a house
+and they had Google world headquarters
+
+1466
+00:29:54,920 --> 00:29:54,930
+and they had Google world headquarters
+ 
+
+1467
+00:29:54,930 --> 00:29:57,140
+and they had Google world headquarters
+of five people right to start the
+
+1468
+00:29:57,140 --> 00:29:57,150
+of five people right to start the
+ 
+
+1469
+00:29:57,150 --> 00:29:58,250
+of five people right to start the
+company and they raised a hundred
+
+1470
+00:29:58,250 --> 00:29:58,260
+company and they raised a hundred
+ 
+
+1471
+00:29:58,260 --> 00:29:59,560
+company and they raised a hundred
+thousand dollars from Andy bechtolsheim
+
+1472
+00:29:59,560 --> 00:29:59,570
+thousand dollars from Andy bechtolsheim
+ 
+
+1473
+00:29:59,570 --> 00:30:02,090
+thousand dollars from Andy bechtolsheim
+who was the son founder to do this and
+
+1474
+00:30:02,090 --> 00:30:02,100
+who was the son founder to do this and
+ 
+
+1475
+00:30:02,100 --> 00:30:04,850
+who was the son founder to do this and
+Dave Chariton and a few others the point
+
+1476
+00:30:04,850 --> 00:30:04,860
+Dave Chariton and a few others the point
+ 
+
+1477
+00:30:04,860 --> 00:30:08,330
+Dave Chariton and a few others the point
+is their beginnings were very simple but
+
+1478
+00:30:08,330 --> 00:30:08,340
+is their beginnings were very simple but
+ 
+
+1479
+00:30:08,340 --> 00:30:10,870
+is their beginnings were very simple but
+they were based on a powerful insight
+
+1480
+00:30:10,870 --> 00:30:10,880
+they were based on a powerful insight
+ 
+
+1481
+00:30:10,880 --> 00:30:13,790
+they were based on a powerful insight
+that is a replicable model for any
+
+1482
+00:30:13,790 --> 00:30:13,800
+that is a replicable model for any
+ 
+
+1483
+00:30:13,800 --> 00:30:16,220
+that is a replicable model for any
+startup it has to be a powerful insight
+
+1484
+00:30:16,220 --> 00:30:16,230
+startup it has to be a powerful insight
+ 
+
+1485
+00:30:16,230 --> 00:30:18,020
+startup it has to be a powerful insight
+the beginnings are simple and there has
+
+1486
+00:30:18,020 --> 00:30:18,030
+the beginnings are simple and there has
+ 
+
+1487
+00:30:18,030 --> 00:30:21,320
+the beginnings are simple and there has
+to be an innovation in in Larry and
+
+1488
+00:30:21,320 --> 00:30:21,330
+to be an innovation in in Larry and
+ 
+
+1489
+00:30:21,330 --> 00:30:23,030
+to be an innovation in in Larry and
+sergey's case it was PageRank which was
+
+1490
+00:30:23,030 --> 00:30:23,040
+sergey's case it was PageRank which was
+ 
+
+1491
+00:30:23,040 --> 00:30:24,530
+sergey's case it was PageRank which was
+a brilliant idea one of the most cited
+
+1492
+00:30:24,530 --> 00:30:24,540
+a brilliant idea one of the most cited
+ 
+
+1493
+00:30:24,540 --> 00:30:27,140
+a brilliant idea one of the most cited
+papers in in the world today what's the
+
+1494
+00:30:27,140 --> 00:30:27,150
+papers in in the world today what's the
+ 
+
+1495
+00:30:27,150 --> 00:30:33,010
+papers in in the world today what's the
+next one so you're one of if I may say
+
+1496
+00:30:33,010 --> 00:30:33,020
+next one so you're one of if I may say
+ 
+
+1497
+00:30:33,020 --> 00:30:36,650
+next one so you're one of if I may say
+richest people in the world and yet it
+
+1498
+00:30:36,650 --> 00:30:36,660
+richest people in the world and yet it
+ 
+
+1499
+00:30:36,660 --> 00:30:38,600
+richest people in the world and yet it
+seems that money is simply a side effect
+
+1500
+00:30:38,600 --> 00:30:38,610
+seems that money is simply a side effect
+ 
+
+1501
+00:30:38,610 --> 00:30:41,360
+seems that money is simply a side effect
+of your passions and not an inherent
+
+1502
+00:30:41,360 --> 00:30:41,370
+of your passions and not an inherent
+ 
+
+1503
+00:30:41,370 --> 00:30:44,750
+of your passions and not an inherent
+goal but it's a you're a fascinating
+
+1504
+00:30:44,750 --> 00:30:44,760
+goal but it's a you're a fascinating
+ 
+
+1505
+00:30:44,760 --> 00:30:46,640
+goal but it's a you're a fascinating
+person too
+
+1506
+00:30:46,640 --> 00:30:46,650
+person too
+ 
+
+1507
+00:30:46,650 --> 00:30:49,730
+person too
+ask so much of our society at the
+
+1508
+00:30:49,730 --> 00:30:49,740
+ask so much of our society at the
+ 
+
+1509
+00:30:49,740 --> 00:30:52,280
+ask so much of our society at the
+individual level and at the company
+
+1510
+00:30:52,280 --> 00:30:52,290
+individual level and at the company
+ 
+
+1511
+00:30:52,290 --> 00:30:54,530
+individual level and at the company
+level and Nations
+
+1512
+00:30:54,530 --> 00:30:54,540
+level and Nations
+ 
+
+1513
+00:30:54,540 --> 00:30:58,970
+level and Nations
+is driven by the desire for wealth what
+
+1514
+00:30:58,970 --> 00:30:58,980
+is driven by the desire for wealth what
+ 
+
+1515
+00:30:58,980 --> 00:31:01,490
+is driven by the desire for wealth what
+do you think about this drive and what
+
+1516
+00:31:01,490 --> 00:31:01,500
+do you think about this drive and what
+ 
+
+1517
+00:31:01,500 --> 00:31:03,470
+do you think about this drive and what
+have you learned about if I may
+
+1518
+00:31:03,470 --> 00:31:03,480
+have you learned about if I may
+ 
+
+1519
+00:31:03,480 --> 00:31:05,570
+have you learned about if I may
+romanticize the notion the meaning of
+
+1520
+00:31:05,570 --> 00:31:05,580
+romanticize the notion the meaning of
+ 
+
+1521
+00:31:05,580 --> 00:31:08,990
+romanticize the notion the meaning of
+life having achieved success on so many
+
+1522
+00:31:08,990 --> 00:31:09,000
+life having achieved success on so many
+ 
+
+1523
+00:31:09,000 --> 00:31:10,910
+life having achieved success on so many
+dimensions well there have been many
+
+1524
+00:31:10,910 --> 00:31:10,920
+dimensions well there have been many
+ 
+
+1525
+00:31:10,920 --> 00:31:14,360
+dimensions well there have been many
+studies of human happiness and above
+
+1526
+00:31:14,360 --> 00:31:14,370
+studies of human happiness and above
+ 
+
+1527
+00:31:14,370 --> 00:31:17,000
+studies of human happiness and above
+some threshold which is typically
+
+1528
+00:31:17,000 --> 00:31:17,010
+some threshold which is typically
+ 
+
+1529
+00:31:17,010 --> 00:31:18,920
+some threshold which is typically
+relatively low for this conversation
+
+1530
+00:31:18,920 --> 00:31:18,930
+relatively low for this conversation
+ 
+
+1531
+00:31:18,930 --> 00:31:21,850
+relatively low for this conversation
+there's no difference in happiness
+
+1532
+00:31:21,850 --> 00:31:21,860
+there's no difference in happiness
+ 
+
+1533
+00:31:21,860 --> 00:31:24,230
+there's no difference in happiness
+about in money it's the happiness is
+
+1534
+00:31:24,230 --> 00:31:24,240
+about in money it's the happiness is
+ 
+
+1535
+00:31:24,240 --> 00:31:26,630
+about in money it's the happiness is
+correlated with meaning and purpose a
+
+1536
+00:31:26,630 --> 00:31:26,640
+correlated with meaning and purpose a
+ 
+
+1537
+00:31:26,640 --> 00:31:30,380
+correlated with meaning and purpose a
+sense of family a sense of impact so if
+
+1538
+00:31:30,380 --> 00:31:30,390
+sense of family a sense of impact so if
+ 
+
+1539
+00:31:30,390 --> 00:31:32,540
+sense of family a sense of impact so if
+you organize your life assuming you have
+
+1540
+00:31:32,540 --> 00:31:32,550
+you organize your life assuming you have
+ 
+
+1541
+00:31:32,550 --> 00:31:34,490
+you organize your life assuming you have
+enough to get around and have a nice
+
+1542
+00:31:34,490 --> 00:31:34,500
+enough to get around and have a nice
+ 
+
+1543
+00:31:34,500 --> 00:31:36,650
+enough to get around and have a nice
+home and so forth you'll be far happier
+
+1544
+00:31:36,650 --> 00:31:36,660
+home and so forth you'll be far happier
+ 
+
+1545
+00:31:36,660 --> 00:31:39,140
+home and so forth you'll be far happier
+if you figure out what you care about
+
+1546
+00:31:39,140 --> 00:31:39,150
+if you figure out what you care about
+ 
+
+1547
+00:31:39,150 --> 00:31:42,980
+if you figure out what you care about
+and work on that it's often being in
+
+1548
+00:31:42,980 --> 00:31:42,990
+and work on that it's often being in
+ 
+
+1549
+00:31:42,990 --> 00:31:45,260
+and work on that it's often being in
+service to others it's great deal of
+
+1550
+00:31:45,260 --> 00:31:45,270
+service to others it's great deal of
+ 
+
+1551
+00:31:45,270 --> 00:31:46,850
+service to others it's great deal of
+evidence that people are happiest when
+
+1552
+00:31:46,850 --> 00:31:46,860
+evidence that people are happiest when
+ 
+
+1553
+00:31:46,860 --> 00:31:48,230
+evidence that people are happiest when
+they're serving others and not
+
+1554
+00:31:48,230 --> 00:31:48,240
+they're serving others and not
+ 
+
+1555
+00:31:48,240 --> 00:31:51,260
+they're serving others and not
+themselves this goes directly against
+
+1556
+00:31:51,260 --> 00:31:51,270
+themselves this goes directly against
+ 
+
+1557
+00:31:51,270 --> 00:31:55,250
+themselves this goes directly against
+the sort of press induced excitement
+
+1558
+00:31:55,250 --> 00:31:55,260
+the sort of press induced excitement
+ 
+
+1559
+00:31:55,260 --> 00:31:58,460
+the sort of press induced excitement
+about powerful and wealthy leaders of
+
+1560
+00:31:58,460 --> 00:31:58,470
+about powerful and wealthy leaders of
+ 
+
+1561
+00:31:58,470 --> 00:32:00,020
+about powerful and wealthy leaders of
+one craft and indeed these are
+
+1562
+00:32:00,020 --> 00:32:00,030
+one craft and indeed these are
+ 
+
+1563
+00:32:00,030 --> 00:32:03,200
+one craft and indeed these are
+consequential people but if you are in a
+
+1564
+00:32:03,200 --> 00:32:03,210
+consequential people but if you are in a
+ 
+
+1565
+00:32:03,210 --> 00:32:04,490
+consequential people but if you are in a
+situation where you've been very
+
+1566
+00:32:04,490 --> 00:32:04,500
+situation where you've been very
+ 
+
+1567
+00:32:04,500 --> 00:32:06,950
+situation where you've been very
+fortunate as I have you also have to
+
+1568
+00:32:06,950 --> 00:32:06,960
+fortunate as I have you also have to
+ 
+
+1569
+00:32:06,960 --> 00:32:09,260
+fortunate as I have you also have to
+take that as a responsibility and you
+
+1570
+00:32:09,260 --> 00:32:09,270
+take that as a responsibility and you
+ 
+
+1571
+00:32:09,270 --> 00:32:11,810
+take that as a responsibility and you
+have to basically work both to educate
+
+1572
+00:32:11,810 --> 00:32:11,820
+have to basically work both to educate
+ 
+
+1573
+00:32:11,820 --> 00:32:12,920
+have to basically work both to educate
+others and give them that opportunity
+
+1574
+00:32:12,920 --> 00:32:12,930
+others and give them that opportunity
+ 
+
+1575
+00:32:12,930 --> 00:32:15,110
+others and give them that opportunity
+but also use that wealth to advance
+
+1576
+00:32:15,110 --> 00:32:15,120
+but also use that wealth to advance
+ 
+
+1577
+00:32:15,120 --> 00:32:17,450
+but also use that wealth to advance
+human society in my case I'm
+
+1578
+00:32:17,450 --> 00:32:17,460
+human society in my case I'm
+ 
+
+1579
+00:32:17,460 --> 00:32:19,100
+human society in my case I'm
+particularly interested in using the
+
+1580
+00:32:19,100 --> 00:32:19,110
+particularly interested in using the
+ 
+
+1581
+00:32:19,110 --> 00:32:20,690
+particularly interested in using the
+tools of artificial intelligence and
+
+1582
+00:32:20,690 --> 00:32:20,700
+tools of artificial intelligence and
+ 
+
+1583
+00:32:20,700 --> 00:32:22,370
+tools of artificial intelligence and
+machine learning to make society better
+
+1584
+00:32:22,370 --> 00:32:22,380
+machine learning to make society better
+ 
+
+1585
+00:32:22,380 --> 00:32:24,850
+machine learning to make society better
+I've mentioned education I mentioned
+
+1586
+00:32:24,850 --> 00:32:24,860
+I've mentioned education I mentioned
+ 
+
+1587
+00:32:24,860 --> 00:32:27,140
+I've mentioned education I mentioned
+inequality and middle class and things
+
+1588
+00:32:27,140 --> 00:32:27,150
+inequality and middle class and things
+ 
+
+1589
+00:32:27,150 --> 00:32:29,240
+inequality and middle class and things
+like this all of which are a passion of
+
+1590
+00:32:29,240 --> 00:32:29,250
+like this all of which are a passion of
+ 
+
+1591
+00:32:29,250 --> 00:32:31,940
+like this all of which are a passion of
+mine it doesn't matter what you do it
+
+1592
+00:32:31,940 --> 00:32:31,950
+mine it doesn't matter what you do it
+ 
+
+1593
+00:32:31,950 --> 00:32:33,980
+mine it doesn't matter what you do it
+matters that you believe in it that it's
+
+1594
+00:32:33,980 --> 00:32:33,990
+matters that you believe in it that it's
+ 
+
+1595
+00:32:33,990 --> 00:32:36,500
+matters that you believe in it that it's
+important to you and that your life will
+
+1596
+00:32:36,500 --> 00:32:36,510
+important to you and that your life will
+ 
+
+1597
+00:32:36,510 --> 00:32:38,660
+important to you and that your life will
+be far more satisfying if you spend your
+
+1598
+00:32:38,660 --> 00:32:38,670
+be far more satisfying if you spend your
+ 
+
+1599
+00:32:38,670 --> 00:32:41,330
+be far more satisfying if you spend your
+life doing that I think there's no
+
+1600
+00:32:41,330 --> 00:32:41,340
+life doing that I think there's no
+ 
+
+1601
+00:32:41,340 --> 00:32:44,360
+life doing that I think there's no
+better place to and then a discussion of
+
+1602
+00:32:44,360 --> 00:32:44,370
+better place to and then a discussion of
+ 
+
+1603
+00:32:44,370 --> 00:32:46,280
+better place to and then a discussion of
+the meaning of life Eric thank you so
+
+1604
+00:32:46,280 --> 00:32:46,290
+the meaning of life Eric thank you so
+ 
+
+1605
+00:32:46,290 --> 00:32:54,710
+the meaning of life Eric thank you so
+very much Thanks
+
+1606
+00:32:54,710 --> 00:32:54,720
+
+ 
+
+1607
+00:32:54,720 --> 00:32:56,780
+
+you
+

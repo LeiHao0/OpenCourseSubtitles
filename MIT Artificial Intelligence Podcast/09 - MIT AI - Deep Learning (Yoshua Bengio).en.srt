@@ -1,0 +1,9045 @@
+1
+00:00:00,000 --> 00:00:02,000
+
+what difference between biological
+
+2
+00:00:02,000 --> 00:00:02,010
+what difference between biological
+ 
+
+3
+00:00:02,010 --> 00:00:03,649
+what difference between biological
+neural networks and artificial neural
+
+4
+00:00:03,649 --> 00:00:03,659
+neural networks and artificial neural
+ 
+
+5
+00:00:03,659 --> 00:00:06,889
+neural networks and artificial neural
+networks is most mysterious captivating
+
+6
+00:00:06,889 --> 00:00:06,899
+networks is most mysterious captivating
+ 
+
+7
+00:00:06,899 --> 00:00:11,860
+networks is most mysterious captivating
+and profound for you first of all
+
+8
+00:00:11,860 --> 00:00:11,870
+and profound for you first of all
+ 
+
+9
+00:00:11,870 --> 00:00:13,910
+and profound for you first of all
+there's so much we don't know about
+
+10
+00:00:13,910 --> 00:00:13,920
+there's so much we don't know about
+ 
+
+11
+00:00:13,920 --> 00:00:15,740
+there's so much we don't know about
+biological neural networks and that's
+
+12
+00:00:15,740 --> 00:00:15,750
+biological neural networks and that's
+ 
+
+13
+00:00:15,750 --> 00:00:18,099
+biological neural networks and that's
+very mysterious and captivating because
+
+14
+00:00:18,099 --> 00:00:18,109
+very mysterious and captivating because
+ 
+
+15
+00:00:18,109 --> 00:00:22,070
+very mysterious and captivating because
+maybe it holds the key to improving our
+
+16
+00:00:22,070 --> 00:00:22,080
+maybe it holds the key to improving our
+ 
+
+17
+00:00:22,080 --> 00:00:24,650
+maybe it holds the key to improving our
+differential neural networks one of the
+
+18
+00:00:24,650 --> 00:00:24,660
+differential neural networks one of the
+ 
+
+19
+00:00:24,660 --> 00:00:29,990
+differential neural networks one of the
+things I studied recently something that
+
+20
+00:00:29,990 --> 00:00:30,000
+things I studied recently something that
+ 
+
+21
+00:00:30,000 --> 00:00:32,060
+things I studied recently something that
+we don't know how biological neural
+
+22
+00:00:32,060 --> 00:00:32,070
+we don't know how biological neural
+ 
+
+23
+00:00:32,070 --> 00:00:34,880
+we don't know how biological neural
+networks do but would be really useful
+
+24
+00:00:34,880 --> 00:00:34,890
+networks do but would be really useful
+ 
+
+25
+00:00:34,890 --> 00:00:39,080
+networks do but would be really useful
+for artificial ones is the ability to do
+
+26
+00:00:39,080 --> 00:00:39,090
+for artificial ones is the ability to do
+ 
+
+27
+00:00:39,090 --> 00:00:42,950
+for artificial ones is the ability to do
+credit assignment through very long time
+
+28
+00:00:42,950 --> 00:00:42,960
+credit assignment through very long time
+ 
+
+29
+00:00:42,960 --> 00:00:47,389
+credit assignment through very long time
+spans there are things that we can in
+
+30
+00:00:47,389 --> 00:00:47,399
+spans there are things that we can in
+ 
+
+31
+00:00:47,399 --> 00:00:49,100
+spans there are things that we can in
+principle do with artificial neural nets
+
+32
+00:00:49,100 --> 00:00:49,110
+principle do with artificial neural nets
+ 
+
+33
+00:00:49,110 --> 00:00:50,540
+principle do with artificial neural nets
+but it's not very convenient and it's
+
+34
+00:00:50,540 --> 00:00:50,550
+but it's not very convenient and it's
+ 
+
+35
+00:00:50,550 --> 00:00:53,029
+but it's not very convenient and it's
+not biologically plausible and this
+
+36
+00:00:53,029 --> 00:00:53,039
+not biologically plausible and this
+ 
+
+37
+00:00:53,039 --> 00:00:56,410
+not biologically plausible and this
+mismatch I think this kind of mismatch
+
+38
+00:00:56,410 --> 00:00:56,420
+mismatch I think this kind of mismatch
+ 
+
+39
+00:00:56,420 --> 00:01:01,069
+mismatch I think this kind of mismatch
+may be an interesting thing to study to
+
+40
+00:01:01,069 --> 00:01:01,079
+may be an interesting thing to study to
+ 
+
+41
+00:01:01,079 --> 00:01:03,380
+may be an interesting thing to study to
+a understand better how brains might do
+
+42
+00:01:03,380 --> 00:01:03,390
+a understand better how brains might do
+ 
+
+43
+00:01:03,390 --> 00:01:05,109
+a understand better how brains might do
+these things because we don't have good
+
+44
+00:01:05,109 --> 00:01:05,119
+these things because we don't have good
+ 
+
+45
+00:01:05,119 --> 00:01:07,730
+these things because we don't have good
+corresponding theories with artificial
+
+46
+00:01:07,730 --> 00:01:07,740
+corresponding theories with artificial
+ 
+
+47
+00:01:07,740 --> 00:01:11,750
+corresponding theories with artificial
+neural Nets and B maybe provide new
+
+48
+00:01:11,750 --> 00:01:11,760
+neural Nets and B maybe provide new
+ 
+
+49
+00:01:11,760 --> 00:01:17,060
+neural Nets and B maybe provide new
+ideas that we could explore about things
+
+50
+00:01:17,060 --> 00:01:17,070
+ideas that we could explore about things
+ 
+
+51
+00:01:17,070 --> 00:01:19,340
+ideas that we could explore about things
+that brain do differently and that we
+
+52
+00:01:19,340 --> 00:01:19,350
+that brain do differently and that we
+ 
+
+53
+00:01:19,350 --> 00:01:21,770
+that brain do differently and that we
+could incorporate in artificial neural
+
+54
+00:01:21,770 --> 00:01:21,780
+could incorporate in artificial neural
+ 
+
+55
+00:01:21,780 --> 00:01:24,020
+could incorporate in artificial neural
+Nets so let's break created assignment
+
+56
+00:01:24,020 --> 00:01:24,030
+Nets so let's break created assignment
+ 
+
+57
+00:01:24,030 --> 00:01:26,270
+Nets so let's break created assignment
+up a little bit yeah what it's a
+
+58
+00:01:26,270 --> 00:01:26,280
+up a little bit yeah what it's a
+ 
+
+59
+00:01:26,280 --> 00:01:28,219
+up a little bit yeah what it's a
+beautifully technical term but it could
+
+60
+00:01:28,219 --> 00:01:28,229
+beautifully technical term but it could
+ 
+
+61
+00:01:28,229 --> 00:01:31,490
+beautifully technical term but it could
+incorporate so many things so is it more
+
+62
+00:01:31,490 --> 00:01:31,500
+incorporate so many things so is it more
+ 
+
+63
+00:01:31,500 --> 00:01:36,200
+incorporate so many things so is it more
+on the RNN memory side that thinking
+
+64
+00:01:36,200 --> 00:01:36,210
+on the RNN memory side that thinking
+ 
+
+65
+00:01:36,210 --> 00:01:37,700
+on the RNN memory side that thinking
+like that or is it something about
+
+66
+00:01:37,700 --> 00:01:37,710
+like that or is it something about
+ 
+
+67
+00:01:37,710 --> 00:01:39,410
+like that or is it something about
+knowledge building up common sense
+
+68
+00:01:39,410 --> 00:01:39,420
+knowledge building up common sense
+ 
+
+69
+00:01:39,420 --> 00:01:43,609
+knowledge building up common sense
+knowledge over time or is it more in the
+
+70
+00:01:43,609 --> 00:01:43,619
+knowledge over time or is it more in the
+ 
+
+71
+00:01:43,619 --> 00:01:45,830
+knowledge over time or is it more in the
+reinforcement learning sense that you're
+
+72
+00:01:45,830 --> 00:01:45,840
+reinforcement learning sense that you're
+ 
+
+73
+00:01:45,840 --> 00:01:47,870
+reinforcement learning sense that you're
+picking up rewards over time for a
+
+74
+00:01:47,870 --> 00:01:47,880
+picking up rewards over time for a
+ 
+
+75
+00:01:47,880 --> 00:01:50,030
+picking up rewards over time for a
+particular to achieve certain kind of
+
+76
+00:01:50,030 --> 00:01:50,040
+particular to achieve certain kind of
+ 
+
+77
+00:01:50,040 --> 00:01:51,740
+particular to achieve certain kind of
+goals so I was thinking more about the
+
+78
+00:01:51,740 --> 00:01:51,750
+goals so I was thinking more about the
+ 
+
+79
+00:01:51,750 --> 00:01:57,020
+goals so I was thinking more about the
+first two meanings whereby we store all
+
+80
+00:01:57,020 --> 00:01:57,030
+first two meanings whereby we store all
+ 
+
+81
+00:01:57,030 --> 00:02:00,590
+first two meanings whereby we store all
+kinds of memories episodic memories in
+
+82
+00:02:00,590 --> 00:02:00,600
+kinds of memories episodic memories in
+ 
+
+83
+00:02:00,600 --> 00:02:06,139
+kinds of memories episodic memories in
+our brain which we can access later in
+
+84
+00:02:06,139 --> 00:02:06,149
+our brain which we can access later in
+ 
+
+85
+00:02:06,149 --> 00:02:11,180
+our brain which we can access later in
+order to help us both infer causes of
+
+86
+00:02:11,180 --> 00:02:11,190
+order to help us both infer causes of
+ 
+
+87
+00:02:11,190 --> 00:02:13,250
+order to help us both infer causes of
+things that we are observing now
+
+88
+00:02:13,250 --> 00:02:13,260
+things that we are observing now
+ 
+
+89
+00:02:13,260 --> 00:02:18,619
+things that we are observing now
+and assign credit to decisions or
+
+90
+00:02:18,619 --> 00:02:18,629
+and assign credit to decisions or
+ 
+
+91
+00:02:18,629 --> 00:02:21,350
+and assign credit to decisions or
+interpretations we came up with a while
+
+92
+00:02:21,350 --> 00:02:21,360
+interpretations we came up with a while
+ 
+
+93
+00:02:21,360 --> 00:02:23,240
+interpretations we came up with a while
+ago when you know those memories were
+
+94
+00:02:23,240 --> 00:02:23,250
+ago when you know those memories were
+ 
+
+95
+00:02:23,250 --> 00:02:26,809
+ago when you know those memories were
+stored and then we can change the way we
+
+96
+00:02:26,809 --> 00:02:26,819
+stored and then we can change the way we
+ 
+
+97
+00:02:26,819 --> 00:02:30,650
+stored and then we can change the way we
+would have reacted or interpreted things
+
+98
+00:02:30,650 --> 00:02:30,660
+would have reacted or interpreted things
+ 
+
+99
+00:02:30,660 --> 00:02:32,720
+would have reacted or interpreted things
+in the past and now that's credit
+
+100
+00:02:32,720 --> 00:02:32,730
+in the past and now that's credit
+ 
+
+101
+00:02:32,730 --> 00:02:37,640
+in the past and now that's credit
+assignment used for learning so in which
+
+102
+00:02:37,640 --> 00:02:37,650
+assignment used for learning so in which
+ 
+
+103
+00:02:37,650 --> 00:02:40,220
+assignment used for learning so in which
+way do you think artificial neural
+
+104
+00:02:40,220 --> 00:02:40,230
+way do you think artificial neural
+ 
+
+105
+00:02:40,230 --> 00:02:45,080
+way do you think artificial neural
+networks the current LS TM the current
+
+106
+00:02:45,080 --> 00:02:45,090
+networks the current LS TM the current
+ 
+
+107
+00:02:45,090 --> 00:02:48,039
+networks the current LS TM the current
+architectures are not able to capture
+
+108
+00:02:48,039 --> 00:02:48,049
+architectures are not able to capture
+ 
+
+109
+00:02:48,049 --> 00:02:52,250
+architectures are not able to capture
+the presumably you're thinking of very
+
+110
+00:02:52,250 --> 00:02:52,260
+the presumably you're thinking of very
+ 
+
+111
+00:02:52,260 --> 00:02:56,270
+the presumably you're thinking of very
+long term yes so current recurrent Nets
+
+112
+00:02:56,270 --> 00:02:56,280
+long term yes so current recurrent Nets
+ 
+
+113
+00:02:56,280 --> 00:02:58,580
+long term yes so current recurrent Nets
+are doing a fairly good jobs for
+
+114
+00:02:58,580 --> 00:02:58,590
+are doing a fairly good jobs for
+ 
+
+115
+00:02:58,590 --> 00:03:01,970
+are doing a fairly good jobs for
+sequences with dozens or say hundreds of
+
+116
+00:03:01,970 --> 00:03:01,980
+sequences with dozens or say hundreds of
+ 
+
+117
+00:03:01,980 --> 00:03:05,569
+sequences with dozens or say hundreds of
+time stamps and then it gets harder and
+
+118
+00:03:05,569 --> 00:03:05,579
+time stamps and then it gets harder and
+ 
+
+119
+00:03:05,579 --> 00:03:07,550
+time stamps and then it gets harder and
+harder and depending on what you have to
+
+120
+00:03:07,550 --> 00:03:07,560
+harder and depending on what you have to
+ 
+
+121
+00:03:07,560 --> 00:03:08,839
+harder and depending on what you have to
+remember and so on as you consider
+
+122
+00:03:08,839 --> 00:03:08,849
+remember and so on as you consider
+ 
+
+123
+00:03:08,849 --> 00:03:13,400
+remember and so on as you consider
+longer durations whereas humans seem to
+
+124
+00:03:13,400 --> 00:03:13,410
+longer durations whereas humans seem to
+ 
+
+125
+00:03:13,410 --> 00:03:16,160
+longer durations whereas humans seem to
+be able to do credit assignment through
+
+126
+00:03:16,160 --> 00:03:16,170
+be able to do credit assignment through
+ 
+
+127
+00:03:16,170 --> 00:03:18,349
+be able to do credit assignment through
+essentially arbitrary times like I could
+
+128
+00:03:18,349 --> 00:03:18,359
+essentially arbitrary times like I could
+ 
+
+129
+00:03:18,359 --> 00:03:19,970
+essentially arbitrary times like I could
+remember something I did last year and
+
+130
+00:03:19,970 --> 00:03:19,980
+remember something I did last year and
+ 
+
+131
+00:03:19,980 --> 00:03:22,849
+remember something I did last year and
+then now because I see some new evidence
+
+132
+00:03:22,849 --> 00:03:22,859
+then now because I see some new evidence
+ 
+
+133
+00:03:22,859 --> 00:03:25,940
+then now because I see some new evidence
+I'm gonna change my mind about the way I
+
+134
+00:03:25,940 --> 00:03:25,950
+I'm gonna change my mind about the way I
+ 
+
+135
+00:03:25,950 --> 00:03:29,539
+I'm gonna change my mind about the way I
+was thinking last year and hopefully not
+
+136
+00:03:29,539 --> 00:03:29,549
+was thinking last year and hopefully not
+ 
+
+137
+00:03:29,549 --> 00:03:33,589
+was thinking last year and hopefully not
+do the same mistake again I think a big
+
+138
+00:03:33,589 --> 00:03:33,599
+do the same mistake again I think a big
+ 
+
+139
+00:03:33,599 --> 00:03:35,229
+do the same mistake again I think a big
+part of that is probably forgetting
+
+140
+00:03:35,229 --> 00:03:35,239
+part of that is probably forgetting
+ 
+
+141
+00:03:35,239 --> 00:03:37,879
+part of that is probably forgetting
+you're only remembering the really
+
+142
+00:03:37,879 --> 00:03:37,889
+you're only remembering the really
+ 
+
+143
+00:03:37,889 --> 00:03:39,979
+you're only remembering the really
+important things it's very efficient
+
+144
+00:03:39,979 --> 00:03:39,989
+important things it's very efficient
+ 
+
+145
+00:03:39,989 --> 00:03:43,849
+important things it's very efficient
+forgetting yes so there's a selection of
+
+146
+00:03:43,849 --> 00:03:43,859
+forgetting yes so there's a selection of
+ 
+
+147
+00:03:43,859 --> 00:03:46,580
+forgetting yes so there's a selection of
+what we remember and I think there are
+
+148
+00:03:46,580 --> 00:03:46,590
+what we remember and I think there are
+ 
+
+149
+00:03:46,590 --> 00:03:48,620
+what we remember and I think there are
+really cool connection to higher-level
+
+150
+00:03:48,620 --> 00:03:48,630
+really cool connection to higher-level
+ 
+
+151
+00:03:48,630 --> 00:03:52,180
+really cool connection to higher-level
+cognition here regarding consciousness
+
+152
+00:03:52,180 --> 00:03:52,190
+cognition here regarding consciousness
+ 
+
+153
+00:03:52,190 --> 00:03:54,680
+cognition here regarding consciousness
+deciding and and emotions like sort of
+
+154
+00:03:54,680 --> 00:03:54,690
+deciding and and emotions like sort of
+ 
+
+155
+00:03:54,690 --> 00:03:56,629
+deciding and and emotions like sort of
+deciding what comes to consciousness and
+
+156
+00:03:56,629 --> 00:03:56,639
+deciding what comes to consciousness and
+ 
+
+157
+00:03:56,639 --> 00:04:00,110
+deciding what comes to consciousness and
+what gets stored in memory which which
+
+158
+00:04:00,110 --> 00:04:00,120
+what gets stored in memory which which
+ 
+
+159
+00:04:00,120 --> 00:04:03,500
+what gets stored in memory which which
+are not trivial either so you've been at
+
+160
+00:04:03,500 --> 00:04:03,510
+are not trivial either so you've been at
+ 
+
+161
+00:04:03,510 --> 00:04:07,490
+are not trivial either so you've been at
+the forefront there all along showing
+
+162
+00:04:07,490 --> 00:04:07,500
+the forefront there all along showing
+ 
+
+163
+00:04:07,500 --> 00:04:09,110
+the forefront there all along showing
+some of the amazing things that neural
+
+164
+00:04:09,110 --> 00:04:09,120
+some of the amazing things that neural
+ 
+
+165
+00:04:09,120 --> 00:04:12,050
+some of the amazing things that neural
+networks deep neural networks can do in
+
+166
+00:04:12,050 --> 00:04:12,060
+networks deep neural networks can do in
+ 
+
+167
+00:04:12,060 --> 00:04:13,640
+networks deep neural networks can do in
+the field of artificial intelligence is
+
+168
+00:04:13,640 --> 00:04:13,650
+the field of artificial intelligence is
+ 
+
+169
+00:04:13,650 --> 00:04:15,289
+the field of artificial intelligence is
+just broadly in all kinds of
+
+170
+00:04:15,289 --> 00:04:15,299
+just broadly in all kinds of
+ 
+
+171
+00:04:15,299 --> 00:04:18,589
+just broadly in all kinds of
+applications but we can talk about that
+
+172
+00:04:18,589 --> 00:04:18,599
+applications but we can talk about that
+ 
+
+173
+00:04:18,599 --> 00:04:22,069
+applications but we can talk about that
+forever but what in your view because
+
+174
+00:04:22,069 --> 00:04:22,079
+forever but what in your view because
+ 
+
+175
+00:04:22,079 --> 00:04:24,320
+forever but what in your view because
+we're thinking towards the future is the
+
+176
+00:04:24,320 --> 00:04:24,330
+we're thinking towards the future is the
+ 
+
+177
+00:04:24,330 --> 00:04:26,360
+we're thinking towards the future is the
+weakest aspect of the way deep neural
+
+178
+00:04:26,360 --> 00:04:26,370
+weakest aspect of the way deep neural
+ 
+
+179
+00:04:26,370 --> 00:04:28,310
+weakest aspect of the way deep neural
+networks represent the world what is
+
+180
+00:04:28,310 --> 00:04:28,320
+networks represent the world what is
+ 
+
+181
+00:04:28,320 --> 00:04:32,360
+networks represent the world what is
+that what is in your view is missing so
+
+182
+00:04:32,360 --> 00:04:32,370
+that what is in your view is missing so
+ 
+
+183
+00:04:32,370 --> 00:04:34,870
+that what is in your view is missing so
+currently current state-of-the-art
+
+184
+00:04:34,870 --> 00:04:34,880
+currently current state-of-the-art
+ 
+
+185
+00:04:34,880 --> 00:04:39,529
+currently current state-of-the-art
+neural nets trained on large quantities
+
+186
+00:04:39,529 --> 00:04:39,539
+neural nets trained on large quantities
+ 
+
+187
+00:04:39,539 --> 00:04:44,930
+neural nets trained on large quantities
+of images or texts have some level of
+
+188
+00:04:44,930 --> 00:04:44,940
+of images or texts have some level of
+ 
+
+189
+00:04:44,940 --> 00:04:47,570
+of images or texts have some level of
+understanding of you know what explains
+
+190
+00:04:47,570 --> 00:04:47,580
+understanding of you know what explains
+ 
+
+191
+00:04:47,580 --> 00:04:51,950
+understanding of you know what explains
+those datasets but it's very basic it's
+
+192
+00:04:51,950 --> 00:04:51,960
+those datasets but it's very basic it's
+ 
+
+193
+00:04:51,960 --> 00:04:56,270
+those datasets but it's very basic it's
+it's very low-level and it's not nearly
+
+194
+00:04:56,270 --> 00:04:56,280
+it's very low-level and it's not nearly
+ 
+
+195
+00:04:56,280 --> 00:05:00,520
+it's very low-level and it's not nearly
+as robust and abstract in general as our
+
+196
+00:05:00,520 --> 00:05:00,530
+as robust and abstract in general as our
+ 
+
+197
+00:05:00,530 --> 00:05:04,070
+as robust and abstract in general as our
+understanding okay so that doesn't tell
+
+198
+00:05:04,070 --> 00:05:04,080
+understanding okay so that doesn't tell
+ 
+
+199
+00:05:04,080 --> 00:05:07,010
+understanding okay so that doesn't tell
+us how to fix things but I think it
+
+200
+00:05:07,010 --> 00:05:07,020
+us how to fix things but I think it
+ 
+
+201
+00:05:07,020 --> 00:05:12,129
+us how to fix things but I think it
+encourages us to think about how we can
+
+202
+00:05:12,129 --> 00:05:12,139
+encourages us to think about how we can
+ 
+
+203
+00:05:12,139 --> 00:05:15,760
+encourages us to think about how we can
+maybe train our neural nets differently
+
+204
+00:05:15,760 --> 00:05:15,770
+maybe train our neural nets differently
+ 
+
+205
+00:05:15,770 --> 00:05:21,140
+maybe train our neural nets differently
+so that they would focus for example on
+
+206
+00:05:21,140 --> 00:05:21,150
+so that they would focus for example on
+ 
+
+207
+00:05:21,150 --> 00:05:23,719
+so that they would focus for example on
+causal explanations something that we
+
+208
+00:05:23,719 --> 00:05:23,729
+causal explanations something that we
+ 
+
+209
+00:05:23,729 --> 00:05:26,149
+causal explanations something that we
+don't do currently with neural net
+
+210
+00:05:26,149 --> 00:05:26,159
+don't do currently with neural net
+ 
+
+211
+00:05:26,159 --> 00:05:30,860
+don't do currently with neural net
+training also one thing I'll talk about
+
+212
+00:05:30,860 --> 00:05:30,870
+training also one thing I'll talk about
+ 
+
+213
+00:05:30,870 --> 00:05:35,000
+training also one thing I'll talk about
+in my talk this afternoon is instead of
+
+214
+00:05:35,000 --> 00:05:35,010
+in my talk this afternoon is instead of
+ 
+
+215
+00:05:35,010 --> 00:05:38,120
+in my talk this afternoon is instead of
+learning separately from images and
+
+216
+00:05:38,120 --> 00:05:38,130
+learning separately from images and
+ 
+
+217
+00:05:38,130 --> 00:05:40,370
+learning separately from images and
+videos on one hand and from text on the
+
+218
+00:05:40,370 --> 00:05:40,380
+videos on one hand and from text on the
+ 
+
+219
+00:05:40,380 --> 00:05:44,830
+videos on one hand and from text on the
+other hand we need to do a better job of
+
+220
+00:05:44,830 --> 00:05:44,840
+other hand we need to do a better job of
+ 
+
+221
+00:05:44,840 --> 00:05:47,330
+other hand we need to do a better job of
+jointly learning about language and
+
+222
+00:05:47,330 --> 00:05:47,340
+jointly learning about language and
+ 
+
+223
+00:05:47,340 --> 00:05:51,879
+jointly learning about language and
+about the world to which it refers so
+
+224
+00:05:51,879 --> 00:05:51,889
+about the world to which it refers so
+ 
+
+225
+00:05:51,889 --> 00:05:54,680
+about the world to which it refers so
+that you know both sides can help each
+
+226
+00:05:54,680 --> 00:05:54,690
+that you know both sides can help each
+ 
+
+227
+00:05:54,690 --> 00:05:57,560
+that you know both sides can help each
+other we need to have good world models
+
+228
+00:05:57,560 --> 00:05:57,570
+other we need to have good world models
+ 
+
+229
+00:05:57,570 --> 00:06:01,339
+other we need to have good world models
+in our neural nets for them to really
+
+230
+00:06:01,339 --> 00:06:01,349
+in our neural nets for them to really
+ 
+
+231
+00:06:01,349 --> 00:06:04,010
+in our neural nets for them to really
+understand sentences which talk about
+
+232
+00:06:04,010 --> 00:06:04,020
+understand sentences which talk about
+ 
+
+233
+00:06:04,020 --> 00:06:06,320
+understand sentences which talk about
+what's going on in the world and I think
+
+234
+00:06:06,320 --> 00:06:06,330
+what's going on in the world and I think
+ 
+
+235
+00:06:06,330 --> 00:06:11,959
+what's going on in the world and I think
+we need language input to help provide
+
+236
+00:06:11,959 --> 00:06:11,969
+we need language input to help provide
+ 
+
+237
+00:06:11,969 --> 00:06:14,959
+we need language input to help provide
+clues about what high-level concepts
+
+238
+00:06:14,959 --> 00:06:14,969
+clues about what high-level concepts
+ 
+
+239
+00:06:14,969 --> 00:06:17,750
+clues about what high-level concepts
+like semantic concepts should be
+
+240
+00:06:17,750 --> 00:06:17,760
+like semantic concepts should be
+ 
+
+241
+00:06:17,760 --> 00:06:20,330
+like semantic concepts should be
+represented at the top levels of these
+
+242
+00:06:20,330 --> 00:06:20,340
+represented at the top levels of these
+ 
+
+243
+00:06:20,340 --> 00:06:23,480
+represented at the top levels of these
+neural nets in fact there is evidence
+
+244
+00:06:23,480 --> 00:06:23,490
+neural nets in fact there is evidence
+ 
+
+245
+00:06:23,490 --> 00:06:27,980
+neural nets in fact there is evidence
+that the purely unsupervised learning of
+
+246
+00:06:27,980 --> 00:06:27,990
+that the purely unsupervised learning of
+ 
+
+247
+00:06:27,990 --> 00:06:30,250
+that the purely unsupervised learning of
+representations doesn't give rise to
+
+248
+00:06:30,250 --> 00:06:30,260
+representations doesn't give rise to
+ 
+
+249
+00:06:30,260 --> 00:06:33,709
+representations doesn't give rise to
+high level representations that are as
+
+250
+00:06:33,709 --> 00:06:33,719
+high level representations that are as
+ 
+
+251
+00:06:33,719 --> 00:06:36,139
+high level representations that are as
+powerful as the ones we are getting from
+
+252
+00:06:36,139 --> 00:06:36,149
+powerful as the ones we are getting from
+ 
+
+253
+00:06:36,149 --> 00:06:37,640
+powerful as the ones we are getting from
+supervised learning
+
+254
+00:06:37,640 --> 00:06:37,650
+supervised learning
+ 
+
+255
+00:06:37,650 --> 00:06:40,100
+supervised learning
+and so the the clues we're getting just
+
+256
+00:06:40,100 --> 00:06:40,110
+and so the the clues we're getting just
+ 
+
+257
+00:06:40,110 --> 00:06:42,340
+and so the the clues we're getting just
+with the labels not even sentences is
+
+258
+00:06:42,340 --> 00:06:42,350
+with the labels not even sentences is
+ 
+
+259
+00:06:42,350 --> 00:06:45,230
+with the labels not even sentences is
+already very powerful do you think
+
+260
+00:06:45,230 --> 00:06:45,240
+already very powerful do you think
+ 
+
+261
+00:06:45,240 --> 00:06:48,050
+already very powerful do you think
+that's an architecture challenge or is
+
+262
+00:06:48,050 --> 00:06:48,060
+that's an architecture challenge or is
+ 
+
+263
+00:06:48,060 --> 00:06:54,740
+that's an architecture challenge or is
+it a data set challenge neither I'm
+
+264
+00:06:54,740 --> 00:06:54,750
+it a data set challenge neither I'm
+ 
+
+265
+00:06:54,750 --> 00:06:58,370
+it a data set challenge neither I'm
+tempted to just end it there in your
+
+266
+00:06:58,370 --> 00:06:58,380
+tempted to just end it there in your
+ 
+
+267
+00:06:58,380 --> 00:07:03,950
+tempted to just end it there in your
+library of course data sets and
+
+268
+00:07:03,950 --> 00:07:03,960
+library of course data sets and
+ 
+
+269
+00:07:03,960 --> 00:07:05,719
+library of course data sets and
+architectures are something you want to
+
+270
+00:07:05,719 --> 00:07:05,729
+architectures are something you want to
+ 
+
+271
+00:07:05,729 --> 00:07:07,340
+architectures are something you want to
+always play with but but I think the
+
+272
+00:07:07,340 --> 00:07:07,350
+always play with but but I think the
+ 
+
+273
+00:07:07,350 --> 00:07:09,350
+always play with but but I think the
+crucial thing is more the training
+
+274
+00:07:09,350 --> 00:07:09,360
+crucial thing is more the training
+ 
+
+275
+00:07:09,360 --> 00:07:12,590
+crucial thing is more the training
+objectives the training frameworks for
+
+276
+00:07:12,590 --> 00:07:12,600
+objectives the training frameworks for
+ 
+
+277
+00:07:12,600 --> 00:07:15,920
+objectives the training frameworks for
+example going from passive observation
+
+278
+00:07:15,920 --> 00:07:15,930
+example going from passive observation
+ 
+
+279
+00:07:15,930 --> 00:07:21,670
+example going from passive observation
+of data to more active agents which
+
+280
+00:07:21,670 --> 00:07:21,680
+of data to more active agents which
+ 
+
+281
+00:07:21,680 --> 00:07:25,159
+of data to more active agents which
+learn by intervening in the world the
+
+282
+00:07:25,159 --> 00:07:25,169
+learn by intervening in the world the
+ 
+
+283
+00:07:25,169 --> 00:07:27,730
+learn by intervening in the world the
+relationships between causes and effects
+
+284
+00:07:27,730 --> 00:07:27,740
+relationships between causes and effects
+ 
+
+285
+00:07:27,740 --> 00:07:31,640
+relationships between causes and effects
+the sort of objective functions which
+
+286
+00:07:31,640 --> 00:07:31,650
+the sort of objective functions which
+ 
+
+287
+00:07:31,650 --> 00:07:35,629
+the sort of objective functions which
+could be important to allow the the
+
+288
+00:07:35,629 --> 00:07:35,639
+could be important to allow the the
+ 
+
+289
+00:07:35,639 --> 00:07:38,930
+could be important to allow the the
+highest level explanations to to to rise
+
+290
+00:07:38,930 --> 00:07:38,940
+highest level explanations to to to rise
+ 
+
+291
+00:07:38,940 --> 00:07:41,450
+highest level explanations to to to rise
+from from the learning which I don't
+
+292
+00:07:41,450 --> 00:07:41,460
+from from the learning which I don't
+ 
+
+293
+00:07:41,460 --> 00:07:44,510
+from from the learning which I don't
+think we have now the kinds of objective
+
+294
+00:07:44,510 --> 00:07:44,520
+think we have now the kinds of objective
+ 
+
+295
+00:07:44,520 --> 00:07:47,860
+think we have now the kinds of objective
+functions which could be used to reward
+
+296
+00:07:47,860 --> 00:07:47,870
+functions which could be used to reward
+ 
+
+297
+00:07:47,870 --> 00:07:49,520
+functions which could be used to reward
+exploration the right kind of
+
+298
+00:07:49,520 --> 00:07:49,530
+exploration the right kind of
+ 
+
+299
+00:07:49,530 --> 00:07:51,980
+exploration the right kind of
+exploration so these kinds of questions
+
+300
+00:07:51,980 --> 00:07:51,990
+exploration so these kinds of questions
+ 
+
+301
+00:07:51,990 --> 00:07:55,010
+exploration so these kinds of questions
+are neither in the dataset nor in the
+
+302
+00:07:55,010 --> 00:07:55,020
+are neither in the dataset nor in the
+ 
+
+303
+00:07:55,020 --> 00:07:57,620
+are neither in the dataset nor in the
+architecture but more in how we learn
+
+304
+00:07:57,620 --> 00:07:57,630
+architecture but more in how we learn
+ 
+
+305
+00:07:57,630 --> 00:08:01,730
+architecture but more in how we learn
+under what objectives and so on yeah
+
+306
+00:08:01,730 --> 00:08:01,740
+under what objectives and so on yeah
+ 
+
+307
+00:08:01,740 --> 00:08:03,950
+under what objectives and so on yeah
+that's a afraid you mentioned in several
+
+308
+00:08:03,950 --> 00:08:03,960
+that's a afraid you mentioned in several
+ 
+
+309
+00:08:03,960 --> 00:08:05,750
+that's a afraid you mentioned in several
+contexts the idea is sort of the way
+
+310
+00:08:05,750 --> 00:08:05,760
+contexts the idea is sort of the way
+ 
+
+311
+00:08:05,760 --> 00:08:07,040
+contexts the idea is sort of the way
+children learn they interact with
+
+312
+00:08:07,040 --> 00:08:07,050
+children learn they interact with
+ 
+
+313
+00:08:07,050 --> 00:08:09,100
+children learn they interact with
+objects of the world and it seems
+
+314
+00:08:09,100 --> 00:08:09,110
+objects of the world and it seems
+ 
+
+315
+00:08:09,110 --> 00:08:12,080
+objects of the world and it seems
+fascinating because it's some sense
+
+316
+00:08:12,080 --> 00:08:12,090
+fascinating because it's some sense
+ 
+
+317
+00:08:12,090 --> 00:08:14,719
+fascinating because it's some sense
+except with some cases in reinforcement
+
+318
+00:08:14,719 --> 00:08:14,729
+except with some cases in reinforcement
+ 
+
+319
+00:08:14,729 --> 00:08:19,129
+except with some cases in reinforcement
+learning that idea is not part of the
+
+320
+00:08:19,129 --> 00:08:19,139
+learning that idea is not part of the
+ 
+
+321
+00:08:19,139 --> 00:08:22,610
+learning that idea is not part of the
+learning process in artificial neural
+
+322
+00:08:22,610 --> 00:08:22,620
+learning process in artificial neural
+ 
+
+323
+00:08:22,620 --> 00:08:24,620
+learning process in artificial neural
+network so it's almost like do you
+
+324
+00:08:24,620 --> 00:08:24,630
+network so it's almost like do you
+ 
+
+325
+00:08:24,630 --> 00:08:26,839
+network so it's almost like do you
+envision something like an objective
+
+326
+00:08:26,839 --> 00:08:26,849
+envision something like an objective
+ 
+
+327
+00:08:26,849 --> 00:08:31,969
+envision something like an objective
+function saying you know what if you
+
+328
+00:08:31,969 --> 00:08:31,979
+function saying you know what if you
+ 
+
+329
+00:08:31,979 --> 00:08:34,279
+function saying you know what if you
+poke this object in this kind of way
+
+330
+00:08:34,279 --> 00:08:34,289
+poke this object in this kind of way
+ 
+
+331
+00:08:34,289 --> 00:08:36,130
+poke this object in this kind of way
+would be really helpful for me to
+
+332
+00:08:36,130 --> 00:08:36,140
+would be really helpful for me to
+ 
+
+333
+00:08:36,140 --> 00:08:37,310
+would be really helpful for me to
+further
+
+334
+00:08:37,310 --> 00:08:37,320
+further
+ 
+
+335
+00:08:37,320 --> 00:08:40,279
+further
+yes further learn right right sort of
+
+336
+00:08:40,279 --> 00:08:40,289
+yes further learn right right sort of
+ 
+
+337
+00:08:40,289 --> 00:08:43,130
+yes further learn right right sort of
+almost guiding some aspect of learning
+
+338
+00:08:43,130 --> 00:08:43,140
+almost guiding some aspect of learning
+ 
+
+339
+00:08:43,140 --> 00:08:44,750
+almost guiding some aspect of learning
+right right so I was talking to Rebecca
+
+340
+00:08:44,750 --> 00:08:44,760
+right right so I was talking to Rebecca
+ 
+
+341
+00:08:44,760 --> 00:08:48,230
+right right so I was talking to Rebecca
+Saxe just an hour ago and she was
+
+342
+00:08:48,230 --> 00:08:48,240
+Saxe just an hour ago and she was
+ 
+
+343
+00:08:48,240 --> 00:08:50,240
+Saxe just an hour ago and she was
+talking about lots and lots of evidence
+
+344
+00:08:50,240 --> 00:08:50,250
+talking about lots and lots of evidence
+ 
+
+345
+00:08:50,250 --> 00:08:51,880
+talking about lots and lots of evidence
+for
+
+346
+00:08:51,880 --> 00:08:51,890
+for
+ 
+
+347
+00:08:51,890 --> 00:08:57,730
+for
+infants seem to clearly take what
+
+348
+00:08:57,730 --> 00:08:57,740
+infants seem to clearly take what
+ 
+
+349
+00:08:57,740 --> 00:09:02,090
+infants seem to clearly take what
+interest them in a directed way and so
+
+350
+00:09:02,090 --> 00:09:02,100
+interest them in a directed way and so
+ 
+
+351
+00:09:02,100 --> 00:09:05,720
+interest them in a directed way and so
+they're not passive learners they they
+
+352
+00:09:05,720 --> 00:09:05,730
+they're not passive learners they they
+ 
+
+353
+00:09:05,730 --> 00:09:09,110
+they're not passive learners they they
+focus their attention on aspects of the
+
+354
+00:09:09,110 --> 00:09:09,120
+focus their attention on aspects of the
+ 
+
+355
+00:09:09,120 --> 00:09:11,470
+focus their attention on aspects of the
+world which are most interesting
+
+356
+00:09:11,470 --> 00:09:11,480
+world which are most interesting
+ 
+
+357
+00:09:11,480 --> 00:09:14,600
+world which are most interesting
+surprising in in a non-trivial way that
+
+358
+00:09:14,600 --> 00:09:14,610
+surprising in in a non-trivial way that
+ 
+
+359
+00:09:14,610 --> 00:09:17,570
+surprising in in a non-trivial way that
+makes them change their theories of the
+
+360
+00:09:17,570 --> 00:09:17,580
+makes them change their theories of the
+ 
+
+361
+00:09:17,580 --> 00:09:23,030
+makes them change their theories of the
+world so that's a fascinating view of
+
+362
+00:09:23,030 --> 00:09:23,040
+world so that's a fascinating view of
+ 
+
+363
+00:09:23,040 --> 00:09:26,750
+world so that's a fascinating view of
+the future progress but Anna the more
+
+364
+00:09:26,750 --> 00:09:26,760
+the future progress but Anna the more
+ 
+
+365
+00:09:26,760 --> 00:09:30,500
+the future progress but Anna the more
+maybe boring a question do you think
+
+366
+00:09:30,500 --> 00:09:30,510
+maybe boring a question do you think
+ 
+
+367
+00:09:30,510 --> 00:09:33,890
+maybe boring a question do you think
+going deeper and large so do you think
+
+368
+00:09:33,890 --> 00:09:33,900
+going deeper and large so do you think
+ 
+
+369
+00:09:33,900 --> 00:09:37,460
+going deeper and large so do you think
+just increasing the size of the things
+
+370
+00:09:37,460 --> 00:09:37,470
+just increasing the size of the things
+ 
+
+371
+00:09:37,470 --> 00:09:39,500
+just increasing the size of the things
+that have been increasing a lot in the
+
+372
+00:09:39,500 --> 00:09:39,510
+that have been increasing a lot in the
+ 
+
+373
+00:09:39,510 --> 00:09:42,410
+that have been increasing a lot in the
+past few years will will also make
+
+374
+00:09:42,410 --> 00:09:42,420
+past few years will will also make
+ 
+
+375
+00:09:42,420 --> 00:09:45,070
+past few years will will also make
+significant progress so some of the
+
+376
+00:09:45,070 --> 00:09:45,080
+significant progress so some of the
+ 
+
+377
+00:09:45,080 --> 00:09:47,450
+significant progress so some of the
+representational issues that you
+
+378
+00:09:47,450 --> 00:09:47,460
+representational issues that you
+ 
+
+379
+00:09:47,460 --> 00:09:49,010
+representational issues that you
+mentioned that is they're kind of
+
+380
+00:09:49,010 --> 00:09:49,020
+mentioned that is they're kind of
+ 
+
+381
+00:09:49,020 --> 00:09:53,960
+mentioned that is they're kind of
+shallow in some sense Oh higher in a
+
+382
+00:09:53,960 --> 00:09:53,970
+shallow in some sense Oh higher in a
+ 
+
+383
+00:09:53,970 --> 00:09:55,550
+shallow in some sense Oh higher in a
+sense of abstraction up straight in a
+
+384
+00:09:55,550 --> 00:09:55,560
+sense of abstraction up straight in a
+ 
+
+385
+00:09:55,560 --> 00:09:56,990
+sense of abstraction up straight in a
+sense of abstraction they're not getting
+
+386
+00:09:56,990 --> 00:09:57,000
+sense of abstraction they're not getting
+ 
+
+387
+00:09:57,000 --> 00:10:00,740
+sense of abstraction they're not getting
+some I don't think that having more more
+
+388
+00:10:00,740 --> 00:10:00,750
+some I don't think that having more more
+ 
+
+389
+00:10:00,750 --> 00:10:02,300
+some I don't think that having more more
+depth in the network in the sense of
+
+390
+00:10:02,300 --> 00:10:02,310
+depth in the network in the sense of
+ 
+
+391
+00:10:02,310 --> 00:10:04,160
+depth in the network in the sense of
+instead of a hundred layers we have ten
+
+392
+00:10:04,160 --> 00:10:04,170
+instead of a hundred layers we have ten
+ 
+
+393
+00:10:04,170 --> 00:10:06,079
+instead of a hundred layers we have ten
+thousand is going to solve our problem
+
+394
+00:10:06,079 --> 00:10:06,089
+thousand is going to solve our problem
+ 
+
+395
+00:10:06,089 --> 00:10:10,100
+thousand is going to solve our problem
+you don't think so is that obvious to
+
+396
+00:10:10,100 --> 00:10:10,110
+you don't think so is that obvious to
+ 
+
+397
+00:10:10,110 --> 00:10:12,829
+you don't think so is that obvious to
+you yes what is clear to me is that
+
+398
+00:10:12,829 --> 00:10:12,839
+you yes what is clear to me is that
+ 
+
+399
+00:10:12,839 --> 00:10:16,400
+you yes what is clear to me is that
+engineers and companies and labs grad
+
+400
+00:10:16,400 --> 00:10:16,410
+engineers and companies and labs grad
+ 
+
+401
+00:10:16,410 --> 00:10:19,660
+engineers and companies and labs grad
+students will continue to tune
+
+402
+00:10:19,660 --> 00:10:19,670
+students will continue to tune
+ 
+
+403
+00:10:19,670 --> 00:10:22,220
+students will continue to tune
+architectures and explore all kinds of
+
+404
+00:10:22,220 --> 00:10:22,230
+architectures and explore all kinds of
+ 
+
+405
+00:10:22,230 --> 00:10:24,170
+architectures and explore all kinds of
+tweaks to make the current state of the
+
+406
+00:10:24,170 --> 00:10:24,180
+tweaks to make the current state of the
+ 
+
+407
+00:10:24,180 --> 00:10:27,320
+tweaks to make the current state of the
+Arts that he ever slightly better but I
+
+408
+00:10:27,320 --> 00:10:27,330
+Arts that he ever slightly better but I
+ 
+
+409
+00:10:27,330 --> 00:10:29,210
+Arts that he ever slightly better but I
+don't think that's gonna be nearly
+
+410
+00:10:29,210 --> 00:10:29,220
+don't think that's gonna be nearly
+ 
+
+411
+00:10:29,220 --> 00:10:30,710
+don't think that's gonna be nearly
+enough I think we need some fairly
+
+412
+00:10:30,710 --> 00:10:30,720
+enough I think we need some fairly
+ 
+
+413
+00:10:30,720 --> 00:10:32,720
+enough I think we need some fairly
+drastic changes in the way that we're
+
+414
+00:10:32,720 --> 00:10:32,730
+drastic changes in the way that we're
+ 
+
+415
+00:10:32,730 --> 00:10:37,850
+drastic changes in the way that we're
+considering learning to achieve the goal
+
+416
+00:10:37,850 --> 00:10:37,860
+considering learning to achieve the goal
+ 
+
+417
+00:10:37,860 --> 00:10:40,310
+considering learning to achieve the goal
+that these learners actually understand
+
+418
+00:10:40,310 --> 00:10:40,320
+that these learners actually understand
+ 
+
+419
+00:10:40,320 --> 00:10:42,410
+that these learners actually understand
+in a deep way the environment in which
+
+420
+00:10:42,410 --> 00:10:42,420
+in a deep way the environment in which
+ 
+
+421
+00:10:42,420 --> 00:10:45,760
+in a deep way the environment in which
+they are you know observing and acting
+
+422
+00:10:45,760 --> 00:10:45,770
+they are you know observing and acting
+ 
+
+423
+00:10:45,770 --> 00:10:49,550
+they are you know observing and acting
+but I guess I was trying to ask a
+
+424
+00:10:49,550 --> 00:10:49,560
+but I guess I was trying to ask a
+ 
+
+425
+00:10:49,560 --> 00:10:51,050
+but I guess I was trying to ask a
+question is more interesting than just
+
+426
+00:10:51,050 --> 00:10:51,060
+question is more interesting than just
+ 
+
+427
+00:10:51,060 --> 00:10:55,160
+question is more interesting than just
+more layers is basically once you figure
+
+428
+00:10:55,160 --> 00:10:55,170
+more layers is basically once you figure
+ 
+
+429
+00:10:55,170 --> 00:10:58,370
+more layers is basically once you figure
+out a way to learn through interacting
+
+430
+00:10:58,370 --> 00:10:58,380
+out a way to learn through interacting
+ 
+
+431
+00:10:58,380 --> 00:11:01,400
+out a way to learn through interacting
+how many parameters does it take to
+
+432
+00:11:01,400 --> 00:11:01,410
+how many parameters does it take to
+ 
+
+433
+00:11:01,410 --> 00:11:04,009
+how many parameters does it take to
+store that information so
+
+434
+00:11:04,009 --> 00:11:04,019
+store that information so
+ 
+
+435
+00:11:04,019 --> 00:11:06,919
+store that information so
+I think our brain is quite bigger than
+
+436
+00:11:06,919 --> 00:11:06,929
+I think our brain is quite bigger than
+ 
+
+437
+00:11:06,929 --> 00:11:08,540
+I think our brain is quite bigger than
+most neural networks right right oh I
+
+438
+00:11:08,540 --> 00:11:08,550
+most neural networks right right oh I
+ 
+
+439
+00:11:08,550 --> 00:11:10,340
+most neural networks right right oh I
+see what you mean oh I I'm with you
+
+440
+00:11:10,340 --> 00:11:10,350
+see what you mean oh I I'm with you
+ 
+
+441
+00:11:10,350 --> 00:11:14,540
+see what you mean oh I I'm with you
+there so I agree that in order to build
+
+442
+00:11:14,540 --> 00:11:14,550
+there so I agree that in order to build
+ 
+
+443
+00:11:14,550 --> 00:11:16,729
+there so I agree that in order to build
+neural nets with the kind of broad
+
+444
+00:11:16,729 --> 00:11:16,739
+neural nets with the kind of broad
+ 
+
+445
+00:11:16,739 --> 00:11:18,710
+neural nets with the kind of broad
+knowledge of the world that typical
+
+446
+00:11:18,710 --> 00:11:18,720
+knowledge of the world that typical
+ 
+
+447
+00:11:18,720 --> 00:11:22,609
+knowledge of the world that typical
+adult humans have probably the kind of
+
+448
+00:11:22,609 --> 00:11:22,619
+adult humans have probably the kind of
+ 
+
+449
+00:11:22,619 --> 00:11:24,259
+adult humans have probably the kind of
+computing power we have now is going to
+
+450
+00:11:24,259 --> 00:11:24,269
+computing power we have now is going to
+ 
+
+451
+00:11:24,269 --> 00:11:27,319
+computing power we have now is going to
+be insufficient so well the good news is
+
+452
+00:11:27,319 --> 00:11:27,329
+be insufficient so well the good news is
+ 
+
+453
+00:11:27,329 --> 00:11:28,999
+be insufficient so well the good news is
+there are hardware companies building
+
+454
+00:11:28,999 --> 00:11:29,009
+there are hardware companies building
+ 
+
+455
+00:11:29,009 --> 00:11:30,889
+there are hardware companies building
+neural net chips and so it's gonna get
+
+456
+00:11:30,889 --> 00:11:30,899
+neural net chips and so it's gonna get
+ 
+
+457
+00:11:30,899 --> 00:11:35,539
+neural net chips and so it's gonna get
+better however the good news in a way
+
+458
+00:11:35,539 --> 00:11:35,549
+better however the good news in a way
+ 
+
+459
+00:11:35,549 --> 00:11:38,929
+better however the good news in a way
+which is also a bad news is that even
+
+460
+00:11:38,929 --> 00:11:38,939
+which is also a bad news is that even
+ 
+
+461
+00:11:38,939 --> 00:11:42,079
+which is also a bad news is that even
+our state-of-the-art deep learning
+
+462
+00:11:42,079 --> 00:11:42,089
+our state-of-the-art deep learning
+ 
+
+463
+00:11:42,089 --> 00:11:46,009
+our state-of-the-art deep learning
+methods fail to learn models that
+
+464
+00:11:46,009 --> 00:11:46,019
+methods fail to learn models that
+ 
+
+465
+00:11:46,019 --> 00:11:48,530
+methods fail to learn models that
+understand even very simple environments
+
+466
+00:11:48,530 --> 00:11:48,540
+understand even very simple environments
+ 
+
+467
+00:11:48,540 --> 00:11:51,369
+understand even very simple environments
+like some Grid worlds that we have built
+
+468
+00:11:51,369 --> 00:11:51,379
+like some Grid worlds that we have built
+ 
+
+469
+00:11:51,379 --> 00:11:53,869
+like some Grid worlds that we have built
+even these fairly simple environments I
+
+470
+00:11:53,869 --> 00:11:53,879
+even these fairly simple environments I
+ 
+
+471
+00:11:53,879 --> 00:11:55,460
+even these fairly simple environments I
+mean of course if you train them with
+
+472
+00:11:55,460 --> 00:11:55,470
+mean of course if you train them with
+ 
+
+473
+00:11:55,470 --> 00:11:57,049
+mean of course if you train them with
+enough examples eventually they get it
+
+474
+00:11:57,049 --> 00:11:57,059
+enough examples eventually they get it
+ 
+
+475
+00:11:57,059 --> 00:11:59,600
+enough examples eventually they get it
+but it's just like instead of what
+
+476
+00:11:59,600 --> 00:11:59,610
+but it's just like instead of what
+ 
+
+477
+00:11:59,610 --> 00:12:02,919
+but it's just like instead of what
+instead of what humans might need just
+
+478
+00:12:02,919 --> 00:12:02,929
+instead of what humans might need just
+ 
+
+479
+00:12:02,929 --> 00:12:05,210
+instead of what humans might need just
+dozens of examples these things will
+
+480
+00:12:05,210 --> 00:12:05,220
+dozens of examples these things will
+ 
+
+481
+00:12:05,220 --> 00:12:08,509
+dozens of examples these things will
+need millions right for very very very
+
+482
+00:12:08,509 --> 00:12:08,519
+need millions right for very very very
+ 
+
+483
+00:12:08,519 --> 00:12:12,109
+need millions right for very very very
+simple tasks and so I think there's an
+
+484
+00:12:12,109 --> 00:12:12,119
+simple tasks and so I think there's an
+ 
+
+485
+00:12:12,119 --> 00:12:15,139
+simple tasks and so I think there's an
+opportunity for academics who don't have
+
+486
+00:12:15,139 --> 00:12:15,149
+opportunity for academics who don't have
+ 
+
+487
+00:12:15,149 --> 00:12:17,539
+opportunity for academics who don't have
+the kind of computing power that say
+
+488
+00:12:17,539 --> 00:12:17,549
+the kind of computing power that say
+ 
+
+489
+00:12:17,549 --> 00:12:20,989
+the kind of computing power that say
+Google has to do really important and
+
+490
+00:12:20,989 --> 00:12:20,999
+Google has to do really important and
+ 
+
+491
+00:12:20,999 --> 00:12:23,720
+Google has to do really important and
+exciting research to advance the
+
+492
+00:12:23,720 --> 00:12:23,730
+exciting research to advance the
+ 
+
+493
+00:12:23,730 --> 00:12:26,049
+exciting research to advance the
+state-of-the-art in training frameworks
+
+494
+00:12:26,049 --> 00:12:26,059
+state-of-the-art in training frameworks
+ 
+
+495
+00:12:26,059 --> 00:12:30,470
+state-of-the-art in training frameworks
+learning models agent learning in even
+
+496
+00:12:30,470 --> 00:12:30,480
+learning models agent learning in even
+ 
+
+497
+00:12:30,480 --> 00:12:32,710
+learning models agent learning in even
+simple environments that are synthetic
+
+498
+00:12:32,710 --> 00:12:32,720
+simple environments that are synthetic
+ 
+
+499
+00:12:32,720 --> 00:12:35,660
+simple environments that are synthetic
+that seem trivial but yet current
+
+500
+00:12:35,660 --> 00:12:35,670
+that seem trivial but yet current
+ 
+
+501
+00:12:35,670 --> 00:12:38,749
+that seem trivial but yet current
+machine learning fails on we've talked
+
+502
+00:12:38,749 --> 00:12:38,759
+machine learning fails on we've talked
+ 
+
+503
+00:12:38,759 --> 00:12:42,439
+machine learning fails on we've talked
+about priors and common-sense knowledge
+
+504
+00:12:42,439 --> 00:12:42,449
+about priors and common-sense knowledge
+ 
+
+505
+00:12:42,449 --> 00:12:47,629
+about priors and common-sense knowledge
+it seems like we humans take a lot of
+
+506
+00:12:47,629 --> 00:12:47,639
+it seems like we humans take a lot of
+ 
+
+507
+00:12:47,639 --> 00:12:52,189
+it seems like we humans take a lot of
+knowledge for granted so what what's
+
+508
+00:12:52,189 --> 00:12:52,199
+knowledge for granted so what what's
+ 
+
+509
+00:12:52,199 --> 00:12:54,230
+knowledge for granted so what what's
+your view of these priors of forming
+
+510
+00:12:54,230 --> 00:12:54,240
+your view of these priors of forming
+ 
+
+511
+00:12:54,240 --> 00:12:56,749
+your view of these priors of forming
+this broad view of the world this
+
+512
+00:12:56,749 --> 00:12:56,759
+this broad view of the world this
+ 
+
+513
+00:12:56,759 --> 00:12:59,480
+this broad view of the world this
+accumulation of information and how we
+
+514
+00:12:59,480 --> 00:12:59,490
+accumulation of information and how we
+ 
+
+515
+00:12:59,490 --> 00:13:01,639
+accumulation of information and how we
+can teach a neural networks or learning
+
+516
+00:13:01,639 --> 00:13:01,649
+can teach a neural networks or learning
+ 
+
+517
+00:13:01,649 --> 00:13:03,829
+can teach a neural networks or learning
+systems to pick that knowledge up so
+
+518
+00:13:03,829 --> 00:13:03,839
+systems to pick that knowledge up so
+ 
+
+519
+00:13:03,839 --> 00:13:07,069
+systems to pick that knowledge up so
+knowledge you know for a while the
+
+520
+00:13:07,069 --> 00:13:07,079
+knowledge you know for a while the
+ 
+
+521
+00:13:07,079 --> 00:13:10,519
+knowledge you know for a while the
+artificial intelligence what's maybe in
+
+522
+00:13:10,519 --> 00:13:10,529
+artificial intelligence what's maybe in
+ 
+
+523
+00:13:10,529 --> 00:13:12,799
+artificial intelligence what's maybe in
+the 80 there's a time or knowledge
+
+524
+00:13:12,799 --> 00:13:12,809
+the 80 there's a time or knowledge
+ 
+
+525
+00:13:12,809 --> 00:13:14,970
+the 80 there's a time or knowledge
+representation knowledge
+
+526
+00:13:14,970 --> 00:13:14,980
+representation knowledge
+ 
+
+527
+00:13:14,980 --> 00:13:17,130
+representation knowledge
+acquisition expert systems I mean though
+
+528
+00:13:17,130 --> 00:13:17,140
+acquisition expert systems I mean though
+ 
+
+529
+00:13:17,140 --> 00:13:21,300
+acquisition expert systems I mean though
+the symbolic AI was was a view was an
+
+530
+00:13:21,300 --> 00:13:21,310
+the symbolic AI was was a view was an
+ 
+
+531
+00:13:21,310 --> 00:13:23,640
+the symbolic AI was was a view was an
+interesting problem set to solve and it
+
+532
+00:13:23,640 --> 00:13:23,650
+interesting problem set to solve and it
+ 
+
+533
+00:13:23,650 --> 00:13:26,550
+interesting problem set to solve and it
+was kind of put on hold a little bit it
+
+534
+00:13:26,550 --> 00:13:26,560
+was kind of put on hold a little bit it
+ 
+
+535
+00:13:26,560 --> 00:13:28,500
+was kind of put on hold a little bit it
+seems like because it doesn't work it
+
+536
+00:13:28,500 --> 00:13:28,510
+seems like because it doesn't work it
+ 
+
+537
+00:13:28,510 --> 00:13:31,320
+seems like because it doesn't work it
+doesn't work that's right but that's
+
+538
+00:13:31,320 --> 00:13:31,330
+doesn't work that's right but that's
+ 
+
+539
+00:13:31,330 --> 00:13:35,100
+doesn't work that's right but that's
+right but the goals of that remain
+
+540
+00:13:35,100 --> 00:13:35,110
+right but the goals of that remain
+ 
+
+541
+00:13:35,110 --> 00:13:37,170
+right but the goals of that remain
+important yes remain important kind of
+
+542
+00:13:37,170 --> 00:13:37,180
+important yes remain important kind of
+ 
+
+543
+00:13:37,180 --> 00:13:39,870
+important yes remain important kind of
+how do you think those goals can be
+
+544
+00:13:39,870 --> 00:13:39,880
+how do you think those goals can be
+ 
+
+545
+00:13:39,880 --> 00:13:41,810
+how do you think those goals can be
+addressed right so first of all I
+
+546
+00:13:41,810 --> 00:13:41,820
+addressed right so first of all I
+ 
+
+547
+00:13:41,820 --> 00:13:45,530
+addressed right so first of all I
+believe that one reason why the
+
+548
+00:13:45,530 --> 00:13:45,540
+believe that one reason why the
+ 
+
+549
+00:13:45,540 --> 00:13:48,180
+believe that one reason why the
+classical expert systems approach failed
+
+550
+00:13:48,180 --> 00:13:48,190
+classical expert systems approach failed
+ 
+
+551
+00:13:48,190 --> 00:13:51,840
+classical expert systems approach failed
+is because a lot of the knowledge we
+
+552
+00:13:51,840 --> 00:13:51,850
+is because a lot of the knowledge we
+ 
+
+553
+00:13:51,850 --> 00:13:53,600
+is because a lot of the knowledge we
+have so you talked about common sense
+
+554
+00:13:53,600 --> 00:13:53,610
+have so you talked about common sense
+ 
+
+555
+00:13:53,610 --> 00:13:58,110
+have so you talked about common sense
+intuition there's a lot of knowledge
+
+556
+00:13:58,110 --> 00:13:58,120
+intuition there's a lot of knowledge
+ 
+
+557
+00:13:58,120 --> 00:14:01,740
+intuition there's a lot of knowledge
+like this which is not consciously
+
+558
+00:14:01,740 --> 00:14:01,750
+like this which is not consciously
+ 
+
+559
+00:14:01,750 --> 00:14:04,350
+like this which is not consciously
+accessible the lots of decisions we're
+
+560
+00:14:04,350 --> 00:14:04,360
+accessible the lots of decisions we're
+ 
+
+561
+00:14:04,360 --> 00:14:06,090
+accessible the lots of decisions we're
+taking that we can't really explain even
+
+562
+00:14:06,090 --> 00:14:06,100
+taking that we can't really explain even
+ 
+
+563
+00:14:06,100 --> 00:14:11,490
+taking that we can't really explain even
+if sometimes we make up a story and that
+
+564
+00:14:11,490 --> 00:14:11,500
+if sometimes we make up a story and that
+ 
+
+565
+00:14:11,500 --> 00:14:13,860
+if sometimes we make up a story and that
+knowledge is also necessary for machines
+
+566
+00:14:13,860 --> 00:14:13,870
+knowledge is also necessary for machines
+ 
+
+567
+00:14:13,870 --> 00:14:17,190
+knowledge is also necessary for machines
+to take good decisions and that
+
+568
+00:14:17,190 --> 00:14:17,200
+to take good decisions and that
+ 
+
+569
+00:14:17,200 --> 00:14:20,340
+to take good decisions and that
+knowledge is hard to codify in expert
+
+570
+00:14:20,340 --> 00:14:20,350
+knowledge is hard to codify in expert
+ 
+
+571
+00:14:20,350 --> 00:14:22,590
+knowledge is hard to codify in expert
+systems rule-based systems and you know
+
+572
+00:14:22,590 --> 00:14:22,600
+systems rule-based systems and you know
+ 
+
+573
+00:14:22,600 --> 00:14:25,080
+systems rule-based systems and you know
+Costco EAJA formalism and there are
+
+574
+00:14:25,080 --> 00:14:25,090
+Costco EAJA formalism and there are
+ 
+
+575
+00:14:25,090 --> 00:14:27,360
+Costco EAJA formalism and there are
+other issues of course with the old AI
+
+576
+00:14:27,360 --> 00:14:27,370
+other issues of course with the old AI
+ 
+
+577
+00:14:27,370 --> 00:14:30,990
+other issues of course with the old AI
+like not really good ways of handling
+
+578
+00:14:30,990 --> 00:14:31,000
+like not really good ways of handling
+ 
+
+579
+00:14:31,000 --> 00:14:33,930
+like not really good ways of handling
+uncertainty I would say something more
+
+580
+00:14:33,930 --> 00:14:33,940
+uncertainty I would say something more
+ 
+
+581
+00:14:33,940 --> 00:14:36,930
+uncertainty I would say something more
+subtle which we understand better now
+
+582
+00:14:36,930 --> 00:14:36,940
+subtle which we understand better now
+ 
+
+583
+00:14:36,940 --> 00:14:39,720
+subtle which we understand better now
+but I think still isn't enough in the
+
+584
+00:14:39,720 --> 00:14:39,730
+but I think still isn't enough in the
+ 
+
+585
+00:14:39,730 --> 00:14:42,210
+but I think still isn't enough in the
+minds of people there is something
+
+586
+00:14:42,210 --> 00:14:42,220
+minds of people there is something
+ 
+
+587
+00:14:42,220 --> 00:14:45,350
+minds of people there is something
+really powerful that comes from
+
+588
+00:14:45,350 --> 00:14:45,360
+really powerful that comes from
+ 
+
+589
+00:14:45,360 --> 00:14:47,490
+really powerful that comes from
+distributed representations the thing
+
+590
+00:14:47,490 --> 00:14:47,500
+distributed representations the thing
+ 
+
+591
+00:14:47,500 --> 00:14:50,610
+distributed representations the thing
+that really makes neural Nets work so
+
+592
+00:14:50,610 --> 00:14:50,620
+that really makes neural Nets work so
+ 
+
+593
+00:14:50,620 --> 00:14:54,960
+that really makes neural Nets work so
+well and it's hard to replicate that
+
+594
+00:14:54,960 --> 00:14:54,970
+well and it's hard to replicate that
+ 
+
+595
+00:14:54,970 --> 00:14:59,640
+well and it's hard to replicate that
+kind of power in a symbolic world the
+
+596
+00:14:59,640 --> 00:14:59,650
+kind of power in a symbolic world the
+ 
+
+597
+00:14:59,650 --> 00:15:01,920
+kind of power in a symbolic world the
+knowledge in in expert systems and so on
+
+598
+00:15:01,920 --> 00:15:01,930
+knowledge in in expert systems and so on
+ 
+
+599
+00:15:01,930 --> 00:15:05,550
+knowledge in in expert systems and so on
+is nicely decomposed into like a bunch
+
+600
+00:15:05,550 --> 00:15:05,560
+is nicely decomposed into like a bunch
+ 
+
+601
+00:15:05,560 --> 00:15:07,500
+is nicely decomposed into like a bunch
+of rules whereas if you think about a
+
+602
+00:15:07,500 --> 00:15:07,510
+of rules whereas if you think about a
+ 
+
+603
+00:15:07,510 --> 00:15:09,390
+of rules whereas if you think about a
+neural net it's the opposite you have
+
+604
+00:15:09,390 --> 00:15:09,400
+neural net it's the opposite you have
+ 
+
+605
+00:15:09,400 --> 00:15:12,510
+neural net it's the opposite you have
+this big blob of parameters which work
+
+606
+00:15:12,510 --> 00:15:12,520
+this big blob of parameters which work
+ 
+
+607
+00:15:12,520 --> 00:15:14,280
+this big blob of parameters which work
+intensely together to represent
+
+608
+00:15:14,280 --> 00:15:14,290
+intensely together to represent
+ 
+
+609
+00:15:14,290 --> 00:15:16,890
+intensely together to represent
+everything the network knows and it's
+
+610
+00:15:16,890 --> 00:15:16,900
+everything the network knows and it's
+ 
+
+611
+00:15:16,900 --> 00:15:20,340
+everything the network knows and it's
+not sufficiently factorized and so I
+
+612
+00:15:20,340 --> 00:15:20,350
+not sufficiently factorized and so I
+ 
+
+613
+00:15:20,350 --> 00:15:22,290
+not sufficiently factorized and so I
+think this is one of the weaknesses of
+
+614
+00:15:22,290 --> 00:15:22,300
+think this is one of the weaknesses of
+ 
+
+615
+00:15:22,300 --> 00:15:25,260
+think this is one of the weaknesses of
+current neural nets that we have to take
+
+616
+00:15:25,260 --> 00:15:25,270
+current neural nets that we have to take
+ 
+
+617
+00:15:25,270 --> 00:15:28,200
+current neural nets that we have to take
+lessons from classically I
+
+618
+00:15:28,200 --> 00:15:28,210
+lessons from classically I
+ 
+
+619
+00:15:28,210 --> 00:15:31,410
+lessons from classically I
+in order to bring in another kind of
+
+620
+00:15:31,410 --> 00:15:31,420
+in order to bring in another kind of
+ 
+
+621
+00:15:31,420 --> 00:15:33,269
+in order to bring in another kind of
+compositionality which is common in
+
+622
+00:15:33,269 --> 00:15:33,279
+compositionality which is common in
+ 
+
+623
+00:15:33,279 --> 00:15:35,090
+compositionality which is common in
+language for example and in these rules
+
+624
+00:15:35,090 --> 00:15:35,100
+language for example and in these rules
+ 
+
+625
+00:15:35,100 --> 00:15:39,470
+language for example and in these rules
+but that isn't so native to New Ulm Ed's
+
+626
+00:15:39,470 --> 00:15:39,480
+but that isn't so native to New Ulm Ed's
+ 
+
+627
+00:15:39,480 --> 00:15:43,400
+but that isn't so native to New Ulm Ed's
+and on that line of thinking
+
+628
+00:15:43,400 --> 00:15:43,410
+and on that line of thinking
+ 
+
+629
+00:15:43,410 --> 00:15:47,850
+and on that line of thinking
+disentangled representations yes so so
+
+630
+00:15:47,850 --> 00:15:47,860
+disentangled representations yes so so
+ 
+
+631
+00:15:47,860 --> 00:15:49,139
+disentangled representations yes so so
+let me connect with disentangled
+
+632
+00:15:49,139 --> 00:15:49,149
+let me connect with disentangled
+ 
+
+633
+00:15:49,149 --> 00:15:51,420
+let me connect with disentangled
+representations if you might if don't
+
+634
+00:15:51,420 --> 00:15:51,430
+representations if you might if don't
+ 
+
+635
+00:15:51,430 --> 00:15:54,630
+representations if you might if don't
+mind yes exactly so for many years I've
+
+636
+00:15:54,630 --> 00:15:54,640
+mind yes exactly so for many years I've
+ 
+
+637
+00:15:54,640 --> 00:15:56,760
+mind yes exactly so for many years I've
+thought and I still believe that it's
+
+638
+00:15:56,760 --> 00:15:56,770
+thought and I still believe that it's
+ 
+
+639
+00:15:56,770 --> 00:15:58,500
+thought and I still believe that it's
+really important that we come up with
+
+640
+00:15:58,500 --> 00:15:58,510
+really important that we come up with
+ 
+
+641
+00:15:58,510 --> 00:16:01,680
+really important that we come up with
+learning algorithms either unsupervised
+
+642
+00:16:01,680 --> 00:16:01,690
+learning algorithms either unsupervised
+ 
+
+643
+00:16:01,690 --> 00:16:03,840
+learning algorithms either unsupervised
+or supervised but or enforcement
+
+644
+00:16:03,840 --> 00:16:03,850
+or supervised but or enforcement
+ 
+
+645
+00:16:03,850 --> 00:16:06,510
+or supervised but or enforcement
+whatever that build representations in
+
+646
+00:16:06,510 --> 00:16:06,520
+whatever that build representations in
+ 
+
+647
+00:16:06,520 --> 00:16:09,930
+whatever that build representations in
+which the important factors hopefully
+
+648
+00:16:09,930 --> 00:16:09,940
+which the important factors hopefully
+ 
+
+649
+00:16:09,940 --> 00:16:12,389
+which the important factors hopefully
+causal factors are nicely separated and
+
+650
+00:16:12,389 --> 00:16:12,399
+causal factors are nicely separated and
+ 
+
+651
+00:16:12,399 --> 00:16:14,400
+causal factors are nicely separated and
+easy to pick up from the representation
+
+652
+00:16:14,400 --> 00:16:14,410
+easy to pick up from the representation
+ 
+
+653
+00:16:14,410 --> 00:16:16,380
+easy to pick up from the representation
+so that's the idea of disentangle
+
+654
+00:16:16,380 --> 00:16:16,390
+so that's the idea of disentangle
+ 
+
+655
+00:16:16,390 --> 00:16:18,660
+so that's the idea of disentangle
+representations it says transform the
+
+656
+00:16:18,660 --> 00:16:18,670
+representations it says transform the
+ 
+
+657
+00:16:18,670 --> 00:16:20,730
+representations it says transform the
+data into a space where everything
+
+658
+00:16:20,730 --> 00:16:20,740
+data into a space where everything
+ 
+
+659
+00:16:20,740 --> 00:16:23,160
+data into a space where everything
+becomes easy we can maybe just learn
+
+660
+00:16:23,160 --> 00:16:23,170
+becomes easy we can maybe just learn
+ 
+
+661
+00:16:23,170 --> 00:16:25,980
+becomes easy we can maybe just learn
+with linear models about the things we
+
+662
+00:16:25,980 --> 00:16:25,990
+with linear models about the things we
+ 
+
+663
+00:16:25,990 --> 00:16:28,860
+with linear models about the things we
+care about and and I still think this is
+
+664
+00:16:28,860 --> 00:16:28,870
+care about and and I still think this is
+ 
+
+665
+00:16:28,870 --> 00:16:30,540
+care about and and I still think this is
+important but I think this is missing
+
+666
+00:16:30,540 --> 00:16:30,550
+important but I think this is missing
+ 
+
+667
+00:16:30,550 --> 00:16:34,760
+important but I think this is missing
+out on a very important ingredient which
+
+668
+00:16:34,760 --> 00:16:34,770
+out on a very important ingredient which
+ 
+
+669
+00:16:34,770 --> 00:16:37,310
+out on a very important ingredient which
+classically AI systems can remind us of
+
+670
+00:16:37,310 --> 00:16:37,320
+classically AI systems can remind us of
+ 
+
+671
+00:16:37,320 --> 00:16:39,900
+classically AI systems can remind us of
+so let's say we have these design
+
+672
+00:16:39,900 --> 00:16:39,910
+so let's say we have these design
+ 
+
+673
+00:16:39,910 --> 00:16:40,710
+so let's say we have these design
+technologies invation
+
+674
+00:16:40,710 --> 00:16:40,720
+technologies invation
+ 
+
+675
+00:16:40,720 --> 00:16:43,400
+technologies invation
+you still need to learn about the the
+
+676
+00:16:43,400 --> 00:16:43,410
+you still need to learn about the the
+ 
+
+677
+00:16:43,410 --> 00:16:45,300
+you still need to learn about the the
+relationships between the variables
+
+678
+00:16:45,300 --> 00:16:45,310
+relationships between the variables
+ 
+
+679
+00:16:45,310 --> 00:16:46,920
+relationships between the variables
+those high-level semantic variables
+
+680
+00:16:46,920 --> 00:16:46,930
+those high-level semantic variables
+ 
+
+681
+00:16:46,930 --> 00:16:48,210
+those high-level semantic variables
+they're not going to be independent I
+
+682
+00:16:48,210 --> 00:16:48,220
+they're not going to be independent I
+ 
+
+683
+00:16:48,220 --> 00:16:49,860
+they're not going to be independent I
+mean this is like too much of an
+
+684
+00:16:49,860 --> 00:16:49,870
+mean this is like too much of an
+ 
+
+685
+00:16:49,870 --> 00:16:52,079
+mean this is like too much of an
+assumption they're gonna have some
+
+686
+00:16:52,079 --> 00:16:52,089
+assumption they're gonna have some
+ 
+
+687
+00:16:52,089 --> 00:16:53,940
+assumption they're gonna have some
+interesting relationships that allow to
+
+688
+00:16:53,940 --> 00:16:53,950
+interesting relationships that allow to
+ 
+
+689
+00:16:53,950 --> 00:16:55,860
+interesting relationships that allow to
+predict things in the future to explain
+
+690
+00:16:55,860 --> 00:16:55,870
+predict things in the future to explain
+ 
+
+691
+00:16:55,870 --> 00:16:58,260
+predict things in the future to explain
+what happened in the past the kind of
+
+692
+00:16:58,260 --> 00:16:58,270
+what happened in the past the kind of
+ 
+
+693
+00:16:58,270 --> 00:17:00,300
+what happened in the past the kind of
+knowledge about those relationships in a
+
+694
+00:17:00,300 --> 00:17:00,310
+knowledge about those relationships in a
+ 
+
+695
+00:17:00,310 --> 00:17:02,790
+knowledge about those relationships in a
+classically AI system is encoded in the
+
+696
+00:17:02,790 --> 00:17:02,800
+classically AI system is encoded in the
+ 
+
+697
+00:17:02,800 --> 00:17:04,350
+classically AI system is encoded in the
+rules like a rule is just like a little
+
+698
+00:17:04,350 --> 00:17:04,360
+rules like a rule is just like a little
+ 
+
+699
+00:17:04,360 --> 00:17:06,390
+rules like a rule is just like a little
+piece of knowledge that says oh I have
+
+700
+00:17:06,390 --> 00:17:06,400
+piece of knowledge that says oh I have
+ 
+
+701
+00:17:06,400 --> 00:17:09,179
+piece of knowledge that says oh I have
+these two three four variables that are
+
+702
+00:17:09,179 --> 00:17:09,189
+these two three four variables that are
+ 
+
+703
+00:17:09,189 --> 00:17:11,370
+these two three four variables that are
+linked in this interesting way then I
+
+704
+00:17:11,370 --> 00:17:11,380
+linked in this interesting way then I
+ 
+
+705
+00:17:11,380 --> 00:17:13,199
+linked in this interesting way then I
+can say something about one or two of
+
+706
+00:17:13,199 --> 00:17:13,209
+can say something about one or two of
+ 
+
+707
+00:17:13,209 --> 00:17:15,030
+can say something about one or two of
+them given a couple of others right in
+
+708
+00:17:15,030 --> 00:17:15,040
+them given a couple of others right in
+ 
+
+709
+00:17:15,040 --> 00:17:19,110
+them given a couple of others right in
+addition to disentangling the the
+
+710
+00:17:19,110 --> 00:17:19,120
+addition to disentangling the the
+ 
+
+711
+00:17:19,120 --> 00:17:21,240
+addition to disentangling the the
+elements of the representation which are
+
+712
+00:17:21,240 --> 00:17:21,250
+elements of the representation which are
+ 
+
+713
+00:17:21,250 --> 00:17:23,610
+elements of the representation which are
+like the variables in rule-based system
+
+714
+00:17:23,610 --> 00:17:23,620
+like the variables in rule-based system
+ 
+
+715
+00:17:23,620 --> 00:17:28,740
+like the variables in rule-based system
+you also need to disentangle the the
+
+716
+00:17:28,740 --> 00:17:28,750
+you also need to disentangle the the
+ 
+
+717
+00:17:28,750 --> 00:17:32,340
+you also need to disentangle the the
+mechanisms that relate those variables
+
+718
+00:17:32,340 --> 00:17:32,350
+mechanisms that relate those variables
+ 
+
+719
+00:17:32,350 --> 00:17:34,710
+mechanisms that relate those variables
+to each other so like the rules so the
+
+720
+00:17:34,710 --> 00:17:34,720
+to each other so like the rules so the
+ 
+
+721
+00:17:34,720 --> 00:17:36,450
+to each other so like the rules so the
+rules are neatly separated like each
+
+722
+00:17:36,450 --> 00:17:36,460
+rules are neatly separated like each
+ 
+
+723
+00:17:36,460 --> 00:17:38,580
+rules are neatly separated like each
+rule is you know living on its own and
+
+724
+00:17:38,580 --> 00:17:38,590
+rule is you know living on its own and
+ 
+
+725
+00:17:38,590 --> 00:17:41,250
+rule is you know living on its own and
+when I change a rule because I'm
+
+726
+00:17:41,250 --> 00:17:41,260
+when I change a rule because I'm
+ 
+
+727
+00:17:41,260 --> 00:17:42,300
+when I change a rule because I'm
+learning
+
+728
+00:17:42,300 --> 00:17:42,310
+learning
+ 
+
+729
+00:17:42,310 --> 00:17:44,610
+learning
+it doesn't need to break other rules
+
+730
+00:17:44,610 --> 00:17:44,620
+it doesn't need to break other rules
+ 
+
+731
+00:17:44,620 --> 00:17:46,830
+it doesn't need to break other rules
+whereas current your Mets for example
+
+732
+00:17:46,830 --> 00:17:46,840
+whereas current your Mets for example
+ 
+
+733
+00:17:46,840 --> 00:17:48,390
+whereas current your Mets for example
+are very sensitive to what's called
+
+734
+00:17:48,390 --> 00:17:48,400
+are very sensitive to what's called
+ 
+
+735
+00:17:48,400 --> 00:17:51,480
+are very sensitive to what's called
+catastrophic forgetting where after I've
+
+736
+00:17:51,480 --> 00:17:51,490
+catastrophic forgetting where after I've
+ 
+
+737
+00:17:51,490 --> 00:17:53,130
+catastrophic forgetting where after I've
+learned some things and then I learn new
+
+738
+00:17:53,130 --> 00:17:53,140
+learned some things and then I learn new
+ 
+
+739
+00:17:53,140 --> 00:17:55,440
+learned some things and then I learn new
+things they can destroy the old things
+
+740
+00:17:55,440 --> 00:17:55,450
+things they can destroy the old things
+ 
+
+741
+00:17:55,450 --> 00:17:57,960
+things they can destroy the old things
+that I had learned right if the
+
+742
+00:17:57,960 --> 00:17:57,970
+that I had learned right if the
+ 
+
+743
+00:17:57,970 --> 00:18:01,310
+that I had learned right if the
+knowledge was better factorized and and
+
+744
+00:18:01,310 --> 00:18:01,320
+knowledge was better factorized and and
+ 
+
+745
+00:18:01,320 --> 00:18:04,350
+knowledge was better factorized and and
+separated disentangled then you would
+
+746
+00:18:04,350 --> 00:18:04,360
+separated disentangled then you would
+ 
+
+747
+00:18:04,360 --> 00:18:07,530
+separated disentangled then you would
+avoid a lot of that now you can't do
+
+748
+00:18:07,530 --> 00:18:07,540
+avoid a lot of that now you can't do
+ 
+
+749
+00:18:07,540 --> 00:18:12,570
+avoid a lot of that now you can't do
+this in the sensory domain but a decent
+
+750
+00:18:12,570 --> 00:18:12,580
+this in the sensory domain but a decent
+ 
+
+751
+00:18:12,580 --> 00:18:15,900
+this in the sensory domain but a decent
+okay like an pixel space but but my idea
+
+752
+00:18:15,900 --> 00:18:15,910
+okay like an pixel space but but my idea
+ 
+
+753
+00:18:15,910 --> 00:18:17,730
+okay like an pixel space but but my idea
+is that when you project the data in the
+
+754
+00:18:17,730 --> 00:18:17,740
+is that when you project the data in the
+ 
+
+755
+00:18:17,740 --> 00:18:19,410
+is that when you project the data in the
+right semantic space it becomes possible
+
+756
+00:18:19,410 --> 00:18:19,420
+right semantic space it becomes possible
+ 
+
+757
+00:18:19,420 --> 00:18:22,880
+right semantic space it becomes possible
+to now represent this extra knowledge
+
+758
+00:18:22,880 --> 00:18:22,890
+to now represent this extra knowledge
+ 
+
+759
+00:18:22,890 --> 00:18:25,170
+to now represent this extra knowledge
+beyond the transformation from input to
+
+760
+00:18:25,170 --> 00:18:25,180
+beyond the transformation from input to
+ 
+
+761
+00:18:25,180 --> 00:18:26,760
+beyond the transformation from input to
+representations which is how
+
+762
+00:18:26,760 --> 00:18:26,770
+representations which is how
+ 
+
+763
+00:18:26,770 --> 00:18:28,920
+representations which is how
+representations act on each other and
+
+764
+00:18:28,920 --> 00:18:28,930
+representations act on each other and
+ 
+
+765
+00:18:28,930 --> 00:18:31,680
+representations act on each other and
+predict the future and so on in a way
+
+766
+00:18:31,680 --> 00:18:31,690
+predict the future and so on in a way
+ 
+
+767
+00:18:31,690 --> 00:18:35,910
+predict the future and so on in a way
+that can be neatly disentangled so now
+
+768
+00:18:35,910 --> 00:18:35,920
+that can be neatly disentangled so now
+ 
+
+769
+00:18:35,920 --> 00:18:37,710
+that can be neatly disentangled so now
+it's the rules or disentangle from each
+
+770
+00:18:37,710 --> 00:18:37,720
+it's the rules or disentangle from each
+ 
+
+771
+00:18:37,720 --> 00:18:39,180
+it's the rules or disentangle from each
+other and not just the variables that
+
+772
+00:18:39,180 --> 00:18:39,190
+other and not just the variables that
+ 
+
+773
+00:18:39,190 --> 00:18:40,760
+other and not just the variables that
+are disentangled from each other and you
+
+774
+00:18:40,760 --> 00:18:40,770
+are disentangled from each other and you
+ 
+
+775
+00:18:40,770 --> 00:18:43,050
+are disentangled from each other and you
+draw a distinction between semantic
+
+776
+00:18:43,050 --> 00:18:43,060
+draw a distinction between semantic
+ 
+
+777
+00:18:43,060 --> 00:18:45,780
+draw a distinction between semantic
+space and pixel like yes there need to
+
+778
+00:18:45,780 --> 00:18:45,790
+space and pixel like yes there need to
+ 
+
+779
+00:18:45,790 --> 00:18:47,760
+space and pixel like yes there need to
+be an architectural difference or well
+
+780
+00:18:47,760 --> 00:18:47,770
+be an architectural difference or well
+ 
+
+781
+00:18:47,770 --> 00:18:49,680
+be an architectural difference or well
+yeah so there's the sensory space like
+
+782
+00:18:49,680 --> 00:18:49,690
+yeah so there's the sensory space like
+ 
+
+783
+00:18:49,690 --> 00:18:51,420
+yeah so there's the sensory space like
+pixels which where everything is
+
+784
+00:18:51,420 --> 00:18:51,430
+pixels which where everything is
+ 
+
+785
+00:18:51,430 --> 00:18:54,720
+pixels which where everything is
+untangled the the information like the
+
+786
+00:18:54,720 --> 00:18:54,730
+untangled the the information like the
+ 
+
+787
+00:18:54,730 --> 00:18:56,190
+untangled the the information like the
+variables are completely interdependent
+
+788
+00:18:56,190 --> 00:18:56,200
+variables are completely interdependent
+ 
+
+789
+00:18:56,200 --> 00:18:59,430
+variables are completely interdependent
+in very complicated ways and also
+
+790
+00:18:59,430 --> 00:18:59,440
+in very complicated ways and also
+ 
+
+791
+00:18:59,440 --> 00:19:02,490
+in very complicated ways and also
+computation like the it's not just
+
+792
+00:19:02,490 --> 00:19:02,500
+computation like the it's not just
+ 
+
+793
+00:19:02,500 --> 00:19:03,960
+computation like the it's not just
+variables it's also how they are related
+
+794
+00:19:03,960 --> 00:19:03,970
+variables it's also how they are related
+ 
+
+795
+00:19:03,970 --> 00:19:06,810
+variables it's also how they are related
+to each other is is all intertwined but
+
+796
+00:19:06,810 --> 00:19:06,820
+to each other is is all intertwined but
+ 
+
+797
+00:19:06,820 --> 00:19:09,540
+to each other is is all intertwined but
+but I I'm hypothesizing that in the
+
+798
+00:19:09,540 --> 00:19:09,550
+but I I'm hypothesizing that in the
+ 
+
+799
+00:19:09,550 --> 00:19:12,930
+but I I'm hypothesizing that in the
+right high-level representation space
+
+800
+00:19:12,930 --> 00:19:12,940
+right high-level representation space
+ 
+
+801
+00:19:12,940 --> 00:19:16,050
+right high-level representation space
+both the variables and how they relate
+
+802
+00:19:16,050 --> 00:19:16,060
+both the variables and how they relate
+ 
+
+803
+00:19:16,060 --> 00:19:18,390
+both the variables and how they relate
+to each other can be disentangled and
+
+804
+00:19:18,390 --> 00:19:18,400
+to each other can be disentangled and
+ 
+
+805
+00:19:18,400 --> 00:19:19,710
+to each other can be disentangled and
+that will provide a lot of
+
+806
+00:19:19,710 --> 00:19:19,720
+that will provide a lot of
+ 
+
+807
+00:19:19,720 --> 00:19:22,410
+that will provide a lot of
+generalization power generalization
+
+808
+00:19:22,410 --> 00:19:22,420
+generalization power generalization
+ 
+
+809
+00:19:22,420 --> 00:19:25,440
+generalization power generalization
+power yes distribution of the test set
+
+810
+00:19:25,440 --> 00:19:25,450
+power yes distribution of the test set
+ 
+
+811
+00:19:25,450 --> 00:19:28,500
+power yes distribution of the test set
+he assumed to be the same as a
+
+812
+00:19:28,500 --> 00:19:28,510
+he assumed to be the same as a
+ 
+
+813
+00:19:28,510 --> 00:19:30,390
+he assumed to be the same as a
+distribution of the training set right
+
+814
+00:19:30,390 --> 00:19:30,400
+distribution of the training set right
+ 
+
+815
+00:19:30,400 --> 00:19:32,850
+distribution of the training set right
+this is where current machine learning
+
+816
+00:19:32,850 --> 00:19:32,860
+this is where current machine learning
+ 
+
+817
+00:19:32,860 --> 00:19:36,360
+this is where current machine learning
+is too weak it doesn't tell us anything
+
+818
+00:19:36,360 --> 00:19:36,370
+is too weak it doesn't tell us anything
+ 
+
+819
+00:19:36,370 --> 00:19:38,130
+is too weak it doesn't tell us anything
+is not able to tell us anything about
+
+820
+00:19:38,130 --> 00:19:38,140
+is not able to tell us anything about
+ 
+
+821
+00:19:38,140 --> 00:19:40,410
+is not able to tell us anything about
+how are you let's say our gonna
+
+822
+00:19:40,410 --> 00:19:40,420
+how are you let's say our gonna
+ 
+
+823
+00:19:40,420 --> 00:19:43,770
+how are you let's say our gonna
+generalize to a new distribution and and
+
+824
+00:19:43,770 --> 00:19:43,780
+generalize to a new distribution and and
+ 
+
+825
+00:19:43,780 --> 00:19:45,270
+generalize to a new distribution and and
+you know people may think well but
+
+826
+00:19:45,270 --> 00:19:45,280
+you know people may think well but
+ 
+
+827
+00:19:45,280 --> 00:19:46,500
+you know people may think well but
+there's nothing we can say if we don't
+
+828
+00:19:46,500 --> 00:19:46,510
+there's nothing we can say if we don't
+ 
+
+829
+00:19:46,510 --> 00:19:48,210
+there's nothing we can say if we don't
+know what the new distribution will be
+
+830
+00:19:48,210 --> 00:19:48,220
+know what the new distribution will be
+ 
+
+831
+00:19:48,220 --> 00:19:51,330
+know what the new distribution will be
+the truth is humans are able to
+
+832
+00:19:51,330 --> 00:19:51,340
+the truth is humans are able to
+ 
+
+833
+00:19:51,340 --> 00:19:54,060
+the truth is humans are able to
+generalize to new distributions how are
+
+834
+00:19:54,060 --> 00:19:54,070
+generalize to new distributions how are
+ 
+
+835
+00:19:54,070 --> 00:19:56,010
+generalize to new distributions how are
+we able to do that so yeah because
+
+836
+00:19:56,010 --> 00:19:56,020
+we able to do that so yeah because
+ 
+
+837
+00:19:56,020 --> 00:19:58,260
+we able to do that so yeah because
+something these new distributions even
+
+838
+00:19:58,260 --> 00:19:58,270
+something these new distributions even
+ 
+
+839
+00:19:58,270 --> 00:19:59,520
+something these new distributions even
+though they could look very different
+
+840
+00:19:59,520 --> 00:19:59,530
+though they could look very different
+ 
+
+841
+00:19:59,530 --> 00:20:01,800
+though they could look very different
+from the training solutions they have
+
+842
+00:20:01,800 --> 00:20:01,810
+from the training solutions they have
+ 
+
+843
+00:20:01,810 --> 00:20:03,120
+from the training solutions they have
+things in common so let me give you a
+
+844
+00:20:03,120 --> 00:20:03,130
+things in common so let me give you a
+ 
+
+845
+00:20:03,130 --> 00:20:05,070
+things in common so let me give you a
+concrete example you read a science
+
+846
+00:20:05,070 --> 00:20:05,080
+concrete example you read a science
+ 
+
+847
+00:20:05,080 --> 00:20:07,440
+concrete example you read a science
+fiction novel the science fiction novel
+
+848
+00:20:07,440 --> 00:20:07,450
+fiction novel the science fiction novel
+ 
+
+849
+00:20:07,450 --> 00:20:11,850
+fiction novel the science fiction novel
+maybe you know brings you in some other
+
+850
+00:20:11,850 --> 00:20:11,860
+maybe you know brings you in some other
+ 
+
+851
+00:20:11,860 --> 00:20:14,910
+maybe you know brings you in some other
+planet where things look very different
+
+852
+00:20:14,910 --> 00:20:14,920
+planet where things look very different
+ 
+
+853
+00:20:14,920 --> 00:20:17,070
+planet where things look very different
+on the surface but it's still the same
+
+854
+00:20:17,070 --> 00:20:17,080
+on the surface but it's still the same
+ 
+
+855
+00:20:17,080 --> 00:20:19,470
+on the surface but it's still the same
+laws of physics all right and so you can
+
+856
+00:20:19,470 --> 00:20:19,480
+laws of physics all right and so you can
+ 
+
+857
+00:20:19,480 --> 00:20:21,090
+laws of physics all right and so you can
+read the book and you understand what's
+
+858
+00:20:21,090 --> 00:20:21,100
+read the book and you understand what's
+ 
+
+859
+00:20:21,100 --> 00:20:22,220
+read the book and you understand what's
+going on
+
+860
+00:20:22,220 --> 00:20:22,230
+going on
+ 
+
+861
+00:20:22,230 --> 00:20:24,980
+going on
+so the distribution is very different
+
+862
+00:20:24,980 --> 00:20:24,990
+so the distribution is very different
+ 
+
+863
+00:20:24,990 --> 00:20:28,530
+so the distribution is very different
+but because you can transport a lot of
+
+864
+00:20:28,530 --> 00:20:28,540
+but because you can transport a lot of
+ 
+
+865
+00:20:28,540 --> 00:20:30,360
+but because you can transport a lot of
+the knowledge you had from Earth about
+
+866
+00:20:30,360 --> 00:20:30,370
+the knowledge you had from Earth about
+ 
+
+867
+00:20:30,370 --> 00:20:33,060
+the knowledge you had from Earth about
+the underlying cause and effect
+
+868
+00:20:33,060 --> 00:20:33,070
+the underlying cause and effect
+ 
+
+869
+00:20:33,070 --> 00:20:35,460
+the underlying cause and effect
+relationships and physical mechanisms
+
+870
+00:20:35,460 --> 00:20:35,470
+relationships and physical mechanisms
+ 
+
+871
+00:20:35,470 --> 00:20:37,530
+relationships and physical mechanisms
+and all that and maybe even social
+
+872
+00:20:37,530 --> 00:20:37,540
+and all that and maybe even social
+ 
+
+873
+00:20:37,540 --> 00:20:40,140
+and all that and maybe even social
+interactions you can now make sense of
+
+874
+00:20:40,140 --> 00:20:40,150
+interactions you can now make sense of
+ 
+
+875
+00:20:40,150 --> 00:20:41,520
+interactions you can now make sense of
+what is going on on this planet where
+
+876
+00:20:41,520 --> 00:20:41,530
+what is going on on this planet where
+ 
+
+877
+00:20:41,530 --> 00:20:43,320
+what is going on on this planet where
+like visually for example things are
+
+878
+00:20:43,320 --> 00:20:43,330
+like visually for example things are
+ 
+
+879
+00:20:43,330 --> 00:20:45,380
+like visually for example things are
+totally different
+
+880
+00:20:45,380 --> 00:20:45,390
+totally different
+ 
+
+881
+00:20:45,390 --> 00:20:47,460
+totally different
+taking that analogy further and
+
+882
+00:20:47,460 --> 00:20:47,470
+taking that analogy further and
+ 
+
+883
+00:20:47,470 --> 00:20:50,610
+taking that analogy further and
+distorting it let's enter a sign science
+
+884
+00:20:50,610 --> 00:20:50,620
+distorting it let's enter a sign science
+ 
+
+885
+00:20:50,620 --> 00:20:53,580
+distorting it let's enter a sign science
+fiction world to say Space Odyssey 2001
+
+886
+00:20:53,580 --> 00:20:53,590
+fiction world to say Space Odyssey 2001
+ 
+
+887
+00:20:53,590 --> 00:20:57,990
+fiction world to say Space Odyssey 2001
+with hell yeah or or maybe which is
+
+888
+00:20:57,990 --> 00:20:58,000
+with hell yeah or or maybe which is
+ 
+
+889
+00:20:58,000 --> 00:21:00,330
+with hell yeah or or maybe which is
+probably one of my favourite AI movies
+
+890
+00:21:00,330 --> 00:21:00,340
+probably one of my favourite AI movies
+ 
+
+891
+00:21:00,340 --> 00:21:03,390
+probably one of my favourite AI movies
+and then then - and then there's another
+
+892
+00:21:03,390 --> 00:21:03,400
+and then then - and then there's another
+ 
+
+893
+00:21:03,400 --> 00:21:05,010
+and then then - and then there's another
+one that a lot of people love that it
+
+894
+00:21:05,010 --> 00:21:05,020
+one that a lot of people love that it
+ 
+
+895
+00:21:05,020 --> 00:21:07,200
+one that a lot of people love that it
+may be a little bit outside of the AI
+
+896
+00:21:07,200 --> 00:21:07,210
+may be a little bit outside of the AI
+ 
+
+897
+00:21:07,210 --> 00:21:10,170
+may be a little bit outside of the AI
+community is ex machina right I don't
+
+898
+00:21:10,170 --> 00:21:10,180
+community is ex machina right I don't
+ 
+
+899
+00:21:10,180 --> 00:21:13,020
+community is ex machina right I don't
+know if you've seen it yes yes but what
+
+900
+00:21:13,020 --> 00:21:13,030
+know if you've seen it yes yes but what
+ 
+
+901
+00:21:13,030 --> 00:21:14,640
+know if you've seen it yes yes but what
+are your views on that movie alright
+
+902
+00:21:14,640 --> 00:21:14,650
+are your views on that movie alright
+ 
+
+903
+00:21:14,650 --> 00:21:17,430
+are your views on that movie alright
+does it does are you able to wear things
+
+904
+00:21:17,430 --> 00:21:17,440
+does it does are you able to wear things
+ 
+
+905
+00:21:17,440 --> 00:21:22,530
+does it does are you able to wear things
+I like and things I hate so maybe you
+
+906
+00:21:22,530 --> 00:21:22,540
+I like and things I hate so maybe you
+ 
+
+907
+00:21:22,540 --> 00:21:24,210
+I like and things I hate so maybe you
+could talk about that in the context of
+
+908
+00:21:24,210 --> 00:21:24,220
+could talk about that in the context of
+ 
+
+909
+00:21:24,220 --> 00:21:26,280
+could talk about that in the context of
+a question I want to ask which is uh
+
+910
+00:21:26,280 --> 00:21:26,290
+a question I want to ask which is uh
+ 
+
+911
+00:21:26,290 --> 00:21:28,140
+a question I want to ask which is uh
+there's quite a large community of
+
+912
+00:21:28,140 --> 00:21:28,150
+there's quite a large community of
+ 
+
+913
+00:21:28,150 --> 00:21:30,750
+there's quite a large community of
+people from different backgrounds often
+
+914
+00:21:30,750 --> 00:21:30,760
+people from different backgrounds often
+ 
+
+915
+00:21:30,760 --> 00:21:33,000
+people from different backgrounds often
+outside of AI who are concerned about
+
+916
+00:21:33,000 --> 00:21:33,010
+outside of AI who are concerned about
+ 
+
+917
+00:21:33,010 --> 00:21:34,710
+outside of AI who are concerned about
+existential threat of artificial
+
+918
+00:21:34,710 --> 00:21:34,720
+existential threat of artificial
+ 
+
+919
+00:21:34,720 --> 00:21:37,170
+existential threat of artificial
+intelligence right you've seen now this
+
+920
+00:21:37,170 --> 00:21:37,180
+intelligence right you've seen now this
+ 
+
+921
+00:21:37,180 --> 00:21:39,030
+intelligence right you've seen now this
+community develop over time you've seen
+
+922
+00:21:39,030 --> 00:21:39,040
+community develop over time you've seen
+ 
+
+923
+00:21:39,040 --> 00:21:41,790
+community develop over time you've seen
+you have a perspective so what do you
+
+924
+00:21:41,790 --> 00:21:41,800
+you have a perspective so what do you
+ 
+
+925
+00:21:41,800 --> 00:21:43,200
+you have a perspective so what do you
+think is the best way to talk about a a
+
+926
+00:21:43,200 --> 00:21:43,210
+think is the best way to talk about a a
+ 
+
+927
+00:21:43,210 --> 00:21:45,870
+think is the best way to talk about a a
+safety to think about it to have this
+
+928
+00:21:45,870 --> 00:21:45,880
+safety to think about it to have this
+ 
+
+929
+00:21:45,880 --> 00:21:48,540
+safety to think about it to have this
+course about it within AI community and
+
+930
+00:21:48,540 --> 00:21:48,550
+course about it within AI community and
+ 
+
+931
+00:21:48,550 --> 00:21:51,900
+course about it within AI community and
+outside and grounded in the fact that ex
+
+932
+00:21:51,900 --> 00:21:51,910
+outside and grounded in the fact that ex
+ 
+
+933
+00:21:51,910 --> 00:21:53,880
+outside and grounded in the fact that ex
+machina is one of the main sources of
+
+934
+00:21:53,880 --> 00:21:53,890
+machina is one of the main sources of
+ 
+
+935
+00:21:53,890 --> 00:21:55,800
+machina is one of the main sources of
+information for the general public about
+
+936
+00:21:55,800 --> 00:21:55,810
+information for the general public about
+ 
+
+937
+00:21:55,810 --> 00:21:58,170
+information for the general public about
+AI so I think I think you're putting it
+
+938
+00:21:58,170 --> 00:21:58,180
+AI so I think I think you're putting it
+ 
+
+939
+00:21:58,180 --> 00:22:00,080
+AI so I think I think you're putting it
+right there's a big difference between
+
+940
+00:22:00,080 --> 00:22:00,090
+right there's a big difference between
+ 
+
+941
+00:22:00,090 --> 00:22:03,000
+right there's a big difference between
+the sort of discussion we oughta have
+
+942
+00:22:03,000 --> 00:22:03,010
+the sort of discussion we oughta have
+ 
+
+943
+00:22:03,010 --> 00:22:06,120
+the sort of discussion we oughta have
+within the AG community and the sort of
+
+944
+00:22:06,120 --> 00:22:06,130
+within the AG community and the sort of
+ 
+
+945
+00:22:06,130 --> 00:22:07,950
+within the AG community and the sort of
+discussion that really matter in the
+
+946
+00:22:07,950 --> 00:22:07,960
+discussion that really matter in the
+ 
+
+947
+00:22:07,960 --> 00:22:09,200
+discussion that really matter in the
+general public
+
+948
+00:22:09,200 --> 00:22:09,210
+general public
+ 
+
+949
+00:22:09,210 --> 00:22:12,170
+general public
+so I think the the picture of terminator
+
+950
+00:22:12,170 --> 00:22:12,180
+so I think the the picture of terminator
+ 
+
+951
+00:22:12,180 --> 00:22:16,790
+so I think the the picture of terminator
+and you know AI lose and killing people
+
+952
+00:22:16,790 --> 00:22:16,800
+and you know AI lose and killing people
+ 
+
+953
+00:22:16,800 --> 00:22:19,160
+and you know AI lose and killing people
+and super intelligence that's gonna
+
+954
+00:22:19,160 --> 00:22:19,170
+and super intelligence that's gonna
+ 
+
+955
+00:22:19,170 --> 00:22:22,300
+and super intelligence that's gonna
+destroy us whatever we try isn't really
+
+956
+00:22:22,300 --> 00:22:22,310
+destroy us whatever we try isn't really
+ 
+
+957
+00:22:22,310 --> 00:22:25,940
+destroy us whatever we try isn't really
+so useful for the public discussion
+
+958
+00:22:25,940 --> 00:22:25,950
+so useful for the public discussion
+ 
+
+959
+00:22:25,950 --> 00:22:28,670
+so useful for the public discussion
+because for the public discussion that
+
+960
+00:22:28,670 --> 00:22:28,680
+because for the public discussion that
+ 
+
+961
+00:22:28,680 --> 00:22:32,330
+because for the public discussion that
+things I believe really matter are the
+
+962
+00:22:32,330 --> 00:22:32,340
+things I believe really matter are the
+ 
+
+963
+00:22:32,340 --> 00:22:34,550
+things I believe really matter are the
+short-term and mini term very likely
+
+964
+00:22:34,550 --> 00:22:34,560
+short-term and mini term very likely
+ 
+
+965
+00:22:34,560 --> 00:22:36,920
+short-term and mini term very likely
+negative impacts of AI on society
+
+966
+00:22:36,920 --> 00:22:36,930
+negative impacts of AI on society
+ 
+
+967
+00:22:36,930 --> 00:22:41,120
+negative impacts of AI on society
+whether it's from security like you know
+
+968
+00:22:41,120 --> 00:22:41,130
+whether it's from security like you know
+ 
+
+969
+00:22:41,130 --> 00:22:42,650
+whether it's from security like you know
+Big Brother scenarios with face
+
+970
+00:22:42,650 --> 00:22:42,660
+Big Brother scenarios with face
+ 
+
+971
+00:22:42,660 --> 00:22:45,350
+Big Brother scenarios with face
+recognition or killer robots or the
+
+972
+00:22:45,350 --> 00:22:45,360
+recognition or killer robots or the
+ 
+
+973
+00:22:45,360 --> 00:22:47,050
+recognition or killer robots or the
+impact on the job market or
+
+974
+00:22:47,050 --> 00:22:47,060
+impact on the job market or
+ 
+
+975
+00:22:47,060 --> 00:22:49,160
+impact on the job market or
+concentration of power and
+
+976
+00:22:49,160 --> 00:22:49,170
+concentration of power and
+ 
+
+977
+00:22:49,170 --> 00:22:51,290
+concentration of power and
+discrimination all kinds of social
+
+978
+00:22:51,290 --> 00:22:51,300
+discrimination all kinds of social
+ 
+
+979
+00:22:51,300 --> 00:22:55,250
+discrimination all kinds of social
+issues which could actually some of them
+
+980
+00:22:55,250 --> 00:22:55,260
+issues which could actually some of them
+ 
+
+981
+00:22:55,260 --> 00:22:58,040
+issues which could actually some of them
+could really threaten democracy for
+
+982
+00:22:58,040 --> 00:22:58,050
+could really threaten democracy for
+ 
+
+983
+00:22:58,050 --> 00:23:00,260
+could really threaten democracy for
+example just to clarify when you said
+
+984
+00:23:00,260 --> 00:23:00,270
+example just to clarify when you said
+ 
+
+985
+00:23:00,270 --> 00:23:02,360
+example just to clarify when you said
+killer robots you mean autonomous
+
+986
+00:23:02,360 --> 00:23:02,370
+killer robots you mean autonomous
+ 
+
+987
+00:23:02,370 --> 00:23:04,720
+killer robots you mean autonomous
+weapons yes weapon systems yes I do not
+
+988
+00:23:04,720 --> 00:23:04,730
+weapons yes weapon systems yes I do not
+ 
+
+989
+00:23:04,730 --> 00:23:06,800
+weapons yes weapon systems yes I do not
+terminator that's right
+
+990
+00:23:06,800 --> 00:23:06,810
+terminator that's right
+ 
+
+991
+00:23:06,810 --> 00:23:09,170
+terminator that's right
+so I think these these short and
+
+992
+00:23:09,170 --> 00:23:09,180
+so I think these these short and
+ 
+
+993
+00:23:09,180 --> 00:23:12,740
+so I think these these short and
+medium-term concerns should be important
+
+994
+00:23:12,740 --> 00:23:12,750
+medium-term concerns should be important
+ 
+
+995
+00:23:12,750 --> 00:23:14,050
+medium-term concerns should be important
+parts of the public debate now
+
+996
+00:23:14,050 --> 00:23:14,060
+parts of the public debate now
+ 
+
+997
+00:23:14,060 --> 00:23:17,060
+parts of the public debate now
+existential risk for me is a very
+
+998
+00:23:17,060 --> 00:23:17,070
+existential risk for me is a very
+ 
+
+999
+00:23:17,070 --> 00:23:22,750
+existential risk for me is a very
+unlikely consideration but still worth
+
+1000
+00:23:22,750 --> 00:23:22,760
+unlikely consideration but still worth
+ 
+
+1001
+00:23:22,760 --> 00:23:26,000
+unlikely consideration but still worth
+academic investigation in the same way
+
+1002
+00:23:26,000 --> 00:23:26,010
+academic investigation in the same way
+ 
+
+1003
+00:23:26,010 --> 00:23:28,250
+academic investigation in the same way
+that you could say should we study what
+
+1004
+00:23:28,250 --> 00:23:28,260
+that you could say should we study what
+ 
+
+1005
+00:23:28,260 --> 00:23:31,280
+that you could say should we study what
+could happen if meteorite you know came
+
+1006
+00:23:31,280 --> 00:23:31,290
+could happen if meteorite you know came
+ 
+
+1007
+00:23:31,290 --> 00:23:33,080
+could happen if meteorite you know came
+to earth and destroyed it so I think
+
+1008
+00:23:33,080 --> 00:23:33,090
+to earth and destroyed it so I think
+ 
+
+1009
+00:23:33,090 --> 00:23:34,670
+to earth and destroyed it so I think
+it's very unlikely that this is gonna
+
+1010
+00:23:34,670 --> 00:23:34,680
+it's very unlikely that this is gonna
+ 
+
+1011
+00:23:34,680 --> 00:23:37,160
+it's very unlikely that this is gonna
+happen and or happen it in a reasonable
+
+1012
+00:23:37,160 --> 00:23:37,170
+happen and or happen it in a reasonable
+ 
+
+1013
+00:23:37,170 --> 00:23:41,060
+happen and or happen it in a reasonable
+future it's it's very the the sort of
+
+1014
+00:23:41,060 --> 00:23:41,070
+future it's it's very the the sort of
+ 
+
+1015
+00:23:41,070 --> 00:23:43,970
+future it's it's very the the sort of
+scenario of an AI getting loose goes
+
+1016
+00:23:43,970 --> 00:23:43,980
+scenario of an AI getting loose goes
+ 
+
+1017
+00:23:43,980 --> 00:23:45,530
+scenario of an AI getting loose goes
+against my understanding of at least
+
+1018
+00:23:45,530 --> 00:23:45,540
+against my understanding of at least
+ 
+
+1019
+00:23:45,540 --> 00:23:47,120
+against my understanding of at least
+current machine learning and current
+
+1020
+00:23:47,120 --> 00:23:47,130
+current machine learning and current
+ 
+
+1021
+00:23:47,130 --> 00:23:49,220
+current machine learning and current
+neural nets and so on it's not plausible
+
+1022
+00:23:49,220 --> 00:23:49,230
+neural nets and so on it's not plausible
+ 
+
+1023
+00:23:49,230 --> 00:23:51,230
+neural nets and so on it's not plausible
+to me but of course I don't have a
+
+1024
+00:23:51,230 --> 00:23:51,240
+to me but of course I don't have a
+ 
+
+1025
+00:23:51,240 --> 00:23:53,120
+to me but of course I don't have a
+crystal ball and who knows what a I will
+
+1026
+00:23:53,120 --> 00:23:53,130
+crystal ball and who knows what a I will
+ 
+
+1027
+00:23:53,130 --> 00:23:55,010
+crystal ball and who knows what a I will
+be in fifty years from now so I think it
+
+1028
+00:23:55,010 --> 00:23:55,020
+be in fifty years from now so I think it
+ 
+
+1029
+00:23:55,020 --> 00:23:56,720
+be in fifty years from now so I think it
+is worth at scientists study those
+
+1030
+00:23:56,720 --> 00:23:56,730
+is worth at scientists study those
+ 
+
+1031
+00:23:56,730 --> 00:23:58,700
+is worth at scientists study those
+problems it's just not a pressing
+
+1032
+00:23:58,700 --> 00:23:58,710
+problems it's just not a pressing
+ 
+
+1033
+00:23:58,710 --> 00:24:01,570
+problems it's just not a pressing
+question as far as I'm concerned so
+
+1034
+00:24:01,570 --> 00:24:01,580
+question as far as I'm concerned so
+ 
+
+1035
+00:24:01,580 --> 00:24:04,190
+question as far as I'm concerned so
+before continuing down the line a few
+
+1036
+00:24:04,190 --> 00:24:04,200
+before continuing down the line a few
+ 
+
+1037
+00:24:04,200 --> 00:24:07,520
+before continuing down the line a few
+questions there but what what do you
+
+1038
+00:24:07,520 --> 00:24:07,530
+questions there but what what do you
+ 
+
+1039
+00:24:07,530 --> 00:24:09,590
+questions there but what what do you
+like and not like about ex machina as a
+
+1040
+00:24:09,590 --> 00:24:09,600
+like and not like about ex machina as a
+ 
+
+1041
+00:24:09,600 --> 00:24:11,450
+like and not like about ex machina as a
+movie because I I actually watch it for
+
+1042
+00:24:11,450 --> 00:24:11,460
+movie because I I actually watch it for
+ 
+
+1043
+00:24:11,460 --> 00:24:14,090
+movie because I I actually watch it for
+the second time and enjoyed it I hated
+
+1044
+00:24:14,090 --> 00:24:14,100
+the second time and enjoyed it I hated
+ 
+
+1045
+00:24:14,100 --> 00:24:17,090
+the second time and enjoyed it I hated
+it the first time and I enjoyed it quite
+
+1046
+00:24:17,090 --> 00:24:17,100
+it the first time and I enjoyed it quite
+ 
+
+1047
+00:24:17,100 --> 00:24:18,800
+it the first time and I enjoyed it quite
+a bit more the second time when I sort
+
+1048
+00:24:18,800 --> 00:24:18,810
+a bit more the second time when I sort
+ 
+
+1049
+00:24:18,810 --> 00:24:21,090
+a bit more the second time when I sort
+of learned to accept
+
+1050
+00:24:21,090 --> 00:24:21,100
+of learned to accept
+ 
+
+1051
+00:24:21,100 --> 00:24:25,470
+of learned to accept
+certain pieces of it CC is the concept
+
+1052
+00:24:25,470 --> 00:24:25,480
+certain pieces of it CC is the concept
+ 
+
+1053
+00:24:25,480 --> 00:24:26,610
+certain pieces of it CC is the concept
+movie hi what was your experience
+
+1054
+00:24:26,610 --> 00:24:26,620
+movie hi what was your experience
+ 
+
+1055
+00:24:26,620 --> 00:24:29,760
+movie hi what was your experience
+wouldn't Laura your thoughts so the
+
+1056
+00:24:29,760 --> 00:24:29,770
+wouldn't Laura your thoughts so the
+ 
+
+1057
+00:24:29,770 --> 00:24:34,919
+wouldn't Laura your thoughts so the
+negative is the picture it paints of
+
+1058
+00:24:34,919 --> 00:24:34,929
+negative is the picture it paints of
+ 
+
+1059
+00:24:34,929 --> 00:24:38,549
+negative is the picture it paints of
+science is totally wrong science in
+
+1060
+00:24:38,549 --> 00:24:38,559
+science is totally wrong science in
+ 
+
+1061
+00:24:38,559 --> 00:24:41,130
+science is totally wrong science in
+general and AI in particular science is
+
+1062
+00:24:41,130 --> 00:24:41,140
+general and AI in particular science is
+ 
+
+1063
+00:24:41,140 --> 00:24:45,810
+general and AI in particular science is
+not happening in some hidden place by
+
+1064
+00:24:45,810 --> 00:24:45,820
+not happening in some hidden place by
+ 
+
+1065
+00:24:45,820 --> 00:24:48,900
+not happening in some hidden place by
+some you know really smart guy one
+
+1066
+00:24:48,900 --> 00:24:48,910
+some you know really smart guy one
+ 
+
+1067
+00:24:48,910 --> 00:24:50,130
+some you know really smart guy one
+person one person
+
+1068
+00:24:50,130 --> 00:24:50,140
+person one person
+ 
+
+1069
+00:24:50,140 --> 00:24:52,500
+person one person
+this is totally unrealistic this is not
+
+1070
+00:24:52,500 --> 00:24:52,510
+this is totally unrealistic this is not
+ 
+
+1071
+00:24:52,510 --> 00:24:53,570
+this is totally unrealistic this is not
+how it happens
+
+1072
+00:24:53,570 --> 00:24:53,580
+how it happens
+ 
+
+1073
+00:24:53,580 --> 00:24:57,120
+how it happens
+even a team of people in some isolated
+
+1074
+00:24:57,120 --> 00:24:57,130
+even a team of people in some isolated
+ 
+
+1075
+00:24:57,130 --> 00:24:59,060
+even a team of people in some isolated
+place will not make it
+
+1076
+00:24:59,060 --> 00:24:59,070
+place will not make it
+ 
+
+1077
+00:24:59,070 --> 00:25:02,430
+place will not make it
+science moved by small steps thanks to
+
+1078
+00:25:02,430 --> 00:25:02,440
+science moved by small steps thanks to
+ 
+
+1079
+00:25:02,440 --> 00:25:07,350
+science moved by small steps thanks to
+the collaboration and community of a
+
+1080
+00:25:07,350 --> 00:25:07,360
+the collaboration and community of a
+ 
+
+1081
+00:25:07,360 --> 00:25:10,880
+the collaboration and community of a
+large number of people interacting and
+
+1082
+00:25:10,880 --> 00:25:10,890
+large number of people interacting and
+ 
+
+1083
+00:25:10,890 --> 00:25:12,260
+large number of people interacting and
+[Music]
+
+1084
+00:25:12,260 --> 00:25:12,270
+[Music]
+ 
+
+1085
+00:25:12,270 --> 00:25:14,730
+[Music]
+all the scientists who are expert in
+
+1086
+00:25:14,730 --> 00:25:14,740
+all the scientists who are expert in
+ 
+
+1087
+00:25:14,740 --> 00:25:16,380
+all the scientists who are expert in
+their field Canon Oh what is going on
+
+1088
+00:25:16,380 --> 00:25:16,390
+their field Canon Oh what is going on
+ 
+
+1089
+00:25:16,390 --> 00:25:19,220
+their field Canon Oh what is going on
+even in the industrial labs its
+
+1090
+00:25:19,220 --> 00:25:19,230
+even in the industrial labs its
+ 
+
+1091
+00:25:19,230 --> 00:25:21,870
+even in the industrial labs its
+information flows and leaks and so on
+
+1092
+00:25:21,870 --> 00:25:21,880
+information flows and leaks and so on
+ 
+
+1093
+00:25:21,880 --> 00:25:24,480
+information flows and leaks and so on
+and and and the spirit of it is very
+
+1094
+00:25:24,480 --> 00:25:24,490
+and and and the spirit of it is very
+ 
+
+1095
+00:25:24,490 --> 00:25:27,120
+and and and the spirit of it is very
+different from the way science is
+
+1096
+00:25:27,120 --> 00:25:27,130
+different from the way science is
+ 
+
+1097
+00:25:27,130 --> 00:25:29,370
+different from the way science is
+painted in this movie yeah let me let me
+
+1098
+00:25:29,370 --> 00:25:29,380
+painted in this movie yeah let me let me
+ 
+
+1099
+00:25:29,380 --> 00:25:31,980
+painted in this movie yeah let me let me
+ask on that on that point it's been the
+
+1100
+00:25:31,980 --> 00:25:31,990
+ask on that on that point it's been the
+ 
+
+1101
+00:25:31,990 --> 00:25:34,919
+ask on that on that point it's been the
+case to this point yeah that kind of
+
+1102
+00:25:34,919 --> 00:25:34,929
+case to this point yeah that kind of
+ 
+
+1103
+00:25:34,929 --> 00:25:36,480
+case to this point yeah that kind of
+even if the research happens inside
+
+1104
+00:25:36,480 --> 00:25:36,490
+even if the research happens inside
+ 
+
+1105
+00:25:36,490 --> 00:25:38,220
+even if the research happens inside
+Google or Facebook inside companies it
+
+1106
+00:25:38,220 --> 00:25:38,230
+Google or Facebook inside companies it
+ 
+
+1107
+00:25:38,230 --> 00:25:40,680
+Google or Facebook inside companies it
+still kind of comes out like yes come on
+
+1108
+00:25:40,680 --> 00:25:40,690
+still kind of comes out like yes come on
+ 
+
+1109
+00:25:40,690 --> 00:25:42,240
+still kind of comes out like yes come on
+absolutely think that will always be the
+
+1110
+00:25:42,240 --> 00:25:42,250
+absolutely think that will always be the
+ 
+
+1111
+00:25:42,250 --> 00:25:43,890
+absolutely think that will always be the
+case so there I is is it possible to
+
+1112
+00:25:43,890 --> 00:25:43,900
+case so there I is is it possible to
+ 
+
+1113
+00:25:43,900 --> 00:25:48,210
+case so there I is is it possible to
+bottle ideas to the point where there's
+
+1114
+00:25:48,210 --> 00:25:48,220
+bottle ideas to the point where there's
+ 
+
+1115
+00:25:48,220 --> 00:25:49,620
+bottle ideas to the point where there's
+a set of breakthrough the go completely
+
+1116
+00:25:49,620 --> 00:25:49,630
+a set of breakthrough the go completely
+ 
+
+1117
+00:25:49,630 --> 00:25:51,810
+a set of breakthrough the go completely
+undiscovered by the general research
+
+1118
+00:25:51,810 --> 00:25:51,820
+undiscovered by the general research
+ 
+
+1119
+00:25:51,820 --> 00:25:53,070
+undiscovered by the general research
+community do you think that's even
+
+1120
+00:25:53,070 --> 00:25:53,080
+community do you think that's even
+ 
+
+1121
+00:25:53,080 --> 00:25:56,640
+community do you think that's even
+possible it's possible but it's unlikely
+
+1122
+00:25:56,640 --> 00:25:56,650
+possible it's possible but it's unlikely
+ 
+
+1123
+00:25:56,650 --> 00:26:00,120
+possible it's possible but it's unlikely
+unlikely it's not how it is done now
+
+1124
+00:26:00,120 --> 00:26:00,130
+unlikely it's not how it is done now
+ 
+
+1125
+00:26:00,130 --> 00:26:03,419
+unlikely it's not how it is done now
+it's not how I can foresee it in in the
+
+1126
+00:26:03,419 --> 00:26:03,429
+it's not how I can foresee it in in the
+ 
+
+1127
+00:26:03,429 --> 00:26:06,810
+it's not how I can foresee it in in the
+foreseeable future but of course I don't
+
+1128
+00:26:06,810 --> 00:26:06,820
+foreseeable future but of course I don't
+ 
+
+1129
+00:26:06,820 --> 00:26:12,720
+foreseeable future but of course I don't
+have a crystal ball and so who knows
+
+1130
+00:26:12,720 --> 00:26:12,730
+have a crystal ball and so who knows
+ 
+
+1131
+00:26:12,730 --> 00:26:15,480
+have a crystal ball and so who knows
+this is science fiction after all but
+
+1132
+00:26:15,480 --> 00:26:15,490
+this is science fiction after all but
+ 
+
+1133
+00:26:15,490 --> 00:26:17,220
+this is science fiction after all but
+but usually the ominous that the lights
+
+1134
+00:26:17,220 --> 00:26:17,230
+but usually the ominous that the lights
+ 
+
+1135
+00:26:17,230 --> 00:26:20,450
+but usually the ominous that the lights
+went off during during that discussion
+
+1136
+00:26:20,450 --> 00:26:20,460
+went off during during that discussion
+ 
+
+1137
+00:26:20,460 --> 00:26:23,340
+went off during during that discussion
+so the problem again there's a you know
+
+1138
+00:26:23,340 --> 00:26:23,350
+so the problem again there's a you know
+ 
+
+1139
+00:26:23,350 --> 00:26:24,600
+so the problem again there's a you know
+one thing is the movie and you could
+
+1140
+00:26:24,600 --> 00:26:24,610
+one thing is the movie and you could
+ 
+
+1141
+00:26:24,610 --> 00:26:26,159
+one thing is the movie and you could
+imagine all kinds of science fiction the
+
+1142
+00:26:26,159 --> 00:26:26,169
+imagine all kinds of science fiction the
+ 
+
+1143
+00:26:26,169 --> 00:26:28,620
+imagine all kinds of science fiction the
+problem wouldn't for me may be similar
+
+1144
+00:26:28,620 --> 00:26:28,630
+problem wouldn't for me may be similar
+ 
+
+1145
+00:26:28,630 --> 00:26:30,270
+problem wouldn't for me may be similar
+to the question about existential risk
+
+1146
+00:26:30,270 --> 00:26:30,280
+to the question about existential risk
+ 
+
+1147
+00:26:30,280 --> 00:26:34,710
+to the question about existential risk
+is that this kind of movie pain
+
+1148
+00:26:34,710 --> 00:26:34,720
+is that this kind of movie pain
+ 
+
+1149
+00:26:34,720 --> 00:26:37,529
+is that this kind of movie pain
+such a wrong picture of what is actual
+
+1150
+00:26:37,529 --> 00:26:37,539
+such a wrong picture of what is actual
+ 
+
+1151
+00:26:37,539 --> 00:26:40,080
+such a wrong picture of what is actual
+you know the actual science and how it's
+
+1152
+00:26:40,080 --> 00:26:40,090
+you know the actual science and how it's
+ 
+
+1153
+00:26:40,090 --> 00:26:42,510
+you know the actual science and how it's
+going on that that it can have
+
+1154
+00:26:42,510 --> 00:26:42,520
+going on that that it can have
+ 
+
+1155
+00:26:42,520 --> 00:26:44,220
+going on that that it can have
+unfortunate effects on people's
+
+1156
+00:26:44,220 --> 00:26:44,230
+unfortunate effects on people's
+ 
+
+1157
+00:26:44,230 --> 00:26:47,370
+unfortunate effects on people's
+understanding of current science and and
+
+1158
+00:26:47,370 --> 00:26:47,380
+understanding of current science and and
+ 
+
+1159
+00:26:47,380 --> 00:26:51,510
+understanding of current science and and
+so that's kind of sad is it an important
+
+1160
+00:26:51,510 --> 00:26:51,520
+so that's kind of sad is it an important
+ 
+
+1161
+00:26:51,520 --> 00:26:55,860
+so that's kind of sad is it an important
+principle in research which is diversity
+
+1162
+00:26:55,860 --> 00:26:55,870
+principle in research which is diversity
+ 
+
+1163
+00:26:55,870 --> 00:26:58,590
+principle in research which is diversity
+so in other words research is
+
+1164
+00:26:58,590 --> 00:26:58,600
+so in other words research is
+ 
+
+1165
+00:26:58,600 --> 00:27:00,600
+so in other words research is
+exploration resources explosion in the
+
+1166
+00:27:00,600 --> 00:27:00,610
+exploration resources explosion in the
+ 
+
+1167
+00:27:00,610 --> 00:27:03,029
+exploration resources explosion in the
+space of ideas and different people will
+
+1168
+00:27:03,029 --> 00:27:03,039
+space of ideas and different people will
+ 
+
+1169
+00:27:03,039 --> 00:27:05,399
+space of ideas and different people will
+focus on different directions and this
+
+1170
+00:27:05,399 --> 00:27:05,409
+focus on different directions and this
+ 
+
+1171
+00:27:05,409 --> 00:27:09,149
+focus on different directions and this
+is not just good it's essential so I'm
+
+1172
+00:27:09,149 --> 00:27:09,159
+is not just good it's essential so I'm
+ 
+
+1173
+00:27:09,159 --> 00:27:12,270
+is not just good it's essential so I'm
+totally fine with people exploring
+
+1174
+00:27:12,270 --> 00:27:12,280
+totally fine with people exploring
+ 
+
+1175
+00:27:12,280 --> 00:27:14,909
+totally fine with people exploring
+directions that are contrary to mine or
+
+1176
+00:27:14,909 --> 00:27:14,919
+directions that are contrary to mine or
+ 
+
+1177
+00:27:14,919 --> 00:27:19,890
+directions that are contrary to mine or
+look orthogonal to mine it's I I am more
+
+1178
+00:27:19,890 --> 00:27:19,900
+look orthogonal to mine it's I I am more
+ 
+
+1179
+00:27:19,900 --> 00:27:22,260
+look orthogonal to mine it's I I am more
+than fine I think it's important I and
+
+1180
+00:27:22,260 --> 00:27:22,270
+than fine I think it's important I and
+ 
+
+1181
+00:27:22,270 --> 00:27:24,990
+than fine I think it's important I and
+my friends don't claim we have universal
+
+1182
+00:27:24,990 --> 00:27:25,000
+my friends don't claim we have universal
+ 
+
+1183
+00:27:25,000 --> 00:27:26,789
+my friends don't claim we have universal
+truth about what well especially about
+
+1184
+00:27:26,789 --> 00:27:26,799
+truth about what well especially about
+ 
+
+1185
+00:27:26,799 --> 00:27:29,190
+truth about what well especially about
+what will happen in the future now that
+
+1186
+00:27:29,190 --> 00:27:29,200
+what will happen in the future now that
+ 
+
+1187
+00:27:29,200 --> 00:27:31,770
+what will happen in the future now that
+being said we have our intuitions and
+
+1188
+00:27:31,770 --> 00:27:31,780
+being said we have our intuitions and
+ 
+
+1189
+00:27:31,780 --> 00:27:35,039
+being said we have our intuitions and
+then we act accordingly according to
+
+1190
+00:27:35,039 --> 00:27:35,049
+then we act accordingly according to
+ 
+
+1191
+00:27:35,049 --> 00:27:37,799
+then we act accordingly according to
+where we think we can be most useful and
+
+1192
+00:27:37,799 --> 00:27:37,809
+where we think we can be most useful and
+ 
+
+1193
+00:27:37,809 --> 00:27:39,600
+where we think we can be most useful and
+where society has the most gain or to
+
+1194
+00:27:39,600 --> 00:27:39,610
+where society has the most gain or to
+ 
+
+1195
+00:27:39,610 --> 00:27:43,640
+where society has the most gain or to
+lose we should have those debates and
+
+1196
+00:27:43,640 --> 00:27:43,650
+lose we should have those debates and
+ 
+
+1197
+00:27:43,650 --> 00:27:47,340
+lose we should have those debates and
+and and and not end up in a society
+
+1198
+00:27:47,340 --> 00:27:47,350
+and and and not end up in a society
+ 
+
+1199
+00:27:47,350 --> 00:27:49,350
+and and and not end up in a society
+where there's only one voice and one way
+
+1200
+00:27:49,350 --> 00:27:49,360
+where there's only one voice and one way
+ 
+
+1201
+00:27:49,360 --> 00:27:52,919
+where there's only one voice and one way
+of thinking in research money is spread
+
+1202
+00:27:52,919 --> 00:27:52,929
+of thinking in research money is spread
+ 
+
+1203
+00:27:52,929 --> 00:27:57,990
+of thinking in research money is spread
+out so disagreement is a sign of good
+
+1204
+00:27:57,990 --> 00:27:58,000
+out so disagreement is a sign of good
+ 
+
+1205
+00:27:58,000 --> 00:28:01,919
+out so disagreement is a sign of good
+research good science so yes the idea of
+
+1206
+00:28:01,919 --> 00:28:01,929
+research good science so yes the idea of
+ 
+
+1207
+00:28:01,929 --> 00:28:04,820
+research good science so yes the idea of
+bias in in the human sense of bias yeah
+
+1208
+00:28:04,820 --> 00:28:04,830
+bias in in the human sense of bias yeah
+ 
+
+1209
+00:28:04,830 --> 00:28:08,310
+bias in in the human sense of bias yeah
+how do you think about instilling in
+
+1210
+00:28:08,310 --> 00:28:08,320
+how do you think about instilling in
+ 
+
+1211
+00:28:08,320 --> 00:28:10,470
+how do you think about instilling in
+machine learning something that's
+
+1212
+00:28:10,470 --> 00:28:10,480
+machine learning something that's
+ 
+
+1213
+00:28:10,480 --> 00:28:13,260
+machine learning something that's
+aligned with human values in terms of
+
+1214
+00:28:13,260 --> 00:28:13,270
+aligned with human values in terms of
+ 
+
+1215
+00:28:13,270 --> 00:28:15,750
+aligned with human values in terms of
+bias we and intuitively human beings
+
+1216
+00:28:15,750 --> 00:28:15,760
+bias we and intuitively human beings
+ 
+
+1217
+00:28:15,760 --> 00:28:17,789
+bias we and intuitively human beings
+have a concept of what bias means of
+
+1218
+00:28:17,789 --> 00:28:17,799
+have a concept of what bias means of
+ 
+
+1219
+00:28:17,799 --> 00:28:21,240
+have a concept of what bias means of
+what fundamental respect for other human
+
+1220
+00:28:21,240 --> 00:28:21,250
+what fundamental respect for other human
+ 
+
+1221
+00:28:21,250 --> 00:28:23,580
+what fundamental respect for other human
+beings means but how do we instill that
+
+1222
+00:28:23,580 --> 00:28:23,590
+beings means but how do we instill that
+ 
+
+1223
+00:28:23,590 --> 00:28:25,140
+beings means but how do we instill that
+into machine learning systems do you
+
+1224
+00:28:25,140 --> 00:28:25,150
+into machine learning systems do you
+ 
+
+1225
+00:28:25,150 --> 00:28:28,560
+into machine learning systems do you
+think so I think there are short-term
+
+1226
+00:28:28,560 --> 00:28:28,570
+think so I think there are short-term
+ 
+
+1227
+00:28:28,570 --> 00:28:31,620
+think so I think there are short-term
+things that are already happening and
+
+1228
+00:28:31,620 --> 00:28:31,630
+things that are already happening and
+ 
+
+1229
+00:28:31,630 --> 00:28:33,419
+things that are already happening and
+then there are long-term things that we
+
+1230
+00:28:33,419 --> 00:28:33,429
+then there are long-term things that we
+ 
+
+1231
+00:28:33,429 --> 00:28:36,840
+then there are long-term things that we
+need to do and the short term there are
+
+1232
+00:28:36,840 --> 00:28:36,850
+need to do and the short term there are
+ 
+
+1233
+00:28:36,850 --> 00:28:39,240
+need to do and the short term there are
+techniques that have been proposed and I
+
+1234
+00:28:39,240 --> 00:28:39,250
+techniques that have been proposed and I
+ 
+
+1235
+00:28:39,250 --> 00:28:41,100
+techniques that have been proposed and I
+think will continue to be improved and
+
+1236
+00:28:41,100 --> 00:28:41,110
+think will continue to be improved and
+ 
+
+1237
+00:28:41,110 --> 00:28:43,740
+think will continue to be improved and
+maybe alternatives will come up to take
+
+1238
+00:28:43,740 --> 00:28:43,750
+maybe alternatives will come up to take
+ 
+
+1239
+00:28:43,750 --> 00:28:46,770
+maybe alternatives will come up to take
+datasets in which we know there is bias
+
+1240
+00:28:46,770 --> 00:28:46,780
+datasets in which we know there is bias
+ 
+
+1241
+00:28:46,780 --> 00:28:49,919
+datasets in which we know there is bias
+we can measure it pretty much any data
+
+1242
+00:28:49,919 --> 00:28:49,929
+we can measure it pretty much any data
+ 
+
+1243
+00:28:49,929 --> 00:28:51,750
+we can measure it pretty much any data
+set where humans are you know being
+
+1244
+00:28:51,750 --> 00:28:51,760
+set where humans are you know being
+ 
+
+1245
+00:28:51,760 --> 00:28:53,700
+set where humans are you know being
+observed taking decisions will have some
+
+1246
+00:28:53,700 --> 00:28:53,710
+observed taking decisions will have some
+ 
+
+1247
+00:28:53,710 --> 00:28:55,770
+observed taking decisions will have some
+sort of bias discrimination against
+
+1248
+00:28:55,770 --> 00:28:55,780
+sort of bias discrimination against
+ 
+
+1249
+00:28:55,780 --> 00:28:59,399
+sort of bias discrimination against
+particular groups and so on and we can
+
+1250
+00:28:59,399 --> 00:28:59,409
+particular groups and so on and we can
+ 
+
+1251
+00:28:59,409 --> 00:29:01,440
+particular groups and so on and we can
+use machine learning techniques to try
+
+1252
+00:29:01,440 --> 00:29:01,450
+use machine learning techniques to try
+ 
+
+1253
+00:29:01,450 --> 00:29:04,409
+use machine learning techniques to try
+to build predictors classifiers that are
+
+1254
+00:29:04,409 --> 00:29:04,419
+to build predictors classifiers that are
+ 
+
+1255
+00:29:04,419 --> 00:29:09,180
+to build predictors classifiers that are
+going to be less biased we can do it for
+
+1256
+00:29:09,180 --> 00:29:09,190
+going to be less biased we can do it for
+ 
+
+1257
+00:29:09,190 --> 00:29:11,669
+going to be less biased we can do it for
+example using adversarial methods to
+
+1258
+00:29:11,669 --> 00:29:11,679
+example using adversarial methods to
+ 
+
+1259
+00:29:11,679 --> 00:29:15,210
+example using adversarial methods to
+make our systems less sensitive to these
+
+1260
+00:29:15,210 --> 00:29:15,220
+make our systems less sensitive to these
+ 
+
+1261
+00:29:15,220 --> 00:29:17,760
+make our systems less sensitive to these
+variables we should not be sensitive to
+
+1262
+00:29:17,760 --> 00:29:17,770
+variables we should not be sensitive to
+ 
+
+1263
+00:29:17,770 --> 00:29:20,850
+variables we should not be sensitive to
+so these are clear well-defined ways of
+
+1264
+00:29:20,850 --> 00:29:20,860
+so these are clear well-defined ways of
+ 
+
+1265
+00:29:20,860 --> 00:29:22,649
+so these are clear well-defined ways of
+trying to address the problem maybe they
+
+1266
+00:29:22,649 --> 00:29:22,659
+trying to address the problem maybe they
+ 
+
+1267
+00:29:22,659 --> 00:29:24,330
+trying to address the problem maybe they
+have weaknesses and you know more
+
+1268
+00:29:24,330 --> 00:29:24,340
+have weaknesses and you know more
+ 
+
+1269
+00:29:24,340 --> 00:29:26,669
+have weaknesses and you know more
+research is needed and so on but I think
+
+1270
+00:29:26,669 --> 00:29:26,679
+research is needed and so on but I think
+ 
+
+1271
+00:29:26,679 --> 00:29:28,039
+research is needed and so on but I think
+in fact they are sufficiently mature
+
+1272
+00:29:28,039 --> 00:29:28,049
+in fact they are sufficiently mature
+ 
+
+1273
+00:29:28,049 --> 00:29:31,529
+in fact they are sufficiently mature
+that governments should start regulating
+
+1274
+00:29:31,529 --> 00:29:31,539
+that governments should start regulating
+ 
+
+1275
+00:29:31,539 --> 00:29:33,720
+that governments should start regulating
+companies where it matters say like
+
+1276
+00:29:33,720 --> 00:29:33,730
+companies where it matters say like
+ 
+
+1277
+00:29:33,730 --> 00:29:36,029
+companies where it matters say like
+insurance companies so that they use
+
+1278
+00:29:36,029 --> 00:29:36,039
+insurance companies so that they use
+ 
+
+1279
+00:29:36,039 --> 00:29:37,919
+insurance companies so that they use
+those techniques because those
+
+1280
+00:29:37,919 --> 00:29:37,929
+those techniques because those
+ 
+
+1281
+00:29:37,929 --> 00:29:42,270
+those techniques because those
+techniques will produce the bias but at
+
+1282
+00:29:42,270 --> 00:29:42,280
+techniques will produce the bias but at
+ 
+
+1283
+00:29:42,280 --> 00:29:44,159
+techniques will produce the bias but at
+a costs for example maybe their
+
+1284
+00:29:44,159 --> 00:29:44,169
+a costs for example maybe their
+ 
+
+1285
+00:29:44,169 --> 00:29:46,049
+a costs for example maybe their
+predictions will be less accurate and so
+
+1286
+00:29:46,049 --> 00:29:46,059
+predictions will be less accurate and so
+ 
+
+1287
+00:29:46,059 --> 00:29:47,760
+predictions will be less accurate and so
+companies will not do it until you force
+
+1288
+00:29:47,760 --> 00:29:47,770
+companies will not do it until you force
+ 
+
+1289
+00:29:47,770 --> 00:29:50,100
+companies will not do it until you force
+them all right so this is short term
+
+1290
+00:29:50,100 --> 00:29:50,110
+them all right so this is short term
+ 
+
+1291
+00:29:50,110 --> 00:29:54,080
+them all right so this is short term
+long term I'm really interested in
+
+1292
+00:29:54,080 --> 00:29:54,090
+long term I'm really interested in
+ 
+
+1293
+00:29:54,090 --> 00:29:57,840
+long term I'm really interested in
+thinking of how we can instill moral
+
+1294
+00:29:57,840 --> 00:29:57,850
+thinking of how we can instill moral
+ 
+
+1295
+00:29:57,850 --> 00:29:59,760
+thinking of how we can instill moral
+values into computers obviously this is
+
+1296
+00:29:59,760 --> 00:29:59,770
+values into computers obviously this is
+ 
+
+1297
+00:29:59,770 --> 00:30:01,860
+values into computers obviously this is
+not something we'll achieve in the next
+
+1298
+00:30:01,860 --> 00:30:01,870
+not something we'll achieve in the next
+ 
+
+1299
+00:30:01,870 --> 00:30:05,370
+not something we'll achieve in the next
+five or ten years how can we you know
+
+1300
+00:30:05,370 --> 00:30:05,380
+five or ten years how can we you know
+ 
+
+1301
+00:30:05,380 --> 00:30:07,590
+five or ten years how can we you know
+there's already work in detecting
+
+1302
+00:30:07,590 --> 00:30:07,600
+there's already work in detecting
+ 
+
+1303
+00:30:07,600 --> 00:30:10,740
+there's already work in detecting
+emotions for example in images and
+
+1304
+00:30:10,740 --> 00:30:10,750
+emotions for example in images and
+ 
+
+1305
+00:30:10,750 --> 00:30:16,770
+emotions for example in images and
+sounds and texts and also studying how
+
+1306
+00:30:16,770 --> 00:30:16,780
+sounds and texts and also studying how
+ 
+
+1307
+00:30:16,780 --> 00:30:19,380
+sounds and texts and also studying how
+different agents interacting in
+
+1308
+00:30:19,380 --> 00:30:19,390
+different agents interacting in
+ 
+
+1309
+00:30:19,390 --> 00:30:22,460
+different agents interacting in
+different ways may correspond to
+
+1310
+00:30:22,460 --> 00:30:22,470
+different ways may correspond to
+ 
+
+1311
+00:30:22,470 --> 00:30:26,610
+different ways may correspond to
+patterns of say injustice which could
+
+1312
+00:30:26,610 --> 00:30:26,620
+patterns of say injustice which could
+ 
+
+1313
+00:30:26,620 --> 00:30:29,430
+patterns of say injustice which could
+trigger anger so these are things we can
+
+1314
+00:30:29,430 --> 00:30:29,440
+trigger anger so these are things we can
+ 
+
+1315
+00:30:29,440 --> 00:30:33,060
+trigger anger so these are things we can
+do in in the medium term and eventually
+
+1316
+00:30:33,060 --> 00:30:33,070
+do in in the medium term and eventually
+ 
+
+1317
+00:30:33,070 --> 00:30:38,610
+do in in the medium term and eventually
+train computers to model for example how
+
+1318
+00:30:38,610 --> 00:30:38,620
+train computers to model for example how
+ 
+
+1319
+00:30:38,620 --> 00:30:42,510
+train computers to model for example how
+humans react emotionally I would say the
+
+1320
+00:30:42,510 --> 00:30:42,520
+humans react emotionally I would say the
+ 
+
+1321
+00:30:42,520 --> 00:30:46,440
+humans react emotionally I would say the
+simplest thing is unfair situations
+
+1322
+00:30:46,440 --> 00:30:46,450
+simplest thing is unfair situations
+ 
+
+1323
+00:30:46,450 --> 00:30:49,529
+simplest thing is unfair situations
+which trigger anger this is one of the
+
+1324
+00:30:49,529 --> 00:30:49,539
+which trigger anger this is one of the
+ 
+
+1325
+00:30:49,539 --> 00:30:50,909
+which trigger anger this is one of the
+most basic emotions that we share with
+
+1326
+00:30:50,909 --> 00:30:50,919
+most basic emotions that we share with
+ 
+
+1327
+00:30:50,919 --> 00:30:53,250
+most basic emotions that we share with
+other animals I think it's quite
+
+1328
+00:30:53,250 --> 00:30:53,260
+other animals I think it's quite
+ 
+
+1329
+00:30:53,260 --> 00:30:55,560
+other animals I think it's quite
+feasible within the next few years so we
+
+1330
+00:30:55,560 --> 00:30:55,570
+feasible within the next few years so we
+ 
+
+1331
+00:30:55,570 --> 00:30:57,280
+feasible within the next few years so we
+can build systems that can
+
+1332
+00:30:57,280 --> 00:30:57,290
+can build systems that can
+ 
+
+1333
+00:30:57,290 --> 00:30:59,830
+can build systems that can
+take these kind of things to the extent
+
+1334
+00:30:59,830 --> 00:30:59,840
+take these kind of things to the extent
+ 
+
+1335
+00:30:59,840 --> 00:31:01,300
+take these kind of things to the extent
+unfortunately that they understand
+
+1336
+00:31:01,300 --> 00:31:01,310
+unfortunately that they understand
+ 
+
+1337
+00:31:01,310 --> 00:31:04,360
+unfortunately that they understand
+enough about the world around us which
+
+1338
+00:31:04,360 --> 00:31:04,370
+enough about the world around us which
+ 
+
+1339
+00:31:04,370 --> 00:31:07,210
+enough about the world around us which
+is a long time away but maybe we can
+
+1340
+00:31:07,210 --> 00:31:07,220
+is a long time away but maybe we can
+ 
+
+1341
+00:31:07,220 --> 00:31:09,670
+is a long time away but maybe we can
+initially do this in virtual
+
+1342
+00:31:09,670 --> 00:31:09,680
+initially do this in virtual
+ 
+
+1343
+00:31:09,680 --> 00:31:11,230
+initially do this in virtual
+environments so you can imagine like a
+
+1344
+00:31:11,230 --> 00:31:11,240
+environments so you can imagine like a
+ 
+
+1345
+00:31:11,240 --> 00:31:14,650
+environments so you can imagine like a
+video game we're agents interact in in
+
+1346
+00:31:14,650 --> 00:31:14,660
+video game we're agents interact in in
+ 
+
+1347
+00:31:14,660 --> 00:31:16,750
+video game we're agents interact in in
+some ways and then some situations
+
+1348
+00:31:16,750 --> 00:31:16,760
+some ways and then some situations
+ 
+
+1349
+00:31:16,760 --> 00:31:19,750
+some ways and then some situations
+trigger an emotion I think we could
+
+1350
+00:31:19,750 --> 00:31:19,760
+trigger an emotion I think we could
+ 
+
+1351
+00:31:19,760 --> 00:31:21,790
+trigger an emotion I think we could
+train machines to detect those
+
+1352
+00:31:21,790 --> 00:31:21,800
+train machines to detect those
+ 
+
+1353
+00:31:21,800 --> 00:31:23,320
+train machines to detect those
+situations and predict that the
+
+1354
+00:31:23,320 --> 00:31:23,330
+situations and predict that the
+ 
+
+1355
+00:31:23,330 --> 00:31:24,760
+situations and predict that the
+particular emotion you know will likely
+
+1356
+00:31:24,760 --> 00:31:24,770
+particular emotion you know will likely
+ 
+
+1357
+00:31:24,770 --> 00:31:28,120
+particular emotion you know will likely
+be felt if a human was playing one of
+
+1358
+00:31:28,120 --> 00:31:28,130
+be felt if a human was playing one of
+ 
+
+1359
+00:31:28,130 --> 00:31:31,270
+be felt if a human was playing one of
+the characters you have shown excitement
+
+1360
+00:31:31,270 --> 00:31:31,280
+the characters you have shown excitement
+ 
+
+1361
+00:31:31,280 --> 00:31:33,160
+the characters you have shown excitement
+and done a lot of excellent work with
+
+1362
+00:31:33,160 --> 00:31:33,170
+and done a lot of excellent work with
+ 
+
+1363
+00:31:33,170 --> 00:31:36,520
+and done a lot of excellent work with
+supervised learning but on a superbug
+
+1364
+00:31:36,520 --> 00:31:36,530
+supervised learning but on a superbug
+ 
+
+1365
+00:31:36,530 --> 00:31:38,440
+supervised learning but on a superbug
+you know there's been a lot of success
+
+1366
+00:31:38,440 --> 00:31:38,450
+you know there's been a lot of success
+ 
+
+1367
+00:31:38,450 --> 00:31:41,050
+you know there's been a lot of success
+on the supervised learning yes yes and
+
+1368
+00:31:41,050 --> 00:31:41,060
+on the supervised learning yes yes and
+ 
+
+1369
+00:31:41,060 --> 00:31:43,330
+on the supervised learning yes yes and
+one of the things I'm really passionate
+
+1370
+00:31:43,330 --> 00:31:43,340
+one of the things I'm really passionate
+ 
+
+1371
+00:31:43,340 --> 00:31:45,340
+one of the things I'm really passionate
+about is how humans and robots work
+
+1372
+00:31:45,340 --> 00:31:45,350
+about is how humans and robots work
+ 
+
+1373
+00:31:45,350 --> 00:31:48,490
+about is how humans and robots work
+together and in the context of
+
+1374
+00:31:48,490 --> 00:31:48,500
+together and in the context of
+ 
+
+1375
+00:31:48,500 --> 00:31:50,290
+together and in the context of
+supervised learning that means the
+
+1376
+00:31:50,290 --> 00:31:50,300
+supervised learning that means the
+ 
+
+1377
+00:31:50,300 --> 00:31:53,140
+supervised learning that means the
+process of annotation do you think about
+
+1378
+00:31:53,140 --> 00:31:53,150
+process of annotation do you think about
+ 
+
+1379
+00:31:53,150 --> 00:31:56,140
+process of annotation do you think about
+the problem of annotation of put in a
+
+1380
+00:31:56,140 --> 00:31:56,150
+the problem of annotation of put in a
+ 
+
+1381
+00:31:56,150 --> 00:31:59,740
+the problem of annotation of put in a
+more interesting way is humans teaching
+
+1382
+00:31:59,740 --> 00:31:59,750
+more interesting way is humans teaching
+ 
+
+1383
+00:31:59,750 --> 00:32:03,250
+more interesting way is humans teaching
+machines yes is there yes I think it's
+
+1384
+00:32:03,250 --> 00:32:03,260
+machines yes is there yes I think it's
+ 
+
+1385
+00:32:03,260 --> 00:32:05,650
+machines yes is there yes I think it's
+an important subject reducing it to
+
+1386
+00:32:05,650 --> 00:32:05,660
+an important subject reducing it to
+ 
+
+1387
+00:32:05,660 --> 00:32:09,100
+an important subject reducing it to
+annotation may be useful for somebody
+
+1388
+00:32:09,100 --> 00:32:09,110
+annotation may be useful for somebody
+ 
+
+1389
+00:32:09,110 --> 00:32:12,030
+annotation may be useful for somebody
+building a system tomorrow but
+
+1390
+00:32:12,030 --> 00:32:12,040
+building a system tomorrow but
+ 
+
+1391
+00:32:12,040 --> 00:32:14,940
+building a system tomorrow but
+longer-term the process of teaching I
+
+1392
+00:32:14,940 --> 00:32:14,950
+longer-term the process of teaching I
+ 
+
+1393
+00:32:14,950 --> 00:32:17,080
+longer-term the process of teaching I
+think is something that deserves a lot
+
+1394
+00:32:17,080 --> 00:32:17,090
+think is something that deserves a lot
+ 
+
+1395
+00:32:17,090 --> 00:32:18,550
+think is something that deserves a lot
+more attention from the machine learning
+
+1396
+00:32:18,550 --> 00:32:18,560
+more attention from the machine learning
+ 
+
+1397
+00:32:18,560 --> 00:32:20,110
+more attention from the machine learning
+community so there are people have
+
+1398
+00:32:20,110 --> 00:32:20,120
+community so there are people have
+ 
+
+1399
+00:32:20,120 --> 00:32:23,050
+community so there are people have
+coined the term machine teaching so what
+
+1400
+00:32:23,050 --> 00:32:23,060
+coined the term machine teaching so what
+ 
+
+1401
+00:32:23,060 --> 00:32:24,490
+coined the term machine teaching so what
+are good strategies for teaching a
+
+1402
+00:32:24,490 --> 00:32:24,500
+are good strategies for teaching a
+ 
+
+1403
+00:32:24,500 --> 00:32:29,800
+are good strategies for teaching a
+learning agent and can we design train a
+
+1404
+00:32:29,800 --> 00:32:29,810
+learning agent and can we design train a
+ 
+
+1405
+00:32:29,810 --> 00:32:31,660
+learning agent and can we design train a
+system that gonna be is gonna be a good
+
+1406
+00:32:31,660 --> 00:32:31,670
+system that gonna be is gonna be a good
+ 
+
+1407
+00:32:31,670 --> 00:32:34,390
+system that gonna be is gonna be a good
+teacher so so in my group we have a
+
+1408
+00:32:34,390 --> 00:32:34,400
+teacher so so in my group we have a
+ 
+
+1409
+00:32:34,400 --> 00:32:37,960
+teacher so so in my group we have a
+project called the baby I or baby I game
+
+1410
+00:32:37,960 --> 00:32:37,970
+project called the baby I or baby I game
+ 
+
+1411
+00:32:37,970 --> 00:32:42,640
+project called the baby I or baby I game
+where there is a game or scenario where
+
+1412
+00:32:42,640 --> 00:32:42,650
+where there is a game or scenario where
+ 
+
+1413
+00:32:42,650 --> 00:32:45,550
+where there is a game or scenario where
+there's a learning agent and a teaching
+
+1414
+00:32:45,550 --> 00:32:45,560
+there's a learning agent and a teaching
+ 
+
+1415
+00:32:45,560 --> 00:32:48,310
+there's a learning agent and a teaching
+agent presumably the teaching agent
+
+1416
+00:32:48,310 --> 00:32:48,320
+agent presumably the teaching agent
+ 
+
+1417
+00:32:48,320 --> 00:32:51,370
+agent presumably the teaching agent
+would eventually be a human but we're
+
+1418
+00:32:51,370 --> 00:32:51,380
+would eventually be a human but we're
+ 
+
+1419
+00:32:51,380 --> 00:32:56,560
+would eventually be a human but we're
+not there yet and the the role of the
+
+1420
+00:32:56,560 --> 00:32:56,570
+not there yet and the the role of the
+ 
+
+1421
+00:32:56,570 --> 00:32:58,780
+not there yet and the the role of the
+teacher is to use its knowledge of the
+
+1422
+00:32:58,780 --> 00:32:58,790
+teacher is to use its knowledge of the
+ 
+
+1423
+00:32:58,790 --> 00:33:00,610
+teacher is to use its knowledge of the
+environment which it can acquire using
+
+1424
+00:33:00,610 --> 00:33:00,620
+environment which it can acquire using
+ 
+
+1425
+00:33:00,620 --> 00:33:06,010
+environment which it can acquire using
+whatever way brute force to help the
+
+1426
+00:33:06,010 --> 00:33:06,020
+whatever way brute force to help the
+ 
+
+1427
+00:33:06,020 --> 00:33:09,160
+whatever way brute force to help the
+learner learn as quickly as possible so
+
+1428
+00:33:09,160 --> 00:33:09,170
+learner learn as quickly as possible so
+ 
+
+1429
+00:33:09,170 --> 00:33:10,660
+learner learn as quickly as possible so
+the learner is going to try to learn by
+
+1430
+00:33:10,660 --> 00:33:10,670
+the learner is going to try to learn by
+ 
+
+1431
+00:33:10,670 --> 00:33:10,960
+the learner is going to try to learn by
+it
+
+1432
+00:33:10,960 --> 00:33:10,970
+it
+ 
+
+1433
+00:33:10,970 --> 00:33:13,210
+it
+of maybe be using some exploration and
+
+1434
+00:33:13,210 --> 00:33:13,220
+of maybe be using some exploration and
+ 
+
+1435
+00:33:13,220 --> 00:33:18,340
+of maybe be using some exploration and
+whatever but the teacher can choose can
+
+1436
+00:33:18,340 --> 00:33:18,350
+whatever but the teacher can choose can
+ 
+
+1437
+00:33:18,350 --> 00:33:20,140
+whatever but the teacher can choose can
+can can have an influence on the
+
+1438
+00:33:20,140 --> 00:33:20,150
+can can have an influence on the
+ 
+
+1439
+00:33:20,150 --> 00:33:22,149
+can can have an influence on the
+interaction with the learner so as to
+
+1440
+00:33:22,149 --> 00:33:22,159
+interaction with the learner so as to
+ 
+
+1441
+00:33:22,159 --> 00:33:26,950
+interaction with the learner so as to
+guide the learner maybe teach it the
+
+1442
+00:33:26,950 --> 00:33:26,960
+guide the learner maybe teach it the
+ 
+
+1443
+00:33:26,960 --> 00:33:28,720
+guide the learner maybe teach it the
+things that the learner has most trouble
+
+1444
+00:33:28,720 --> 00:33:28,730
+things that the learner has most trouble
+ 
+
+1445
+00:33:28,730 --> 00:33:30,279
+things that the learner has most trouble
+with or just at the boundary between
+
+1446
+00:33:30,279 --> 00:33:30,289
+with or just at the boundary between
+ 
+
+1447
+00:33:30,289 --> 00:33:32,020
+with or just at the boundary between
+what it knows and doesn't know and so on
+
+1448
+00:33:32,020 --> 00:33:32,030
+what it knows and doesn't know and so on
+ 
+
+1449
+00:33:32,030 --> 00:33:34,630
+what it knows and doesn't know and so on
+so this is there's a tradition of these
+
+1450
+00:33:34,630 --> 00:33:34,640
+so this is there's a tradition of these
+ 
+
+1451
+00:33:34,640 --> 00:33:39,010
+so this is there's a tradition of these
+kind of ideas from other fields and like
+
+1452
+00:33:39,010 --> 00:33:39,020
+kind of ideas from other fields and like
+ 
+
+1453
+00:33:39,020 --> 00:33:41,340
+kind of ideas from other fields and like
+tutorial systems for example and they I
+
+1454
+00:33:41,340 --> 00:33:41,350
+tutorial systems for example and they I
+ 
+
+1455
+00:33:41,350 --> 00:33:44,860
+tutorial systems for example and they I
+and and of course people in the
+
+1456
+00:33:44,860 --> 00:33:44,870
+and and of course people in the
+ 
+
+1457
+00:33:44,870 --> 00:33:46,000
+and and of course people in the
+humanities have been thinking about
+
+1458
+00:33:46,000 --> 00:33:46,010
+humanities have been thinking about
+ 
+
+1459
+00:33:46,010 --> 00:33:47,440
+humanities have been thinking about
+these questions but I think it's time
+
+1460
+00:33:47,440 --> 00:33:47,450
+these questions but I think it's time
+ 
+
+1461
+00:33:47,450 --> 00:33:50,110
+these questions but I think it's time
+that machine learning people look at
+
+1462
+00:33:50,110 --> 00:33:50,120
+that machine learning people look at
+ 
+
+1463
+00:33:50,120 --> 00:33:51,880
+that machine learning people look at
+this because in the future we'll have
+
+1464
+00:33:51,880 --> 00:33:51,890
+this because in the future we'll have
+ 
+
+1465
+00:33:51,890 --> 00:33:54,789
+this because in the future we'll have
+more and more human machine interaction
+
+1466
+00:33:54,789 --> 00:33:54,799
+more and more human machine interaction
+ 
+
+1467
+00:33:54,799 --> 00:33:58,180
+more and more human machine interaction
+with a human in the loop and I think
+
+1468
+00:33:58,180 --> 00:33:58,190
+with a human in the loop and I think
+ 
+
+1469
+00:33:58,190 --> 00:33:59,950
+with a human in the loop and I think
+understanding how to make this work
+
+1470
+00:33:59,950 --> 00:33:59,960
+understanding how to make this work
+ 
+
+1471
+00:33:59,960 --> 00:34:01,840
+understanding how to make this work
+better all the problems around that are
+
+1472
+00:34:01,840 --> 00:34:01,850
+better all the problems around that are
+ 
+
+1473
+00:34:01,850 --> 00:34:03,640
+better all the problems around that are
+very interesting and not sufficiently
+
+1474
+00:34:03,640 --> 00:34:03,650
+very interesting and not sufficiently
+ 
+
+1475
+00:34:03,650 --> 00:34:06,220
+very interesting and not sufficiently
+addressed you've done a lot of work with
+
+1476
+00:34:06,220 --> 00:34:06,230
+addressed you've done a lot of work with
+ 
+
+1477
+00:34:06,230 --> 00:34:10,030
+addressed you've done a lot of work with
+language to what aspect of the
+
+1478
+00:34:10,030 --> 00:34:10,040
+language to what aspect of the
+ 
+
+1479
+00:34:10,040 --> 00:34:12,510
+language to what aspect of the
+traditionally formulated Turing test a
+
+1480
+00:34:12,510 --> 00:34:12,520
+traditionally formulated Turing test a
+ 
+
+1481
+00:34:12,520 --> 00:34:15,010
+traditionally formulated Turing test a
+test of natural language understanding a
+
+1482
+00:34:15,010 --> 00:34:15,020
+test of natural language understanding a
+ 
+
+1483
+00:34:15,020 --> 00:34:17,200
+test of natural language understanding a
+generation in your eyes is the most
+
+1484
+00:34:17,200 --> 00:34:17,210
+generation in your eyes is the most
+ 
+
+1485
+00:34:17,210 --> 00:34:19,960
+generation in your eyes is the most
+difficult of conversation but in your
+
+1486
+00:34:19,960 --> 00:34:19,970
+difficult of conversation but in your
+ 
+
+1487
+00:34:19,970 --> 00:34:21,790
+difficult of conversation but in your
+eyes is the hardest part of conversation
+
+1488
+00:34:21,790 --> 00:34:21,800
+eyes is the hardest part of conversation
+ 
+
+1489
+00:34:21,800 --> 00:34:25,060
+eyes is the hardest part of conversation
+to solve for machines so I would say
+
+1490
+00:34:25,060 --> 00:34:25,070
+to solve for machines so I would say
+ 
+
+1491
+00:34:25,070 --> 00:34:28,629
+to solve for machines so I would say
+it's everything having to do with the
+
+1492
+00:34:28,629 --> 00:34:28,639
+it's everything having to do with the
+ 
+
+1493
+00:34:28,639 --> 00:34:30,520
+it's everything having to do with the
+non linguistic knowledge which
+
+1494
+00:34:30,520 --> 00:34:30,530
+non linguistic knowledge which
+ 
+
+1495
+00:34:30,530 --> 00:34:32,619
+non linguistic knowledge which
+implicitly you need in order to make
+
+1496
+00:34:32,619 --> 00:34:32,629
+implicitly you need in order to make
+ 
+
+1497
+00:34:32,629 --> 00:34:35,470
+implicitly you need in order to make
+sense of sentences things like the
+
+1498
+00:34:35,470 --> 00:34:35,480
+sense of sentences things like the
+ 
+
+1499
+00:34:35,480 --> 00:34:37,450
+sense of sentences things like the
+Winograd schemas so these sentences that
+
+1500
+00:34:37,450 --> 00:34:37,460
+Winograd schemas so these sentences that
+ 
+
+1501
+00:34:37,460 --> 00:34:40,540
+Winograd schemas so these sentences that
+are semantically ambiguous in other
+
+1502
+00:34:40,540 --> 00:34:40,550
+are semantically ambiguous in other
+ 
+
+1503
+00:34:40,550 --> 00:34:42,220
+are semantically ambiguous in other
+words you need to understand enough
+
+1504
+00:34:42,220 --> 00:34:42,230
+words you need to understand enough
+ 
+
+1505
+00:34:42,230 --> 00:34:44,560
+words you need to understand enough
+about the world in order to really
+
+1506
+00:34:44,560 --> 00:34:44,570
+about the world in order to really
+ 
+
+1507
+00:34:44,570 --> 00:34:47,070
+about the world in order to really
+interpret probably those sentences I
+
+1508
+00:34:47,070 --> 00:34:47,080
+interpret probably those sentences I
+ 
+
+1509
+00:34:47,080 --> 00:34:49,329
+interpret probably those sentences I
+think these are interesting challenges
+
+1510
+00:34:49,329 --> 00:34:49,339
+think these are interesting challenges
+ 
+
+1511
+00:34:49,339 --> 00:34:51,310
+think these are interesting challenges
+for our machine learning because they
+
+1512
+00:34:51,310 --> 00:34:51,320
+for our machine learning because they
+ 
+
+1513
+00:34:51,320 --> 00:34:54,790
+for our machine learning because they
+point in the direction of building
+
+1514
+00:34:54,790 --> 00:34:54,800
+point in the direction of building
+ 
+
+1515
+00:34:54,800 --> 00:34:58,000
+point in the direction of building
+systems that both understand how the
+
+1516
+00:34:58,000 --> 00:34:58,010
+systems that both understand how the
+ 
+
+1517
+00:34:58,010 --> 00:34:59,710
+systems that both understand how the
+world works and it's causal
+
+1518
+00:34:59,710 --> 00:34:59,720
+world works and it's causal
+ 
+
+1519
+00:34:59,720 --> 00:35:02,829
+world works and it's causal
+relationships in the world and associate
+
+1520
+00:35:02,829 --> 00:35:02,839
+relationships in the world and associate
+ 
+
+1521
+00:35:02,839 --> 00:35:06,490
+relationships in the world and associate
+that knowledge with how to express it in
+
+1522
+00:35:06,490 --> 00:35:06,500
+that knowledge with how to express it in
+ 
+
+1523
+00:35:06,500 --> 00:35:11,099
+that knowledge with how to express it in
+language either for reading or writing
+
+1524
+00:35:11,099 --> 00:35:11,109
+language either for reading or writing
+ 
+
+1525
+00:35:11,109 --> 00:35:14,020
+language either for reading or writing
+you speak French yes it's my mother
+
+1526
+00:35:14,020 --> 00:35:14,030
+you speak French yes it's my mother
+ 
+
+1527
+00:35:14,030 --> 00:35:16,329
+you speak French yes it's my mother
+tongue it's one of the Romance languages
+
+1528
+00:35:16,329 --> 00:35:16,339
+tongue it's one of the Romance languages
+ 
+
+1529
+00:35:16,339 --> 00:35:19,290
+tongue it's one of the Romance languages
+do you think passing the Turing test and
+
+1530
+00:35:19,290 --> 00:35:19,300
+do you think passing the Turing test and
+ 
+
+1531
+00:35:19,300 --> 00:35:21,670
+do you think passing the Turing test and
+all the underlying challenges we just
+
+1532
+00:35:21,670 --> 00:35:21,680
+all the underlying challenges we just
+ 
+
+1533
+00:35:21,680 --> 00:35:23,320
+all the underlying challenges we just
+mentioned depend on language do you
+
+1534
+00:35:23,320 --> 00:35:23,330
+mentioned depend on language do you
+ 
+
+1535
+00:35:23,330 --> 00:35:24,740
+mentioned depend on language do you
+think it might be easier in front
+
+1536
+00:35:24,740 --> 00:35:24,750
+think it might be easier in front
+ 
+
+1537
+00:35:24,750 --> 00:35:27,590
+think it might be easier in front
+that is in English now is independent of
+
+1538
+00:35:27,590 --> 00:35:27,600
+that is in English now is independent of
+ 
+
+1539
+00:35:27,600 --> 00:35:28,880
+that is in English now is independent of
+language mmm
+
+1540
+00:35:28,880 --> 00:35:28,890
+language mmm
+ 
+
+1541
+00:35:28,890 --> 00:35:31,640
+language mmm
+I think it's independent of language I I
+
+1542
+00:35:31,640 --> 00:35:31,650
+I think it's independent of language I I
+ 
+
+1543
+00:35:31,650 --> 00:35:36,920
+I think it's independent of language I I
+would like to build systems that can use
+
+1544
+00:35:36,920 --> 00:35:36,930
+would like to build systems that can use
+ 
+
+1545
+00:35:36,930 --> 00:35:39,890
+would like to build systems that can use
+the same principles the same learning
+
+1546
+00:35:39,890 --> 00:35:39,900
+the same principles the same learning
+ 
+
+1547
+00:35:39,900 --> 00:35:44,810
+the same principles the same learning
+mechanisms to learn from human agents
+
+1548
+00:35:44,810 --> 00:35:44,820
+mechanisms to learn from human agents
+ 
+
+1549
+00:35:44,820 --> 00:35:47,810
+mechanisms to learn from human agents
+whatever their language well certainly
+
+1550
+00:35:47,810 --> 00:35:47,820
+whatever their language well certainly
+ 
+
+1551
+00:35:47,820 --> 00:35:50,840
+whatever their language well certainly
+us humans can talk more beautifully and
+
+1552
+00:35:50,840 --> 00:35:50,850
+us humans can talk more beautifully and
+ 
+
+1553
+00:35:50,850 --> 00:35:52,790
+us humans can talk more beautifully and
+smoothly in poetry some Russian
+
+1554
+00:35:52,790 --> 00:35:52,800
+smoothly in poetry some Russian
+ 
+
+1555
+00:35:52,800 --> 00:35:56,290
+smoothly in poetry some Russian
+originally I know poetry and Russian is
+
+1556
+00:35:56,290 --> 00:35:56,300
+originally I know poetry and Russian is
+ 
+
+1557
+00:35:56,300 --> 00:36:00,320
+originally I know poetry and Russian is
+maybe easier to convey complex ideas
+
+1558
+00:36:00,320 --> 00:36:00,330
+maybe easier to convey complex ideas
+ 
+
+1559
+00:36:00,330 --> 00:36:03,290
+maybe easier to convey complex ideas
+than it is in English but maybe I'm
+
+1560
+00:36:03,290 --> 00:36:03,300
+than it is in English but maybe I'm
+ 
+
+1561
+00:36:03,300 --> 00:36:04,910
+than it is in English but maybe I'm
+showing my bias and some people could
+
+1562
+00:36:04,910 --> 00:36:04,920
+showing my bias and some people could
+ 
+
+1563
+00:36:04,920 --> 00:36:08,570
+showing my bias and some people could
+say that about front half French but of
+
+1564
+00:36:08,570 --> 00:36:08,580
+say that about front half French but of
+ 
+
+1565
+00:36:08,580 --> 00:36:11,690
+say that about front half French but of
+course the goal ultimately is our human
+
+1566
+00:36:11,690 --> 00:36:11,700
+course the goal ultimately is our human
+ 
+
+1567
+00:36:11,700 --> 00:36:14,030
+course the goal ultimately is our human
+brain is able to utilize any kind of
+
+1568
+00:36:14,030 --> 00:36:14,040
+brain is able to utilize any kind of
+ 
+
+1569
+00:36:14,040 --> 00:36:17,060
+brain is able to utilize any kind of
+those languages to use them as tools to
+
+1570
+00:36:17,060 --> 00:36:17,070
+those languages to use them as tools to
+ 
+
+1571
+00:36:17,070 --> 00:36:19,190
+those languages to use them as tools to
+convey meaning you know of course there
+
+1572
+00:36:19,190 --> 00:36:19,200
+convey meaning you know of course there
+ 
+
+1573
+00:36:19,200 --> 00:36:20,570
+convey meaning you know of course there
+are differences between languages and
+
+1574
+00:36:20,570 --> 00:36:20,580
+are differences between languages and
+ 
+
+1575
+00:36:20,580 --> 00:36:22,430
+are differences between languages and
+maybe some are slightly better at some
+
+1576
+00:36:22,430 --> 00:36:22,440
+maybe some are slightly better at some
+ 
+
+1577
+00:36:22,440 --> 00:36:24,160
+maybe some are slightly better at some
+things but in the grand scheme of things
+
+1578
+00:36:24,160 --> 00:36:24,170
+things but in the grand scheme of things
+ 
+
+1579
+00:36:24,170 --> 00:36:26,210
+things but in the grand scheme of things
+where we're trying to understand how the
+
+1580
+00:36:26,210 --> 00:36:26,220
+where we're trying to understand how the
+ 
+
+1581
+00:36:26,220 --> 00:36:28,370
+where we're trying to understand how the
+brain works and language and so on
+
+1582
+00:36:28,370 --> 00:36:28,380
+brain works and language and so on
+ 
+
+1583
+00:36:28,380 --> 00:36:33,080
+brain works and language and so on
+I think these differences are a minut so
+
+1584
+00:36:33,080 --> 00:36:33,090
+I think these differences are a minut so
+ 
+
+1585
+00:36:33,090 --> 00:36:36,710
+I think these differences are a minut so
+you've lived perhaps through an AI
+
+1586
+00:36:36,710 --> 00:36:36,720
+you've lived perhaps through an AI
+ 
+
+1587
+00:36:36,720 --> 00:36:40,490
+you've lived perhaps through an AI
+winter of sorts yes how did you stay
+
+1588
+00:36:40,490 --> 00:36:40,500
+winter of sorts yes how did you stay
+ 
+
+1589
+00:36:40,500 --> 00:36:43,910
+winter of sorts yes how did you stay
+warm and continue and you're resurfacing
+
+1590
+00:36:43,910 --> 00:36:43,920
+warm and continue and you're resurfacing
+ 
+
+1591
+00:36:43,920 --> 00:36:46,430
+warm and continue and you're resurfacing
+stay warm with friends and with friends
+
+1592
+00:36:46,430 --> 00:36:46,440
+stay warm with friends and with friends
+ 
+
+1593
+00:36:46,440 --> 00:36:48,140
+stay warm with friends and with friends
+okay so it's important to have friends
+
+1594
+00:36:48,140 --> 00:36:48,150
+okay so it's important to have friends
+ 
+
+1595
+00:36:48,150 --> 00:36:51,200
+okay so it's important to have friends
+and what have you learned from the
+
+1596
+00:36:51,200 --> 00:36:51,210
+and what have you learned from the
+ 
+
+1597
+00:36:51,210 --> 00:36:54,790
+and what have you learned from the
+experience listen to your inner voice
+
+1598
+00:36:54,790 --> 00:36:54,800
+experience listen to your inner voice
+ 
+
+1599
+00:36:54,800 --> 00:37:00,500
+experience listen to your inner voice
+don't you know be trying to just please
+
+1600
+00:37:00,500 --> 00:37:00,510
+don't you know be trying to just please
+ 
+
+1601
+00:37:00,510 --> 00:37:04,700
+don't you know be trying to just please
+the crowds and the fashion and if you
+
+1602
+00:37:04,700 --> 00:37:04,710
+the crowds and the fashion and if you
+ 
+
+1603
+00:37:04,710 --> 00:37:07,750
+the crowds and the fashion and if you
+have a strong intuition about something
+
+1604
+00:37:07,750 --> 00:37:07,760
+have a strong intuition about something
+ 
+
+1605
+00:37:07,760 --> 00:37:10,760
+have a strong intuition about something
+that is not contradicted by actual
+
+1606
+00:37:10,760 --> 00:37:10,770
+that is not contradicted by actual
+ 
+
+1607
+00:37:10,770 --> 00:37:14,540
+that is not contradicted by actual
+evidence go for it I mean it could be
+
+1608
+00:37:14,540 --> 00:37:14,550
+evidence go for it I mean it could be
+ 
+
+1609
+00:37:14,550 --> 00:37:17,720
+evidence go for it I mean it could be
+contradicted by people but not your own
+
+1610
+00:37:17,720 --> 00:37:17,730
+contradicted by people but not your own
+ 
+
+1611
+00:37:17,730 --> 00:37:19,820
+contradicted by people but not your own
+instinct of based on everything you know
+
+1612
+00:37:19,820 --> 00:37:19,830
+instinct of based on everything you know
+ 
+
+1613
+00:37:19,830 --> 00:37:21,950
+instinct of based on everything you know
+of course of course you have to adapt
+
+1614
+00:37:21,950 --> 00:37:21,960
+of course of course you have to adapt
+ 
+
+1615
+00:37:21,960 --> 00:37:25,160
+of course of course you have to adapt
+your beliefs when your experiments
+
+1616
+00:37:25,160 --> 00:37:25,170
+your beliefs when your experiments
+ 
+
+1617
+00:37:25,170 --> 00:37:28,520
+your beliefs when your experiments
+contradict those beliefs but but you
+
+1618
+00:37:28,520 --> 00:37:28,530
+contradict those beliefs but but you
+ 
+
+1619
+00:37:28,530 --> 00:37:30,910
+contradict those beliefs but but you
+have to stick to your beliefs otherwise
+
+1620
+00:37:30,910 --> 00:37:30,920
+have to stick to your beliefs otherwise
+ 
+
+1621
+00:37:30,920 --> 00:37:33,980
+have to stick to your beliefs otherwise
+it's it's it's what allowed me to go
+
+1622
+00:37:33,980 --> 00:37:33,990
+it's it's it's what allowed me to go
+ 
+
+1623
+00:37:33,990 --> 00:37:35,750
+it's it's it's what allowed me to go
+through those years it's what allowed me
+
+1624
+00:37:35,750 --> 00:37:35,760
+through those years it's what allowed me
+ 
+
+1625
+00:37:35,760 --> 00:37:37,070
+through those years it's what allowed me
+to
+
+1626
+00:37:37,070 --> 00:37:37,080
+to
+ 
+
+1627
+00:37:37,080 --> 00:37:39,950
+to
+persist in directions that you know took
+
+1628
+00:37:39,950 --> 00:37:39,960
+persist in directions that you know took
+ 
+
+1629
+00:37:39,960 --> 00:37:42,980
+persist in directions that you know took
+time whatever all the people think took
+
+1630
+00:37:42,980 --> 00:37:42,990
+time whatever all the people think took
+ 
+
+1631
+00:37:42,990 --> 00:37:48,080
+time whatever all the people think took
+time to mature and you bring fruits so
+
+1632
+00:37:48,080 --> 00:37:48,090
+time to mature and you bring fruits so
+ 
+
+1633
+00:37:48,090 --> 00:37:52,490
+time to mature and you bring fruits so
+history of AI is marked with these of
+
+1634
+00:37:52,490 --> 00:37:52,500
+history of AI is marked with these of
+ 
+
+1635
+00:37:52,500 --> 00:37:53,720
+history of AI is marked with these of
+course it's mark with technical
+
+1636
+00:37:53,720 --> 00:37:53,730
+course it's mark with technical
+ 
+
+1637
+00:37:53,730 --> 00:37:55,640
+course it's mark with technical
+breakthroughs but it's also marked with
+
+1638
+00:37:55,640 --> 00:37:55,650
+breakthroughs but it's also marked with
+ 
+
+1639
+00:37:55,650 --> 00:37:58,040
+breakthroughs but it's also marked with
+these seminal events that capture the
+
+1640
+00:37:58,040 --> 00:37:58,050
+these seminal events that capture the
+ 
+
+1641
+00:37:58,050 --> 00:38:01,430
+these seminal events that capture the
+imagination of the community most recent
+
+1642
+00:38:01,430 --> 00:38:01,440
+imagination of the community most recent
+ 
+
+1643
+00:38:01,440 --> 00:38:04,490
+imagination of the community most recent
+I would say alphago beating the world
+
+1644
+00:38:04,490 --> 00:38:04,500
+I would say alphago beating the world
+ 
+
+1645
+00:38:04,500 --> 00:38:06,560
+I would say alphago beating the world
+champion human go player was one of
+
+1646
+00:38:06,560 --> 00:38:06,570
+champion human go player was one of
+ 
+
+1647
+00:38:06,570 --> 00:38:10,370
+champion human go player was one of
+those moments what do you think the next
+
+1648
+00:38:10,370 --> 00:38:10,380
+those moments what do you think the next
+ 
+
+1649
+00:38:10,380 --> 00:38:13,760
+those moments what do you think the next
+such moment might be okay surface first
+
+1650
+00:38:13,760 --> 00:38:13,770
+such moment might be okay surface first
+ 
+
+1651
+00:38:13,770 --> 00:38:15,380
+such moment might be okay surface first
+of all I think that these so-called
+
+1652
+00:38:15,380 --> 00:38:15,390
+of all I think that these so-called
+ 
+
+1653
+00:38:15,390 --> 00:38:22,970
+of all I think that these so-called
+seminal events are overrated as I said
+
+1654
+00:38:22,970 --> 00:38:22,980
+seminal events are overrated as I said
+ 
+
+1655
+00:38:22,980 --> 00:38:26,030
+seminal events are overrated as I said
+science really moves by small steps now
+
+1656
+00:38:26,030 --> 00:38:26,040
+science really moves by small steps now
+ 
+
+1657
+00:38:26,040 --> 00:38:30,260
+science really moves by small steps now
+what happens is you make one more small
+
+1658
+00:38:30,260 --> 00:38:30,270
+what happens is you make one more small
+ 
+
+1659
+00:38:30,270 --> 00:38:34,010
+what happens is you make one more small
+step and it's like the the drop that you
+
+1660
+00:38:34,010 --> 00:38:34,020
+step and it's like the the drop that you
+ 
+
+1661
+00:38:34,020 --> 00:38:36,860
+step and it's like the the drop that you
+know allows to that fills the bucket and
+
+1662
+00:38:36,860 --> 00:38:36,870
+know allows to that fills the bucket and
+ 
+
+1663
+00:38:36,870 --> 00:38:39,560
+know allows to that fills the bucket and
+and and then you have drastic
+
+1664
+00:38:39,560 --> 00:38:39,570
+and and then you have drastic
+ 
+
+1665
+00:38:39,570 --> 00:38:41,210
+and and then you have drastic
+consequences because now you're able to
+
+1666
+00:38:41,210 --> 00:38:41,220
+consequences because now you're able to
+ 
+
+1667
+00:38:41,220 --> 00:38:42,500
+consequences because now you're able to
+do something you were not able to do
+
+1668
+00:38:42,500 --> 00:38:42,510
+do something you were not able to do
+ 
+
+1669
+00:38:42,510 --> 00:38:46,160
+do something you were not able to do
+before or now say the cost of building
+
+1670
+00:38:46,160 --> 00:38:46,170
+before or now say the cost of building
+ 
+
+1671
+00:38:46,170 --> 00:38:48,430
+before or now say the cost of building
+some device or solving a problem becomes
+
+1672
+00:38:48,430 --> 00:38:48,440
+some device or solving a problem becomes
+ 
+
+1673
+00:38:48,440 --> 00:38:51,020
+some device or solving a problem becomes
+cheaper than what existed and you have a
+
+1674
+00:38:51,020 --> 00:38:51,030
+cheaper than what existed and you have a
+ 
+
+1675
+00:38:51,030 --> 00:38:52,970
+cheaper than what existed and you have a
+new market that opens up right so so
+
+1676
+00:38:52,970 --> 00:38:52,980
+new market that opens up right so so
+ 
+
+1677
+00:38:52,980 --> 00:38:55,210
+new market that opens up right so so
+especially in the world of Commerce and
+
+1678
+00:38:55,210 --> 00:38:55,220
+especially in the world of Commerce and
+ 
+
+1679
+00:38:55,220 --> 00:38:59,480
+especially in the world of Commerce and
+applications the impact of a small
+
+1680
+00:38:59,480 --> 00:38:59,490
+applications the impact of a small
+ 
+
+1681
+00:38:59,490 --> 00:39:04,040
+applications the impact of a small
+scientific progress could be huge but in
+
+1682
+00:39:04,040 --> 00:39:04,050
+scientific progress could be huge but in
+ 
+
+1683
+00:39:04,050 --> 00:39:05,810
+scientific progress could be huge but in
+the science itself I think it's very
+
+1684
+00:39:05,810 --> 00:39:05,820
+the science itself I think it's very
+ 
+
+1685
+00:39:05,820 --> 00:39:09,890
+the science itself I think it's very
+very gradual and where these steps being
+
+1686
+00:39:09,890 --> 00:39:09,900
+very gradual and where these steps being
+ 
+
+1687
+00:39:09,900 --> 00:39:13,250
+very gradual and where these steps being
+taken now so there's supervised right so
+
+1688
+00:39:13,250 --> 00:39:13,260
+taken now so there's supervised right so
+ 
+
+1689
+00:39:13,260 --> 00:39:17,450
+taken now so there's supervised right so
+if I look at one trend that I like in in
+
+1690
+00:39:17,450 --> 00:39:17,460
+if I look at one trend that I like in in
+ 
+
+1691
+00:39:17,460 --> 00:39:22,040
+if I look at one trend that I like in in
+in my community so for example in at me
+
+1692
+00:39:22,040 --> 00:39:22,050
+in my community so for example in at me
+ 
+
+1693
+00:39:22,050 --> 00:39:23,810
+in my community so for example in at me
+lie in my Institute what are the two
+
+1694
+00:39:23,810 --> 00:39:23,820
+lie in my Institute what are the two
+ 
+
+1695
+00:39:23,820 --> 00:39:28,160
+lie in my Institute what are the two
+hottest topics Gans and rain for
+
+1696
+00:39:28,160 --> 00:39:28,170
+hottest topics Gans and rain for
+ 
+
+1697
+00:39:28,170 --> 00:39:32,000
+hottest topics Gans and rain for
+spurning even though in the montreal in
+
+1698
+00:39:32,000 --> 00:39:32,010
+spurning even though in the montreal in
+ 
+
+1699
+00:39:32,010 --> 00:39:33,050
+spurning even though in the montreal in
+particular like reinforcement learning
+
+1700
+00:39:33,050 --> 00:39:33,060
+particular like reinforcement learning
+ 
+
+1701
+00:39:33,060 --> 00:39:36,350
+particular like reinforcement learning
+was something pretty much absent just
+
+1702
+00:39:36,350 --> 00:39:36,360
+was something pretty much absent just
+ 
+
+1703
+00:39:36,360 --> 00:39:39,470
+was something pretty much absent just
+two or three years ago so it is really a
+
+1704
+00:39:39,470 --> 00:39:39,480
+two or three years ago so it is really a
+ 
+
+1705
+00:39:39,480 --> 00:39:42,800
+two or three years ago so it is really a
+big interest from students and there's a
+
+1706
+00:39:42,800 --> 00:39:42,810
+big interest from students and there's a
+ 
+
+1707
+00:39:42,810 --> 00:39:46,880
+big interest from students and there's a
+big interest from people like me
+
+1708
+00:39:46,880 --> 00:39:46,890
+
+ 
+
+1709
+00:39:46,890 --> 00:39:49,019
+
+so I would say this is something where
+
+1710
+00:39:49,019 --> 00:39:49,029
+so I would say this is something where
+ 
+
+1711
+00:39:49,029 --> 00:39:51,630
+so I would say this is something where
+are we gonna see more progress even
+
+1712
+00:39:51,630 --> 00:39:51,640
+are we gonna see more progress even
+ 
+
+1713
+00:39:51,640 --> 00:39:54,420
+are we gonna see more progress even
+though it hasn't yet provided much in
+
+1714
+00:39:54,420 --> 00:39:54,430
+though it hasn't yet provided much in
+ 
+
+1715
+00:39:54,430 --> 00:39:58,289
+though it hasn't yet provided much in
+terms of actual industrial fallout like
+
+1716
+00:39:58,289 --> 00:39:58,299
+terms of actual industrial fallout like
+ 
+
+1717
+00:39:58,299 --> 00:40:00,029
+terms of actual industrial fallout like
+even though there's alphago there's no
+
+1718
+00:40:00,029 --> 00:40:00,039
+even though there's alphago there's no
+ 
+
+1719
+00:40:00,039 --> 00:40:01,799
+even though there's alphago there's no
+like Google is not making money on this
+
+1720
+00:40:01,799 --> 00:40:01,809
+like Google is not making money on this
+ 
+
+1721
+00:40:01,809 --> 00:40:04,529
+like Google is not making money on this
+right now but I think over the long term
+
+1722
+00:40:04,529 --> 00:40:04,539
+right now but I think over the long term
+ 
+
+1723
+00:40:04,539 --> 00:40:06,209
+right now but I think over the long term
+this is really really important for many
+
+1724
+00:40:06,209 --> 00:40:06,219
+this is really really important for many
+ 
+
+1725
+00:40:06,219 --> 00:40:10,049
+this is really really important for many
+reasons so in other words agent I would
+
+1726
+00:40:10,049 --> 00:40:10,059
+reasons so in other words agent I would
+ 
+
+1727
+00:40:10,059 --> 00:40:12,390
+reasons so in other words agent I would
+say reinforcement learning baby more
+
+1728
+00:40:12,390 --> 00:40:12,400
+say reinforcement learning baby more
+ 
+
+1729
+00:40:12,400 --> 00:40:14,039
+say reinforcement learning baby more
+generally agent learning because it
+
+1730
+00:40:14,039 --> 00:40:14,049
+generally agent learning because it
+ 
+
+1731
+00:40:14,049 --> 00:40:15,870
+generally agent learning because it
+doesn't have to be with rewards it could
+
+1732
+00:40:15,870 --> 00:40:15,880
+doesn't have to be with rewards it could
+ 
+
+1733
+00:40:15,880 --> 00:40:17,729
+doesn't have to be with rewards it could
+be in all kinds of ways that an agent is
+
+1734
+00:40:17,729 --> 00:40:17,739
+be in all kinds of ways that an agent is
+ 
+
+1735
+00:40:17,739 --> 00:40:20,789
+be in all kinds of ways that an agent is
+learning about its environment now
+
+1736
+00:40:20,789 --> 00:40:20,799
+learning about its environment now
+ 
+
+1737
+00:40:20,799 --> 00:40:22,469
+learning about its environment now
+reinforced learning you're excited about
+
+1738
+00:40:22,469 --> 00:40:22,479
+reinforced learning you're excited about
+ 
+
+1739
+00:40:22,479 --> 00:40:26,009
+reinforced learning you're excited about
+do you think do you think Gans could
+
+1740
+00:40:26,009 --> 00:40:26,019
+do you think do you think Gans could
+ 
+
+1741
+00:40:26,019 --> 00:40:30,479
+do you think do you think Gans could
+provide something yes some moment in in
+
+1742
+00:40:30,479 --> 00:40:30,489
+provide something yes some moment in in
+ 
+
+1743
+00:40:30,489 --> 00:40:34,769
+provide something yes some moment in in
+a well Gans or other generative models I
+
+1744
+00:40:34,769 --> 00:40:34,779
+a well Gans or other generative models I
+ 
+
+1745
+00:40:34,779 --> 00:40:38,819
+a well Gans or other generative models I
+believe will be crucial ingredients in
+
+1746
+00:40:38,819 --> 00:40:38,829
+believe will be crucial ingredients in
+ 
+
+1747
+00:40:38,829 --> 00:40:41,549
+believe will be crucial ingredients in
+building agents that can understand the
+
+1748
+00:40:41,549 --> 00:40:41,559
+building agents that can understand the
+ 
+
+1749
+00:40:41,559 --> 00:40:44,999
+building agents that can understand the
+world a lot of the successes in
+
+1750
+00:40:44,999 --> 00:40:45,009
+world a lot of the successes in
+ 
+
+1751
+00:40:45,009 --> 00:40:46,769
+world a lot of the successes in
+reinforcement learning in the past has
+
+1752
+00:40:46,769 --> 00:40:46,779
+reinforcement learning in the past has
+ 
+
+1753
+00:40:46,779 --> 00:40:49,589
+reinforcement learning in the past has
+been with policy gradient where you
+
+1754
+00:40:49,589 --> 00:40:49,599
+been with policy gradient where you
+ 
+
+1755
+00:40:49,599 --> 00:40:51,209
+been with policy gradient where you
+you'll just learn a policy you don't
+
+1756
+00:40:51,209 --> 00:40:51,219
+you'll just learn a policy you don't
+ 
+
+1757
+00:40:51,219 --> 00:40:53,489
+you'll just learn a policy you don't
+actually learn a model of the world but
+
+1758
+00:40:53,489 --> 00:40:53,499
+actually learn a model of the world but
+ 
+
+1759
+00:40:53,499 --> 00:40:55,620
+actually learn a model of the world but
+there are lots of issues with that and
+
+1760
+00:40:55,620 --> 00:40:55,630
+there are lots of issues with that and
+ 
+
+1761
+00:40:55,630 --> 00:40:57,390
+there are lots of issues with that and
+we don't know how to do model-based our
+
+1762
+00:40:57,390 --> 00:40:57,400
+we don't know how to do model-based our
+ 
+
+1763
+00:40:57,400 --> 00:41:00,390
+we don't know how to do model-based our
+rel right now but I think this is where
+
+1764
+00:41:00,390 --> 00:41:00,400
+rel right now but I think this is where
+ 
+
+1765
+00:41:00,400 --> 00:41:03,569
+rel right now but I think this is where
+we have to go in order to build models
+
+1766
+00:41:03,569 --> 00:41:03,579
+we have to go in order to build models
+ 
+
+1767
+00:41:03,579 --> 00:41:05,849
+we have to go in order to build models
+that can generalize faster and better
+
+1768
+00:41:05,849 --> 00:41:05,859
+that can generalize faster and better
+ 
+
+1769
+00:41:05,859 --> 00:41:09,900
+that can generalize faster and better
+like to new distributions that capture
+
+1770
+00:41:09,900 --> 00:41:09,910
+like to new distributions that capture
+ 
+
+1771
+00:41:09,910 --> 00:41:12,319
+like to new distributions that capture
+to some extent at least the underlying
+
+1772
+00:41:12,319 --> 00:41:12,329
+to some extent at least the underlying
+ 
+
+1773
+00:41:12,329 --> 00:41:16,019
+to some extent at least the underlying
+causal mechanisms in in the world last
+
+1774
+00:41:16,019 --> 00:41:16,029
+causal mechanisms in in the world last
+ 
+
+1775
+00:41:16,029 --> 00:41:19,349
+causal mechanisms in in the world last
+question what made you fall in love with
+
+1776
+00:41:19,349 --> 00:41:19,359
+question what made you fall in love with
+ 
+
+1777
+00:41:19,359 --> 00:41:21,739
+question what made you fall in love with
+artificial intelligence if you look back
+
+1778
+00:41:21,739 --> 00:41:21,749
+artificial intelligence if you look back
+ 
+
+1779
+00:41:21,749 --> 00:41:25,579
+artificial intelligence if you look back
+what was the first moment in your life
+
+1780
+00:41:25,579 --> 00:41:25,589
+what was the first moment in your life
+ 
+
+1781
+00:41:25,589 --> 00:41:28,140
+what was the first moment in your life
+when he's when you were fascinated by
+
+1782
+00:41:28,140 --> 00:41:28,150
+when he's when you were fascinated by
+ 
+
+1783
+00:41:28,150 --> 00:41:29,999
+when he's when you were fascinated by
+either the human mind or the artificial
+
+1784
+00:41:29,999 --> 00:41:30,009
+either the human mind or the artificial
+ 
+
+1785
+00:41:30,009 --> 00:41:32,189
+either the human mind or the artificial
+mind you know when I wasn't at the
+
+1786
+00:41:32,189 --> 00:41:32,199
+mind you know when I wasn't at the
+ 
+
+1787
+00:41:32,199 --> 00:41:34,189
+mind you know when I wasn't at the
+lesson I was reading a lot and then I I
+
+1788
+00:41:34,189 --> 00:41:34,199
+lesson I was reading a lot and then I I
+ 
+
+1789
+00:41:34,199 --> 00:41:37,979
+lesson I was reading a lot and then I I
+started reading science fiction there
+
+1790
+00:41:37,979 --> 00:41:37,989
+started reading science fiction there
+ 
+
+1791
+00:41:37,989 --> 00:41:40,650
+started reading science fiction there
+you go but I got that's that's it that
+
+1792
+00:41:40,650 --> 00:41:40,660
+you go but I got that's that's it that
+ 
+
+1793
+00:41:40,660 --> 00:41:42,089
+you go but I got that's that's it that
+that's that's where I got hooked and
+
+1794
+00:41:42,089 --> 00:41:42,099
+that's that's where I got hooked and
+ 
+
+1795
+00:41:42,099 --> 00:41:45,239
+that's that's where I got hooked and
+then and then you know I had one of the
+
+1796
+00:41:45,239 --> 00:41:45,249
+then and then you know I had one of the
+ 
+
+1797
+00:41:45,249 --> 00:41:48,839
+then and then you know I had one of the
+first personal computers and I got
+
+1798
+00:41:48,839 --> 00:41:48,849
+first personal computers and I got
+ 
+
+1799
+00:41:48,849 --> 00:41:52,109
+first personal computers and I got
+hooked in programming and so it just you
+
+1800
+00:41:52,109 --> 00:41:52,119
+hooked in programming and so it just you
+ 
+
+1801
+00:41:52,119 --> 00:41:53,999
+hooked in programming and so it just you
+know start with fiction and then make it
+
+1802
+00:41:53,999 --> 00:41:54,009
+know start with fiction and then make it
+ 
+
+1803
+00:41:54,009 --> 00:41:55,349
+know start with fiction and then make it
+a reality that's right
+
+1804
+00:41:55,349 --> 00:41:55,359
+a reality that's right
+ 
+
+1805
+00:41:55,359 --> 00:41:57,479
+a reality that's right
+Yoshio thank you so much for talking to
+
+1806
+00:41:57,479 --> 00:41:57,489
+Yoshio thank you so much for talking to
+ 
+
+1807
+00:41:57,489 --> 00:42:05,740
+Yoshio thank you so much for talking to
+my pleasure
+
+1808
+00:42:05,740 --> 00:42:05,750
+
+ 
+
+1809
+00:42:05,750 --> 00:42:07,810
+
+you
+
