@@ -1,0 +1,4549 @@
+1
+00:00:00,920 --> 00:00:02,660
+All right.  Hello everybody.  Welcome back.
+
+2
+00:00:03,080 --> 00:00:04,180
+Glad you came back.
+
+3
+00:00:05,720 --> 00:00:06,260
+Today,
+
+4
+00:00:08,280 --> 00:00:12,680
+we will unveil the first tutorial.
+
+5
+00:00:12,680 --> 00:00:17,220
+The first project is DeepTraffic, code named "DeepTraffic,"
+
+6
+00:00:17,980 --> 00:00:19,700
+where your task is to solve the
+
+7
+00:00:21,480 --> 00:00:23,900
+traffic problem using Deep Reinforcement Learning.
+
+8
+00:00:25,820 --> 00:00:28,640
+And I'll talk about what's involved in designing a network there.
+
+9
+00:00:29,820 --> 00:00:33,960
+How you submit your own network and how you participate in the competition.
+
+10
+00:00:36,220 --> 00:00:38,440
+As I said the winner gets a very special prize,
+
+11
+00:00:39,640 --> 00:00:40,580
+to be announced later.
+
+12
+00:00:42,220 --> 00:00:43,320
+What is machine learning?
+
+13
+00:00:44,600 --> 00:00:45,200
+Several types.
+
+14
+00:00:46,020 --> 00:00:50,180
+There's supervised learning, as I mentioned yesterday that's what it meant,
+
+15
+00:00:50,540 --> 00:00:52,540
+usually when you discuss about,
+
+16
+00:00:53,080 --> 00:00:54,440
+you talk about, machine learning
+
+17
+00:00:54,440 --> 00:00:55,700
+and talk about its successes.
+
+18
+00:00:56,400 --> 00:00:59,000
+Supervised learning requires a data set
+
+19
+00:00:59,700 --> 00:01:01,380
+where you know the Ground Truth.
+
+20
+00:01:01,720 --> 00:01:03,820
+You know the inputs and the outputs.
+
+21
+00:01:05,320 --> 00:01:08,560
+And you provide that to the machine learning algorithm
+
+22
+00:01:08,860 --> 00:01:13,180
+in order to learn the mapping between the inputs and the outputs
+
+23
+00:01:13,520 --> 00:01:18,420
+in such a way that you can generalize to further examples in the future.
+
+24
+00:01:19,440 --> 00:01:20,700
+On supervised learning,
+
+25
+00:01:21,460 --> 00:01:22,420
+it's the other side,
+
+26
+00:01:23,480 --> 00:01:28,100
+when you know absolutely nothing about the outputs.
+
+27
+00:01:28,180 --> 00:01:31,860
+About the truth of the data that you're working with.
+
+28
+00:01:31,860 --> 00:01:37,820
+All you get is data and you have to find underlying structure,
+
+29
+00:01:38,840 --> 00:01:41,620
+underlying representation of the data that's meaningful
+
+30
+00:01:42,240 --> 00:01:45,300
+for you to accomplish certain tasks, whatever that is.
+
+31
+00:01:46,500 --> 00:01:48,000
+There is semi-supervised data,
+
+32
+00:01:48,910 --> 00:01:51,900
+or only parts, usually a very small amount
+
+33
+00:01:53,000 --> 00:01:59,300
+is labeled as Ground Truth of available for just a small fraction of it
+
+34
+00:01:59,420 --> 00:01:59,980
+If you think of
+
+35
+00:02:01,440 --> 00:02:03,460
+images that are out there on the Internet
+
+36
+00:02:04,550 --> 00:02:08,030
+and then you think about ImageNet, a data set where every image is labeled,
+
+37
+00:02:09,160 --> 00:02:12,000
+the size of that ImageNet data set
+
+38
+00:02:12,640 --> 00:02:18,540
+is a tiny subset of all the images available online.
+
+39
+00:02:19,330 --> 00:02:23,240
+But that's the task we're dealing with as human beings,
+
+40
+00:02:23,760 --> 00:02:25,700
+as people interested in doing machine learning
+
+41
+00:02:26,620 --> 00:02:31,460
+is how to expand the size of that,
+
+42
+00:02:33,070 --> 00:02:37,520
+of the part of our data that we know something confidently about.
+
+43
+00:02:39,120 --> 00:02:41,740
+And reinforcement learning sit somewhere in between.
+
+44
+00:02:43,680 --> 00:02:47,040
+It's semi supervised learning where
+
+45
+00:02:50,140 --> 00:02:52,740
+there's an agent that has to exist in the world.
+
+46
+00:02:54,620 --> 00:02:59,480
+And that agent know the inputs that the world provides
+
+47
+00:03:00,760 --> 00:03:04,400
+but knows very little about that world
+
+48
+00:03:04,400 --> 00:03:08,400
+except through occasional time delayed rewards.
+
+49
+00:03:09,060 --> 00:03:11,600
+This is what it's like to be human.
+
+50
+00:03:12,440 --> 00:03:13,500
+This is what life is about.
+
+51
+00:03:14,520 --> 00:03:17,840
+You don't know what's good and bad, you got to have to just live it
+
+52
+00:03:18,410 --> 00:03:19,760
+and, every once in a while,
+
+53
+00:03:21,120 --> 00:03:25,360
+you find out that all that stuff you did last week was pretty bad idea.
+
+54
+00:03:26,070 --> 00:03:27,320
+That's reinforcement learning.
+
+55
+00:03:27,660 --> 00:03:30,040
+That's semi-supervised,
+
+56
+00:03:31,140 --> 00:03:34,140
+in the sense that only a small subset of the data
+
+57
+00:03:34,220 --> 00:03:36,560
+comes with some ground truth, some certainty,
+
+58
+00:03:36,740 --> 00:03:39,080
+you have to, then extract knowledge from.
+
+59
+00:03:41,320 --> 00:03:45,880
+So first at the core of anything that works currently
+
+60
+00:03:46,460 --> 00:03:48,520
+in terms of, in the practical sense,
+
+61
+00:03:49,140 --> 00:03:50,900
+there has to be some Ground Truth.
+
+62
+00:03:51,240 --> 00:03:52,400
+There has to be some truth
+
+63
+00:03:53,660 --> 00:03:56,920
+that we can hold on to as we try to generalize.
+
+64
+00:03:58,080 --> 00:03:59,520
+And that supervised learning.
+
+65
+00:04:00,000 --> 00:04:01,500
+Even as in Reinforcement Learning,
+
+66
+00:04:01,500 --> 00:04:03,900
+the only thing we can count on is that truth
+
+67
+00:04:04,220 --> 00:04:05,860
+that comes in the form of a reward.
+
+68
+00:04:07,330 --> 00:04:09,660
+So the standard supervised learning pipeline is
+
+69
+00:04:10,000 --> 00:04:11,340
+you have some raw data,
+
+70
+00:04:12,780 --> 00:04:13,300
+the inputs.
+
+71
+00:04:14,300 --> 00:04:16,440
+you have Ground Truth,
+
+72
+00:04:16,820 --> 00:04:17,400
+the labels,
+
+73
+00:04:18,020 --> 00:04:20,300
+the outputs and matches to the inputs.
+
+74
+00:04:21,420 --> 00:04:21,430
+You know of ground truth.
+
+75
+00:04:22,180 --> 00:04:26,380
+Then you run any kind of algorithm, whether it's a neural network
+
+76
+00:04:27,270 --> 00:04:29,560
+or another pre-processing algorithm
+
+77
+00:04:29,860 --> 00:04:31,800
+that extracts the features from that data set.
+
+78
+00:04:32,670 --> 00:04:34,520
+You can think of a picture of a face,
+
+79
+00:04:35,160 --> 00:04:37,720
+that algorithm could extract
+
+80
+00:04:37,960 --> 00:04:41,600
+the nose, the eyes, the corners of the eyes, the pupil
+
+81
+00:04:42,800 --> 00:04:46,580
+or even lower level features in that image.
+
+82
+00:04:47,800 --> 00:04:50,760
+After that we insert those features
+
+83
+00:04:53,600 --> 00:04:54,380
+into a model.
+
+84
+00:04:55,060 --> 00:04:58,000
+A machine learning model.  We train that model.
+
+85
+00:05:01,120 --> 00:05:04,600
+Then we, whatever that algorithm is
+
+86
+00:05:05,040 --> 00:05:08,080
+as it passes through that training process, we then evaluate.
+
+87
+00:05:09,640 --> 00:05:12,600
+After we've seen this one particular example,
+
+88
+00:05:13,640 --> 00:05:16,660
+how much better are we at other tasks?
+
+89
+00:05:18,740 --> 00:05:20,560
+And as we repeat this loop,
+
+90
+00:05:21,300 --> 00:05:23,760
+the model learns to perform better and better
+
+91
+00:05:24,260 --> 00:05:28,180
+at generalizing from the raw data to the labels that we have.
+
+92
+00:05:29,240 --> 00:05:33,200
+And finally, you get to release that model into the wild
+
+93
+00:05:33,500 --> 00:05:34,660
+to actually do prediction
+
+94
+00:05:35,980 --> 00:05:39,780
+on data as never seen before that you don't know about.
+
+95
+00:05:41,980 --> 00:05:43,040
+And the task there
+
+96
+00:05:46,540 --> 00:05:48,040
+is to predict the labels.
+
+97
+00:05:51,500 --> 00:05:55,820
+Okay.  So neural networks is what this class is about.
+
+98
+00:05:56,880 --> 00:05:59,220
+It's one of the machine learning algorithms
+
+99
+00:05:59,220 --> 00:06:01,180
+that has proven to be very successful.
+
+100
+00:06:04,140 --> 00:06:08,880
+And the computational building block of a neural network is a neuron.
+
+101
+00:06:10,710 --> 00:06:13,780
+A perceptron is a type of neuron.
+
+102
+00:06:15,600 --> 00:06:17,460
+It's the original old school neuron
+
+103
+00:06:18,620 --> 00:06:21,240
+where the output is binary, a zero or one.
+
+104
+00:06:22,760 --> 00:06:23,860
+It's not real valued.
+
+105
+00:06:25,440 --> 00:06:29,380
+And the process that a perceptron goes through is
+
+106
+00:06:30,420 --> 00:06:35,180
+it has multiple inputs and a single output.
+
+107
+00:06:38,960 --> 00:06:40,780
+Each of the inputs have weights on them.
+
+108
+00:06:41,500 --> 00:06:45,200
+Shown here on the left is 0.7, 0.6, 1.4.
+
+109
+00:06:46,220 --> 00:06:47,780
+Those weights are applied to the inputs.
+
+110
+00:06:48,600 --> 00:06:51,240
+And a perceptron, the inputs are 1s or 0s -
+
+111
+00:06:52,280 --> 00:06:52,740
+binary.
+
+112
+00:06:54,220 --> 00:06:55,620
+When those weights are applied
+
+113
+00:06:58,120 --> 00:07:03,800
+and then summed together a bias on each neuron
+
+114
+00:07:04,120 --> 00:07:05,280
+is then added on top
+
+115
+00:07:07,660 --> 00:07:10,620
+and a threshold,
+
+116
+00:07:12,270 --> 00:07:14,820
+there's a test, whether that summed value
+
+117
+00:07:14,820 --> 00:07:17,220
+plus the bias is below or above a threshold.
+
+118
+00:07:17,220 --> 00:07:19,660
+If it's above a threshold, produces a 1;
+
+119
+00:07:20,060 --> 00:07:21,880
+below a threshold produces a 0.
+
+120
+00:07:22,400 --> 00:07:22,760
+Simple.
+
+121
+00:07:24,320 --> 00:07:28,400
+So one of the only things we understand about neural networks confidently,
+
+122
+00:07:28,920 --> 00:07:30,980
+we can prove a lot of things about this neuron.
+
+123
+00:07:35,390 --> 00:07:38,120
+For example, what we know
+
+124
+00:07:40,100 --> 00:07:43,800
+is that a neuron can approximate a NAND gate.
+
+125
+00:07:44,960 --> 00:07:51,640
+A NAND gate is a logical operation,
+
+126
+00:07:51,640 --> 00:07:54,060
+a logical function, that takes as input,
+
+127
+00:07:55,140 --> 00:07:57,200
+has two inputs A and B,
+
+128
+00:07:57,600 --> 00:07:59,760
+here on the on the diagram in the left.
+
+129
+00:08:01,180 --> 00:08:03,440
+And the table shows what that function is
+
+130
+00:08:04,000 --> 00:08:07,780
+when the inputs are 0s, 01,
+
+131
+00:08:08,160 --> 00:08:10,260
+in any order, the output is a 1.
+
+132
+00:08:10,950 --> 00:08:12,460
+Otherwise, it's a 0.
+
+133
+00:08:14,280 --> 00:08:19,080
+The cool thing about a NAND gate is that it's a universal gate
+
+134
+00:08:20,500 --> 00:08:23,500
+that you can build up any computer you have
+
+135
+00:08:24,220 --> 00:08:26,180
+where you have your phone in your pocket today
+
+136
+00:08:26,520 --> 00:08:28,000
+can be built out of just NAND gates.
+
+137
+00:08:28,560 --> 00:08:31,380
+So it's functionally complete.
+
+138
+00:08:32,000 --> 00:08:34,380
+You could build any logical function out of them.
+
+139
+00:08:34,720 --> 00:08:36,520
+You stack them together in arbitrary ways.
+
+140
+00:08:37,260 --> 00:08:39,960
+The problem with NAND gates and computers.
+
+141
+00:08:40,710 --> 00:08:42,620
+is they're built from the bottom up.
+
+142
+00:08:43,340 --> 00:08:45,360
+You have to design these circuits of NAND gates.
+
+143
+00:08:47,380 --> 00:08:49,480
+So the cool thing here is the perceptron,
+
+144
+00:08:50,460 --> 00:08:51,340
+we can learn.
+
+145
+00:08:52,060 --> 00:08:54,680
+This magical NAND gate, we can learn its function.
+
+146
+00:08:57,570 --> 00:09:00,760
+So let's go through how we can do that.
+
+147
+00:09:01,740 --> 00:09:05,300
+How a perceptron can perform the NAND operation.
+
+148
+00:09:06,380 --> 00:09:07,940
+There's the four examples.
+
+149
+00:09:07,940 --> 00:09:12,900
+If you put the weights of -2 on each of the inputs
+
+150
+00:09:13,740 --> 00:09:15,580
+and a bias of three on the neuron,
+
+151
+00:09:16,640 --> 00:09:19,060
+snd if we perform that same operation
+
+152
+00:09:20,000 --> 00:09:22,820
+of summing the weights times the inputs.
+
+153
+00:09:24,100 --> 00:09:28,020
+plus the bias, in the top left we get
+
+154
+00:09:29,720 --> 00:09:34,240
+when the inputs are 0s and there's sum to the bias, we get a 3.
+
+155
+00:09:35,440 --> 00:09:37,120
+That's a positive number
+
+156
+00:09:37,600 --> 00:09:40,000
+which means the output of a perceptron will be a 1.
+
+157
+00:09:40,970 --> 00:09:41,940
+On the top right,
+
+158
+00:09:42,660 --> 00:09:44,200
+when the input is a 0 and a 1,
+
+159
+00:09:45,660 --> 00:09:49,080
+that sum is still a positive number, again produces a 1.
+
+160
+00:09:50,440 --> 00:09:51,160
+And so on.
+
+161
+00:09:51,680 --> 00:09:58,460
+When the inputs are both 1s, then the output is a -1.  Less than zero.
+
+162
+00:10:01,260 --> 00:10:04,860
+So while this is simple,
+
+163
+00:10:05,440 --> 00:10:07,860
+it's really important to think about.
+
+164
+00:10:09,560 --> 00:10:16,880
+It's a sort of one basic computational truth you can hold on to
+
+165
+00:10:16,880 --> 00:10:19,820
+as we talk about some of the magical things neural networks can do
+
+166
+00:10:22,680 --> 00:10:26,880
+because if you compare a circuit of NAND gates
+
+167
+00:10:28,000 --> 00:10:29,660
+and a circuit of neurons
+
+168
+00:10:31,760 --> 00:10:35,280
+the difference, while a circuit of neurons
+
+169
+00:10:36,600 --> 00:10:38,420
+which is what we think of as a neural network,
+
+170
+00:10:39,480 --> 00:10:42,680
+can perform the same thing as a circuit of NAND gates.
+
+171
+00:10:43,420 --> 00:10:45,480
+What it can also do is it can learn;
+
+172
+00:10:46,630 --> 00:10:49,520
+It can learn the arbitrary logical functions
+
+173
+00:10:50,260 --> 00:10:54,520
+that has arbitrary circuit of NAND gates can represent
+
+174
+00:10:55,080 --> 00:10:57,460
+but it doesn't require the human designer.
+
+175
+00:10:59,060 --> 00:11:02,540
+We can evolve, if you will.
+
+176
+00:11:06,780 --> 00:11:11,540
+So one of the key aspects here, one of the key drawbacks of perceptron,
+
+177
+00:11:12,440 --> 00:11:14,940
+is it's not very smooth in it's output.
+
+178
+00:11:16,360 --> 00:11:19,420
+As we change the weights on the inputs
+
+179
+00:11:19,920 --> 00:11:22,740
+and we change the bias, and we tweak it a little bit,
+
+180
+00:11:23,980 --> 00:11:26,720
+it's very likely that when you get-
+
+181
+00:11:28,140 --> 00:11:30,220
+It it's very easy to make the neuron-
+
+182
+00:11:30,960 --> 00:11:34,380
+I'll put a 0 instead of a 1, or 1 instead of a 0.
+
+183
+00:11:35,540 --> 00:11:38,700
+So when we start stacking many of these together,
+
+184
+00:11:38,700 --> 00:11:43,200
+it's hard to control the output of the thing as a whole.
+
+185
+00:11:45,000 --> 00:11:51,300
+Now the essential step that makes the neural network work,
+
+186
+00:11:51,840 --> 00:11:54,160
+that a circuit perceptrons doesn't,
+
+187
+00:11:55,440 --> 00:11:57,560
+Is if the output is made smooth,
+
+188
+00:11:58,160 --> 00:12:00,400
+it's made continuous with an activation function.
+
+189
+00:12:03,840 --> 00:12:06,300
+And so instead of using a step function
+
+190
+00:12:06,900 --> 00:12:10,060
+like a perceptron does shown there on the left,
+
+191
+00:12:10,840 --> 00:12:14,440
+we use any kind of smooth function.
+
+192
+00:12:14,960 --> 00:12:24,820
+Sigmoid, where the output can change gradually as you change the weights and the bias.
+
+193
+00:12:27,740 --> 00:12:31,420
+And this is a basic but critical step
+
+194
+00:12:33,300 --> 00:12:41,100
+and so learning is generally the process of adjusting those weights gradually
+
+195
+00:12:41,660 --> 00:12:45,380
+and seeing how it has an effect on the rest of the network.
+
+196
+00:12:45,940 --> 00:12:48,620
+You just keep tweaking weights here and there
+
+197
+00:12:49,160 --> 00:12:54,220
+and seeing how much closer you get to the Ground Truth.
+
+198
+00:12:54,840 --> 00:12:56,080
+And if you get farther away,
+
+199
+00:12:57,100 --> 00:12:59,280
+you just adjust the weights in the opposite direction.
+
+200
+00:13:01,460 --> 00:13:03,260
+That's neural networks in a nutshell.
+
+201
+00:13:07,220 --> 00:13:10,940
+What we'll mostly talk about today is feed forward neural network.
+
+202
+00:13:12,260 --> 00:13:15,420
+On the left, going from inputs to outputs.
+
+203
+00:13:16,930 --> 00:13:21,800
+With no loops, there is also
+
+204
+00:13:23,440 --> 00:13:26,140
+these amazing things called recurrent neural networks.
+
+205
+00:13:28,000 --> 00:13:30,200
+They're amazing because they have memory.
+
+206
+00:13:30,860 --> 00:13:32,480
+They have a memory of state;
+
+207
+00:13:33,120 --> 00:13:38,380
+they remember the temporal dynamics of the data they went through.
+
+208
+00:13:41,060 --> 00:13:45,840
+But the painful thing is that they're really hard to train.
+
+209
+00:13:48,860 --> 00:13:50,820
+Today will talk about feed for neural networks.
+
+210
+00:13:51,880 --> 00:13:54,320
+So let's look at this example,
+
+211
+00:13:56,300 --> 00:13:59,920
+an example of stacking a few of these neurons together.
+
+212
+00:14:00,580 --> 00:14:01,720
+Let's think of the task,
+
+213
+00:14:04,100 --> 00:14:08,160
+the basic task now famous, using a classification of numbers.
+
+214
+00:14:09,260 --> 00:14:11,480
+You have an image of a number in red number
+
+215
+00:14:12,950 --> 00:14:19,580
+and your task is given that image to say what number is in that image.
+
+216
+00:14:21,720 --> 00:14:22,660
+Now, what is an image?
+
+217
+00:14:22,980 --> 00:14:27,020
+An image is a collection of pixels; in this case 28 X 28 pixels.
+
+218
+00:14:27,520 --> 00:14:33,280
+That's a total of 784 numbers; those numbers are from 0 to 255.
+
+219
+00:14:36,320 --> 00:14:38,160
+And on the left of the network,
+
+220
+00:14:39,400 --> 00:14:45,440
+the size of that input, despite the diagram, is 784 neurons.
+
+221
+00:14:46,340 --> 00:14:47,020
+That's the input.
+
+222
+00:14:48,140 --> 00:14:49,800
+Then comes the hidden layer.
+
+223
+00:14:51,420 --> 00:14:54,320
+It's called the hidden layer because
+
+224
+00:14:55,120 --> 00:15:02,060
+it has no interaction with the input or the output.
+
+225
+00:15:05,500 --> 00:15:08,140
+It is simply a block used
+
+226
+00:15:08,900 --> 00:15:13,040
+at the core of the computational power of neural networks,
+
+227
+00:15:13,340 --> 00:15:14,180
+is the hidden layer.
+
+228
+00:15:14,460 --> 00:15:19,820
+It's tasked with forming a representation of the data
+
+229
+00:15:20,180 --> 00:15:23,140
+in such a way that it maps from the inputs to the outputs.
+
+230
+00:15:24,500 --> 00:15:27,860
+In this case, there is fifteen neurons in the hidden layer.
+
+231
+00:15:29,160 --> 00:15:32,200
+There is ten values on the output.
+
+232
+00:15:34,240 --> 00:15:36,020
+corresponding to each of the numbers.
+
+233
+00:15:37,060 --> 00:15:40,500
+There are several ways you can build this kind of network
+
+234
+00:15:40,500 --> 00:15:44,040
+and this is what the magic of neural networks as you can do in a lot of ways.
+
+235
+00:15:44,580 --> 00:15:48,920
+You only really need 4 outputs to represent values 0 through 9.
+
+236
+00:15:50,160 --> 00:15:53,900
+But in practice, it seems that having 10 outputs works better.
+
+237
+00:15:54,560 --> 00:15:55,620
+And how do these work?
+
+238
+00:15:56,300 --> 00:16:00,260
+Whenever the input is a 5, the output neuron
+
+239
+00:16:00,400 --> 00:16:02,800
+in charge of the five gets really excited.
+
+240
+00:16:03,350 --> 00:16:08,920
+And I'll put a value that's close to 1, from 0 to 1, close to 1.
+
+241
+00:16:09,280 --> 00:16:15,480
+And then the other 1s, I'll put a value, hopefully, that is close to 0.
+
+242
+00:16:16,320 --> 00:16:21,760
+And when they don't, we adjust the weights in such a way that they get closer to zero
+
+243
+00:16:21,990 --> 00:16:27,020
+and closer to one depending on whether this is the correct neuron associated with a picture.
+
+244
+00:16:28,650 --> 00:16:32,840
+We'll talk about the details of this training process more tomorrow when it's more relevant
+
+245
+00:16:35,620 --> 00:16:43,340
+but what we've discussed just now is the forward pass through the network.
+
+246
+00:16:44,260 --> 00:16:47,700
+It's the pass when you take the inputs, apply the weights,
+
+247
+00:16:48,000 --> 00:16:51,410
+sum them together, add the bias, produce the output,
+
+248
+00:16:52,230 --> 00:16:55,840
+and check which of the outputs produces the highest confidence of the number
+
+249
+00:16:57,740 --> 00:17:01,660
+then once those probabilities for each of the numbers is is provided,
+
+250
+00:17:02,900 --> 00:17:09,640
+we determine the gradient that's used
+
+251
+00:17:10,020 --> 00:17:12,240
+to punish or reward the weights
+
+252
+00:17:13,000 --> 00:17:16,380
+that resulted in either the correct or the incorrect decision.
+
+253
+00:17:17,000 --> 00:17:18,740
+And that's called Back Propagation.
+
+254
+00:17:19,320 --> 00:17:23,180
+We step backwards through the network applying those punishments or rewards
+
+255
+00:17:24,480 --> 00:17:27,560
+Because of the smoothness of the activation functions,
+
+256
+00:17:28,160 --> 00:17:31,380
+that is a mathematically efficient operation.
+
+257
+00:17:32,500 --> 00:17:34,920
+That's where the GPU step in.
+
+258
+00:17:36,740 --> 00:17:42,760
+So far examples of numbers the Ground Truth for number 6
+
+259
+00:17:43,640 --> 00:17:47,540
+looks like the following in the slides.
+
+260
+00:17:48,420 --> 00:17:53,960
+Y of X equals to 10 dimensional vector
+
+261
+00:17:54,860 --> 00:18:01,620
+where only one of them the sixth values a 1, the rest are zero.
+
+262
+00:18:02,740 --> 00:18:06,060
+That's the Ground Truth that comes with the image.
+
+263
+00:18:06,780 --> 00:18:11,820
+The lost function here, the basic lost function, is the squared error.
+
+264
+00:18:12,570 --> 00:18:18,360
+Y of X is the Ground Truth and A is the output of the neural network
+
+265
+00:18:19,700 --> 00:18:21,320
+resulting from the forward pass.
+
+266
+00:18:22,720 --> 00:18:28,360
+So when you input that number of a 6 and outputs, whatever it outputs
+
+267
+00:18:28,480 --> 00:18:30,400
+that's "a", a 10 dimensional vector.
+
+268
+00:18:31,360 --> 00:18:36,040
+And it's summed over the inputs to produce the squared error.
+
+269
+00:18:37,010 --> 00:18:41,180
+That's our lost function.  The lost function, the objective function.
+
+270
+00:18:41,760 --> 00:18:44,040
+That's was used to determine
+
+271
+00:18:45,440 --> 00:18:50,260
+how much to reward or punish the Back Propagated weights throughout the network.
+
+272
+00:18:53,640 --> 00:18:59,900
+And the basic operation of optimizing that loss function, of minimizing that loss function,
+
+273
+00:19:00,760 --> 00:19:04,320
+is done with various variants of gradient descent.
+
+274
+00:19:05,920 --> 00:19:08,200
+It's hopefully a somewhat smooth function
+
+275
+00:19:10,020 --> 00:19:12,080
+but it's a highly non-linear function.
+
+276
+00:19:12,780 --> 00:19:15,440
+This is why we can't prove much about neural networks,
+
+277
+00:19:16,960 --> 00:19:22,940
+is it's a highly, high dimensional, highly non-linear function that's hopefully smooth enough
+
+278
+00:19:23,680 --> 00:19:30,980
+where the gradient descent can find its way to a least a good solution.
+
+279
+00:19:31,940 --> 00:19:35,620
+And there has to be some stochastic element there that
+
+280
+00:19:37,820 --> 00:19:41,480
+that jumps around to ensure that it doesn't get stuck
+
+281
+00:19:41,480 --> 00:19:45,140
+in a local minimum of this very complex function.
+
+282
+00:19:46,290 --> 00:19:47,960
+Okay, that's supervised learning:
+
+283
+00:19:47,960 --> 00:19:51,380
+there's inputs, there's outputs.  Ground Truth.
+
+284
+00:19:52,300 --> 00:19:53,400
+That's our comfort zone,
+
+285
+00:19:54,040 --> 00:19:56,020
+we're pretty confident we know what's going on.
+
+286
+00:19:56,760 --> 00:19:59,780
+All you have to do is just, you have this data set you train and,
+
+287
+00:20:01,040 --> 00:20:04,280
+you train a network on that data set and you can evaluate it.
+
+288
+00:20:04,280 --> 00:20:07,800
+You can write a paper and try to beat a previous paper.  It's great.
+
+289
+00:20:08,850 --> 00:20:11,940
+The problem is when you then use that neural network
+
+290
+00:20:12,000 --> 00:20:16,960
+to create an intelligent system that you put out there in the world,
+
+291
+00:20:17,720 --> 00:20:21,940
+and now that system is no longer is working with your data set.
+
+292
+00:20:22,520 --> 00:20:25,760
+It has to exist in this world that's
+
+293
+00:20:26,300 --> 00:20:29,640
+maybe very different from the Ground Truth.
+
+294
+00:20:30,760 --> 00:20:32,680
+So the take away from supervised learning
+
+295
+00:20:33,520 --> 00:20:36,180
+is that a neural network's a great memorization
+
+296
+00:20:37,300 --> 00:20:41,600
+but in the sort of philosophical way they might not be great at generalizing,
+
+297
+00:20:42,600 --> 00:20:48,280
+at reasoning beyond the specific flavor of data set that they were trained on.
+
+298
+00:20:49,280 --> 00:20:52,320
+The hope for reinforcement learning is that
+
+299
+00:20:53,060 --> 00:20:57,060
+we can extend the knowledge we gain in a supervised way
+
+300
+00:20:59,060 --> 00:21:04,180
+to the huge world outside where we don't have
+
+301
+00:21:05,780 --> 00:21:12,220
+the Ground Truth of how to act, how good a certain state is,
+
+302
+00:21:12,220 --> 00:21:16,480
+or how barristers say it is, this is a kind of brute force reasoning.
+
+303
+00:21:16,800 --> 00:21:21,480
+And I'll talk about, kind of what I mean there, but it feels like
+
+304
+00:21:21,480 --> 00:21:24,680
+it's closer to reasoning as opposed to memorization.
+
+305
+00:21:24,900 --> 00:21:28,440
+That's a good way to think of supervised learning - is memorization.
+
+306
+00:21:29,120 --> 00:21:30,780
+You're just studying for an exam.
+
+307
+00:21:31,520 --> 00:21:32,860
+And as many of you know,
+
+308
+00:21:33,440 --> 00:21:36,800
+that doesn't mean you're going to be successful in life just because you get an A.
+
+309
+00:21:38,230 --> 00:21:45,940
+And so, a reinforcement learning agent or just any agent;
+
+310
+00:21:46,660 --> 00:21:52,020
+a human being or any machine existing in this world
+
+311
+00:21:54,260 --> 00:21:58,080
+can operate in the following way from the perspective of the agent.
+
+312
+00:21:58,480 --> 00:21:59,780
+You can execute an action;
+
+313
+00:22:00,620 --> 00:22:05,160
+it can receive an observation resulting from that action
+
+314
+00:22:05,880 --> 00:22:10,520
+in a form of a new state and it can receive a reward or punishment.
+
+315
+00:22:11,660 --> 00:22:18,380
+You can break down our existence in this way, simplistic view,
+
+316
+00:22:19,900 --> 00:22:23,540
+but it's a convenient one on the computational side
+
+317
+00:22:24,190 --> 00:22:25,660
+and from the environment side,
+
+318
+00:22:27,220 --> 00:22:31,220
+the environment receives the action amidst the observation.
+
+319
+00:22:31,300 --> 00:22:35,500
+So your action changes the world, therefore, that world has to change
+
+320
+00:22:38,000 --> 00:22:42,840
+and then tell you about it and give you a reward or punishment for it.
+
+321
+00:22:47,260 --> 00:22:54,540
+So, again one of the most fascinating things
+
+322
+00:22:55,240 --> 00:22:58,840
+I'll try to convey while this is fascinating a little bit later on,
+
+323
+00:23:00,290 --> 00:23:04,380
+is the work of deep mind on Atari.
+
+324
+00:23:06,180 --> 00:23:13,760
+This is Atari Breakout a game were a paddle has to move around.
+
+325
+00:23:14,540 --> 00:23:17,620
+That's the world it's existing in, the agent is the paddle
+
+326
+00:23:19,530 --> 00:23:21,520
+and there's a bouncing ball
+
+327
+00:23:22,240 --> 00:23:26,080
+and you're trying to move, your actions are right: move right, move left.
+
+328
+00:23:27,300 --> 00:23:30,940
+You are trying to move in such a way that the ball doesn't get past you.
+
+329
+00:23:32,520 --> 00:23:35,800
+And so, here is a human level performance of that agent.
+
+330
+00:23:36,700 --> 00:23:38,320
+And so what does this paddle have to do?
+
+331
+00:23:38,600 --> 00:23:42,300
+That's to operate in this environment; that's to act:  move left, move right.
+
+332
+00:23:44,180 --> 00:23:47,060
+Each action changes the state of the world.
+
+333
+00:23:48,040 --> 00:23:49,840
+It may seem obvious but
+
+334
+00:23:50,120 --> 00:23:54,900
+moving right changes visually the state of the world.
+
+335
+00:23:54,900 --> 00:23:57,240
+In fact what we're watching now on the slides
+
+336
+00:23:58,040 --> 00:24:00,880
+is the world changing before your eyes for this little guy.
+
+337
+00:24:03,210 --> 00:24:06,700
+And it get rewards or punishments.
+
+338
+00:24:07,920 --> 00:24:10,100
+Rewards it gets in the form of points,
+
+339
+00:24:10,480 --> 00:24:14,860
+they're racking up points in the top left of the video.
+
+340
+00:24:15,820 --> 00:24:22,700
+And then when the ball gets past the paddle, it gets punished by "dying".
+
+341
+00:24:23,160 --> 00:24:24,880
+And that's the number of lives there's left.
+
+342
+00:24:25,400 --> 00:24:28,840
+Going from 5 to 4 to 3, down to 0.
+
+343
+00:24:30,900 --> 00:24:33,360
+And so the goal is to select at any one moment
+
+344
+00:24:34,740 --> 00:24:38,740
+the action that maximizes future reward.
+
+345
+00:24:39,440 --> 00:24:42,020
+Without any knowledge of what a reward is
+
+346
+00:24:43,320 --> 00:24:45,340
+in the greater sense of the word,
+
+347
+00:24:45,340 --> 00:24:48,380
+all you have is an instantaneous reward or punishment,
+
+348
+00:24:49,240 --> 00:24:51,720
+instantaneous response of the world to your actions
+
+349
+00:24:56,640 --> 00:25:00,080
+and this can be model as a mark of decision process.
+
+350
+00:25:01,330 --> 00:25:06,380
+Mark of decision process is a mathematically convenient construct.
+
+351
+00:25:07,220 --> 00:25:08,240
+It has no memory,
+
+352
+00:25:09,100 --> 00:25:12,520
+all you get is you have a state that you're currently in.
+
+353
+00:25:12,840 --> 00:25:15,060
+You perform an action, you get a reward.
+
+354
+00:25:15,340 --> 00:25:18,900
+And you find yourself in a new state.  And that repeats over and over.
+
+355
+00:25:20,050 --> 00:25:23,460
+You start from state 0, you go to state 1.
+
+356
+00:25:23,660 --> 00:25:27,220
+You once again repeat an action, get a reward for the next state.
+
+357
+00:25:27,960 --> 00:25:30,120
+OK that's the formulation that we're operating in.
+
+358
+00:25:30,980 --> 00:25:32,300
+When you're in a certain state,
+
+359
+00:25:32,300 --> 00:25:35,940
+you have no memory of what happened two states ago.
+
+360
+00:25:37,420 --> 00:25:39,640
+Everything is operating on the instantaneous.
+
+361
+00:25:42,540 --> 00:25:43,380
+Instantaneously.
+
+362
+00:25:44,340 --> 00:25:47,280
+And so what are the major components of a reinforcement learning agent?
+
+363
+00:25:47,640 --> 00:25:48,560
+There's a policy.
+
+364
+00:25:52,480 --> 00:25:57,060
+The function broadly defined an agent's behavior.
+
+365
+00:25:58,920 --> 00:26:04,820
+That means that includes the knowledge of how, for any given state,
+
+366
+00:26:05,000 --> 00:26:09,560
+what is an action that I will take with some probability.
+
+367
+00:26:11,940 --> 00:26:18,520
+Value function is how good each state and action are in any particular state.
+
+368
+00:26:21,020 --> 00:26:22,440
+And there's a model.
+
+369
+00:26:23,640 --> 00:26:28,620
+Now this is a subtle thing that is
+
+370
+00:26:28,620 --> 00:26:31,660
+actually the biggest problem with everything you'll see today,
+
+371
+00:26:32,160 --> 00:26:35,360
+is the model as how we represent the environment.
+
+372
+00:26:36,080 --> 00:26:38,180
+And we'll see today some amazing things
+
+373
+00:26:38,180 --> 00:26:39,860
+that neural networks can achieve
+
+374
+00:26:40,840 --> 00:26:43,480
+on a relatively simplistic model of the world
+
+375
+00:26:44,060 --> 00:26:47,400
+and the question whether that model can extend to the real world
+
+376
+00:26:47,940 --> 00:26:50,340
+where human lives are at stake in the case of driving.
+
+377
+00:26:53,960 --> 00:26:58,660
+So let's look at the simplistic world.  A robot in a room.
+
+378
+00:27:00,200 --> 00:27:01,480
+You start at the bottom left,
+
+379
+00:27:02,140 --> 00:27:04,320
+Your goal is to get to the top right.
+
+380
+00:27:06,140 --> 00:27:10,620
+Your possible actions are going up, down, left and right.
+
+381
+00:27:12,500 --> 00:27:15,000
+Now this world can be deterministic
+
+382
+00:27:15,260 --> 00:27:18,420
+which means when you go up, you actually go up.
+
+383
+00:27:19,620 --> 00:27:24,960
+Or it could be non-deterministic as human life is is
+
+384
+00:27:26,060 --> 00:27:28,220
+because when you go up, sometimes you go right.
+
+385
+00:27:29,800 --> 00:27:34,760
+So in this case if you choose to go up, you move up 80% of the time.
+
+386
+00:27:35,240 --> 00:27:36,860
+You move left 10% of the time
+
+387
+00:27:37,120 --> 00:27:38,620
+and you move right 10% of the time.
+
+388
+00:27:39,710 --> 00:27:44,220
+And when you get to the top right you get a reward of +1
+
+389
+00:27:44,560 --> 00:27:46,680
+and you get to the second block from that,
+
+390
+00:27:46,860 --> 00:27:49,000
+for two you get -1.  You get punished.
+
+391
+00:27:49,690 --> 00:27:54,760
+And every time you take a step you get a slight punishment, a -0.04.
+
+392
+00:27:57,320 --> 00:27:58,600
+Okay.  So the question is,
+
+393
+00:27:59,520 --> 00:28:03,160
+if you start at the bottom left, is this a good solution?
+
+394
+00:28:03,520 --> 00:28:06,740
+Is this a good policy by which you exist in the world?
+
+395
+00:28:08,640 --> 00:28:10,840
+And it is if the world is deterministic.
+
+396
+00:28:11,460 --> 00:28:15,400
+If whenever you choose to go up, you go.
+
+397
+00:28:16,220 --> 00:28:17,880
+Whenever you choose to go right, you go right.
+
+398
+00:28:21,860 --> 00:28:25,300
+But if the actions are stochastic, that's not the case.
+
+399
+00:28:27,120 --> 00:28:31,060
+In what I described previously with point eight up
+
+400
+00:28:31,660 --> 00:28:36,300
+and probability of .1 going left and right.
+
+401
+00:28:38,040 --> 00:28:39,700
+This is the optimal policy.
+
+402
+00:28:42,570 --> 00:28:49,000
+Now if we punish every single step with a -2 as opposed to a -0.04.
+
+403
+00:28:49,920 --> 00:28:52,600
+So every time you take a step,it hurts.
+
+404
+00:28:54,200 --> 00:28:59,380
+You're going to try to get through a positive block as quickly as possible
+
+405
+00:29:01,600 --> 00:29:03,120
+and that's what this policy says.
+
+406
+00:29:03,580 --> 00:29:06,220
+I'll walk through a negative one if I have to
+
+407
+00:29:06,220 --> 00:29:08,760
+as long as I stop getting a -2.
+
+408
+00:29:11,880 --> 00:29:15,180
+Now if the reward for each step is a -.1,
+
+409
+00:29:16,040 --> 00:29:19,500
+you might choose to go around that -1 block,
+
+410
+00:29:21,140 --> 00:29:23,420
+slight detour to avoid the pain.
+
+411
+00:29:27,040 --> 00:29:29,180
+And then you might take an even longer detour
+
+412
+00:29:29,580 --> 00:29:33,240
+as the reward for each step goes up or the punishment goes down, I guess.
+
+413
+00:29:46,760 --> 00:29:51,200
+And then if there is an actual positive reward for every step you take
+
+414
+00:29:54,360 --> 00:29:57,140
+you'll avoid going to the finish line.
+
+415
+00:29:58,240 --> 00:30:00,160
+You'll just wander the world.
+
+416
+00:30:01,460 --> 00:30:06,320
+We saw that with the Coast Racer yesterday,
+
+417
+00:30:06,480 --> 00:30:10,320
+the boat that chose not to finish the race
+
+418
+00:30:10,900 --> 00:30:13,520
+because it was having too much fun getting points in the middle.
+
+419
+00:30:16,040 --> 00:30:24,580
+So let's look at the world that this agent is operating in as a value function.
+
+420
+00:30:25,880 --> 00:30:28,140
+Now value function depends on a reward,
+
+421
+00:30:29,750 --> 00:30:31,240
+the reward that comes from the future
+
+422
+00:30:32,440 --> 00:30:35,820
+and that reward is discounted because the world is stochasted,
+
+423
+00:30:37,040 --> 00:30:43,220
+we can't expect the reward to come along to us in the way that
+
+424
+00:30:44,200 --> 00:30:48,040
+we hope it does based on the policy, based on the way we choose to act.
+
+425
+00:30:49,380 --> 00:30:52,700
+And so there's a gamma there that over time,
+
+426
+00:30:53,880 --> 00:31:00,280
+as the award is farther and farther into the future discounts that reward.
+
+427
+00:31:02,400 --> 00:31:05,360
+Diminishes the impact of that future reward
+
+428
+00:31:05,500 --> 00:31:07,640
+in your evaluation of the current state.
+
+429
+00:31:08,980 --> 00:31:12,200
+And so your goal is to develop a strategy
+
+430
+00:31:12,200 --> 00:31:16,260
+that maximizes the discounted future reward.
+
+431
+00:31:16,720 --> 00:31:22,420
+The sum, the discounted sum, and reinforcement learning
+
+432
+00:31:25,020 --> 00:31:30,200
+there is a lot of approaches for coming up with a good policy,
+
+433
+00:31:31,320 --> 00:31:33,940
+a near optimal, an optimal policy.
+
+434
+00:31:36,070 --> 00:31:37,580
+There's a lot of fun math there.
+
+435
+00:31:39,580 --> 00:31:42,140
+You could try to construct a model
+
+436
+00:31:43,040 --> 00:31:45,900
+that optimizes some estimate of this world.
+
+437
+00:31:46,890 --> 00:31:49,700
+You can try in the Monte Carlo way
+
+438
+00:31:50,400 --> 00:31:54,280
+through just simulate that world and see how it unrolls.
+
+439
+00:31:56,390 --> 00:31:59,560
+And as it unrolls you try to compute the optimal policy.
+
+440
+00:32:01,200 --> 00:32:04,080
+Or what we'll talk about today is Q learning.
+
+441
+00:32:05,420 --> 00:32:08,600
+It's an off policy approach,
+
+442
+00:32:10,040 --> 00:32:15,560
+where the policy is estimated as we go along.
+
+443
+00:32:17,300 --> 00:32:21,400
+The policy is represented as a Q-Function.
+
+444
+00:32:22,620 --> 00:32:27,380
+The Q-Function shown there on the left is,
+
+445
+00:32:28,040 --> 00:32:29,980
+I apologize for the equations,
+
+446
+00:32:30,560 --> 00:32:33,520
+I lied.  There'll be some equations.
+
+447
+00:32:37,890 --> 00:32:42,760
+The input to the Q-Function is a state at time t, "st".
+
+448
+00:32:43,140 --> 00:32:47,380
+An action they choose to take and that state "at".
+
+449
+00:32:48,950 --> 00:32:51,760
+and your goal is in that state
+
+450
+00:32:51,860 --> 00:32:55,560
+to choose an action which maximizes the reward in the next step.
+
+451
+00:32:57,840 --> 00:33:01,220
+And what Q-Learning does, and I'll describe the process,
+
+452
+00:33:02,320 --> 00:33:08,520
+is it's able to approximate through experience the optimal Q-Function,
+
+453
+00:33:09,560 --> 00:33:14,680
+the optimal function that tells you how to act in any state of the world.
+
+454
+00:33:16,930 --> 00:33:19,640
+You just have to live it.
+
+455
+00:33:20,280 --> 00:33:21,580
+You have to simulate this world.
+
+456
+00:33:22,260 --> 00:33:23,300
+You have to move about it.
+
+457
+00:33:23,920 --> 00:33:28,120
+You have to explore in order to see every possible state,
+
+458
+00:33:28,340 --> 00:33:31,840
+try every different action, get rewarded, get punished,
+
+459
+00:33:34,070 --> 00:33:36,300
+and figure out what is the optimal thing to do.
+
+460
+00:33:37,920 --> 00:33:41,940
+That's done using this Bellman equation.
+
+461
+00:33:43,580 --> 00:33:46,600
+On the left, the output, is the new state.
+
+462
+00:33:47,800 --> 00:33:52,980
+The estimate, the Q-Function estimate of the new state, for new action.
+
+463
+00:33:54,890 --> 00:33:58,140
+And this is the update rule at the core of Q Learning.
+
+464
+00:33:59,600 --> 00:34:04,420
+You take the estimate, the old estimate, and add
+
+465
+00:34:05,020 --> 00:34:10,380
+based on the learning rate alpha from 0 to 1,
+
+466
+00:34:11,900 --> 00:34:15,860
+they update the evaluation of that state
+
+467
+00:34:16,900 --> 00:34:21,420
+based on your new reward that you received at that time.
+
+468
+00:34:22,280 --> 00:34:25,720
+So you've arrived in this certain state as "t".
+
+469
+00:34:26,180 --> 00:34:28,620
+You tried to do an action
+
+470
+00:34:29,540 --> 00:34:31,160
+and then you got a certain reward
+
+471
+00:34:31,160 --> 00:34:33,320
+and you update your estimate of that state
+
+472
+00:34:34,520 --> 00:34:36,680
+and action pair based on this rule.
+
+473
+00:34:37,960 --> 00:34:43,500
+When the learning rate is 0, you don't learn when alpha is 0.
+
+474
+00:34:44,300 --> 00:34:47,620
+You never change your world view
+
+475
+00:34:47,620 --> 00:34:50,680
+based on the new incoming evidence.
+
+476
+00:34:52,120 --> 00:35:02,400
+When alpha is 1, every time change your world evaluation based on the new evidence.
+
+477
+00:35:04,840 --> 00:35:08,100
+And that's the key ingredient to Reinforcement Learning.
+
+478
+00:35:08,820 --> 00:35:11,440
+First you explore, then you exploit.
+
+479
+00:35:12,560 --> 00:35:15,720
+First, you explore in a non-greedy way and then you get greedy.
+
+480
+00:35:15,720 --> 00:35:18,220
+You figure out what's good for you and you keep doing it.
+
+481
+00:35:19,660 --> 00:35:22,100
+So if you wanted to learn an Atari game,
+
+482
+00:35:22,290 --> 00:35:25,080
+First you try every single action, every state, you screw up,
+
+483
+00:35:25,320 --> 00:35:28,140
+get punished, get rewarded and, eventually, you figure out
+
+484
+00:35:28,140 --> 00:35:30,280
+what's actually the right thing to do and you just keep doing it.
+
+485
+00:35:30,800 --> 00:35:36,960
+And that's how you win against the greatest human players in the world
+
+486
+00:35:36,960 --> 00:35:39,780
+in a game of "Go" for example, as we'll talk about.
+
+487
+00:35:41,160 --> 00:35:45,000
+And the way you do that is you have an "Epsilon Greedy Policy"
+
+488
+00:35:45,280 --> 00:35:50,940
+that over time with a probability of 1 - Epsilon,
+
+489
+00:35:51,120 --> 00:35:53,020
+you perform an optimal Greedy action.
+
+490
+00:35:53,360 --> 00:35:55,920
+With a probability of Epsilon, you perform a random action.
+
+491
+00:35:56,820 --> 00:35:58,880
+Random action being explore.
+
+492
+00:36:00,320 --> 00:36:05,440
+And so, as epsilon goes down from 1 to 0 you explore less and less.
+
+493
+00:36:09,300 --> 00:36:11,000
+So the algorithm here is really simple.
+
+494
+00:36:12,000 --> 00:36:16,000
+On the bottom of the slide there is the algorithm version,
+
+495
+00:36:16,000 --> 00:36:19,780
+the pseudo code version of the equation.
+
+496
+00:36:20,940 --> 00:36:22,140
+The Bellman equation update.
+
+497
+00:36:23,180 --> 00:36:29,020
+You initialize your estimate of state action pairs arbitrarily,
+
+498
+00:36:29,460 --> 00:36:32,380
+a random number.  This is an important point.
+
+499
+00:36:33,710 --> 00:36:38,300
+When you start playing or living or doing whatever you're doing
+
+500
+00:36:38,300 --> 00:36:41,560
+in whatever you're doing with Reinforcement Learning or driving,
+
+501
+00:36:42,180 --> 00:36:48,940
+you have no preconceived notion of what's good and bad, it's random.
+
+502
+00:36:49,640 --> 00:36:51,340
+Or however you choose to initialize it.
+
+503
+00:36:51,820 --> 00:36:54,920
+And the fact that it learns anything is amazing.
+
+504
+00:36:57,040 --> 00:36:58,300
+I want you to remember that.
+
+505
+00:36:58,940 --> 00:37:05,860
+That's one of the amazing things about Q-Learning at all
+
+506
+00:37:05,860 --> 00:37:09,560
+and then the Deep neural network version of Q-Learning.
+
+507
+00:37:12,300 --> 00:37:14,420
+The algorithm repeats the following step.
+
+508
+00:37:15,000 --> 00:37:22,020
+You step into the world, observe an initial state, you select an action "a"
+
+509
+00:37:22,960 --> 00:37:25,780
+so that action, if you're exploring, will be a random action;
+
+510
+00:37:26,100 --> 00:37:28,860
+if you're greedily pursuing the best, actually you can,
+
+511
+00:37:29,150 --> 00:37:31,600
+it will be the action that maximizes the Q-Function.
+
+512
+00:37:32,420 --> 00:37:34,820
+You observe a reward after you take the action,
+
+513
+00:37:35,680 --> 00:37:37,820
+and a new state that you find yourself in.
+
+514
+00:37:38,320 --> 00:37:41,980
+And then you update your estimate of the previous day you are in
+
+515
+00:37:41,980 --> 00:37:45,580
+having taken that action using that Bellman Equation Update.
+
+516
+00:37:47,880 --> 00:37:49,440
+And repeat this over and over.
+
+517
+00:37:52,180 --> 00:37:59,620
+And so there on the bottom of the slide is a summary of life.
+
+518
+00:38:04,860 --> 00:38:05,040
+Yes.
+
+519
+00:38:06,660 --> 00:38:07,020
+(CHUCKLING)
+
+520
+00:38:09,220 --> 00:38:17,000
+Q-Function?  Yes, yes.  Yeah, it's a single- The question was
+
+521
+00:38:17,080 --> 00:38:19,260
+is the Q-Function a single value?
+
+522
+00:38:19,660 --> 00:38:23,560
+And yes, it's just a single continuous value.
+
+523
+00:38:35,200 --> 00:38:37,100
+So the question was:  "how do you model the world?"
+
+524
+00:38:40,840 --> 00:38:48,040
+So the way you model, so let's start, is very simplistic world of Atari paddle.
+
+525
+00:38:48,580 --> 00:38:50,440
+You think you model it as a paddle that
+
+526
+00:38:50,440 --> 00:38:52,440
+can move left and right and there's some blocks
+
+527
+00:38:52,980 --> 00:38:56,200
+and you model the physics of the ball.
+
+528
+00:38:57,860 --> 00:39:02,000
+That requires a lot of expert knowledge in that particular game.
+
+529
+00:39:02,460 --> 00:39:04,880
+So you sit there hand crafting this model.
+
+530
+00:39:05,660 --> 00:39:07,740
+That's hard to do even for a simplistic game.
+
+531
+00:39:08,880 --> 00:39:10,460
+The other model you could take
+
+532
+00:39:11,250 --> 00:39:16,200
+is looking at this world in the way the humans do visually.
+
+533
+00:39:16,700 --> 00:39:19,500
+So take the model in as a set of pixels.
+
+534
+00:39:21,340 --> 00:39:25,440
+Just the model is all the pixels of the world.
+
+535
+00:39:25,900 --> 00:39:29,460
+You know nothing about paddles or balls or physics
+
+536
+00:39:29,520 --> 00:39:32,960
+or colors and points, they're just pixels coming in.
+
+537
+00:39:34,170 --> 00:39:36,320
+That seems like a ridiculous model of the world
+
+538
+00:39:36,580 --> 00:39:38,100
+but it seems to work for Atari.
+
+539
+00:39:38,600 --> 00:39:40,100
+It seems to work for human beings.
+
+540
+00:39:40,320 --> 00:39:44,480
+When you're born, you see there's light coming into your eyes
+
+541
+00:39:46,190 --> 00:39:52,340
+and you don't have any, as far as we know,
+
+542
+00:39:52,480 --> 00:39:55,260
+you don't come with an instruction when you're born.
+
+543
+00:39:56,000 --> 00:39:57,580
+You know there's people in the world
+
+544
+00:39:57,580 --> 00:40:01,060
+then there is good guys and bad guys,
+
+545
+00:40:01,060 --> 00:40:02,420
+and there's this is how you walk.
+
+546
+00:40:02,600 --> 00:40:07,440
+No, all you get is light, sound and the other sensors.
+
+547
+00:40:12,740 --> 00:40:17,360
+And you get to learn about every single thing you think of as
+
+548
+00:40:18,380 --> 00:40:21,100
+the way you model the world is a learned representation
+
+549
+00:40:21,100 --> 00:40:23,760
+and we will talk about how a neural network does that.
+
+550
+00:40:23,960 --> 00:40:30,580
+It learns to represent the world but if we have to hand model the world,
+
+551
+00:40:31,860 --> 00:40:33,120
+it's an impossible task.
+
+552
+00:40:34,720 --> 00:40:38,200
+That's the question and if we have to hand model the world,
+
+553
+00:40:39,020 --> 00:40:41,300
+then that world better be a simplistic one.
+
+554
+00:40:42,300 --> 00:40:42,740
+Yeah.
+
+555
+00:40:44,180 --> 00:40:45,300
+That's a great question.
+
+556
+00:40:45,300 --> 00:40:48,380
+And so the question was:  "what is the robustness of this model
+
+557
+00:40:49,200 --> 00:40:53,280
+if the way you represent the world is at all, even slightly different,
+
+558
+00:40:53,860 --> 00:40:55,960
+from the way you thought that world is.
+
+559
+00:40:56,720 --> 00:41:00,120
+That's not that well studied as far as I'm aware.
+
+560
+00:41:00,720 --> 00:41:03,520
+I mean, it's already amazing that you keep constructing,
+
+561
+00:41:03,680 --> 00:41:05,440
+if you have a certain import of the world,
+
+562
+00:41:05,780 --> 00:41:07,860
+If you have a certain model of the world that you can learn anything
+
+563
+00:41:07,860 --> 00:41:08,700
+is already amazing.
+
+564
+00:41:09,760 --> 00:41:11,820
+The question is, and it's an important one,
+
+565
+00:41:12,280 --> 00:41:14,800
+is we'll talk a little bit about it,
+
+566
+00:41:15,180 --> 00:41:17,580
+not about the world model but the reward function.
+
+567
+00:41:17,840 --> 00:41:19,820
+If the reward function is slightly different.
+
+568
+00:41:20,680 --> 00:41:25,760
+the real reward function of life or driving or of coast runner
+
+569
+00:41:26,260 --> 00:41:28,980
+is different than what you expected it to be.
+
+570
+00:41:29,860 --> 00:41:31,060
+What's the negative there?
+
+571
+00:41:31,480 --> 00:41:33,440
+Yes, it could be huge.
+
+572
+00:41:33,700 --> 00:41:34,340
+(CHUCKLING)
+
+573
+00:41:36,500 --> 00:41:37,800
+There's another question or no?
+
+574
+00:41:38,300 --> 00:41:39,260
+Oh, no.  Yes.
+
+575
+00:41:41,360 --> 00:41:42,360
+Sorry, can you ask that again?
+
+576
+00:41:45,960 --> 00:41:48,120
+Yes, you can change it over.  So the question was:
+
+577
+00:41:48,460 --> 00:41:50,660
+"do you change alpha value over time?"
+
+578
+00:41:50,660 --> 00:41:54,120
+You certainly should change alpha value over time, yes.
+
+579
+00:42:00,400 --> 00:42:04,000
+So the question was:  "what is the complex interplay
+
+580
+00:42:04,000 --> 00:42:06,160
+of the Epsilon Function with the Q-Learning Update?"
+
+581
+00:42:07,240 --> 00:42:12,600
+That's 100% fine-tuned to the particular learning problem.
+
+582
+00:42:12,980 --> 00:42:17,020
+So you certainly wanted-
+
+583
+00:42:19,960 --> 00:42:25,000
+The more complex, the larger the number of states in the world
+
+584
+00:42:25,000 --> 00:42:26,960
+and the larger the number of actions,
+
+585
+00:42:27,280 --> 00:42:30,880
+the longer you have to wait
+
+586
+00:42:30,880 --> 00:42:34,260
+before you decrease the Epsilon to 0 but you have to play with it.
+
+587
+00:42:35,120 --> 00:42:37,760
+And it's one of the parameters you have to play with, unfortunately,
+
+588
+00:42:37,760 --> 00:42:38,900
+and there's quite a few of them
+
+589
+00:42:39,480 --> 00:42:43,000
+which is why you can't just drop a Reinforcement Learning agent into the world.
+
+590
+00:42:47,080 --> 00:42:50,180
+Oh, the effect in that sense?  No, no.  It's just a coin flip.
+
+591
+00:42:51,260 --> 00:42:54,020
+And if that Epsilon is 0.5,
+
+592
+00:42:54,760 --> 00:42:56,720
+half the time you're going to take a random action.
+
+593
+00:42:56,940 --> 00:42:58,900
+So there's no specific-
+
+594
+00:42:59,500 --> 00:43:02,040
+It's not like you'll take the best action
+
+595
+00:43:02,700 --> 00:43:05,220
+and then with some probability take the second best, and so on.
+
+596
+00:43:05,300 --> 00:43:06,600
+I mean you can certainly do that
+
+597
+00:43:06,840 --> 00:43:11,140
+but in the simple formulation that works if you just take a random action
+
+598
+00:43:11,460 --> 00:43:13,400
+because you don't wanted to have a preconceived notion of
+
+599
+00:43:13,660 --> 00:43:16,400
+what's a good action to try when you're exploring.
+
+600
+00:43:16,760 --> 00:43:20,580
+The wjhole point is you try crazy stuff, if it's a simulation.
+
+601
+00:43:23,860 --> 00:43:28,300
+So, good question.  So representation matters.
+
+602
+00:43:29,840 --> 00:43:32,380
+This is the question about how we represent the world.
+
+603
+00:43:32,680 --> 00:43:37,580
+So we can think of this world of break up, for example,
+
+604
+00:43:38,740 --> 00:43:43,680
+of this Atari game as a paddle the moves left and right.
+
+605
+00:43:44,440 --> 00:43:47,340
+and the exact position of the different things you can hit
+
+606
+00:43:47,340 --> 00:43:49,060
+to construct this complex model,
+
+607
+00:43:49,780 --> 00:43:54,200
+this expert driven model that has to fine tune it to this particular problem.
+
+608
+00:43:56,500 --> 00:44:02,320
+But in practice the more complex this model gets,
+
+609
+00:44:03,040 --> 00:44:05,900
+the worse that Bellman Equation Update,
+
+610
+00:44:05,900 --> 00:44:08,920
+that value that's trying to construct a Q-Function
+
+611
+00:44:09,180 --> 00:44:11,720
+for every single combination of state and actions
+
+612
+00:44:12,140 --> 00:44:16,720
+becomes too difficult because that function is too sparse and huge
+
+613
+00:44:17,120 --> 00:44:22,980
+so if you think of looking at this world in a general way,
+
+614
+00:44:23,240 --> 00:44:27,000
+in the way human beings would is a collection of pixels visually.
+
+615
+00:44:27,600 --> 00:44:29,640
+If you just take in a pixel,
+
+616
+00:44:29,940 --> 00:44:35,140
+this game as a collection of 84 by 84 pixels, an image, an RGB image,
+
+617
+00:44:38,440 --> 00:44:40,820
+And then you look at not just the current image,
+
+618
+00:44:41,480 --> 00:44:46,100
+but look at the temporal trajectory of those images
+
+619
+00:44:46,100 --> 00:44:49,120
+so like if there's a ball moving you want to know about that movement.
+
+620
+00:44:49,560 --> 00:44:54,040
+So you look at 4 images; so, current image and 3 images back
+
+621
+00:44:55,720 --> 00:45:03,600
+and say, they're gray scale with 256 gray levels that size of the Q-Table
+
+622
+00:45:03,600 --> 00:45:10,000
+that the Q value function has to learn is
+
+623
+00:45:10,000 --> 00:45:14,340
+whatever that number is, but it's certainly larger than
+
+624
+00:45:14,340 --> 00:45:19,300
+the number of atoms in the universe.  That's a large number.
+
+625
+00:45:19,740 --> 00:45:23,360
+So you have to run the simulation long enough
+
+626
+00:45:23,640 --> 00:45:30,380
+to touch at least a few times the most of the states in that Q-Table.
+
+627
+00:45:31,400 --> 00:45:36,460
+So as Elon Musk says you may need to run,
+
+628
+00:45:36,580 --> 00:45:38,460
+you know, we live in a simulation,
+
+629
+00:45:39,200 --> 00:45:41,440
+and you may have to run a universe
+
+630
+00:45:41,440 --> 00:45:46,300
+just to compute the Q-Function in this case.
+
+631
+00:45:49,400 --> 00:45:51,180
+So that's where deep learning steps in
+
+632
+00:45:52,220 --> 00:45:58,360
+as instead of modeling the world as a Q-Table
+
+633
+00:46:00,000 --> 00:46:04,220
+you estimate, you try to learn that function.
+
+634
+00:46:06,400 --> 00:46:09,820
+And so, the takeaway from supervised learning, if you remember,
+
+635
+00:46:10,000 --> 00:46:12,580
+that it's good at memorizing or good at memorizing data.
+
+636
+00:46:13,400 --> 00:46:15,100
+The hope for reinforcement learning
+
+637
+00:46:16,310 --> 00:46:21,120
+With a Q-Learning is that we can extend
+
+638
+00:46:22,440 --> 00:46:27,300
+the occasional rewards we get to generalize over the operation,
+
+639
+00:46:27,820 --> 00:46:30,760
+the actions you take in that world leading up to the rewards.
+
+640
+00:46:31,680 --> 00:46:35,360
+And the hope for deep learning is that we can move this
+
+641
+00:46:35,840 --> 00:46:39,840
+Reinforcement learning system into a world
+
+642
+00:46:39,840 --> 00:46:43,520
+that doesn't need to be, they can be defined arbitrarily.
+
+643
+00:46:44,260 --> 00:46:48,300
+It can include all the pixels of an Atari game,
+
+644
+00:46:48,620 --> 00:46:52,460
+can include all the pixels sense by a drone, a robot or car
+
+645
+00:46:56,280 --> 00:46:59,220
+but still needs a formalized definition of that world
+
+646
+00:46:59,720 --> 00:47:06,000
+which is much easier to do when you're able to take in sensors like an image
+
+647
+00:47:07,560 --> 00:47:09,800
+So Deep Q-Learning, deep version.
+
+648
+00:47:12,680 --> 00:47:15,580
+So instead of learning a Q-Table, a Q-Function,
+
+649
+00:47:16,440 --> 00:47:20,800
+we try in estimating that Q-Prime.
+
+650
+00:47:21,760 --> 00:47:24,540
+We try to learn it using machine learning.
+
+651
+00:47:25,960 --> 00:47:31,900
+It tries to learn some parameters, this huge complex function.
+
+652
+00:47:32,660 --> 00:47:39,320
+We try to learn it and the way we do that as we have a neural network
+
+653
+00:47:39,320 --> 00:47:41,800
+the same kind that showed that learned the numbers
+
+654
+00:47:41,800 --> 00:47:42,760
+to map from an image
+
+655
+00:47:43,000 --> 00:47:47,120
+to a classification of that image into a number.
+
+656
+00:47:47,620 --> 00:47:51,160
+The same kind of network is used to take in a state,
+
+657
+00:47:52,000 --> 00:47:54,540
+an action and produce a Q-Value.
+
+658
+00:47:56,640 --> 00:47:58,780
+Now here's the amazing thing:
+
+659
+00:48:01,530 --> 00:48:06,100
+that without knowing anything in the beginning,
+
+660
+00:48:08,040 --> 00:48:11,740
+as I said, with a Q-Table it's initialized randomly.
+
+661
+00:48:12,460 --> 00:48:17,580
+The Q-Function. this deep network, knows nothing in the beginning.
+
+662
+00:48:18,440 --> 00:48:24,180
+All it knows is, in the simulated world, their words you get
+
+663
+00:48:24,840 --> 00:48:28,940
+for a particular game, so you have to play time and time again
+
+664
+00:48:29,220 --> 00:48:35,620
+and see the rewards you get for every single iteration of the game.
+
+665
+00:48:36,360 --> 00:48:37,960
+But in the beginning it knows nothing.
+
+666
+00:48:40,080 --> 00:48:44,480
+And it's able to learn to play better than human beings.
+
+667
+00:48:45,440 --> 00:48:47,180
+This is a deep mind paper
+
+668
+00:48:48,100 --> 00:48:52,200
+playing Atary with deep reinforcement learning from 2013.
+
+669
+00:48:53,700 --> 00:48:56,080
+There's one other key things that got everybody excited
+
+670
+00:48:56,120 --> 00:48:59,380
+about the role of deep learning in artificial intelligence
+
+671
+00:49:01,840 --> 00:49:05,380
+is that using a convolutional neural work,
+
+672
+00:49:05,380 --> 00:49:06,720
+which I'll talk about tomorrow,
+
+673
+00:49:07,100 --> 00:49:09,560
+but it's a vanilla network, like any other
+
+674
+00:49:09,560 --> 00:49:12,680
+like I talk about earlier today, just a regular network
+
+675
+00:49:13,380 --> 00:49:18,240
+That takes the raw pixels, as I said, and estimates that Q-Function
+
+676
+00:49:18,240 --> 00:49:21,280
+from the raw pixels as able to play on many of those games
+
+677
+00:49:21,660 --> 00:49:22,880
+better than a human being.
+
+678
+00:49:25,490 --> 00:49:27,820
+And the lost function that I mentioned previously,
+
+679
+00:49:28,560 --> 00:49:34,360
+so, again, very vanilla lost function,
+
+680
+00:49:34,360 --> 00:49:36,160
+very simple objective function.
+
+681
+00:49:36,940 --> 00:49:38,940
+The first one you'll probably implement.
+
+682
+00:49:39,180 --> 00:49:40,880
+We have a tutorial on TensorFlow.
+
+683
+00:49:42,740 --> 00:49:45,860
+Squared Error.  So we take this Bellman Equation
+
+684
+00:49:47,000 --> 00:49:48,620
+where the estimate is Q-
+
+685
+00:49:49,400 --> 00:49:52,320
+The Q-Function Estimate of state and action
+
+686
+00:49:53,080 --> 00:49:58,040
+is the maximum reward you get for taking any of the actions
+
+687
+00:49:59,600 --> 00:50:01,200
+that take you to any of the future states.
+
+688
+00:50:03,320 --> 00:50:09,560
+And you try to take that action, observe the result of that action,
+
+689
+00:50:10,280 --> 00:50:15,040
+and if the target is different that your learn target,
+
+690
+00:50:16,420 --> 00:50:19,320
+what the function is learned is the expected reward in that case,
+
+691
+00:50:20,000 --> 00:50:23,860
+is different than what you actually got you adjust it.
+
+692
+00:50:24,140 --> 00:50:25,520
+You adjust the weights of the network.
+
+693
+00:50:28,600 --> 00:50:33,500
+And this is exactly the process by which we learn
+
+694
+00:50:33,820 --> 00:50:35,400
+how to exist in this pixel world.
+
+695
+00:50:36,380 --> 00:50:42,280
+So your mapping states and actions to a Q-Value,
+
+696
+00:50:44,520 --> 00:50:46,060
+the algorithm is as follows.
+
+697
+00:50:47,150 --> 00:50:48,240
+This is how we train it.
+
+698
+00:50:48,800 --> 00:50:54,740
+We're given a transition as current state action taken in that state
+
+699
+00:50:55,080 --> 00:50:57,240
+are the rewards you get, an S-Prime,
+
+700
+00:50:57,240 --> 00:50:59,500
+as what the state you find yourself in.
+
+701
+00:51:02,630 --> 00:51:04,940
+And so we replace the basic of their rule,
+
+702
+00:51:04,940 --> 00:51:06,540
+in the previous pseudo code,
+
+703
+00:51:08,300 --> 00:51:14,840
+by taking a forward pass through the network given that S-state.
+
+704
+00:51:16,340 --> 00:51:20,740
+We'll look at what the predicted Q-value is of that action.
+
+705
+00:51:21,820 --> 00:51:24,720
+We then do another forward pass through that network
+
+706
+00:51:25,200 --> 00:51:26,960
+and see what we actually get.
+
+707
+00:51:29,000 --> 00:51:34,840
+And then if we're totally off, we punish,
+
+708
+00:51:35,340 --> 00:51:38,320
+we Back Propagate the weights in a way that.
+
+709
+00:51:39,200 --> 00:51:44,640
+next time we'll make less of that mistake.  And you repeat this process.
+
+710
+00:51:49,920 --> 00:51:51,420
+This is a simulation.
+
+711
+00:51:52,400 --> 00:51:54,100
+You're learning against yourself.
+
+712
+00:51:57,560 --> 00:52:02,340
+And again, the same rule applies here. exploration versus exploitation.
+
+713
+00:52:04,440 --> 00:52:14,020
+You start out with an Epsilon of 0 or 1, you are mostly exploring.
+
+714
+00:52:14,800 --> 00:52:17,540
+And then you move towards an Epsilon of 0.
+
+715
+00:52:19,610 --> 00:52:23,480
+And with Atari Breakout. this is the deep mind paper result
+
+716
+00:52:24,280 --> 00:52:26,280
+is Training Epochs on the x-axis,
+
+717
+00:52:26,620 --> 00:52:29,580
+on the y-axis is the average action value
+
+718
+00:52:29,880 --> 00:52:31,720
+and the average reward per episode.
+
+719
+00:52:33,110 --> 00:52:38,400
+I'll show why it's kind of a an amazing result but it's messy
+
+720
+00:52:38,600 --> 00:52:40,280
+because there's a lot of tricks involved.
+
+721
+00:52:41,020 --> 00:52:44,680
+So it's not just putting in a bunch of pixels of a game
+
+722
+00:52:44,680 --> 00:52:48,240
+and getting an agent that knows how to win at that game.
+
+723
+00:52:48,840 --> 00:52:52,940
+there's a lot of pre-processing and playing with the data required.
+
+724
+00:52:54,500 --> 00:53:00,480
+So which is unfortunate because the truth is messier than the hope
+
+725
+00:53:02,260 --> 00:53:06,920
+but one of the critical tricks needed is called experience replay.
+
+726
+00:53:08,220 --> 00:53:11,180
+So as opposed to letting an agent,
+
+727
+00:53:11,720 --> 00:53:14,840
+So you're learning this big network that tries
+
+728
+00:53:14,840 --> 00:53:18,400
+to build a model of what's good to do in the world and what's not.
+
+729
+00:53:19,960 --> 00:53:21,320
+And you're learning as you go.
+
+730
+00:53:22,660 --> 00:53:26,220
+With experience replay you're keeping a track
+
+731
+00:53:26,220 --> 00:53:27,220
+of all the things you did.
+
+732
+00:53:27,700 --> 00:53:30,680
+And every once in a while, you look back into your memory
+
+733
+00:53:30,940 --> 00:53:33,140
+and pull out some of those old experiences.
+
+734
+00:53:33,140 --> 00:53:36,000
+the good old times and trying on those again.
+
+735
+00:53:37,040 --> 00:53:43,060
+As opposed to letting the agent run itself into some local optima
+
+736
+00:53:43,060 --> 00:53:45,800
+where it tries to learn a very subtle aspect of the game
+
+737
+00:53:46,020 --> 00:53:47,940
+that actually in the global sense
+
+738
+00:53:48,300 --> 00:53:50,360
+doesn't get you farther to winning the game.
+
+739
+00:53:51,360 --> 00:53:52,200
+Very much like life.
+
+740
+00:53:53,880 --> 00:53:56,540
+So here's the algorithm, deep Q learning algorithm pseudo code.
+
+741
+00:54:00,060 --> 00:54:01,940
+We initialize the replay memory,
+
+742
+00:54:02,120 --> 00:54:05,260
+again there's this little trick that's required.
+
+743
+00:54:06,240 --> 00:54:08,900
+Is keeping a track of stuff that's happened in the past,
+
+744
+00:54:09,980 --> 00:54:13,060
+we initialize the action value function Q with random weights
+
+745
+00:54:14,060 --> 00:54:16,680
+and observe initial state, again same thing.
+
+746
+00:54:17,180 --> 00:54:20,700
+Select an action with the probability Epsilon
+
+747
+00:54:21,080 --> 00:54:24,820
+explore, otherwise choose the best one
+
+748
+00:54:25,120 --> 00:54:27,600
+based on the estimate provided by the neural network.
+
+749
+00:54:28,600 --> 00:54:31,200
+And then carry out the action, observe the reward
+
+750
+00:54:31,860 --> 00:54:34,160
+and store that experience in the replay memory
+
+751
+00:54:36,780 --> 00:54:40,460
+and then sample random transition from replay memory.
+
+752
+00:54:41,960 --> 00:54:47,180
+So with a certain probability, you bring those old times back
+
+753
+00:54:47,500 --> 00:54:49,040
+to get yourself out of the local minima
+
+754
+00:54:50,940 --> 00:54:53,060
+and then you train the Q-network
+
+755
+00:54:53,800 --> 00:55:00,420
+using the difference between what you actually got
+
+756
+00:55:00,420 --> 00:55:04,240
+and your estimate and you repeat this process over and over.
+
+757
+00:55:07,180 --> 00:55:09,760
+So here's what you can do after ten minutes of training
+
+758
+00:55:10,520 --> 00:55:17,040
+on the left, so that's very little training, what you get is
+
+759
+00:55:17,280 --> 00:55:22,380
+a paddle that learns hardly anything and it just keeps dying.
+
+760
+00:55:23,120 --> 00:55:26,980
+It goes from 5 to 4 to 2 to 2 to 1, Those are the number of lives left.
+
+761
+00:55:28,400 --> 00:55:32,040
+Then after two hours of training in a single GPU,
+
+762
+00:55:33,960 --> 00:55:40,200
+it learns to win, you know, not die.  Rack up points
+
+763
+00:55:40,940 --> 00:55:48,320
+and learns to avoid the ball from passing the paddle which is great.
+
+764
+00:55:48,420 --> 00:55:53,180
+That's human level performance really, better than some humans,
+
+765
+00:55:53,360 --> 00:55:57,400
+you know, but it still dies sometimes so it's very human level.
+
+766
+00:55:58,100 --> 00:56:03,540
+And then after four hours it does something really amazing.
+
+767
+00:56:05,000 --> 00:56:09,600
+It figures out how to win the game in a very lazy way
+
+768
+00:56:10,060 --> 00:56:15,960
+which is drill a hole through the blocks up to the top
+
+769
+00:56:15,960 --> 00:56:17,700
+and get the ball stuck up there.
+
+770
+00:56:18,320 --> 00:56:20,020
+And it does all the hard work for you.
+
+771
+00:56:20,300 --> 00:56:23,340
+That minimizes the probability of the ball getting pas your paddle
+
+772
+00:56:23,340 --> 00:56:27,820
+because it's just stuck in the in the blocks up top.
+
+773
+00:56:28,640 --> 00:56:30,400
+So that might be something
+
+774
+00:56:30,400 --> 00:56:32,200
+that you wouldn't even figure out to do yourself.
+
+775
+00:56:33,020 --> 00:56:36,940
+And that's-  I need to sort to pause here
+
+776
+00:56:37,060 --> 00:56:40,640
+to clearly explain what's happening.
+
+777
+00:56:41,180 --> 00:56:46,560
+The input to this algorithm is just the pixels of the game.
+
+778
+00:56:47,380 --> 00:56:49,800
+It's the same thing that human beings take in
+
+779
+00:56:50,600 --> 00:56:54,680
+when they take visual perception and it's able to learn
+
+780
+00:56:55,320 --> 00:57:00,380
+under this constrained definition of what is a reward and a punishment.
+
+781
+00:57:00,680 --> 00:57:03,860
+It's able to learn to get a high reward.
+
+782
+00:57:07,400 --> 00:57:09,980
+That's general artificial intelligence.
+
+783
+00:57:10,940 --> 00:57:13,760
+A very small example of it but its general.
+
+784
+00:57:14,100 --> 00:57:17,180
+It's general purpose, it knows nothing about games
+
+785
+00:57:17,440 --> 00:57:20,260
+and knows nothing about paddles or physics.
+
+786
+00:57:20,840 --> 00:57:23,160
+It's just take answer input of the game
+
+787
+00:57:23,800 --> 00:57:27,760
+and they've did the same thing for a bunch of different games in Atari
+
+788
+00:57:29,550 --> 00:57:34,080
+And what's shown here in this plot on the x-axis
+
+789
+00:57:34,440 --> 00:57:38,500
+is a bunch of different games from Atari
+
+790
+00:57:38,780 --> 00:57:41,080
+and on the y-axis is a percentile
+
+791
+00:57:41,800 --> 00:57:46,080
+where 100% is about the best that human beings can do.
+
+792
+00:57:46,640 --> 00:57:48,560
+Meaning it's the score that human beings who get
+
+793
+00:57:49,080 --> 00:57:52,440
+so everything about there in the middle, everything to the left of that
+
+794
+00:57:52,800 --> 00:57:54,840
+is far exceeding human low performance
+
+795
+00:57:55,860 --> 00:57:59,500
+and below that is on par or worse than human performance.
+
+796
+00:58:00,220 --> 00:58:04,620
+So it can learn so many-  Boxing, Pinball,
+
+797
+00:58:05,620 --> 00:58:08,220
+all of these games, and it doesn't know anything
+
+798
+00:58:08,220 --> 00:58:11,140
+about any of the individual games, it's just taking in pixels.
+
+799
+00:58:11,700 --> 00:58:13,800
+It's just as if you put a human being.
+
+800
+00:58:14,480 --> 00:58:17,580
+behind any of these games and
+
+801
+00:58:18,380 --> 00:58:23,280
+ask them to learn to be beat the game.
+
+802
+00:58:25,790 --> 00:58:28,520
+and there's been a lot of improvements in this algorithm recently.
+
+803
+00:58:28,520 --> 00:58:29,280
+Yes, question.
+
+804
+00:58:32,820 --> 00:58:37,100
+No.  So the question was:  "do they customize the model for game,
+
+805
+00:58:37,240 --> 00:58:38,380
+for a particular game?
+
+806
+00:58:38,700 --> 00:58:42,860
+And no, the point-  You could, of course, but the point is
+
+807
+00:58:42,860 --> 00:58:45,660
+it doesn't need to be customized for the game but
+
+808
+00:58:48,400 --> 00:58:53,690
+the important thing is that it's still only on Atari games.
+
+809
+00:58:55,160 --> 00:58:58,140
+Alright, so the question whether this is transferable to driving,
+
+810
+00:58:58,880 --> 00:58:59,960
+Perhaps not.
+
+811
+00:59:10,140 --> 00:59:12,460
+Right, you play the game where you do.
+
+812
+00:59:12,780 --> 00:59:16,000
+No, you don't have the-  Well, yeah you play one step of the game.
+
+813
+00:59:17,500 --> 00:59:24,020
+So you take action in a state and then you observe that.
+
+814
+00:59:24,500 --> 00:59:26,660
+So you have that simulation.
+
+815
+00:59:26,920 --> 00:59:31,900
+I mean, really that's one of the biggest problems here
+
+816
+00:59:31,900 --> 00:59:36,680
+is you require the simulation in order to get the Ground Truth.
+
+817
+00:59:42,140 --> 00:59:45,960
+So that's a great question or comment.
+
+818
+00:59:46,240 --> 00:59:49,760
+The comment was that for a lot of these situations,
+
+819
+00:59:50,550 --> 00:59:54,120
+the reward function might not change at all depending on your actions.
+
+820
+00:59:54,320 --> 00:59:59,440
+The rewards are really, most of the time, delayed
+
+821
+01:00:00,000 --> 01:00:04,440
+10, 20, 30 steps down the line which is why
+
+822
+01:00:05,020 --> 01:00:11,940
+It is amazing that this works at all.  That it's learning locally.
+
+823
+01:00:13,680 --> 01:00:15,960
+and through that process of simulation
+
+824
+01:00:15,960 --> 01:00:18,060
+of hundreds a thousand times runs through the game,
+
+825
+01:00:18,420 --> 01:00:24,260
+It's able to learn what to do now such that I get a reward later.
+
+826
+01:00:26,280 --> 01:00:31,120
+It's if you just pause, look at the math of it.
+
+827
+01:00:31,180 --> 01:00:34,980
+It's very simple math and look at the result, it's incredible.
+
+828
+01:00:38,120 --> 01:00:39,440
+So there's a lot of improvements,
+
+829
+01:00:39,980 --> 01:00:45,600
+this one called the general reinforcement learning architecture Gorila.
+
+830
+01:00:47,720 --> 01:00:50,860
+The cool thing about this in the simulated world at least
+
+831
+01:00:51,580 --> 01:00:56,280
+is that you can run deep reinforcement learning in a distributed way.
+
+832
+01:00:56,420 --> 01:00:58,800
+You could do both the simulation in a distributed way,
+
+833
+01:00:58,800 --> 01:01:01,080
+you can do the learning in the distributed way,
+
+834
+01:01:02,740 --> 01:01:07,180
+you can generate experiences which is what this kind of diagram shows,
+
+835
+01:01:07,580 --> 01:01:12,040
+you can, either from human beings or from simulation.
+
+836
+01:01:12,740 --> 01:01:20,040
+So for example, the way that Alpha Go the deep mind team
+
+837
+01:01:20,040 --> 01:01:21,220
+is beat the game of Go
+
+838
+01:01:21,400 --> 01:01:26,360
+is they learn from both expert games and by playing itself.
+
+839
+01:01:27,660 --> 01:01:29,840
+So, you can do this in a distributed way and
+
+840
+01:01:29,840 --> 01:01:32,800
+you could do the learning in a distributor way so you can scale.
+
+841
+01:01:33,380 --> 01:01:38,480
+And in this particular case, the Gorila has achieved
+
+842
+01:01:38,480 --> 01:01:41,980
+the better result than the DQN network
+
+843
+01:01:43,400 --> 01:01:45,360
+and that's part of the their nature paper.
+
+844
+01:01:46,760 --> 01:01:53,520
+Okay, so let me now get to driving for a second here
+
+845
+01:01:53,780 --> 01:01:56,020
+where words of reinforcement learning,
+
+846
+01:01:59,920 --> 01:02:03,640
+where reinforcement learning can step in and help.
+
+847
+01:02:04,720 --> 01:02:07,160
+So this is back to the open question they asked yesterday:
+
+848
+01:02:07,660 --> 01:02:11,460
+is driving closer to chess or to everyday conversation?
+
+849
+01:02:12,440 --> 01:02:16,600
+Chess, meaning it can be formalized in a simplistic way
+
+850
+01:02:17,200 --> 01:02:20,320
+and if you could think about it as an obstacle avoidance problem
+
+851
+01:02:20,580 --> 01:02:22,880
+and once the obstacle avoidance is solved,
+
+852
+01:02:23,640 --> 01:02:26,820
+you just navigate that constrained space
+
+853
+01:02:27,100 --> 01:02:30,540
+you choose to move left, you choose to move right in a lane
+
+854
+01:02:31,140 --> 01:02:32,920
+you choose to speed up or slow down.
+
+855
+01:02:34,300 --> 01:02:38,740
+Well, if it's a game like chess which we'll assume for today.
+
+856
+01:02:39,660 --> 01:02:45,440
+as opposed to for tomorrow, for today we're going to go with the one on the left
+
+857
+01:02:47,050 --> 01:02:49,780
+and we're going to look at DeepTraffic.
+
+858
+01:02:51,680 --> 01:02:56,660
+Here is this game of simulation
+
+859
+01:02:57,640 --> 01:03:01,160
+where the goal is to achieve the highest average speed you can
+
+860
+01:03:02,880 --> 01:03:06,880
+on this seven lane highway full of cars.
+
+861
+01:03:09,050 --> 01:03:12,700
+And so, as a side note for students, the requirement is
+
+862
+01:03:12,700 --> 01:03:15,760
+they have to follow the tutorial that I'll present a link for
+
+863
+01:03:15,760 --> 01:03:16,920
+at the end of this presentation.
+
+864
+01:03:18,800 --> 01:03:21,940
+And what they have to do is achieve a speed,
+
+865
+01:03:22,580 --> 01:03:26,080
+build a network that achieves a speed of 65 miles an hour or higher.
+
+866
+01:03:27,790 --> 01:03:32,060
+There is a leaderboard and you get to submit
+
+867
+01:03:32,260 --> 01:03:35,280
+the model you come up with with a simple click of a button.
+
+868
+01:03:35,280 --> 01:03:36,960
+So all of this runs in the browser
+
+869
+01:03:37,440 --> 01:03:38,980
+which is also another amazing thing.
+
+870
+01:03:40,440 --> 01:03:43,200
+And then you immediately or relatively so,
+
+871
+01:03:44,160 --> 01:03:45,680
+make your way up the leaderboard.
+
+872
+01:03:49,340 --> 01:03:50,960
+So let's look, let's zoom in.
+
+873
+01:03:52,500 --> 01:03:56,280
+What is this world, two-dimensional world of traffic is,
+
+874
+01:03:56,860 --> 01:04:01,320
+what does it look like for the intelligent system?
+
+875
+01:04:02,520 --> 01:04:07,000
+We descritize that world into a grid shown here on the left.
+
+876
+01:04:07,080 --> 01:04:08,580
+That's the representation of the state.
+
+877
+01:04:08,940 --> 01:04:09,980
+There are seven lanes
+
+878
+01:04:10,520 --> 01:04:13,540
+and every single lane is broken up into blocks spatially.
+
+879
+01:04:14,490 --> 01:04:18,260
+And if there is a car in that block, the length of a car is about 3 blocks,
+
+880
+01:04:19,920 --> 01:04:25,540
+3 of those grid blocks, then that grid is seen as occupied.
+
+881
+01:04:28,460 --> 01:04:30,380
+and then the red car is you.
+
+882
+01:04:31,560 --> 01:04:33,860
+That's the thing that's running in the intelligent agent.
+
+883
+01:04:36,080 --> 01:04:39,480
+There is on the left, is the current speed of the red car,
+
+884
+01:04:40,800 --> 01:04:42,480
+actually says MIT on top.
+
+885
+01:04:45,420 --> 01:04:47,840
+And then you also have a count of how many cars you passed
+
+886
+01:04:49,800 --> 01:04:54,260
+and if your network sucks then that number is going to get to be negative.
+
+887
+01:04:57,980 --> 01:05:01,240
+You can also change with a drop down the simulation speed
+
+888
+01:05:01,860 --> 01:05:04,440
+from normal on the left to fast on the right.
+
+889
+01:05:10,960 --> 01:05:16,030
+So, you know, the fast speads up the replay of the simulation.
+
+890
+01:05:16,480 --> 01:05:20,260
+The one on the left, normal, it feels a little more like real driving.
+
+891
+01:05:26,480 --> 01:05:28,840
+There is a drop down for different display options.
+
+892
+01:05:29,540 --> 01:05:32,920
+The default is non, in terms of stuff you show on the road.
+
+893
+01:05:33,980 --> 01:05:37,080
+Then there is the learning input which is the,
+
+894
+01:05:37,660 --> 01:05:39,960
+while that whole space is descritized,
+
+895
+01:05:40,680 --> 01:05:44,060
+you can choose what your car sees
+
+896
+01:05:46,560 --> 01:05:49,760
+and that's you could choose how far ahead it sees behind,
+
+897
+01:05:50,160 --> 01:05:52,120
+how far to the left and right It sees.
+
+898
+01:05:53,240 --> 01:05:56,920
+And so by choosing the learning input, to visualize learning input,
+
+899
+01:05:56,920 --> 01:05:59,080
+you get to see what you set that input to be.
+
+900
+01:06:00,440 --> 01:06:03,280
+Then there is the safety system.
+
+901
+01:06:04,660 --> 01:06:07,640
+This is a system that protects you from yourself.
+
+902
+01:06:09,340 --> 01:06:12,700
+The way we've made this game is 
+
+903
+01:06:13,400 --> 01:06:15,960
+they operates under something similar
+
+904
+01:06:16,690 --> 01:06:18,160
+if you have some intelligence in
+
+905
+01:06:18,160 --> 01:06:23,080
+if you're driving you have adaptive cruise control in your car.
+
+906
+01:06:23,550 --> 01:06:27,660
+It operates in the same way. When he gets close to the car in front,
+
+907
+01:06:27,660 --> 01:06:27,800
+It slows down for you
+It operates in the same way. When he gets close to the car in front,
+
+908
+01:06:27,800 --> 01:06:28,880
+It slows down for you
+
+909
+01:06:29,770 --> 01:06:33,540
+and it doesn't let you run the car to the left of you, 
+
+910
+01:06:33,540 --> 01:06:35,520
+to the right of you, off the road.
+
+911
+01:06:36,420 --> 01:06:42,180
+So constrains the movement capabilities of your car
+
+912
+01:06:42,620 --> 01:06:45,620
+in such a way that you don't hit anybody because
+
+913
+01:06:45,620 --> 01:06:48,060
+then it would have to simulate collisions and that would just be a mess.
+
+914
+01:06:49,560 --> 01:06:53,020
+So, it protects you from that and so you can
+
+915
+01:06:53,020 --> 01:06:58,300
+choose to visualize that "safety system" with a visualization box.
+
+916
+01:06:58,880 --> 01:07:01,360
+And then you can also choose to visualize the full map.
+
+917
+01:07:02,400 --> 01:07:05,020
+This is the full occupancy map that you get
+
+918
+01:07:05,340 --> 01:07:09,540
+if you would like to provide as input to the network.
+
+919
+01:07:11,020 --> 01:07:14,900
+Now that input for every single grid that it's a number.
+
+920
+01:07:15,500 --> 01:07:17,800
+It's not just a 0, 1 whether there's a car in there.
+
+921
+01:07:18,920 --> 01:07:24,100
+It's the maximum speed limit which is 80 miles per hour.
+
+922
+01:07:24,620 --> 01:07:28,220
+Don't get crazy eighty miles an hour is the speed limit.
+
+923
+01:07:29,380 --> 01:07:34,640
+That block when it's empty is set to the 85 miles eighty miles an hour.
+
+924
+01:07:35,600 --> 01:07:41,080
+And when it's occupied, it's set to the number that is the speed of the car.
+
+925
+01:07:42,630 --> 01:07:46,480
+And then, the blocks that the red car is occupying
+
+926
+01:07:46,660 --> 01:07:49,840
+is set to the number, to a very large number
+
+927
+01:07:49,840 --> 01:07:51,000
+much higher than the speed limit.
+
+928
+01:07:57,980 --> 01:08:00,960
+So safety system, here shown in red, 
+
+929
+01:08:02,600 --> 01:08:07,940
+are the parts of the grid that your car can't move into.
+
+930
+01:08:08,140 --> 01:08:08,480
+Question.
+
+931
+01:08:12,240 --> 01:08:12,580
+What's that?
+
+932
+01:08:18,560 --> 01:08:21,600
+Yes.  Yes. The question was:
+
+933
+01:08:22,780 --> 01:08:25,060
+"what was the third option I just mentioned and
+
+934
+01:08:25,420 --> 01:08:29,300
+t's you the red car itself, you yourself,
+
+935
+01:08:29,300 --> 01:08:32,620
+the blocks underneath that car I set to really high number.
+
+936
+01:08:33,180 --> 01:08:34,740
+It's a way for the algorithm to know, 
+
+937
+01:08:35,120 --> 01:08:39,760
+for the learning algorithm to know that these blocks are special.
+
+938
+01:08:42,360 --> 01:08:47,020
+So safety system, shows read here, if
+
+939
+01:08:47,900 --> 01:08:50,120
+the car can't move into those blocks.
+
+940
+01:08:52,680 --> 01:08:59,060
+So ,in terms of when it lights up red, it means
+
+941
+01:08:59,060 --> 01:09:01,300
+the car can't speed up anymore in front of it
+
+942
+01:09:01,900 --> 01:09:04,800
+and when the blocks to the left or to the right light up as red
+
+943
+01:09:04,800 --> 01:09:06,840
+that means you can't change lanes to the left or right.
+
+944
+01:09:08,060 --> 01:09:12,540
+On the right of the slide, you're free to go,
+
+945
+01:09:12,760 --> 01:09:13,810
+free to do whatever you want.
+
+946
+01:09:13,810 --> 01:09:17,520
+That's what that indicates is all the blocks are yellow.
+
+947
+01:09:18,560 --> 01:09:22,740
+Safety system says you're free to choose any of the five actions.
+
+948
+01:09:23,380 --> 01:09:27,740
+In the five actions are move left, move right,
+
+949
+01:09:28,120 --> 01:09:31,540
+same place, accelerate or slow down.
+
+950
+01:09:33,330 --> 01:09:35,260
+And those actions are given as input.
+
+951
+01:09:36,360 --> 01:09:41,640
+That action was produced by the what's called here, the brain.
+
+952
+01:09:43,240 --> 01:09:47,380
+The brain takes in the current state as input, the last reward,
+
+953
+01:09:47,600 --> 01:09:51,800
+and produces and learns and uses that reward
+
+954
+01:09:52,820 --> 01:09:58,560
+to train the network through backward function there,
+
+955
+01:09:58,720 --> 01:10:04,300
+back propagation, and then ask the brain given the current state,
+
+956
+01:10:04,980 --> 01:10:09,400
+to give it the next action with the forward pass, the forward function.
+
+957
+01:10:09,800 --> 01:10:13,800
+You don't need to know the operation of this function in particular,
+
+958
+01:10:13,800 --> 01:10:16,460
+this is not something you need to worry about,
+
+959
+01:10:16,580 --> 01:10:19,500
+but you can if you want, you can customize this learning step.
+
+960
+01:10:23,820 --> 01:10:26,520
+There's, by the way, what I'm describing now
+
+961
+01:10:26,520 --> 01:10:29,140
+there's just a few lines of code right there in the browser
+
+962
+01:10:29,890 --> 01:10:34,460
+that you can change immediately with the press of a button
+
+963
+01:10:35,120 --> 01:10:37,460
+changes the simulation or the design of the network.
+
+964
+01:10:37,860 --> 01:10:40,000
+You don't need to have any special hardware,
+
+965
+01:10:40,180 --> 01:10:41,600
+you dont' need to do anything special.
+
+966
+01:10:41,970 --> 01:10:45,260
+And the tutorial cleanly outlines exactly all of these steps
+
+967
+01:10:46,050 --> 01:10:50,160
+but it's kind of amazing that you can design a deep neural network
+
+968
+01:10:50,620 --> 01:10:52,520
+that's part of the reinforcement learning agent.
+
+969
+01:10:53,160 --> 01:10:57,700
+So it's a deep Q learning agent right there in the browser.
+
+970
+01:10:59,540 --> 01:11:03,260
+So you can choose the lane side variable
+
+971
+01:11:03,500 --> 01:11:08,580
+which controls how many lanes to the side you see.
+
+972
+01:11:08,580 --> 01:11:10,900
+So in that value zero you only look forward.
+
+973
+01:11:11,420 --> 01:11:14,940
+When their values 1, you have one lane to the left, one valid to the right.
+
+974
+01:11:15,020 --> 01:11:18,680
+It's really the lane the radius of your perception system.
+
+975
+01:11:19,260 --> 01:11:21,360
+Patches ahead is how far ahead you look;
+
+976
+01:11:21,860 --> 01:11:23,940
+patches behind is how far behind you look.
+
+977
+01:11:26,280 --> 01:11:30,420
+And so for example here, the lane side equals 2 that means
+
+978
+01:11:30,820 --> 01:11:37,260
+it looks to the left, to the right; obviously, if to the right, is off road.
+
+979
+01:11:38,240 --> 01:11:41,820
+It provides a value of 0 in those blocks.
+
+980
+01:11:45,140 --> 01:11:48,520
+If we set the patches behind to be 10, it looks 10 patches back
+
+981
+01:11:48,980 --> 01:11:53,380
+behind starting at the 1 patch back is starting from the front of the car.
+
+982
+01:11:56,440 --> 01:12:00,760
+The scoring for the evaluation of the competition
+
+983
+01:12:01,580 --> 01:12:05,080
+is your average speed over a predefined period of time.
+
+984
+01:12:06,510 --> 01:12:10,220
+And so the method we do we use to collect that speed
+
+985
+01:12:10,220 --> 01:12:15,320
+is we we run the agent 10 runs, about 30 simulated minutes of game each.
+
+986
+01:12:16,640 --> 01:12:20,800
+And take the median speed of the 10 runs.  That's the score.
+
+987
+01:12:22,980 --> 01:12:30,920
+This is done server side and so given that we've gotten some
+
+988
+01:12:31,300 --> 01:12:35,200
+for this code recently gotten some publicity online unfortunately.
+
+989
+01:12:37,120 --> 01:12:40,180
+This might be a dangerous thing to say there's no cheating possible.
+
+990
+01:12:40,960 --> 01:12:45,640
+But because it's done server side and this is javascript
+
+991
+01:12:45,640 --> 01:12:48,460
+and runs in the browser, it's hopefully a sandbox.
+
+992
+01:12:49,420 --> 01:12:53,000
+So we can't do anything tricky but we dare you to try.
+
+993
+01:12:57,790 --> 01:13:01,860
+You can try it locally to get an estimate, you know,
+
+994
+01:13:02,600 --> 01:13:06,360
+and there's a button that says evaluate and it gives you a score right back
+
+995
+01:13:06,360 --> 01:13:08,920
+of how well you're doing with the current network.
+
+996
+01:13:12,480 --> 01:13:17,620
+That button is:  Start Evaluation Run; you press the button.
+
+997
+01:13:18,200 --> 01:13:21,080
+It does a progress bar and gives you the average speed
+
+998
+01:13:25,600 --> 01:13:30,800
+There's a code box where you modify all the variables I mentioned
+
+999
+01:13:30,800 --> 01:13:33,020
+and the tutorial describe this in detail.
+
+1000
+01:13:33,980 --> 01:13:36,740
+And then once you're ready, you modify a few things
+
+1001
+01:13:36,860 --> 01:13:43,860
+you can press apply code it restarts, it kills all the training
+
+1002
+01:13:43,860 --> 01:13:47,680
+that you've done up to this point or resets it and start the training again.
+
+1003
+01:13:49,540 --> 01:13:52,420
+So save often and there's a save button.
+
+1004
+01:13:53,820 --> 01:13:58,920
+So the training is done a separate thread in Web Workers
+
+1005
+01:14:01,120 --> 01:14:06,380
+which are exciting things that allow javascript to run
+
+1006
+01:14:06,860 --> 01:14:14,840
+amazingly on multiple CPU Cores in a parallel way.
+
+1007
+01:14:16,400 --> 01:14:21,020
+So the simulation that scores this or, sorry, the training is done
+
+1008
+01:14:21,360 --> 01:14:25,580
+a lot faster than real time, a thousand frames a second.
+
+1009
+01:14:25,580 --> 01:14:31,660
+That's a thousand movement steps a second.  This is all in javascript.
+
+1010
+01:14:33,800 --> 01:14:36,940
+And the next they get shipped to the main simulation
+
+1011
+01:14:36,940 --> 01:14:39,200
+from time to time as the training goes on.
+
+1012
+01:14:40,920 --> 01:14:43,320
+So all you have to do is press run training.
+
+1013
+01:14:44,180 --> 01:14:47,640
+And it trains and the car behaves better over time.
+
+1014
+01:14:48,830 --> 01:14:51,140
+Maybe like I should show it in the browser.
+
+1015
+01:14:54,960 --> 01:14:59,320
+Let's see if will work well, is this going to mess up?  We're good.
+
+1016
+01:15:12,380 --> 01:15:13,880
+What can possibly go wrong?
+
+1017
+01:15:26,740 --> 01:15:33,200
+So there's the game. When it starts, this is running live in the browser.
+
+1018
+01:15:35,640 --> 01:15:40,680
+Artificial intelligence, ladies and gentleman in the browser. a neural network.
+
+1019
+01:15:41,140 --> 01:15:44,780
+So currently it's not very good, it's driving at 2 miles an hour
+
+1020
+01:15:45,960 --> 01:15:47,720
+and watching everybody pass.
+
+1021
+01:15:48,700 --> 01:15:56,720
+So what's being shown live is the lost function which is pretty poor.
+
+1022
+01:15:57,300 --> 01:16:01,560
+So in order to train, like I said, a thousand frames a second
+
+1023
+01:16:02,850 --> 01:16:07,680
+you just press the "Run Training" button and pretty quickly it learns
+
+1024
+01:16:07,820 --> 01:16:12,120
+based on the network you specify in the code box, how to-
+
+1025
+01:16:12,680 --> 01:16:16,280
+and based on the input and all the things that I mentioned,
+
+1026
+01:16:17,300 --> 01:16:22,340
+training finished. It learns how to do a little better.
+
+1027
+01:16:23,140 --> 01:16:25,980
+We, on purpose. put in a network that's not very good in there.
+
+1028
+01:16:26,440 --> 01:16:29,160
+So right now I won't, on the average, be doing that well
+
+1029
+01:16:30,280 --> 01:16:32,080
+but it does better than standing there in place
+
+1030
+01:16:33,190 --> 01:16:35,320
+and then you could do the start Evaluation Run
+
+1031
+01:16:37,460 --> 01:16:41,520
+to simulate the network much faster than real time,
+
+1032
+01:16:42,020 --> 01:16:44,000
+to see how well it does
+
+1033
+01:16:44,300 --> 01:16:46,540
+This is a similar evaluation step that we take
+
+1034
+01:16:48,250 --> 01:16:51,420
+when determining where you stand on the leaderboard
+
+1035
+01:16:51,780 --> 01:16:53,500
+at the current current average speed.
+
+1036
+01:16:54,940 --> 01:17:01,100
+In that 10 run simulation is 56.56 miles per hour.
+
+1037
+01:17:02,160 --> 01:17:06,180
+Now, I may be logged in, maybe not. 
+
+1038
+01:17:06,560 --> 01:17:11,300
+If you're logged in, you click "Submit your code."
+
+1039
+01:17:11,420 --> 01:17:15,300
+If you're not logged in, it says:  "You're not logged in.  Please log in to submit your code."
+
+1040
+01:17:18,380 --> 01:17:21,260
+And then all you have to do is log in.
+
+1041
+01:17:23,180 --> 01:17:25,260
+This is the most flawless demo of my life.
+
+1042
+01:17:27,810 --> 01:17:32,340
+And then you press "Submit Model" again and success.  Oh man.
+
+1043
+01:17:35,750 --> 01:17:41,680
+"Thank you for your submission."  And so now my submission is entered as "Lex" in the leaderboard
+
+1044
+01:17:42,090 --> 01:17:44,620
+and my 56.56, or whatever it was.
+
+1045
+01:17:45,440 --> 01:17:47,560
+So I dare all of you to try to beat that. So too.
+
+1046
+01:17:52,520 --> 01:17:55,680
+As as you play around with stuff if you want to save the code
+
+1047
+01:17:57,800 --> 01:18:00,740
+you could do so by pressing the "Save Code" button.
+
+1048
+01:18:00,880 --> 01:18:04,460
+That saves the various javascript configurations
+
+1049
+01:18:04,860 --> 01:18:08,340
+and that saves the network layout to file.
+
+1050
+01:18:09,520 --> 01:18:15,040
+And you can load from files as well. the danger it overrides the code for you.
+
+1051
+01:18:17,830 --> 01:18:20,700
+And you press the "Submit" button to submit the model to the competition.
+
+1052
+01:18:21,550 --> 01:18:24,800
+Make sure that you train the network, we don't train it for you.
+
+1053
+01:18:25,380 --> 01:18:28,580
+You submit a model and you have to press "Train".
+
+1054
+01:18:30,220 --> 01:18:34,700
+And he gets evaluated the time it enters a queue to get evaluated.
+
+1055
+01:18:36,010 --> 01:18:38,560
+This is public phasing so the queue can grow pretty big
+
+1056
+01:18:39,320 --> 01:18:43,540
+and it goes to that queue, evaluates it and then depending on where you stand
+
+1057
+01:18:43,540 --> 01:18:46,480
+you get added to the leaderboard showing the top ten entries.
+
+1058
+01:18:48,000 --> 01:18:53,660
+You can resubmit often and only the highest score counts.
+
+1059
+01:18:55,780 --> 01:18:58,940
+Okay, we're using code-
+
+1060
+01:19:00,120 --> 01:19:06,620
+Now implementation of neural networks done in just javascript
+
+1061
+01:19:08,280 --> 01:19:11,320
+by Andrej Karpathy from Stanford now OpenAI.
+
+1062
+01:19:12,360 --> 01:19:18,400
+ConvNet.JS is a library and what's being visualized there
+
+1063
+01:19:18,400 --> 01:19:21,700
+is also being visualized in the game is the inputs to the network.
+
+1064
+01:19:22,280 --> 01:19:27,920
+In this case it's 135 inputs.  You can also specify not just the
+
+1065
+01:19:30,560 --> 01:19:33,020
+how far ahead behind you're seeing to the left and to the right,
+
+1066
+01:19:33,200 --> 01:19:36,080
+you can specify how far back in time you look as well.
+
+1067
+01:19:40,000 --> 01:19:47,280
+And so what's visualize there is the input to the network 135 neurons
+
+1068
+01:19:47,840 --> 01:19:51,760
+and then the output, a regression, similar to the kind of
+
+1069
+01:19:51,760 --> 01:19:55,400
+opo we saw with numbers where there's 10 outputs saying
+
+1070
+01:19:55,400 --> 01:20:00,100
+if it's a 0, 1 through 9, here the output is one of the five actions:
+
+1071
+01:20:00,780 --> 01:20:03,120
+left, right, stay in place, speed up or slow down.
+
+1072
+01:20:04,880 --> 01:20:09,120
+The ConvNet.JS settings is you can select a number of inputs
+
+1073
+01:20:10,600 --> 01:20:13,740
+if you want to mess with this stuff, this is all stuff you don't need to mess with
+
+1074
+01:20:14,360 --> 01:20:17,660
+because we already gave you the variables of lane side and patches ahead and so on.
+
+1075
+01:20:18,360 --> 01:20:24,060
+You can select a number of actions, the temporal window and the network size.
+
+1076
+01:20:29,800 --> 01:20:34,860
+So the network definition here is the-
+
+1077
+01:20:36,420 --> 01:20:38,500
+This is the input, the size of the input.
+
+1078
+01:20:39,080 --> 01:20:42,060
+Again all this is in the tutorial just to give you a little outline.
+
+1079
+01:20:42,480 --> 01:20:47,240
+There is the first fully connected layer has 10 neurons
+
+1080
+01:20:48,400 --> 01:20:53,600
+with relu activation functions, same kind of smooth
+
+1081
+01:20:54,420 --> 01:20:59,540
+function that we talked about before and the regression layer for the output.
+
+1082
+01:21:02,420 --> 01:21:07,240
+And there's a bunch of other messy options you play with if you dare.
+
+1083
+01:21:08,490 --> 01:21:11,540
+But those aren't, the ones I mentioned before is really the important ones.
+
+1084
+01:21:11,540 --> 01:21:15,000
+Selecting the number of layers, the size of those layers,
+
+1085
+01:21:15,400 --> 01:21:17,960
+you get to build your own very neural network that drives.
+
+1086
+01:21:19,140 --> 01:21:22,200
+And the actual learning is done with a backward propagation
+
+1087
+01:21:22,620 --> 01:21:27,340
+and then that returns the action by doing a forward pass to the network.
+
+1088
+01:21:28,860 --> 01:21:35,920
+In case you're interested in this kind of stuff, there is an amazingly cool code editor.
+
+1089
+01:21:36,740 --> 01:21:43,520
+That's the Monaco Editor.  It just works, it does some auto-completions
+
+1090
+01:21:43,520 --> 01:21:47,400
+so you get to play with it makes everything very convenient in terms of coding editing.
+
+1091
+01:21:48,860 --> 01:21:57,140
+A lot of this visualization of the game and the simulation we'll talk about tomorrow
+
+1092
+01:21:57,400 --> 01:22:01,740
+is done in the browser using HTML5 canvas.
+
+1093
+01:22:02,380 --> 01:22:05,500
+So here is a simple specification of a blue box with canvas
+
+1094
+01:22:06,080 --> 01:22:09,920
+and this is very efficient and easy to work with.
+
+1095
+01:22:12,710 --> 01:22:20,820
+And the thing that a lot of us are excited about, a very subtle one, but there you can, not just run.
+
+1096
+01:22:22,740 --> 01:22:26,180
+So with the V8 Engine javascript has become super fast.
+
+1097
+01:22:26,580 --> 01:22:30,100
+You could train neural networks in the browser that's already amazing.
+
+1098
+01:22:30,660 --> 01:22:35,180
+And then with Web Workers as long as you have Chrome, a modern browser.
+
+1099
+01:22:37,130 --> 01:22:42,000
+You can run multiple processes in separate threads
+
+1100
+01:22:43,500 --> 01:22:46,440
+so you could do a lot of stuff you can do visualization separately 
+
+1101
+01:22:46,600 --> 01:22:49,660
+and you can train separate threads, very cool.
+
+1102
+01:22:50,640 --> 01:22:54,580
+Okay. so the tutorial is cars.mit,edu/deeptraffic.
+
+1103
+01:22:55,140 --> 01:22:58,640
+We won't put these links on the website for a little bit because.
+
+1104
+01:23:02,400 --> 01:23:04,800
+We got put on the front page of Hacker News
+
+1105
+01:23:06,040 --> 01:23:09,040
+which we don't want those to leak out
+
+1106
+01:23:09,500 --> 01:23:12,240
+especially with the claims the you can't cheat.
+
+1107
+01:23:14,720 --> 01:23:20,460
+And while it's pretty efficient in terms of running everything on your machine, client side,
+
+1108
+01:23:21,320 --> 01:23:24,580
+it's still. you have to pull some images here and pull some of the code.
+
+1109
+01:23:25,180 --> 01:23:31,520
+So the tutorials on cars.mit,edu/deeptraffic and the simulation is deeptrafficjs
+
+1110
+01:23:32,020 --> 01:23:39,560
+So cars.mit,edu/deeptrafficjs I encourage you to go there play with the network submit your code.
+
+1111
+01:23:40,460 --> 01:23:45,440
+and win the very special prize and it is pretty cool one but we're still working on it.
+
+1112
+01:23:46,860 --> 01:23:57,660
+There is a prize I swear.  All right so let's take a pause and think about what we talked about today.
+
+1113
+01:23:59,000 --> 01:24:07,800
+So the very best of deep reinforcement learning is the most exciting accomplishment,
+
+1114
+01:24:08,560 --> 01:24:18,960
+I think, is when the game-  When I first started as a freshman, took "Intro to Artificial Intelligence"
+
+1115
+01:24:21,060 --> 01:24:28,530
+it was said that it's a game that's impossible for machines to beat because of the combinatorial complexity they just
+
+1116
+01:24:28,530 --> 01:24:30,400
+the sheer number of options.
+
+1117
+01:24:30,400 --> 01:24:39,520
+it's so much more complex than chess and so the most amazing accomplishment of deep reinforcement learning
+
+1118
+01:24:39,980 --> 01:24:46,480
+to me is the design of AlphaGo when for the first time the world champion in Go was beaten 
+
+1119
+01:24:47,160 --> 01:24:52,340
+by DeepMind AlphaGo and the way they did it
+
+1120
+01:24:52,500 --> 01:25:02,540
+and this is, I think very relevant to driving is you start by creating first in a supervised way training a policy network.
+
+1121
+01:25:04,860 --> 01:25:15,680
+So you take expert games to construct a network first so you look you don't play against yourself.
+
+1122
+01:25:16,370 --> 01:25:24,460
+They agent doesn't play against itself but they learn from expert games, so there is some human Ground Truth.
+
+1123
+01:25:24,940 --> 01:25:29,020
+This Human Ground Truth represents reality, so for driving this is important
+
+1124
+01:25:29,020 --> 01:25:34,720
+We have a-  Well we're starting to get a lot of data were video of drivers is being recorded.
+
+1125
+01:25:35,200 --> 01:25:42,740
+So we can learn on that data before would then run the agents through a simulation where it learns much larger magnitudes
+
+1126
+01:25:43,190 --> 01:26:00,000
+of data sets through simulation.  And they did just that.  Now as a reminder that when you let an agent drive itself.
+
+1127
+01:26:01,820 --> 01:26:06,780
+This is probably one of the favorite videos of all time but I just recently saw a cyclist and just watch this for hours.
+
+1128
+01:26:07,080 --> 01:26:22,840
+but it's a reminder that you can't trust your first estimates of a reward function to be those that are safe
+
+1129
+01:26:22,840 --> 01:26:29,100
+and productive for our society when you're talking about an intelligence system that gets to operate in the real world.
+
+1130
+01:26:29,580 --> 01:26:39,880
+This is just as clear of a reminder of that as there is.  So again all the references are available online.
+
+1131
+01:26:40,100 --> 01:26:41,590
+For these slides. we'll put up the slides.
+
+1132
+01:26:42,870 --> 01:26:48,920
+I imagine you might have, if you want to come down and talk to us for questions for the either Docker
+
+1133
+01:26:48,920 --> 01:27:00,180
+or javascript.  Question.  The question was:  "What is the visualization you're seeing in deep traffic?"
+
+1134
+01:27:00,480 --> 01:27:03,940
+You're seeing a car move about. Why is it moving?
+
+1135
+01:27:04,280 --> 01:27:10,180
+It's moving based on the latest snapshot of the network you trained, so it's just visualizing; for you, just for fun.
+
+1136
+01:27:10,620 --> 01:27:13,020
+The network you train most recently.
+
+1137
+01:27:14,980 --> 01:27:28,180
+Okay so if people have questions, stick around afterwards.  Just details on Docker and [CHUCKLING]-  Yes.  Do you want to do it offline?
+

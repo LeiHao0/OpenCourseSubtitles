@@ -1,0 +1,6614 @@
+1
+00:00:00,000 --> 00:00:02,700
+All right. So, we have talked about
+
+2
+00:00:04,520 --> 00:00:06,140
+regular neural networks,
+
+3
+00:00:06,380 --> 00:00:08,240
+fully connected neural networks,
+
+4
+00:00:08,280 --> 00:00:11,120
+we have talked about
+convolutional neural networks
+
+5
+00:00:11,160 --> 00:00:12,640
+that work with images,
+
+6
+00:00:12,700 --> 00:00:14,580
+we have talked about Reinforcement,
+
+7
+00:00:14,620 --> 00:00:16,360
+Deeper Reinforcement Learning,
+
+8
+00:00:16,480 --> 00:00:18,860
+where we plug in a neural network
+
+9
+00:00:18,940 --> 00:00:22,060
+into a Reinforcement
+Learning Algorithm,
+
+10
+00:00:23,380 --> 00:00:25,500
+when a system has to not only
+
+11
+00:00:25,560 --> 00:00:27,720
+perceive the world but also act in it,
+
+12
+00:00:27,860 --> 00:00:29,460
+and collect a reward.
+
+13
+00:00:29,500 --> 00:00:31,080
+And today we will talk about,
+
+14
+00:00:32,880 --> 00:00:34,620
+perhaps the least understood
+
+15
+00:00:34,660 --> 00:00:37,880
+but the most exciting neural network out there,
+
+16
+00:00:38,880 --> 00:00:42,460
+flavor of neural networks,
+is Recurrent Neural Networks.
+
+17
+00:00:44,300 --> 00:00:46,460
+But first, for administrative stuff,
+
+18
+00:00:48,180 --> 00:00:50,840
+there’s a website.
+I don’t know if you heard,
+
+19
+00:00:50,840 --> 00:00:52,240
+cars.mit.edu,
+
+20
+00:00:52,280 --> 00:00:55,450
+where you should create an account,
+if you’re a registered student,
+
+21
+00:00:55,470 --> 00:00:57,160
+that’s one of the requirements.
+
+22
+00:00:57,160 --> 00:00:58,540
+You need to have an account
+
+23
+00:00:58,540 --> 00:01:00,540
+if you want to get credit for this,
+
+24
+00:01:00,540 --> 00:01:02,540
+you need to submit code
+
+25
+00:01:02,540 --> 00:01:06,240
+for DeepTrafficJS,
+and DeepTeslaJS,
+
+26
+00:01:06,240 --> 00:01:08,020
+and for DeepTraffic,
+
+27
+00:01:08,020 --> 00:01:11,920
+you have to have a neural network
+that drives faster than 65mph.
+
+28
+00:01:12,360 --> 00:01:14,980
+If you need help to achieve that speed
+
+29
+00:01:14,980 --> 00:01:16,220
+please e-mail us.
+
+30
+00:01:17,840 --> 00:01:19,660
+We can give you some hints.
+
+31
+00:01:20,640 --> 00:01:23,020
+For those of you who are
+old school SNL fans,
+
+32
+00:01:23,020 --> 00:01:25,840
+there’s the Deep Thoughts
+section now,
+
+33
+00:01:27,380 --> 00:01:29,100
+in the profile page,
+
+34
+00:01:29,100 --> 00:01:31,340
+where we encourage you to talk about
+
+35
+00:01:31,340 --> 00:01:34,160
+the kinds of things that
+you tried in DeepTraffic
+
+36
+00:01:34,160 --> 00:01:35,360
+or any of the other
+
+37
+00:01:35,700 --> 00:01:39,140
+DeepTesla or
+any of the work you've done
+
+38
+00:01:39,540 --> 00:01:42,020
+as part of this class
+for DeepLearning.
+
+39
+00:01:43,080 --> 00:01:43,780
+Okay,
+
+40
+00:01:45,100 --> 00:01:46,820
+we have talked about
+
+41
+00:01:46,820 --> 00:01:49,560
+the Vanilla Neural Networks
+on the left.
+
+42
+00:01:49,560 --> 00:01:51,320
+The Vanilla Neural Network
+
+43
+00:01:51,320 --> 00:01:54,000
+is the one where it's computing
+
+44
+00:01:54,000 --> 00:01:56,820
+is approximating a function that maps
+from one input
+
+45
+00:01:57,180 --> 00:01:59,170
+to one output.
+
+46
+00:01:59,220 --> 00:02:01,720
+An example is mapping images
+
+47
+00:02:01,750 --> 00:02:03,830
+to the number that is shown
+in the image.
+
+48
+00:02:03,940 --> 00:02:05,020
+For ImageNet
+
+49
+00:02:05,020 --> 00:02:06,480
+is mapping an image
+
+50
+00:02:06,480 --> 00:02:08,480
+to what's the object in the image.
+
+51
+00:02:08,480 --> 00:02:10,020
+It can be anything.
+
+52
+00:02:10,020 --> 00:02:10,780
+In fact,
+
+53
+00:02:11,020 --> 00:02:13,940
+Convolutional Neural Networks
+can operate on audio,
+
+54
+00:02:13,950 --> 00:02:17,210
+you can give it a chunk of audio,
+a five second audio clip,
+
+55
+00:02:17,660 --> 00:02:19,800
+that still counts as one input
+
+56
+00:02:19,800 --> 00:02:21,060
+because it’s fixed-size.
+
+57
+00:02:21,060 --> 00:02:23,400
+As long as the size of the input is fixed,
+
+58
+00:02:23,400 --> 00:02:27,240
+that's one chunk of input
+
+59
+00:02:27,600 --> 00:02:29,600
+and as long as you have ground truth
+
+60
+00:02:29,600 --> 00:02:32,320
+that maps that chunk of input
+to some output
+
+61
+00:02:32,320 --> 00:02:33,400
+ground truth,
+
+62
+00:02:33,990 --> 00:02:36,030
+that’s the Vanilla Neural Network.
+
+63
+00:02:36,100 --> 00:02:38,820
+Whether there's a fully connected
+neural network
+
+64
+00:02:38,840 --> 00:02:40,900
+or convolutional neural network.
+
+65
+00:02:41,200 --> 00:02:44,760
+Today we’ll talk about the amazing,
+
+66
+00:02:45,260 --> 00:02:47,720
+the mysterious Recurrent
+Neural Networks.
+
+67
+00:02:47,720 --> 00:02:49,720
+They compute functions
+
+68
+00:02:50,140 --> 00:02:52,080
+from one to many,
+
+69
+00:02:52,400 --> 00:02:53,840
+from many to one,
+
+70
+00:02:53,840 --> 00:02:55,200
+from many to many.
+
+71
+00:02:59,320 --> 00:03:00,640
+Also bidirectional.
+
+72
+00:03:01,360 --> 00:03:02,440
+What does that mean?
+
+73
+00:03:02,720 --> 00:03:05,280
+They take its input sequences,
+
+74
+00:03:05,700 --> 00:03:07,360
+time series,
+
+75
+00:03:07,360 --> 00:03:08,260
+audio,
+
+76
+00:03:09,120 --> 00:03:10,260
+video,
+
+77
+00:03:10,260 --> 00:03:12,480
+whenever there's a sequence of data,
+
+78
+00:03:12,480 --> 00:03:14,480
+and that temporal dynamics
+
+79
+00:03:14,580 --> 00:03:16,000
+that connects the data
+
+80
+00:03:16,000 --> 00:03:18,280
+is more important than the spatial
+
+81
+00:03:20,060 --> 00:03:22,260
+content of each individual frame.
+
+82
+00:03:22,340 --> 00:03:24,500
+So, whenever there's
+a lot of information
+
+83
+00:03:24,500 --> 00:03:26,640
+being conveyed in a sequence,
+
+84
+00:03:27,300 --> 00:03:29,000
+in a temporal change
+
+85
+00:03:29,000 --> 00:03:30,660
+of whatever that type of data is,
+
+86
+00:03:30,660 --> 00:03:33,600
+that's when you want to use
+Recurrent Neural Networks
+
+87
+00:03:33,600 --> 00:03:35,600
+like speech,
+
+88
+00:03:35,600 --> 00:03:36,980
+natural language,
+
+89
+00:03:37,460 --> 00:03:38,240
+audio
+
+90
+00:03:38,680 --> 00:03:40,060
+and the power of this
+
+91
+00:03:40,060 --> 00:03:41,740
+is that for many of them,
+
+92
+00:03:41,740 --> 00:03:43,680
+for a Recurrent Neural Network,
+
+93
+00:03:43,680 --> 00:03:44,980
+where they really shine,
+
+94
+00:03:44,980 --> 00:03:49,200
+is when the size of the input
+is variable,
+
+95
+00:03:49,320 --> 00:03:51,200
+so you don’t have a fixed chunk of data
+
+96
+00:03:51,200 --> 00:03:53,520
+that you're putting in
+is variable input.
+
+97
+00:03:53,720 --> 00:03:55,980
+And the same goes
+for the output,
+
+98
+00:03:56,620 --> 00:04:00,540
+so you can give it
+a sequence of speech,
+
+99
+00:04:01,520 --> 00:04:02,940
+several seconds of speech
+
+100
+00:04:03,700 --> 00:04:05,160
+and then the output is
+
+101
+00:04:06,380 --> 00:04:10,700
+a single label of whether
+the speaker is male or female.
+
+102
+00:04:11,340 --> 00:04:13,500
+That’s many to one.
+
+103
+00:04:14,960 --> 00:04:16,780
+You can also do
+
+104
+00:04:17,380 --> 00:04:18,660
+many to many.
+
+105
+00:04:19,220 --> 00:04:20,220
+Translation.
+
+106
+00:04:20,740 --> 00:04:22,460
+You can have natural language
+
+107
+00:04:22,460 --> 00:04:23,540
+put into the network
+
+108
+00:04:25,400 --> 00:04:27,100
+in Spanish
+
+109
+00:04:27,100 --> 00:04:29,180
+and the output is in English.
+
+110
+00:04:30,320 --> 00:04:31,520
+Machine translation.
+
+111
+00:04:31,520 --> 00:04:32,640
+That's many to many.
+
+112
+00:04:33,100 --> 00:04:35,860
+And that many to many
+doesn't have to be
+
+113
+00:04:35,860 --> 00:04:37,520
+mapped directly
+
+114
+00:04:37,520 --> 00:04:39,800
+into same sized sequences.
+
+115
+00:04:40,020 --> 00:04:42,660
+For video, the sequence size
+might be the same
+
+116
+00:04:42,680 --> 00:04:45,240
+you're labeling every single frame,
+you put in
+
+117
+00:04:45,700 --> 00:04:47,340
+a five second clip
+
+118
+00:04:49,030 --> 00:04:50,810
+of somebody playing basketball
+
+119
+00:04:50,840 --> 00:04:52,860
+and you can label
+every single frame
+
+120
+00:04:52,860 --> 00:04:55,220
+counting the number of people
+in every single frame.
+
+121
+00:04:55,220 --> 00:04:56,180
+That's many to many
+
+122
+00:04:56,180 --> 00:04:59,520
+when the size of the input and
+the size of the output is the same
+
+123
+00:04:59,540 --> 00:05:00,460
+Yes, question?
+
+124
+00:05:00,840 --> 00:05:01,720
+The question was,
+
+125
+00:05:01,800 --> 00:05:05,380
+are there are any models where there's
+feedback from output and input?
+
+126
+00:05:05,380 --> 00:05:09,020
+That's exactly what
+Recurrent Neural Networks are.
+
+127
+00:05:09,880 --> 00:05:11,640
+It produces output,
+
+128
+00:05:11,640 --> 00:05:13,900
+and it copies that output
+
+129
+00:05:13,900 --> 00:05:15,140
+and loops it back in.
+
+130
+00:05:18,160 --> 00:05:21,500
+That's almost the definition of
+a Recurrent Neural Network.
+
+131
+00:05:21,500 --> 00:05:24,360
+There's a loop in there
+that produces the output
+
+132
+00:05:24,400 --> 00:05:27,320
+and also takes that output
+as input once again.
+
+133
+00:05:29,560 --> 00:05:33,060
+There's also many to many
+where the sequences don't align.
+
+134
+00:05:33,060 --> 00:05:34,680
+Like machine translation,
+
+135
+00:05:34,700 --> 00:05:36,770
+the size of the output sequence
+
+136
+00:05:36,780 --> 00:05:39,400
+might be  totally different
+than the input sequence.
+
+137
+00:05:39,400 --> 00:05:41,910
+We will look on a lot
+of cool applications;
+
+138
+00:05:44,240 --> 00:05:45,600
+you can start a song,
+
+139
+00:05:45,600 --> 00:05:48,960
+learn the audio of
+a particular song
+
+140
+00:05:48,960 --> 00:05:51,240
+have the Recurrent Neural Network
+
+141
+00:05:51,240 --> 00:05:55,120
+to continue that song after
+a certain period of time.
+
+142
+00:05:55,440 --> 00:05:57,840
+So it can learn to generate sequences
+
+143
+00:05:57,900 --> 00:06:00,940
+of audio, of natural language, of video.
+
+144
+00:06:01,120 --> 00:06:01,940
+Okay.
+
+145
+00:06:04,120 --> 00:06:06,720
+I know I promised not many equations,
+
+146
+00:06:06,720 --> 00:06:07,900
+but this is
+
+147
+00:06:08,600 --> 00:06:11,080
+so beautifully simple
+
+148
+00:06:11,080 --> 00:06:13,340
+that we have to cover
+backpropagation.
+
+149
+00:06:13,960 --> 00:06:15,900
+It's also the thing
+
+150
+00:06:15,900 --> 00:06:18,200
+that, if you're a little bit lazy
+
+151
+00:06:18,200 --> 00:06:19,860
+and you go to the internet
+
+152
+00:06:19,860 --> 00:06:23,020
+and start using
+the basic tutorials of TensorFlow,
+
+153
+00:06:23,020 --> 00:06:25,700
+you ignore how backpropagation work.
+
+154
+00:06:25,700 --> 00:06:27,000
+At you peril.
+
+155
+00:06:27,380 --> 00:06:29,070
+You kind of assume it just works.
+
+156
+00:06:29,100 --> 00:06:31,030
+I give it some inputs, some outputs,
+
+157
+00:06:31,050 --> 00:06:33,450
+and it's like Lego pieces
+I can assemble them
+
+158
+00:06:33,460 --> 00:06:34,970
+like you might have done
+with DeepTraffic
+
+159
+00:06:34,980 --> 00:06:36,710
+A bunch of layers put in together
+
+160
+00:06:36,740 --> 00:06:39,110
+and then just press Train.
+
+161
+00:06:39,430 --> 00:06:41,260
+backpropagation is the mechanism
+
+162
+00:06:41,260 --> 00:06:43,140
+that neural networks currently--
+
+163
+00:06:43,140 --> 00:06:46,260
+The best mechanism we know of
+that is used for training.
+
+164
+00:06:46,290 --> 00:06:47,480
+So you need to understand
+
+165
+00:06:49,460 --> 00:06:52,480
+the simple power of backpropagation,
+
+166
+00:06:52,480 --> 00:06:54,480
+but also the dangers.
+
+167
+00:06:57,500 --> 00:06:58,360
+Summary,
+
+168
+00:06:59,320 --> 00:07:02,460
+I put on the top of the slide,
+there's an input
+
+169
+00:07:02,460 --> 00:07:04,380
+for the network that's an image,
+
+170
+00:07:04,380 --> 00:07:07,400
+there's a bunch of neurons,
+
+171
+00:07:07,400 --> 00:07:09,180
+all with differentiable
+
+172
+00:07:09,180 --> 00:07:12,620
+smooth activation functions
+on each neuron,
+
+173
+00:07:12,620 --> 00:07:13,520
+and then,
+
+174
+00:07:14,620 --> 00:07:18,280
+as you pass through those
+activation functions,
+
+175
+00:07:18,280 --> 00:07:20,280
+take in an input, pass it through
+
+176
+00:07:20,280 --> 00:07:25,520
+this net of differentiable
+compute nodes,
+
+177
+00:07:25,520 --> 00:07:27,040
+you produce an output.
+
+178
+00:07:27,040 --> 00:07:28,460
+In that output
+
+179
+00:07:28,900 --> 00:07:30,760
+you also have a ground truth,
+
+180
+00:07:30,760 --> 00:07:32,900
+the correct, the truth
+
+181
+00:07:32,900 --> 00:07:33,920
+that you hope
+
+182
+00:07:33,920 --> 00:07:35,870
+or you expect the network to produce.
+
+183
+00:07:35,920 --> 00:07:38,280
+And you can look at
+the differences between
+
+184
+00:07:38,280 --> 00:07:40,160
+what the network actually produced
+
+185
+00:07:40,180 --> 00:07:42,300
+and what you hoped it would produce,
+
+186
+00:07:42,300 --> 00:07:43,460
+and that's an error.
+
+187
+00:07:43,460 --> 00:07:46,280
+And then you backward
+propagate that error,
+
+188
+00:07:46,280 --> 00:07:48,000
+punishing or rewarding
+
+189
+00:07:50,680 --> 00:07:54,400
+the parameters of the network that resulted in that output
+
+190
+00:07:57,160 --> 00:07:59,920
+Let's start with a really
+simple example.
+
+191
+00:08:03,060 --> 00:08:04,200
+There's a function
+
+192
+00:08:04,960 --> 00:08:07,240
+that takes its input
+
+193
+00:08:07,240 --> 00:08:08,860
+up on top,
+
+194
+00:08:09,200 --> 00:08:11,520
+three variables, X, Y and Z.
+
+195
+00:08:12,300 --> 00:08:14,100
+The function does two things:
+
+196
+00:08:14,100 --> 00:08:15,940
+it adds X and Y
+
+197
+00:08:15,940 --> 00:08:17,300
+and then it multiplies
+
+198
+00:08:17,300 --> 00:08:19,900
+that sum by Z.
+
+199
+00:08:20,420 --> 00:08:23,020
+And then we can formulate
+that as a circuit,
+
+200
+00:08:23,440 --> 00:08:24,720
+circuit of gates,
+
+201
+00:08:25,680 --> 00:08:27,120
+where there's a Plus gate,
+
+202
+00:08:27,120 --> 00:08:29,120
+and a Multiplication gate.
+
+203
+00:08:36,140 --> 00:08:38,040
+Let's take some inputs,
+
+204
+00:08:38,040 --> 00:08:39,680
+shown in blue.
+
+205
+00:08:39,680 --> 00:08:41,860
+Let's say it's X is negative two,
+
+206
+00:08:41,860 --> 00:08:44,460
+Y is five and Z
+is negative four.
+
+207
+00:08:45,760 --> 00:08:47,420
+And let's do a forward pass
+
+208
+00:08:47,420 --> 00:08:48,600
+through the circuit
+
+209
+00:08:48,900 --> 00:08:50,300
+to produce the output.
+
+210
+00:08:52,080 --> 00:08:55,020
+Negative two plus five
+equals three
+
+211
+00:08:55,860 --> 00:08:57,900
+q is that intermediate value,
+
+212
+00:08:58,660 --> 00:08:59,280
+three.
+
+213
+00:09:01,300 --> 00:09:03,140
+This is so simple,
+
+214
+00:09:03,420 --> 00:09:05,240
+and so important to understand
+
+215
+00:09:05,240 --> 00:09:07,350
+that I just want to take my time for this
+
+216
+00:09:07,370 --> 00:09:11,810
+because everything else about neural
+networks just builds on these concepts
+
+217
+00:09:13,880 --> 00:09:15,960
+The add gate produces q,
+
+218
+00:09:15,960 --> 00:09:17,160
+in this case, is three,
+
+219
+00:09:17,290 --> 00:09:19,660
+and three times negative
+four is twelve.
+
+220
+00:09:19,660 --> 00:09:20,700
+That's the output.
+
+221
+00:09:20,700 --> 00:09:24,480
+The output of the circuit
+of this network,
+
+222
+00:09:24,880 --> 00:09:26,740
+if you think of it as such,
+
+223
+00:09:26,740 --> 00:09:28,240
+is negative twelve.
+
+224
+00:09:29,820 --> 00:09:31,570
+The forward pass is shown in blue
+
+225
+00:09:31,580 --> 00:09:33,640
+the backward pass
+will be shown in red
+
+226
+00:09:33,640 --> 00:09:34,780
+in a second here
+
+227
+00:09:34,780 --> 00:09:36,400
+What we want to do,
+
+228
+00:09:36,400 --> 00:09:37,720
+what would make us happy,
+
+229
+00:09:37,720 --> 00:09:39,260
+what would make f happy
+
+230
+00:09:39,260 --> 00:09:42,020
+is for the output to be
+as high possible.
+
+231
+00:09:42,020 --> 00:09:44,400
+Negative twelve,
+so-so, it could be better.
+
+232
+00:09:44,400 --> 00:09:45,740
+How do we teach it
+
+233
+00:09:46,620 --> 00:09:48,640
+How do we adjust X, Y and Z,
+
+234
+00:09:49,540 --> 00:09:54,040
+to ensure it produces a higher f
+
+235
+00:09:55,420 --> 00:09:56,940
+makes f happier.
+
+236
+00:09:56,940 --> 00:09:59,340
+Let's start backward,
+
+237
+00:10:00,660 --> 00:10:01,960
+The backward pass.
+
+238
+00:10:02,920 --> 00:10:05,840
+We'll make the gradient
+on the output one,
+
+239
+00:10:05,840 --> 00:10:07,920
+meaning we want this to increase.
+
+240
+00:10:07,920 --> 00:10:09,060
+We want f to increase.
+
+241
+00:10:09,060 --> 00:10:11,140
+That's how we\hencode our happiness.
+
+242
+00:10:12,100 --> 00:10:14,540
+We want it to go up by one.
+
+243
+00:10:16,400 --> 00:10:19,260
+In order to then propagate
+
+244
+00:10:21,140 --> 00:10:23,180
+that fact that we want
+
+245
+00:10:23,180 --> 00:10:25,340
+the f to go up by one,
+
+246
+00:10:25,340 --> 00:10:27,760
+we have to look at
+
+247
+00:10:27,760 --> 00:10:30,660
+the gradient on each one of the gates.
+
+248
+00:10:30,660 --> 00:10:32,480
+And what's a gradient?
+
+249
+00:10:34,000 --> 00:10:35,380
+It's a
+
+250
+00:10:37,220 --> 00:10:38,740
+partial derivative
+
+251
+00:10:40,560 --> 00:10:42,640
+with respect to its inputs.
+
+252
+00:10:42,640 --> 00:10:45,340
+The partial derivative of
+the output of the gate
+
+253
+00:10:45,340 --> 00:10:47,260
+with respect to its inputs,
+
+254
+00:10:47,260 --> 00:10:49,260
+if you don't know what that means,
+
+255
+00:10:49,320 --> 00:10:50,180
+is just
+
+256
+00:10:54,040 --> 00:10:56,200
+how much does the output change
+
+257
+00:10:56,760 --> 00:10:58,940
+when I change the inputs a little bit.
+
+258
+00:10:58,940 --> 00:11:02,280
+What is the slope of that change
+if I increase X
+
+259
+00:11:02,340 --> 00:11:04,600
+for the first function of addition,
+
+260
+00:11:04,600 --> 00:11:07,200
+f of X, Y equals X plus Y.
+
+261
+00:11:07,200 --> 00:11:09,040
+If I increase X by a little bit,
+
+262
+00:11:09,040 --> 00:11:10,200
+what happens to f?
+
+263
+00:11:10,200 --> 00:11:13,160
+If I increase Y by a little bit,
+what happens to f?
+
+264
+00:11:13,160 --> 00:11:15,160
+Taking a partial derivative of those
+
+265
+00:11:15,160 --> 00:11:17,160
+with respect to X and Y
+
+266
+00:11:17,160 --> 00:11:19,260
+you just get a slope of one
+
+267
+00:11:19,260 --> 00:11:20,640
+When you increase X,
+
+268
+00:11:20,640 --> 00:11:22,720
+f increases linearly.
+
+269
+00:11:23,100 --> 00:11:24,160
+Same with Y.
+
+270
+00:11:24,780 --> 00:11:26,760
+Multiplication is a little trickier.
+
+271
+00:11:28,740 --> 00:11:30,700
+When you increase X,
+
+272
+00:11:31,980 --> 00:11:33,640
+f increases by Y.
+
+273
+00:11:34,500 --> 00:11:38,500
+Do the partial derivative of f
+with respect to X is Y,
+
+274
+00:11:38,500 --> 00:11:41,700
+the partial derivative of f
+with respect to Y is X.
+
+275
+00:11:44,500 --> 00:11:47,460
+If you think about it,
+what happens is
+
+276
+00:11:47,800 --> 00:11:50,400
+the gradients, when you change X,
+
+277
+00:11:51,020 --> 00:11:52,660
+the gradient of change
+
+278
+00:11:53,000 --> 00:11:54,480
+doesn't care about X.
+
+279
+00:11:54,940 --> 00:11:57,080
+It cares about Y.
+
+280
+00:11:58,140 --> 00:11:59,140
+It's flipped.
+
+281
+00:11:59,760 --> 00:12:01,960
+So we can backpropagate that one,
+
+282
+00:12:01,960 --> 00:12:05,580
+the indication of what
+makes X happy backward.
+
+283
+00:12:07,440 --> 00:12:09,240
+And that's done by
+
+284
+00:12:09,680 --> 00:12:11,340
+computing the local gradient.
+
+285
+00:12:15,020 --> 00:12:16,340
+For q,
+
+286
+00:12:18,240 --> 00:12:21,300
+the partial derivative
+of f with respect to q,
+
+287
+00:12:21,300 --> 00:12:23,300
+that intermediate value,
+
+288
+00:12:24,360 --> 00:12:26,820
+that gradient would be negative four.
+
+289
+00:12:26,820 --> 00:12:28,700
+It will take the value of Z
+
+290
+00:12:28,700 --> 00:12:30,700
+as I said it's the Multiplication gate,
+
+291
+00:12:30,700 --> 00:12:32,460
+It'll\htake the value of Z
+
+292
+00:12:35,260 --> 00:12:36,900
+and assign it to the gradient.
+
+293
+00:12:37,300 --> 00:12:38,800
+And the same for
+
+294
+00:12:38,800 --> 00:12:41,940
+the partial derivative of f
+with respect to Z,
+
+295
+00:12:41,940 --> 00:12:43,600
+it will assign that to q.
+
+296
+00:12:43,600 --> 00:12:45,880
+The value of the forward pass on the q.
+
+297
+00:12:45,880 --> 00:12:47,500
+There's a three
+
+298
+00:12:47,500 --> 00:12:50,280
+and a negative four
+on the forward pass in blue
+
+299
+00:12:50,280 --> 00:12:51,600
+and that's flipped.
+
+300
+00:12:51,600 --> 00:12:52,960
+Negative four and three
+
+301
+00:12:53,640 --> 00:12:54,840
+on the backward pass.
+
+302
+00:12:54,840 --> 00:12:56,020
+That's the gradient.
+
+303
+00:12:56,660 --> 00:12:59,820
+And then we continue in
+the same exact process.
+
+304
+00:13:00,600 --> 00:13:01,820
+But wait.
+
+305
+00:13:03,580 --> 00:13:06,160
+What makes all of this work,
+
+306
+00:13:07,220 --> 00:13:09,020
+is the Chain Rule.
+
+307
+00:13:09,480 --> 00:13:10,520
+It's magical.
+
+308
+00:13:12,720 --> 00:13:14,240
+What it allows us to do
+
+309
+00:13:14,240 --> 00:13:16,680
+is to compute the gradient,
+
+310
+00:13:20,100 --> 00:13:23,020
+the gradien of f with respect to
+the inputs X, Y, Z.
+
+311
+00:13:23,420 --> 00:13:25,480
+We don't need to construct
+
+312
+00:13:27,160 --> 00:13:29,160
+the giant function that is
+
+313
+00:13:31,260 --> 00:13:35,860
+the partial derivative of f
+with respect to X, Y and Z
+
+314
+00:13:35,860 --> 00:13:37,200
+analytically.
+
+315
+00:13:37,200 --> 00:13:38,500
+We can do it step by step
+
+316
+00:13:38,500 --> 00:13:40,320
+backpropagating the gradients.
+
+317
+00:13:40,320 --> 00:13:42,490
+We can multiply
+the gradients together
+
+318
+00:13:42,510 --> 00:13:44,840
+as opposed to doing
+the partial derivative
+
+319
+00:13:44,880 --> 00:13:46,150
+of f with respect to X.
+
+320
+00:13:46,620 --> 00:13:48,700
+We have just the intermediate,
+
+321
+00:13:48,700 --> 00:13:49,900
+the local gradient
+
+322
+00:13:49,900 --> 00:13:53,980
+of f with respect to q,
+and of q with respect to X,
+
+323
+00:13:53,980 --> 00:13:55,980
+and multiply them together.
+
+324
+00:13:58,360 --> 00:13:59,940
+So, Instead of computing
+
+325
+00:14:00,560 --> 00:14:02,780
+gradient of that
+
+326
+00:14:03,120 --> 00:14:06,700
+giant function X plus Y times Z,
+
+327
+00:14:06,700 --> 00:14:08,400
+in this case is not that giant,
+
+328
+00:14:08,400 --> 00:14:10,900
+but it gets pretty giant
+with neural networks,
+
+329
+00:14:10,930 --> 00:14:12,200
+we just go step by step.
+
+330
+00:14:12,200 --> 00:14:14,020
+Look at the first function,
+
+331
+00:14:14,020 --> 00:14:17,060
+simple addition, q equals X plus Y,
+
+332
+00:14:17,060 --> 00:14:20,160
+and the second function,
+multiplication,
+
+333
+00:14:20,160 --> 00:14:22,160
+f equals q times Z.
+
+334
+00:14:25,420 --> 00:14:28,840
+The gradient on X and Y,
+
+335
+00:14:30,280 --> 00:14:32,240
+the partial derivative
+
+336
+00:14:32,780 --> 00:14:35,740
+of f with respect to X and Y
+
+337
+00:14:35,740 --> 00:14:37,840
+is computed by multiplying
+
+338
+00:14:38,260 --> 00:14:41,020
+the gradient on the output,
+negative four,
+
+339
+00:14:41,620 --> 00:14:44,740
+times the gradient on the inputs,
+
+340
+00:14:44,740 --> 00:14:46,260
+which as we talked about,
+
+341
+00:14:46,260 --> 00:14:48,640
+when the operation is addition,
+
+342
+00:14:48,640 --> 00:14:50,080
+that's just one.
+
+343
+00:14:50,080 --> 00:14:52,080
+It's negative four times one.
+
+344
+00:14:56,480 --> 00:14:57,620
+What does that mean?
+
+345
+00:14:57,620 --> 00:15:00,060
+Let's interpret those numbers.
+
+346
+00:15:00,940 --> 00:15:04,200
+You now have gradients on X, Y and Z
+
+347
+00:15:05,840 --> 00:15:08,980
+the partial derivatives of F
+with respect to X, Y, Z.
+
+348
+00:15:08,980 --> 00:15:10,080
+That means,
+
+349
+00:15:11,360 --> 00:15:14,200
+for X and Y is negative four,
+for Z is three.
+
+350
+00:15:14,200 --> 00:15:17,680
+That means, in order to
+make f happy,
+
+351
+00:15:17,680 --> 00:15:19,100
+we have to decrease
+
+352
+00:15:22,140 --> 00:15:25,360
+the inputs that have
+a negative gradient
+
+353
+00:15:25,360 --> 00:15:28,740
+and increase the inputs that
+have a positive gradient.
+
+354
+00:15:28,740 --> 00:15:30,400
+The negatives ones are X and Y,
+
+355
+00:15:30,400 --> 00:15:31,850
+the positive is Z.
+
+356
+00:15:35,680 --> 00:15:36,890
+Hopefully, I don't say
+
+357
+00:15:36,920 --> 00:15:39,800
+the word “Beautiful” too many
+times in this presentation
+
+358
+00:15:39,820 --> 00:15:42,240
+this is very simple.
+Beautifully simple.
+
+359
+00:15:44,780 --> 00:15:47,580
+Because this gradient
+is a local worker,
+
+360
+00:15:48,160 --> 00:15:50,160
+it propagates for you;
+
+361
+00:15:50,160 --> 00:15:53,340
+it has no knowledge of the broader
+
+362
+00:15:53,900 --> 00:15:55,800
+happiness of f.
+
+363
+00:15:58,120 --> 00:16:01,180
+It computes the greater between
+the output and the input.
+
+364
+00:16:01,180 --> 00:16:03,700
+And it can propagate this gradient
+
+365
+00:16:03,700 --> 00:16:05,100
+based on,
+
+366
+00:16:05,500 --> 00:16:07,120
+in this case f,
+
+367
+00:16:07,120 --> 00:16:09,840
+a gradient of one but also the error.
+
+368
+00:16:10,420 --> 00:16:13,340
+Instead of one we can have on
+the output the error
+
+369
+00:16:13,340 --> 00:16:14,860
+as the measure of happiness.
+
+370
+00:16:14,860 --> 00:16:17,320
+And then we can propagate
+that error backwards.
+
+371
+00:16:17,340 --> 00:16:20,230
+These gates are important
+because we can break down
+
+372
+00:16:20,250 --> 00:16:22,450
+almost every operation
+we can think of
+
+373
+00:16:22,460 --> 00:16:24,420
+that we work within neural networks
+
+374
+00:16:24,450 --> 00:16:27,180
+into one or several gates like these.
+
+375
+00:16:28,260 --> 00:16:30,300
+The most popular are three,
+
+376
+00:16:30,300 --> 00:16:32,320
+which is addition, multiplication
+
+377
+00:16:32,400 --> 00:16:34,080
+and the Max operation.
+
+378
+00:16:34,080 --> 00:16:35,300
+For addition,
+
+379
+00:16:39,340 --> 00:16:40,260
+the process is
+
+380
+00:16:40,260 --> 00:16:42,720
+you take a forward pass
+through the network,
+
+381
+00:16:43,140 --> 00:16:45,780
+so we have a value on every single gate,
+
+382
+00:16:47,040 --> 00:16:49,040
+and then you take the backward pass.
+
+383
+00:16:49,700 --> 00:16:52,920
+And through the backward pass
+you compute those gradients.
+
+384
+00:16:53,520 --> 00:16:55,320
+For an add gate,
+
+385
+00:16:55,540 --> 00:16:57,640
+you equally distribute the gradients
+
+386
+00:16:57,640 --> 00:16:58,960
+on the output to the input,
+
+387
+00:16:58,960 --> 00:17:01,570
+when the gradient on the output
+is negative four,
+
+388
+00:17:01,590 --> 00:17:03,910
+you equally distribute it tonegative four.
+
+389
+00:17:06,700 --> 00:17:09,160
+And you ignore the forward pass value.
+
+390
+00:17:09,620 --> 00:17:12,480
+That three is ignored
+when you backpropagate it.
+
+391
+00:17:15,940 --> 00:17:17,580
+On the Multiply gate,
+
+392
+00:17:18,200 --> 00:17:19,300
+it's trickier.
+
+393
+00:17:19,760 --> 00:17:22,740
+You switch the forward pass values,
+
+394
+00:17:23,560 --> 00:17:27,680
+if you look at f, that's a
+Multiply gate,
+
+395
+00:17:29,720 --> 00:17:31,760
+the forward pass values are switched
+
+396
+00:17:32,540 --> 00:17:36,620
+and multiplied by the value of
+the gradient in the output.
+
+397
+00:17:37,960 --> 00:17:41,220
+If it's confusing, go through
+the slides slowly.
+
+398
+00:17:41,600 --> 00:17:43,760
+It'll make a lot more sense.
+
+399
+00:17:44,160 --> 00:17:45,020
+Hopefully.
+
+400
+00:17:45,540 --> 00:17:47,740
+One more gate. There's the Max gate,
+
+401
+00:17:47,740 --> 00:17:50,820
+which takes the inputs
+
+402
+00:17:50,820 --> 00:17:52,820
+and produces as output
+
+403
+00:17:53,280 --> 00:17:55,720
+the value that is larger.
+
+404
+00:17:56,360 --> 00:17:59,820
+When computing the gradient
+of the Max gate,
+
+405
+00:18:01,260 --> 00:18:03,740
+it distributes the gradient
+
+406
+00:18:04,260 --> 00:18:13,640
+similarly to the Add gate, but to only one,
+to only one  of the inputs;
+
+407
+00:18:13,980 --> 00:18:14,920
+the largest one.
+
+408
+00:18:16,600 --> 00:18:19,160
+unlike the Add gate,
+pays attention to the input
+
+409
+00:18:19,180 --> 00:18:22,300
+the input values on
+the forward pass.
+
+410
+00:18:22,560 --> 00:18:23,540
+All right.
+
+411
+00:18:24,780 --> 00:18:29,140
+Lots of numbers but
+the whole point here is,
+
+412
+00:18:29,140 --> 00:18:30,500
+it's really simple;
+
+413
+00:18:33,160 --> 00:18:36,760
+a neural network is just
+a simple collection of these gates.
+
+414
+00:18:37,380 --> 00:18:39,560
+You take a forward pass,
+
+415
+00:18:40,080 --> 00:18:41,960
+you calculate some kind of function
+
+416
+00:18:41,960 --> 00:18:43,960
+in the end, the gradient in the very end,
+
+417
+00:18:43,960 --> 00:18:45,960
+and you propagate that back.
+
+418
+00:18:45,960 --> 00:18:49,280
+Usually, for neural networks,
+that's an Error function.
+
+419
+00:18:49,280 --> 00:18:51,820
+A Loss function, Objective function,
+
+420
+00:18:52,480 --> 00:18:55,480
+a Cost function.
+All the same word.
+
+421
+00:18:57,040 --> 00:19:00,140
+That's the Sigmoid function there
+
+422
+00:19:00,140 --> 00:19:01,960
+When you have three weights
+
+423
+00:19:01,960 --> 00:19:04,740
+W zero, W one, W two
+
+424
+00:19:04,740 --> 00:19:09,430
+and X, two inputs, X0, X1,
+
+425
+00:19:09,440 --> 00:19:11,480
+that's going to be
+the Sigmoid function.
+
+426
+00:19:11,480 --> 00:19:13,320
+That's how you compute the output
+
+427
+00:19:18,500 --> 00:19:19,780
+of the neuron.
+
+428
+00:19:19,780 --> 00:19:22,360
+But then you can decompose
+that neuron
+
+429
+00:19:22,360 --> 00:19:24,680
+you can separate it all into
+
+430
+00:19:24,680 --> 00:19:26,540
+just a set of gates like this
+
+431
+00:19:26,540 --> 00:19:28,540
+Addition, multiplication,
+
+432
+00:19:28,720 --> 00:19:31,620
+there's an exponential in there
+and division
+
+433
+00:19:31,620 --> 00:19:32,900
+but all very similar.
+
+434
+00:19:32,900 --> 00:19:35,120
+And you repeat the exact same process.
+
+435
+00:19:38,820 --> 00:19:40,140
+there's five inputs,
+
+436
+00:19:40,140 --> 00:19:41,320
+there's three weights
+
+437
+00:19:41,580 --> 00:19:44,140
+and two inputs.
+X zero, X one.
+
+438
+00:19:46,280 --> 00:19:50,860
+You take a forward pass
+through this circuit,
+
+439
+00:19:52,340 --> 00:19:53,960
+in this case again,
+
+440
+00:19:54,300 --> 00:19:58,940
+you want it to increase so that
+the gradient of the output is one
+
+441
+00:19:58,940 --> 00:20:01,420
+and you backpropagate that gradient
+
+442
+00:20:01,680 --> 00:20:03,420
+of one,\hto the inputs.
+
+443
+00:20:04,120 --> 00:20:05,520
+Now in neural networks,
+
+444
+00:20:05,720 --> 00:20:07,260
+there's a bunch of parameters
+
+445
+00:20:07,260 --> 00:20:09,900
+that you're trying through
+this process, modify.
+
+446
+00:20:09,900 --> 00:20:12,320
+And you don't get to modify the inputs
+
+447
+00:20:12,320 --> 00:20:15,060
+You get to modify the weights
+along the way,
+
+448
+00:20:15,060 --> 00:20:16,340
+and the biases.
+
+449
+00:20:16,340 --> 00:20:17,520
+The inputs are fixed,
+
+450
+00:20:17,520 --> 00:20:18,860
+the outputs are fixed,
+
+451
+00:20:18,860 --> 00:20:20,860
+the outputs that you hope
+
+452
+00:20:21,600 --> 00:20:23,740
+the network will produce.
+
+453
+00:20:23,740 --> 00:20:25,740
+What you're modifying is the weights.
+
+454
+00:20:25,740 --> 00:20:28,040
+So I get to try to adjust those weights
+
+455
+00:20:29,400 --> 00:20:31,780
+in the direction of the gradient.
+
+456
+00:20:34,840 --> 00:20:37,440
+That's the task of backpropagation.\h
+
+457
+00:20:37,780 --> 00:20:41,040
+The main way that
+neural networks learn.
+
+458
+00:20:41,560 --> 00:20:44,400
+As we update the weights
+and the biases
+
+459
+00:20:44,400 --> 00:20:46,400
+to decrease the loss function.
+
+460
+00:20:47,020 --> 00:20:49,780
+The lower the loss function the better.
+
+461
+00:20:50,480 --> 00:20:52,340
+In this case, you have
+
+462
+00:20:52,660 --> 00:20:55,220
+three inputs on the top left.
+
+463
+00:20:55,220 --> 00:20:57,220
+A simple network, three inputs.
+
+464
+00:20:58,760 --> 00:21:00,980
+Three weights on each of the inputs.
+
+465
+00:21:00,980 --> 00:21:03,260
+There's a bias on the node,
+
+466
+00:21:03,700 --> 00:21:06,280
+b and produces an output
+
+467
+00:21:06,960 --> 00:21:13,280
+a, and that little symbol is indicating
+a Sigmoid function.
+
+468
+00:21:15,480 --> 00:21:17,240
+And the loss
+
+469
+00:21:17,760 --> 00:21:21,220
+is computed as Y minus
+A squared,
+
+470
+00:21:22,660 --> 00:21:24,460
+divided by two,
+
+471
+00:21:25,520 --> 00:21:27,700
+where Y is the ground truth,
+
+472
+00:21:27,960 --> 00:21:31,780
+the output that you want
+the network to produce.
+
+473
+00:21:32,340 --> 00:21:34,980
+And that loss function
+is backpropagating
+
+474
+00:21:34,980 --> 00:21:37,500
+in exactly the same way that
+we described before.
+
+475
+00:21:37,840 --> 00:21:39,100
+The subtasks
+
+476
+00:21:39,580 --> 00:21:42,560
+involved in this update of
+weights and biases
+
+477
+00:21:42,560 --> 00:21:44,560
+is that the forward pass computes
+
+478
+00:21:44,560 --> 00:21:47,180
+the network output at every neuron,
+
+479
+00:21:47,180 --> 00:21:49,760
+and finally, the output layer,
+
+480
+00:21:50,180 --> 00:21:53,520
+computes the error,
+the difference between a and b,
+
+481
+00:21:54,040 --> 00:21:55,120
+and then
+
+482
+00:21:55,660 --> 00:21:57,880
+backward propagates
+the gradients.
+
+483
+00:21:58,820 --> 00:22:00,260
+Instead of one on the output,
+
+484
+00:22:00,260 --> 00:22:03,240
+it will be the error on the output
+and you backpropagated.
+
+485
+00:22:03,410 --> 00:22:05,240
+And then, once you know the gradient,
+
+486
+00:22:05,240 --> 00:22:07,560
+you adjust the weights
+and the biases
+
+487
+00:22:07,560 --> 00:22:09,560
+in the direction of the gradient.
+
+488
+00:22:09,580 --> 00:22:12,590
+Actually, the opposite of the
+direction of the gradient,
+
+489
+00:22:12,600 --> 00:22:14,980
+because you want the loss to decrease.
+
+490
+00:22:14,980 --> 00:22:18,440
+And the amount by which
+you make that adjustment
+
+491
+00:22:18,440 --> 00:22:20,100
+is called the Learning Rate.
+
+492
+00:22:20,130 --> 00:22:23,230
+The learning rate can be
+the same across the entire network
+
+493
+00:22:23,240 --> 00:22:25,550
+or can be individual
+through every weight.
+
+494
+00:22:32,500 --> 00:22:34,080
+And the process
+
+495
+00:22:34,520 --> 00:22:36,880
+of adjusting the weights and biases
+
+496
+00:22:36,880 --> 00:22:38,880
+is just optimization.
+
+497
+00:22:39,120 --> 00:22:41,540
+Learning is an Optimization problem.
+
+498
+00:22:41,560 --> 00:22:44,850
+You have an objective function,
+and you're trying to minimize it.
+
+499
+00:22:44,880 --> 00:22:48,150
+And your variables are the parameters,
+the weights and biases.
+
+500
+00:22:49,480 --> 00:22:51,360
+Neural networks just happen to have
+
+501
+00:22:51,360 --> 00:22:54,060
+tens, hundreds of thousands, millions
+
+502
+00:22:54,060 --> 00:22:56,060
+of those parameters.
+
+503
+00:22:57,080 --> 00:23:00,460
+So the function that you're trying
+to minimize is highly non-linear.
+
+504
+00:23:00,460 --> 00:23:03,200
+But it boils down to
+something like this, you have
+
+505
+00:23:03,200 --> 00:23:09,240
+two weights, two plots--
+or actually one weight
+
+506
+00:23:09,240 --> 00:23:11,960
+and as you adjust it, the cost
+
+507
+00:23:14,720 --> 00:23:18,320
+you adjust in such a way that
+minimizes the output cost.
+
+508
+00:23:20,860 --> 00:23:24,080
+And there's a bunch of
+optimization methods for doing this.
+
+509
+00:23:25,800 --> 00:23:28,040
+this is a convex function,
+
+510
+00:23:28,040 --> 00:23:30,540
+You can find the local minimum.
+
+511
+00:23:31,020 --> 00:23:33,780
+If you know about these
+kinds of terminologies,
+
+512
+00:23:33,780 --> 00:23:36,500
+the local minimum is the same
+as the global minimum,
+
+513
+00:23:36,520 --> 00:23:39,340
+it's not a weirdly hilly terrain
+
+514
+00:23:39,340 --> 00:23:41,760
+where you can get stuck in.
+
+515
+00:23:41,760 --> 00:23:44,180
+Your goal is to get to
+the bottom of this thing
+
+516
+00:23:44,180 --> 00:23:46,440
+and if it's really complex terrain,
+
+517
+00:23:46,520 --> 00:23:49,000
+it will be hard to get
+to the bottom of it.
+
+518
+00:23:52,660 --> 00:23:55,960
+This general approach
+is gradient descent,
+
+519
+00:23:55,960 --> 00:23:59,220
+and there's a lot of different ways to
+do a gradient descent.
+
+520
+00:24:00,320 --> 00:24:03,860
+Various ways of adding
+randomness into the process,
+
+521
+00:24:03,860 --> 00:24:06,420
+so you don't get stuck into the weird
+
+522
+00:24:06,420 --> 00:24:09,380
+crevices of the terrain.
+
+523
+00:24:10,140 --> 00:24:11,480
+But it's messy.
+
+524
+00:24:11,780 --> 00:24:13,300
+You have to be really careful.
+
+525
+00:24:13,300 --> 00:24:15,540
+This is the part you have
+to be aware of,
+
+526
+00:24:15,920 --> 00:24:18,700
+when you design a network
+for DeepTraffic
+
+527
+00:24:18,700 --> 00:24:20,200
+and nothing is happening
+
+528
+00:24:20,740 --> 00:24:22,860
+this might be what's happening:
+
+529
+00:24:24,180 --> 00:24:25,700
+vanishing gradients
+
+530
+00:24:25,960 --> 00:24:27,680
+or exploding gradients.
+
+531
+00:24:29,740 --> 00:24:31,760
+When the partial derivatives
+
+532
+00:24:31,760 --> 00:24:34,920
+are small, so you take
+the Sigmoid function,
+
+533
+00:24:35,360 --> 00:24:36,840
+the most popular
+
+534
+00:24:37,340 --> 00:24:40,040
+for a while, activation function,
+
+535
+00:24:40,040 --> 00:24:43,040
+the derivative is zero at the tails.
+
+536
+00:24:43,040 --> 00:24:45,040
+When the input to
+
+537
+00:24:45,040 --> 00:24:48,340
+the Sigmoid functions is
+really high or really low,
+
+538
+00:24:48,860 --> 00:24:51,360
+that derivative is going to be zero.
+
+539
+00:24:55,060 --> 00:24:57,940
+Gradient tells on how much
+I want to adjust the weights.
+
+540
+00:24:57,940 --> 00:25:00,120
+The gradient might be zero,
+
+541
+00:25:00,120 --> 00:25:02,480
+and so you backpropagate that zero,
+
+542
+00:25:02,480 --> 00:25:04,140
+a very low number,
+
+543
+00:25:04,140 --> 00:25:06,140
+and it gets less and less
+
+544
+00:25:06,140 --> 00:25:08,020
+as you backpropagate
+
+545
+00:25:08,020 --> 00:25:10,920
+and so the result is that
+
+546
+00:25:12,680 --> 00:25:15,310
+you think you don't need to
+adjust the weights at all.
+
+547
+00:25:15,340 --> 00:25:17,550
+And when a large fraction
+of the network
+
+548
+00:25:17,560 --> 00:25:19,630
+weights don't need to be adjusted,
+
+549
+00:25:19,830 --> 00:25:21,460
+they don't adjust the weights.
+
+550
+00:25:21,460 --> 00:25:23,280
+And you are not doing any learning
+
+551
+00:25:23,300 --> 00:25:25,040
+So the learning is slow.
+
+552
+00:25:28,280 --> 00:25:30,140
+There are some fixes to this,
+
+553
+00:25:31,640 --> 00:25:33,860
+there are different types
+of functions.
+
+554
+00:25:33,860 --> 00:25:35,700
+There's a piece,
+
+555
+00:25:35,700 --> 00:25:39,840
+the ReLUs function which is the most
+popular activation function.
+
+556
+00:25:40,500 --> 00:25:42,300
+But again,
+
+557
+00:25:43,620 --> 00:25:46,940
+if the neurons are initialized poorly,
+
+558
+00:25:49,100 --> 00:25:51,700
+this function might not fire.
+
+559
+00:25:51,700 --> 00:25:54,560
+it might be zero gradient
+
+560
+00:25:54,560 --> 00:25:56,560
+for the entire data set.
+
+561
+00:25:57,700 --> 00:26:00,940
+Nothing that you produce as input,
+
+562
+00:26:01,260 --> 00:26:04,720
+you run all your thousands
+of images of cats,
+
+563
+00:26:04,720 --> 00:26:06,720
+and none of them fire at all.
+
+564
+00:26:06,720 --> 00:26:08,720
+That's the danger here.
+
+565
+00:26:10,780 --> 00:26:12,380
+So you have to pick
+
+566
+00:26:13,680 --> 00:26:17,960
+both the optimization engine,
+
+567
+00:26:17,960 --> 00:26:19,640
+the solver that you use
+
+568
+00:26:19,640 --> 00:26:21,880
+and the activation functions
+carefully.
+
+569
+00:26:21,880 --> 00:26:25,780
+You can't just plug and play
+like they're Lego's
+
+570
+00:26:25,780 --> 00:26:28,020
+You have to be aware of the function.
+
+571
+00:26:29,760 --> 00:26:32,920
+SGD, Stochastic Gradient Descent,
+
+572
+00:26:38,760 --> 00:26:42,380
+that's the Vanilla
+optimization algorithm
+
+573
+00:26:42,380 --> 00:26:43,980
+for gradient descent.
+
+574
+00:26:44,620 --> 00:26:48,500
+For optimizing the loss function
+over the gradients
+
+575
+00:26:48,500 --> 00:26:50,660
+And what's visualized here is,
+
+576
+00:26:50,660 --> 00:26:54,500
+again, if you have done
+any numerical optimization,
+
+577
+00:26:54,500 --> 00:26:56,340
+and non-linear optimization,
+
+578
+00:26:56,340 --> 00:26:58,360
+there's the famous saddle point,
+
+579
+00:26:59,020 --> 00:27:02,240
+that's tricky for these
+algorithms to deal with.
+
+580
+00:27:02,700 --> 00:27:06,120
+What happens is, it's easy
+for them to oscillate,
+
+581
+00:27:06,120 --> 00:27:09,220
+get stuck in that saddle and
+oscillating back and forth
+
+582
+00:27:09,220 --> 00:27:12,180
+as opposed to what they
+want to do which is
+
+583
+00:27:12,180 --> 00:27:14,100
+go down into--
+
+584
+00:27:14,100 --> 00:27:17,180
+You get so happy that you found this
+
+585
+00:27:18,900 --> 00:27:19,840
+low point
+
+586
+00:27:20,340 --> 00:27:22,860
+that you forget there's
+a much lower point.
+
+587
+00:27:22,920 --> 00:27:25,100
+So you get stuck with the gradient.
+
+588
+00:27:25,100 --> 00:27:26,520
+The momentum of the gradient
+
+589
+00:27:26,520 --> 00:27:29,320
+keeps rocking it back and forth
+without you going
+
+590
+00:27:29,740 --> 00:27:32,060
+to a much greater global minimum.
+
+591
+00:27:32,060 --> 00:27:34,900
+And there's a lot of clever
+ways to solving that,
+
+592
+00:27:34,900 --> 00:27:38,080
+the Atom optimizer is one of those.
+
+593
+00:27:40,460 --> 00:27:45,340
+But in this case, as long as
+the gradients don't vanish
+
+594
+00:27:46,180 --> 00:27:48,430
+SGD, the Stochastic Gradient Descent,
+
+595
+00:27:48,450 --> 00:27:50,720
+one of these algorithms
+will get you there
+
+596
+00:27:50,720 --> 00:27:53,690
+It might take a little while,
+but it will get you there
+
+597
+00:27:54,300 --> 00:27:55,600
+Yes, question.
+
+598
+00:27:57,040 --> 00:27:59,160
+The question was,
+
+599
+00:28:00,260 --> 00:28:03,100
+you're dealing with a function
+that is not convex,
+
+600
+00:28:03,100 --> 00:28:05,760
+how do we ensure anything about
+
+601
+00:28:06,160 --> 00:28:07,900
+converging to anything that's
+
+602
+00:28:07,900 --> 00:28:09,300
+reasonably good,
+
+603
+00:28:09,300 --> 00:28:12,100
+the local optimum converges to--
+
+604
+00:28:12,100 --> 00:28:15,000
+The answer is, you can't.
+
+605
+00:28:16,740 --> 00:28:19,400
+This isn't only a non-linear function
+
+606
+00:28:19,700 --> 00:28:22,260
+it's a highly non-function
+
+607
+00:28:22,260 --> 00:28:24,920
+The power and the beauty
+of neural networks
+
+608
+00:28:25,460 --> 00:28:32,420
+is that it can represent these arbitrarily complex functions.
+
+609
+00:28:32,420 --> 00:28:33,800
+It's incredible.
+
+610
+00:28:33,800 --> 00:28:37,040
+And it can learn these
+functions from data
+
+611
+00:28:38,000 --> 00:28:43,000
+But the reason people are referring to
+neural networks training as art
+
+612
+00:28:43,040 --> 00:28:46,180
+is you're trying to play
+with parameters
+
+613
+00:28:46,180 --> 00:28:48,480
+that don't get stuck in
+these local optimal.
+
+614
+00:28:48,480 --> 00:28:50,760
+For stupid reasons
+and for clever reasons.
+
+615
+00:28:50,760 --> 00:28:51,660
+Yes, question.
+
+616
+00:28:53,780 --> 00:28:57,700
+The Question continues
+on the same thread.
+
+617
+00:29:00,340 --> 00:29:03,650
+The thing is, we're dealing
+with functions
+
+618
+00:29:03,660 --> 00:29:06,260
+where we don't know what
+the global optimal is.
+
+619
+00:29:06,260 --> 00:29:08,160
+That's the crocs of it.
+
+620
+00:29:10,880 --> 00:29:12,440
+Everything we talked about,
+
+621
+00:29:13,100 --> 00:29:14,440
+interpreting text,
+
+622
+00:29:14,860 --> 00:29:16,440
+interpreting video,
+
+623
+00:29:17,280 --> 00:29:18,560
+even driving.
+
+624
+00:29:18,560 --> 00:29:20,720
+What's the optimal for driving?
+
+625
+00:29:21,740 --> 00:29:22,880
+Never crashing?
+
+626
+00:29:25,260 --> 00:29:27,320
+It sounds easy to say that,
+
+627
+00:29:27,320 --> 00:29:29,630
+you actually have to
+formulate the world
+
+628
+00:29:29,660 --> 00:29:33,020
+under which it defines all of those
+things and it becomes a really
+
+629
+00:29:33,040 --> 00:29:34,900
+non-linear objective function
+
+630
+00:29:34,900 --> 00:29:37,240
+for which you don't know what the optimal is.
+
+631
+00:29:41,160 --> 00:29:42,900
+That's why you keep trying
+
+632
+00:29:42,900 --> 00:29:45,390
+and get impressed
+every time it gets better.
+
+633
+00:29:45,430 --> 00:29:47,100
+It is essentially the process.
+
+634
+00:29:47,460 --> 00:29:49,800
+And you can also compare,
+
+635
+00:29:49,830 --> 00:29:52,450
+you can compare with
+human-level performance.
+
+636
+00:29:52,460 --> 00:29:53,360
+For ImageNet,
+
+637
+00:29:53,370 --> 00:29:56,040
+who can tell the difference
+between cats and dogs,
+
+638
+00:29:56,040 --> 00:29:58,660
+and top five categories,
+
+639
+00:30:00,500 --> 00:30:03,060
+96% of the time accuracy,
+
+640
+00:30:03,060 --> 00:30:04,750
+and then you get impressed when
+
+641
+00:30:04,770 --> 00:30:06,600
+a machine can do better than that.
+
+642
+00:30:06,660 --> 00:30:08,460
+But you don't know
+what the best is.
+
+643
+00:30:15,210 --> 00:30:17,180
+These videos can be watched for hours,
+
+644
+00:30:17,180 --> 00:30:19,600
+I won't play it until I
+explain this slide.
+
+645
+00:30:21,070 --> 00:30:23,700
+Let's pause to reflect
+on backpropagation
+
+646
+00:30:23,700 --> 00:30:26,880
+before I go on to Recurrent
+Neural Networks. Yes, question.
+
+647
+00:30:26,880 --> 00:30:29,380
+In this practical manner,
+how can you tell when
+
+648
+00:30:29,380 --> 00:30:31,820
+you're actually creating a net
+whether you're
+
+649
+00:30:31,860 --> 00:30:34,140
+facing the management
+gradient problem
+
+650
+00:30:34,140 --> 00:30:37,780
+or you need to change your optimizer
+
+651
+00:30:39,780 --> 00:30:42,400
+or you've reached a local minimum?
+
+652
+00:30:43,460 --> 00:30:45,060
+The question was,
+
+653
+00:30:45,060 --> 00:30:46,940
+how do you practically know
+
+654
+00:30:47,280 --> 00:30:51,240
+when you hit the vanishing
+gradient problem?
+
+655
+00:30:51,600 --> 00:30:53,300
+The vanishing gradient could be--
+
+656
+00:31:00,760 --> 00:31:03,420
+The derivative being zero
+on the gradient,
+
+657
+00:31:03,420 --> 00:31:07,240
+happens when the activation
+is exploding,
+
+658
+00:31:07,240 --> 00:31:09,040
+like really high values
+
+659
+00:31:09,040 --> 00:31:10,220
+and really low values.
+
+660
+00:31:10,220 --> 00:31:12,100
+To really high values is easy.
+
+661
+00:31:12,100 --> 00:31:14,660
+Your network has just gone crazy.
+
+662
+00:31:14,660 --> 00:31:17,440
+It produces very large values.
+
+663
+00:31:17,440 --> 00:31:23,280
+And you can fix a lot of those things
+by just capping the activations.
+
+664
+00:31:25,920 --> 00:31:28,240
+The values being really low,
+
+665
+00:31:28,820 --> 00:31:32,240
+resulting in a vanishing gradient,
+are really hard to detect
+
+666
+00:31:34,660 --> 00:31:37,880
+There's a lot of research in
+trying to figure out
+
+667
+00:31:37,880 --> 00:31:39,880
+how to detect these things.
+
+668
+00:31:40,380 --> 00:31:43,020
+If you're not careful, often times
+
+669
+00:31:43,860 --> 00:31:46,080
+you can find that,
+
+670
+00:31:48,660 --> 00:31:50,240
+and this isn't hard to do,
+
+671
+00:31:50,240 --> 00:31:53,280
+we're like 40 or 50 percent
+of the network,
+
+672
+00:31:53,280 --> 00:31:54,560
+of the neurons,
+
+673
+00:31:55,580 --> 00:31:57,220
+are dead.
+
+674
+00:31:57,720 --> 00:31:59,420
+We will call it, for ReLU,
+
+675
+00:31:59,420 --> 00:32:00,800
+they're dead ReLU
+
+676
+00:32:00,800 --> 00:32:02,560
+They're not firing at all.
+
+677
+00:32:03,220 --> 00:32:04,380
+How do you detect that?
+
+678
+00:32:05,590 --> 00:32:06,810
+That's part of learning
+
+679
+00:32:06,840 --> 00:32:08,730
+If they never fire you can detect that
+
+680
+00:32:08,770 --> 00:32:11,250
+by running it through
+the entire training set.
+
+681
+00:32:11,260 --> 00:32:14,150
+There are a lot of tricks. But that's the problem.
+
+682
+00:32:14,460 --> 00:32:15,720
+You try to learn
+
+683
+00:32:15,900 --> 00:32:19,100
+and then you look at the loss function
+
+684
+00:32:19,100 --> 00:32:20,260
+and it's not
+
+685
+00:32:20,960 --> 00:32:22,890
+converging to anything reasonable.
+
+686
+00:32:22,920 --> 00:32:26,470
+They are going all over the place,
+or just converging very slowly.
+
+687
+00:32:26,490 --> 00:32:28,960
+And that's an indication that
+something is wrong
+
+688
+00:32:28,970 --> 00:32:31,350
+That something could be
+the loss function is bad,
+
+689
+00:32:31,390 --> 00:32:33,410
+that something could be
+you already found the optimal,
+
+690
+00:32:33,420 --> 00:32:36,200
+or that something could be
+the vanishing gradient.
+
+691
+00:32:36,210 --> 00:32:37,920
+And again, that's why it's an art.
+
+692
+00:32:41,100 --> 00:32:42,500
+Certainly,
+
+693
+00:32:44,560 --> 00:32:47,960
+at least some fraction of the neurons
+needs to be firing.
+
+694
+00:32:49,120 --> 00:32:52,340
+Otherwise, initialization is
+really poorly done.
+
+695
+00:32:52,780 --> 00:32:54,840
+Okay, to reflect on the
+
+696
+00:32:55,180 --> 00:32:57,520
+simplicity of backpropagation
+
+697
+00:32:58,800 --> 00:33:00,280
+and the power of it,
+
+698
+00:33:02,080 --> 00:33:03,320
+this kind of step of
+
+699
+00:33:03,340 --> 00:33:06,910
+backpropagating the loss function
+to the gradients locally,
+
+700
+00:33:08,120 --> 00:33:10,060
+is the way neural networks learn.
+
+701
+00:33:11,900 --> 00:33:13,700
+It's really the only way
+
+702
+00:33:13,700 --> 00:33:16,640
+that we have effectively been able to
+
+703
+00:33:16,640 --> 00:33:19,640
+to train a neural network
+
+704
+00:33:19,640 --> 00:33:21,140
+network to learn a function.
+
+705
+00:33:21,140 --> 00:33:23,140
+To adjusting the weights and biases,
+
+706
+00:33:23,140 --> 00:33:26,440
+the huge number of weights and biases,
+the parameters
+
+707
+00:33:26,440 --> 00:33:28,260
+It's just through this optimization.
+
+708
+00:33:28,260 --> 00:33:30,580
+It's backpropagating the error,
+
+709
+00:33:31,320 --> 00:33:34,500
+where you have
+the supervised ground truth.
+
+710
+00:33:34,580 --> 00:33:36,000
+the question is
+
+711
+00:33:36,000 --> 00:33:38,980
+whether this process, of fitting,
+
+712
+00:33:41,800 --> 00:33:44,220
+adjusting the parameters
+
+713
+00:33:45,000 --> 00:33:49,700
+of a highly non-linear function
+to minimize a single objective,
+
+714
+00:33:49,700 --> 00:33:55,040
+is the way you achieve intelligence.
+
+715
+00:33:55,040 --> 00:33:56,440
+Human-level intelligence.
+
+716
+00:33:56,440 --> 00:33:58,100
+That's something to think about.
+
+717
+00:33:58,320 --> 00:34:00,950
+You have to think about,
+for driving purposes,
+
+718
+00:34:00,980 --> 00:34:03,600
+what is the limitation
+of this approach?
+
+719
+00:34:04,140 --> 00:34:05,680
+What's not happening?
+
+720
+00:34:05,680 --> 00:34:08,660
+The neural network designed,
+the architecture
+
+721
+00:34:08,690 --> 00:34:10,180
+is not being adjusted.
+
+722
+00:34:12,830 --> 00:34:16,370
+any of the edges, the layers,
+nothing is being evolved
+
+723
+00:34:18,340 --> 00:34:21,880
+There are other
+optimization approaches
+
+724
+00:34:22,480 --> 00:34:24,080
+that I think are more
+
+725
+00:34:27,200 --> 00:34:30,780
+interesting and inspiring
+than effective.
+
+726
+00:34:30,780 --> 00:34:32,560
+For example, this is
+
+727
+00:34:33,700 --> 00:34:36,400
+using soft cubes to--
+
+728
+00:34:36,400 --> 00:34:40,000
+This is falling out of the field
+
+729
+00:34:40,000 --> 00:34:42,800
+of evolutionary robotics.
+
+730
+00:34:43,120 --> 00:34:45,280
+Where you evolve
+
+731
+00:34:45,580 --> 00:34:47,340
+the dynamics of a robot
+
+732
+00:34:47,340 --> 00:34:49,160
+using genetic algorithms
+
+733
+00:34:49,840 --> 00:34:50,960
+and that's
+
+734
+00:35:00,020 --> 00:35:02,740
+These robots have been taught to,
+
+735
+00:35:03,120 --> 00:35:04,640
+in simulation, obviously,
+
+736
+00:35:05,520 --> 00:35:07,660
+to walk and to swim.
+
+737
+00:35:07,980 --> 00:35:09,460
+That one is swimming.
+
+738
+00:35:14,640 --> 00:35:17,320
+The nice thing here is that dynamics
+
+739
+00:35:17,720 --> 00:35:19,740
+that highly non- linear space as well,
+
+740
+00:35:19,740 --> 00:35:23,700
+that controls the dynamics of
+this weird shaped robot
+
+741
+00:35:24,200 --> 00:35:25,980
+with a lot of degrees of freedom,
+
+742
+00:35:25,980 --> 00:35:28,540
+it's the same kind of thing
+as the\hneural network.
+
+743
+00:35:28,540 --> 00:35:31,400
+In fact, people have applied
+generic algorithms,
+
+744
+00:35:32,090 --> 00:35:36,040
+ant colony optimization, all kinds of
+sort of nature inspire algorithms
+
+745
+00:35:36,060 --> 00:35:38,450
+for automatizing the weights
+and the biases
+
+746
+00:35:38,500 --> 00:35:41,050
+but they don't seem to
+currently work that well.
+
+747
+00:35:41,440 --> 00:35:43,660
+It's a cool idea to\hbe using
+
+748
+00:35:43,660 --> 00:35:46,640
+nature-type evolutionary
+algorithms to evolve
+
+749
+00:35:46,640 --> 00:35:50,000
+something that's already nature
+inspired which is neural networks.
+
+750
+00:35:50,000 --> 00:35:52,000
+But, something to think about
+
+751
+00:35:54,980 --> 00:35:57,920
+the backpropagation,
+while really simple
+
+752
+00:35:57,920 --> 00:36:00,420
+it's kind of dumb and
+the question is whether
+
+753
+00:36:00,420 --> 00:36:04,050
+general intelligence reasoning
+can be achieved with this process.
+
+754
+00:36:04,360 --> 00:36:06,360
+All right, Recurrent Neural Networks,
+
+755
+00:36:07,000 --> 00:36:10,600
+on the left there's an input X
+
+756
+00:36:10,980 --> 00:36:13,300
+with weights on the input, U,
+
+757
+00:36:13,860 --> 00:36:15,900
+there's a hidden state,
+
+758
+00:36:15,900 --> 00:36:17,900
+hidden layer S,
+
+759
+00:36:18,640 --> 00:36:21,060
+with weights on
+
+760
+00:36:25,260 --> 00:36:26,860
+the edge connecting
+
+761
+00:36:26,860 --> 00:36:28,860
+the hidden states to each other
+
+762
+00:36:28,860 --> 00:36:33,000
+and then more weights,
+V, the on the output O.
+
+763
+00:36:33,680 --> 00:36:36,130
+It's a really simple network,
+there's inputs,
+
+764
+00:36:36,360 --> 00:36:38,520
+there's hidden states,
+
+765
+00:36:39,200 --> 00:36:41,260
+the memory of this network
+
+766
+00:36:42,160 --> 00:36:43,760
+and there's outputs.
+
+767
+00:36:46,260 --> 00:36:47,880
+But the fact that there's
+
+768
+00:36:48,120 --> 00:36:50,020
+this loop
+
+769
+00:36:50,820 --> 00:36:53,600
+where the hidden states are
+connected to each other
+
+770
+00:36:53,600 --> 00:36:57,180
+means that as opposed to
+producing a single input,
+
+771
+00:36:57,520 --> 00:37:00,820
+the network takes arbitrary
+numbers of inputs,
+
+772
+00:37:00,820 --> 00:37:03,860
+it just keeps taking X, one at a time
+
+773
+00:37:03,860 --> 00:37:06,120
+and produces a sequence of Xs
+
+774
+00:37:06,480 --> 00:37:07,480
+through time.
+
+775
+00:37:10,100 --> 00:37:11,500
+Depending on
+
+776
+00:37:11,500 --> 00:37:14,140
+the duration of the sequence
+you're interested in,
+
+777
+00:37:14,140 --> 00:37:16,140
+you can think of this network
+
+778
+00:37:16,140 --> 00:37:17,900
+in its unrolled state.
+
+779
+00:37:18,860 --> 00:37:20,820
+You can unroll this neural network
+
+780
+00:37:20,820 --> 00:37:25,520
+where the inputs are in the bottom,
+Xt-1, Xt, Xt+1,
+
+781
+00:37:25,780 --> 00:37:27,160
+and same with the outputs,
+
+782
+00:37:28,740 --> 00:37:31,460
+Ot-1, Ot, Ot+1,
+
+783
+00:37:32,360 --> 00:37:34,920
+and it becomes like
+a regular neural network,
+
+784
+00:37:34,920 --> 00:37:38,240
+unrolled some
+arbitrary number of times.
+
+785
+00:37:40,300 --> 00:37:42,220
+The parameters, again,
+
+786
+00:37:42,220 --> 00:37:44,760
+there's weights, there's\hbiases,
+
+787
+00:37:44,760 --> 00:37:46,580
+similar to CNNs,
+
+788
+00:37:46,580 --> 00:37:48,360
+convolutional neural networks
+
+789
+00:37:48,960 --> 00:37:51,400
+and just like convolutional
+neural networks
+
+790
+00:37:51,400 --> 00:37:55,340
+make certain spatial
+consistency assumptions,
+
+791
+00:37:55,620 --> 00:37:58,320
+the recurrent neural network assume
+
+792
+00:37:58,320 --> 00:38:00,880
+temporal consistency
+amongst the parameters,
+
+793
+00:38:00,880 --> 00:38:02,420
+shares the parameters.
+
+794
+00:38:03,380 --> 00:38:05,800
+That W, that U, that V,
+
+795
+00:38:05,800 --> 00:38:08,100
+is the same for every single time step.
+
+796
+00:38:08,100 --> 00:38:09,220
+You're learning
+
+797
+00:38:09,980 --> 00:38:11,580
+the same parameter,
+
+798
+00:38:11,580 --> 00:38:13,740
+no matter the duration
+of the sequence
+
+799
+00:38:14,360 --> 00:38:15,780
+and that allows you to
+
+800
+00:38:15,780 --> 00:38:19,080
+look at arbitrary
+long sequences
+
+801
+00:38:19,760 --> 00:38:22,860
+without having an
+explosion of parameters.\h
+
+802
+00:38:29,480 --> 00:38:32,480
+This process is the same exact
+process that's repeated
+
+803
+00:38:32,480 --> 00:38:35,260
+base on the different variants
+that we talk about before,
+
+804
+00:38:35,260 --> 00:38:36,850
+in terms of inputs and outputs,
+
+805
+00:38:36,860 --> 00:38:39,180
+one to many, many to one,
+many to many.
+
+806
+00:38:40,380 --> 00:38:42,740
+The backpropagation process
+
+807
+00:38:42,740 --> 00:38:45,640
+is exactly the same as
+for regular neural networks.
+
+808
+00:38:45,640 --> 00:38:48,660
+It's a fancy name of
+backpropagation through time,
+
+809
+00:38:49,200 --> 00:38:50,440
+BPTT,
+
+810
+00:38:51,020 --> 00:38:54,980
+but it's just backpropagation
+through an unrolled
+
+811
+00:38:58,700 --> 00:39:00,540
+recurrent neural network,
+
+812
+00:39:00,540 --> 00:39:03,820
+where the errors are on
+the computed on the outputs,
+
+813
+00:39:04,600 --> 00:39:06,440
+the gradients are computed,
+
+814
+00:39:07,220 --> 00:39:09,280
+backpropagated
+
+815
+00:39:10,200 --> 00:39:12,060
+and computed on the inputs,
+
+816
+00:39:12,600 --> 00:39:15,580
+again, suffering for
+the same exact problem
+
+817
+00:39:16,460 --> 00:39:18,440
+of vanishing gradients.
+
+818
+00:39:18,440 --> 00:39:19,800
+The problem is
+
+819
+00:39:19,800 --> 00:39:23,840
+that the depth of these networks
+can be arbitrary long
+
+820
+00:39:23,840 --> 00:39:26,700
+if at any point the gradients hits
+
+821
+00:39:26,700 --> 00:39:28,700
+a lower number, zero,
+
+822
+00:39:29,460 --> 00:39:32,240
+becomes, that neural becomes saturated.
+
+823
+00:39:32,300 --> 00:39:34,480
+That gradient, let's call it saturated,
+
+824
+00:39:34,540 --> 00:39:35,700
+that gradient gets--
+
+825
+00:39:37,680 --> 00:39:40,240
+drives all the earlier layer to zero,
+
+826
+00:39:41,240 --> 00:39:42,780
+so is easy to run to a problem
+
+827
+00:39:42,780 --> 00:39:46,680
+where you're really ignoring
+the majority of the sequence.
+
+828
+00:39:47,880 --> 00:39:50,260
+This is just another\hPython weight,
+
+829
+00:39:51,180 --> 00:39:53,660
+sudo-called weight to look at it.
+
+830
+00:39:54,040 --> 00:39:55,520
+Is you have the same w,
+
+831
+00:39:55,520 --> 00:39:58,120
+remember you're sharing the weights
+
+832
+00:39:58,160 --> 00:40:00,880
+and all the parameters
+from time to time,
+
+833
+00:40:01,340 --> 00:40:04,680
+so if the weights are such
+
+834
+00:40:05,140 --> 00:40:07,340
+WHH,
+
+835
+00:40:07,400 --> 00:40:10,480
+if the weights are such
+that they produce
+
+836
+00:40:10,540 --> 00:40:11,700
+[unintelligible]
+
+837
+00:40:14,120 --> 00:40:18,160
+they have a negative value
+that results
+
+838
+00:40:18,220 --> 00:40:21,360
+in the gradient that goes to zero,
+
+839
+00:40:22,080 --> 00:40:24,400
+that propagates through the rest.
+
+840
+00:40:24,500 --> 00:40:27,140
+That's the sudo-call for backpropagation,
+
+841
+00:40:27,140 --> 00:40:29,140
+pass to the RNN,
+
+842
+00:40:29,660 --> 00:40:31,080
+that WHH
+
+843
+00:40:31,920 --> 00:40:33,500
+propagates back.
+
+844
+00:40:35,580 --> 00:40:36,860
+You get this things
+
+845
+00:40:36,860 --> 00:40:39,140
+with exploding and
+vanishing gradients
+
+846
+00:40:40,660 --> 00:40:45,220
+for example, error surfaces for
+a single hidden unit RNN,
+
+847
+00:40:45,220 --> 00:40:47,680
+this is visualizing the gradient,
+
+848
+00:40:47,680 --> 00:40:51,100
+the value of the weight,
+the value of the bias
+
+849
+00:40:51,100 --> 00:40:52,080
+and the error,
+
+850
+00:40:52,540 --> 00:40:55,500
+the error could be really flat
+or could explode,
+
+851
+00:40:56,740 --> 00:40:58,700
+both are going to lead
+
+852
+00:40:59,860 --> 00:41:02,080
+to you not making--
+
+853
+00:41:02,220 --> 00:41:04,420
+either making steps that
+are too gradual
+
+854
+00:41:04,420 --> 00:41:05,280
+or too big.
+
+855
+00:41:06,580 --> 00:41:08,680
+It's the geometric interpretation.
+
+856
+00:41:08,680 --> 00:41:11,800
+Okay. What other variants that
+we look at, a little bit?
+
+857
+00:41:11,950 --> 00:41:13,620
+are they [unintelligible 00:41:13]?
+
+858
+00:41:13,620 --> 00:41:15,360
+It doesn't have to be only one way,
+
+859
+00:41:15,380 --> 00:41:16,800
+it can be bi-directional,
+
+860
+00:41:16,800 --> 00:41:20,420
+that could be edges going forward
+and edges going back
+
+861
+00:41:21,080 --> 00:41:22,760
+What that's needed for
+
+862
+00:41:22,960 --> 00:41:25,060
+is things like
+
+863
+00:41:25,130 --> 00:41:27,770
+filling in missing,
+whatever the data is,
+
+864
+00:41:27,780 --> 00:41:29,950
+filling in missing elements of that data,
+
+865
+00:41:29,960 --> 00:41:33,730
+whether that's images, or words,
+or audio.
+
+866
+00:41:34,820 --> 00:41:37,540
+Generally, as always is the case
+in neural network,
+
+867
+00:41:37,540 --> 00:41:39,400
+the deeper it goes, the better.
+
+868
+00:41:40,740 --> 00:41:45,140
+That deep referring to
+the number of layers
+
+869
+00:41:45,140 --> 00:41:48,080
+in a single temporal instance.
+
+870
+00:41:48,080 --> 00:41:50,880
+On the right of the slide
+
+871
+00:41:50,940 --> 00:41:52,780
+we're stacking
+
+872
+00:41:54,700 --> 00:41:56,480
+node in the temporal domain.
+
+873
+00:41:58,680 --> 00:42:02,580
+Each of those layers
+has its own set of weights,
+
+874
+00:42:02,640 --> 00:42:04,240
+its own set of biases.
+
+875
+00:42:05,340 --> 00:42:06,940
+These things are awesome
+
+876
+00:42:07,000 --> 00:42:08,540
+but they need a lot of data
+
+877
+00:42:12,840 --> 00:42:15,520
+when you add extra layers in this way.
+
+878
+00:42:17,440 --> 00:42:20,100
+The problem is, while
+recurrent neural network,
+
+879
+00:42:20,380 --> 00:42:21,300
+in theory,
+
+880
+00:42:21,360 --> 00:42:24,580
+is supposed to be able to learn
+any kind of sequence,
+
+881
+00:42:25,210 --> 00:42:28,310
+the reality is they're not really
+good at remembering
+
+882
+00:42:28,360 --> 00:42:30,020
+what happened a while ago,
+
+883
+00:42:30,020 --> 00:42:31,640
+the long-term dependency.
+
+884
+00:42:31,700 --> 00:42:34,740
+Here's a silly example,
+
+885
+00:42:35,040 --> 00:42:38,140
+let's think of a story
+
+886
+00:42:38,600 --> 00:42:39,460
+about Bob,
+
+887
+00:42:40,040 --> 00:42:41,540
+Bob is eating an apple.
+
+888
+00:42:42,540 --> 00:42:44,540
+The apple part
+
+889
+00:42:44,640 --> 00:42:47,140
+is generated by
+the recurrent neural network.
+
+890
+00:42:50,340 --> 00:42:53,600
+Your recurrent neural networks
+can learn to generate "apple"
+
+891
+00:42:53,640 --> 00:42:56,400
+because it's seen in a lot of sentences,
+with "Bob" and "eating"
+
+892
+00:42:56,420 --> 00:42:58,240
+and it can generate the word apple.
+
+893
+00:42:59,420 --> 00:43:01,720
+For a longer sentence, like
+
+894
+00:43:01,720 --> 00:43:03,040
+"Bob likes apples,
+
+895
+00:43:03,140 --> 00:43:05,200
+he's hungry and decided to have a snack,
+
+896
+00:43:05,240 --> 00:43:06,860
+so now he's eating an apple",
+
+897
+00:43:07,440 --> 00:43:09,440
+you have to maintain the state
+
+898
+00:43:09,500 --> 00:43:11,140
+that we're talking about Bob
+
+899
+00:43:11,440 --> 00:43:13,240
+and we're talking about apples,
+
+900
+00:43:13,240 --> 00:43:14,960
+through several
+
+901
+00:43:14,960 --> 00:43:17,480
+discreet semantic
+
+902
+00:43:18,780 --> 00:43:19,860
+sentences.
+
+903
+00:43:20,760 --> 00:43:23,260
+That kind of long-term memory
+
+904
+00:43:23,260 --> 00:43:24,460
+is not--
+
+905
+00:43:25,520 --> 00:43:27,920
+because of different effects,
+
+906
+00:43:27,920 --> 00:43:29,920
+but vanishing gradients,
+
+907
+00:43:30,920 --> 00:43:32,760
+it's difficult to propagate
+
+908
+00:43:32,760 --> 00:43:35,860
+the important stuff
+that happened a while ago
+
+909
+00:43:35,860 --> 00:43:37,920
+in order to maintain that context
+
+910
+00:43:37,920 --> 00:43:39,100
+in generating "apple",
+
+911
+00:43:39,160 --> 00:43:41,560
+or classifying\hsome concept
+that happened
+
+912
+00:43:41,760 --> 00:43:42,880
+way down the line.\h
+
+913
+00:43:45,260 --> 00:43:47,040
+When people talk about
+
+914
+00:43:49,300 --> 00:43:51,020
+recurrent neural networks
+
+915
+00:43:51,240 --> 00:43:55,440
+these days, they're talking about LSTMs,
+
+916
+00:43:55,640 --> 00:43:59,240
+long-short-term memory networks
+
+917
+00:44:00,400 --> 00:44:01,970
+so all the impressive results
+
+918
+00:44:02,010 --> 00:44:04,260
+results on time series
+and audio and video
+
+919
+00:44:04,260 --> 00:44:07,380
+and all that, that requires LSTMs.
+
+920
+00:44:07,860 --> 00:44:09,580
+Again, vanilla RNNs
+
+921
+00:44:09,680 --> 00:44:11,200
+are on top of the slide,
+
+922
+00:44:13,680 --> 00:44:15,540
+each cell is simple,
+
+923
+00:44:16,020 --> 00:44:17,720
+there are some hidden units,
+
+924
+00:44:18,200 --> 00:44:20,520
+there's an input, and there's an output.
+
+925
+00:44:21,760 --> 00:44:25,280
+Here, we used TANH
+as activation function,
+
+926
+00:44:28,360 --> 00:44:32,880
+it's just another popular
+Sigmoid type activation function.
+
+927
+00:44:35,100 --> 00:44:37,880
+LSTMs\hare more complicated,
+
+928
+00:44:38,620 --> 00:44:40,920
+or they look more complicated but
+
+929
+00:44:42,580 --> 00:44:45,580
+in some ways, they're more intuitive
+for us to understand.
+
+930
+00:44:45,880 --> 00:44:48,580
+There's a bunch of gates in each cell,
+
+931
+00:44:49,620 --> 00:44:50,960
+we'll go through those.
+
+932
+00:44:50,980 --> 00:44:54,260
+In yellow are different
+neural network layers,
+
+933
+00:44:54,840 --> 00:44:56,740
+Sigmoid and TANH,
+
+934
+00:44:56,740 --> 00:45:00,420
+are just different types
+of activation functions.
+
+935
+00:45:00,480 --> 00:45:03,220
+TANH is an activation function that
+
+936
+00:45:03,260 --> 00:45:07,700
+squishes the input into
+the range of negative one to one.
+
+937
+00:45:08,840 --> 00:45:10,680
+Sigmoid function
+
+938
+00:45:10,680 --> 00:45:13,400
+squishes it between zero and one
+
+939
+00:45:13,480 --> 00:45:15,540
+and that serve different purposes.
+
+940
+00:45:15,920 --> 00:45:18,340
+There's some pointwise operations,
+
+941
+00:45:18,340 --> 00:45:21,060
+addition, multiplication,
+
+942
+00:45:21,940 --> 00:45:24,860
+and there's connections,
+
+943
+00:45:25,400 --> 00:45:28,240
+data being passed from layer to layer,
+
+944
+00:45:28,680 --> 00:45:30,120
+shown by the arrows.
+
+945
+00:45:31,480 --> 00:45:35,420
+There's concatenation and there's
+a copy operation on the output
+
+946
+00:45:35,420 --> 00:45:36,540
+We copy,
+
+947
+00:45:37,580 --> 00:45:40,320
+the output of each cell
+it's copied to the next cell
+
+948
+00:45:40,380 --> 00:45:41,480
+and to the output.
+
+949
+00:45:43,060 --> 00:45:45,760
+Let me try to make it, clarified,
+
+950
+00:45:50,480 --> 00:45:51,760
+clarify a little bit.
+
+951
+00:45:54,240 --> 00:45:56,840
+There's this conveyer belt
+
+952
+00:45:57,180 --> 00:46:00,460
+going through inside of
+each individual cell
+
+953
+00:46:00,460 --> 00:46:05,240
+and they all have, there's really
+three steps in the conveyer belt.
+
+954
+00:46:05,280 --> 00:46:06,740
+The first is,
+
+955
+00:46:07,300 --> 00:46:10,480
+there is a Sigmoid function
+
+956
+00:46:10,480 --> 00:46:13,260
+that's responsible for deciding
+
+957
+00:46:15,820 --> 00:46:18,300
+what to forget and what to ignore,
+
+958
+00:46:18,620 --> 00:46:21,280
+it's responsible for
+
+959
+00:46:22,340 --> 00:46:26,200
+taking in the input, the new input, x(t),
+
+960
+00:46:26,640 --> 00:46:30,700
+taking in the state of the previous,
+
+961
+00:46:31,660 --> 00:46:35,300
+the output of the previous cell,
+previous time step
+
+962
+00:46:36,080 --> 00:46:40,000
+and deciding "do I want to keep
+that in my memory or not?"
+
+963
+00:46:40,000 --> 00:46:41,420
+and "do I want to integrate
+
+964
+00:46:41,420 --> 00:46:44,180
+the new input into my memory or not?"
+
+965
+00:46:44,480 --> 00:46:45,900
+This allows you to
+
+966
+00:46:45,980 --> 00:46:49,680
+selective about the information
+which you learn.
+
+967
+00:46:49,680 --> 00:46:50,940
+For example,
+
+968
+00:46:50,960 --> 00:46:53,740
+there's that sentence
+"Bob and Alice are having lunch,
+
+969
+00:46:53,820 --> 00:46:54,840
+Bob likes apples,
+
+970
+00:46:55,700 --> 00:46:57,200
+Alice like oranges,
+
+971
+00:46:57,280 --> 00:46:58,480
+she is eating an orange".
+
+972
+00:47:02,880 --> 00:47:05,320
+Bob and Alice are having lunch,
+
+973
+00:47:05,440 --> 00:47:06,640
+Bob likes apples,
+
+974
+00:47:06,900 --> 00:47:10,120
+right now, if you had said
+you have a hidden state,
+
+975
+00:47:10,240 --> 00:47:13,560
+keeping track of the gender
+of the person we're talking about
+
+976
+00:47:16,000 --> 00:47:19,240
+you might say that there's both genders
+on the first sentence,
+
+977
+00:47:19,240 --> 00:47:21,040
+there's male in the second sentence,
+
+978
+00:47:21,060 --> 00:47:23,160
+female in the third sentence,
+
+979
+00:47:23,340 --> 00:47:24,380
+and that way
+
+980
+00:47:24,680 --> 00:47:27,940
+when you have to generate a sentence
+about who's eating what,
+
+981
+00:47:27,940 --> 00:47:29,060
+you'll know-
+
+982
+00:47:29,420 --> 00:47:31,920
+you keep the gender information
+
+983
+00:47:32,720 --> 00:47:36,080
+in order to make an
+accurate generation of text
+
+984
+00:47:36,120 --> 00:47:37,840
+corresponding to
+
+985
+00:47:38,260 --> 00:47:39,560
+the proper person.
+
+986
+00:47:39,940 --> 00:47:41,880
+You have to forget certain things,
+
+987
+00:47:41,920 --> 00:47:44,640
+like forget that Bob existed
+at that moment,
+
+988
+00:47:45,800 --> 00:47:49,160
+you have to forget Bob likes apples
+
+989
+00:47:49,560 --> 00:47:50,940
+but you have to remember
+
+990
+00:47:51,300 --> 00:47:54,140
+that Alice likes oranges
+
+991
+00:47:54,180 --> 00:47:57,500
+so you have to selectively remember
+and forget certain things
+
+992
+00:47:57,500 --> 00:47:59,500
+that's LSTM in a nutshell.
+
+993
+00:47:59,500 --> 00:48:03,880
+You decided what to forget,
+decided what to remember
+
+994
+00:48:03,940 --> 00:48:06,780
+and decided what to output
+in that cell.
+
+995
+00:48:11,620 --> 00:48:14,680
+Zoom in a little bit,
+because this is pretty cool
+
+996
+00:48:15,640 --> 00:48:19,540
+There's a state running
+through the cell,
+
+997
+00:48:20,240 --> 00:48:21,620
+this conveyer belt,
+
+998
+00:48:22,140 --> 00:48:25,140
+previous state like the gender
+
+999
+00:48:25,920 --> 00:48:28,320
+that we're currently talking about,
+
+1000
+00:48:28,560 --> 00:48:31,100
+that's the state that you're
+keeping track of
+
+1001
+00:48:31,180 --> 00:48:33,320
+and that's running through the cell.
+
+1002
+00:48:34,200 --> 00:48:36,580
+Then there's three Sigmoid layers
+
+1003
+00:48:37,180 --> 00:48:40,220
+outputting one,
+
+1004
+00:48:40,660 --> 00:48:42,480
+a number between the zero and one,
+
+1005
+00:48:42,480 --> 00:48:45,640
+one when you want that
+information to go through
+
+1006
+00:48:46,080 --> 00:48:49,660
+and zero when you
+don't want it to go through,
+
+1007
+00:48:51,060 --> 00:48:54,260
+the conveyer belt
+that maintains the state.
+
+1008
+00:48:56,100 --> 00:48:58,360
+First, Sigmoid function is,
+
+1009
+00:48:58,640 --> 00:49:02,060
+we decided what to forget
+and what to ignore,
+
+1010
+00:49:02,060 --> 00:49:03,400
+that's the first one,
+
+1011
+00:49:03,400 --> 00:49:06,620
+we take the input from
+the previous time step,
+
+1012
+00:49:06,620 --> 00:49:09,160
+the input to the network
+
+1013
+00:49:09,180 --> 00:49:10,680
+on the current time step
+
+1014
+00:49:10,680 --> 00:49:14,420
+and decided, do I want to forget
+or do I want to ignore those?
+
+1015
+00:49:15,560 --> 00:49:18,060
+Then we decided
+
+1016
+00:49:18,260 --> 00:49:20,820
+which part of the state to update,
+
+1017
+00:49:21,100 --> 00:49:24,500
+what part of our memory do we have
+to update with this information
+
+1018
+00:49:24,500 --> 00:49:28,120
+and what values to insert in that update.
+
+1019
+00:49:30,360 --> 00:49:33,900
+Third step is, we perform
+the actual update
+
+1020
+00:49:34,280 --> 00:49:36,540
+and perform the actual forgetting,
+
+1021
+00:49:36,980 --> 00:49:39,900
+that's why you have
+the Sigmoid function,
+
+1022
+00:49:39,900 --> 00:49:41,460
+you just multiply it,
+
+1023
+00:49:42,480 --> 00:49:44,540
+when is zero is forgetting,
+
+1024
+00:49:44,640 --> 00:49:47,060
+when is one that information passes through.
+
+1025
+00:49:49,300 --> 00:49:50,360
+Finally,
+
+1026
+00:49:50,840 --> 00:49:53,860
+we produce an output from the cell,
+
+1027
+00:49:55,180 --> 00:49:58,020
+if its translation
+
+1028
+00:49:58,500 --> 00:50:01,300
+is producing an output
+in the English language
+
+1029
+00:50:01,340 --> 00:50:03,540
+where the input was
+in Spanish language
+
+1030
+00:50:03,760 --> 00:50:06,020
+and then that same output
+
+1031
+00:50:06,460 --> 00:50:08,940
+it's copied to the next cell.
+
+1032
+00:50:14,060 --> 00:50:17,440
+What can we get done with this
+kind of approach?
+
+1033
+00:50:18,340 --> 00:50:20,420
+We can look at machine translation.
+
+1034
+00:50:20,460 --> 00:50:21,980
+I guess what I'm trying to--
+
+1035
+00:50:23,660 --> 00:50:24,740
+question.
+
+1036
+00:50:25,300 --> 00:50:27,600
+what is your representation
+of this state?
+
+1037
+00:50:27,600 --> 00:50:29,070
+Is it like a floating point
+
+1038
+00:50:29,110 --> 00:50:30,440
+or is it like a vector
+
+1039
+00:50:30,440 --> 00:50:32,440
+or what is it, exactly?
+
+1040
+00:50:33,680 --> 00:50:35,040
+The state
+
+1041
+00:50:35,540 --> 00:50:38,600
+is the activation
+
+1042
+00:50:40,240 --> 00:50:41,600
+multiplied by the weight,
+
+1043
+00:50:41,640 --> 00:50:45,900
+it's the output of the Sigmoid or
+the TANH activations.
+
+1044
+00:50:47,320 --> 00:50:50,080
+There's a bunch of neurons
+and they're firing a number
+
+1045
+00:50:50,080 --> 00:50:52,960
+between negative one or one,
+or between zero and one,
+
+1046
+00:50:53,320 --> 00:50:54,960
+that whole's a state.
+
+1047
+00:50:55,020 --> 00:50:58,080
+It just that calling it a state
+it's sort of simplifying,
+
+1048
+00:50:58,120 --> 00:50:59,520
+but the point is that there's
+
+1049
+00:50:59,520 --> 00:51:02,960
+a bunch of numbers been constantly
+modified by the weights
+
+1050
+00:51:03,400 --> 00:51:04,480
+and the biases,
+
+1051
+00:51:05,420 --> 00:51:07,340
+those numbers hold the state
+
+1052
+00:51:09,060 --> 00:51:11,240
+and the modification
+of those numbers
+
+1053
+00:51:11,340 --> 00:51:13,380
+is controlled by the weights
+
+1054
+00:51:14,140 --> 00:51:16,260
+and then once all of that is done,
+
+1055
+00:51:16,600 --> 00:51:18,300
+the resulting output
+
+1056
+00:51:18,540 --> 00:51:20,440
+of the recurrent neural network
+
+1057
+00:51:20,520 --> 00:51:22,580
+it's compared to the desired output
+
+1058
+00:51:22,760 --> 00:51:25,540
+and the errors are backpropagated
+to the weights.
+
+1059
+00:51:27,840 --> 00:51:29,400
+Hopefully, that makes sense.\h
+
+1060
+00:51:30,940 --> 00:51:34,300
+So, machine translation is one
+popular application
+
+1061
+00:51:37,200 --> 00:51:39,560
+all of it is the same,
+
+1062
+00:51:40,080 --> 00:51:42,520
+all of these networks
+that I've talked about,
+
+1063
+00:51:42,560 --> 00:51:45,080
+they're really similar constructs.
+
+1064
+00:51:46,240 --> 00:51:48,460
+You have some inputs,
+
+1065
+00:51:48,980 --> 00:51:51,300
+whatever language that is again,
+
+1066
+00:51:51,640 --> 00:51:55,660
+German maybe,
+I think everything is German,
+
+1067
+00:51:58,680 --> 00:51:59,780
+and the output.
+
+1068
+00:52:00,020 --> 00:52:03,560
+The inputs are in one language,
+
+1069
+00:52:03,600 --> 00:52:05,700
+a set of characters
+
+1070
+00:52:05,760 --> 00:52:08,100
+composed a word in one language,
+
+1071
+00:52:08,140 --> 00:52:09,980
+there's a state being propagated
+
+1072
+00:52:10,620 --> 00:52:12,300
+and once that sentence\his over,
+
+1073
+00:52:12,340 --> 00:52:14,670
+you start, as opposed
+to collecting inputs,
+
+1074
+00:52:14,680 --> 00:52:16,080
+start producing outputs
+
+1075
+00:52:16,120 --> 00:52:18,600
+and you can output in the English language.
+
+1076
+00:52:19,820 --> 00:52:23,460
+There's a ton of great work on
+machine translations.
+
+1077
+00:52:23,480 --> 00:52:26,680
+It's what Google is supposedly using
+for their translator,
+
+1078
+00:52:26,680 --> 00:52:27,800
+same thing.
+
+1079
+00:52:28,380 --> 00:52:30,260
+I've show this previously
+
+1080
+00:52:30,880 --> 00:52:32,680
+but now you all know how it works,
+
+1081
+00:52:32,700 --> 00:52:34,860
+same exact thing, LSTMs
+
+1082
+00:52:35,080 --> 00:52:37,800
+generating handwritten characters,
+
+1083
+00:52:37,800 --> 00:52:40,040
+handwriting in arbitrary styles,
+
+1084
+00:52:40,040 --> 00:52:42,060
+controlling the drawing,
+
+1085
+00:52:43,780 --> 00:52:47,100
+where the input is text
+and the output is handwriting.
+
+1086
+00:52:47,160 --> 00:52:49,060
+Is again, the same kind of
+
+1087
+00:52:50,220 --> 00:52:53,280
+network with some depths here,
+
+1088
+00:52:53,280 --> 00:52:55,280
+the input is the text,
+
+1089
+00:52:55,400 --> 00:52:58,200
+the output is the control
+of the writing.
+
+1090
+00:53:00,020 --> 00:53:02,000
+Character-level text generation,
+
+1091
+00:53:02,960 --> 00:53:04,540
+this is
+
+1092
+00:53:05,000 --> 00:53:06,960
+the thing that taught us about life,
+
+1093
+00:53:07,180 --> 00:53:09,060
+the meaning of life,
+
+1094
+00:53:09,120 --> 00:53:13,300
+literary recognition and the tradition
+of ancient human reproduction.
+
+1095
+00:53:13,540 --> 00:53:16,340
+That's again, the same process,
+
+1096
+00:53:16,680 --> 00:53:19,300
+input one character at the time,
+
+1097
+00:53:19,700 --> 00:53:23,580
+what we see there is the encoding
+of the characters on the input layer,
+
+1098
+00:53:23,860 --> 00:53:25,440
+there's a hidden state,
+
+1099
+00:53:25,740 --> 00:53:28,950
+hidden layer that is keeping track
+of those activations,
+
+1100
+00:53:29,000 --> 00:53:30,340
+the outputs
+
+1101
+00:53:31,160 --> 00:53:35,140
+of the activation functions
+and every single
+
+1102
+00:53:37,620 --> 00:53:40,300
+time it's outputting
+
+1103
+00:53:40,580 --> 00:53:42,700
+its best prediction
+
+1104
+00:53:42,780 --> 00:53:44,700
+of the next character that follows.
+
+1105
+00:53:45,060 --> 00:53:47,060
+Now, on a lot of these applications
+
+1106
+00:53:47,560 --> 00:53:49,220
+you want to ignore the output
+
+1107
+00:53:49,420 --> 00:53:53,000
+until the input sentence is over
+
+1108
+00:53:53,320 --> 00:53:55,860
+and then you start\hlistening
+to the output,
+
+1109
+00:53:55,860 --> 00:53:58,680
+but the point is that it just
+keeps generating text,
+
+1110
+00:53:58,680 --> 00:54:00,680
+whether is given an input or not,
+
+1111
+00:54:00,820 --> 00:54:02,280
+so you producing input
+
+1112
+00:54:02,360 --> 00:54:04,280
+is just adding, steering
+
+1113
+00:54:04,680 --> 00:54:06,360
+the recurrent neural network.
+
+1114
+00:54:07,120 --> 00:54:08,800
+You can answer questions
+
+1115
+00:54:11,480 --> 00:54:12,980
+about an image,
+
+1116
+00:54:13,600 --> 00:54:15,240
+the input you get there,
+
+1117
+00:54:15,300 --> 00:54:18,060
+you could almost arbitrary
+stack things together,
+
+1118
+00:54:18,100 --> 00:54:21,220
+you take an image as your input,
+bottom left there,
+
+1119
+00:54:21,920 --> 00:54:24,460
+put it in your convolutional neural network,
+
+1120
+00:54:26,640 --> 00:54:29,600
+and take the question.
+
+1121
+00:54:31,180 --> 00:54:33,400
+There's something call
+word embeddings,
+
+1122
+00:54:33,460 --> 00:54:35,140
+it's to broaden
+
+1123
+00:54:35,400 --> 00:54:37,600
+the representative
+meaning of the words.
+
+1124
+00:54:37,660 --> 00:54:40,160
+"How many books?" is the question.
+
+1125
+00:54:40,220 --> 00:54:42,120
+You want to take the word embeddings
+
+1126
+00:54:42,200 --> 00:54:43,380
+and the image
+
+1127
+00:54:43,580 --> 00:54:44,600
+and produce
+
+1128
+00:54:45,200 --> 00:54:46,920
+your best estimate of the answer.
+
+1129
+00:54:46,980 --> 00:54:47,880
+For question of
+
+1130
+00:54:48,100 --> 00:54:49,660
+"what color is the cat?"
+
+1131
+00:54:50,040 --> 00:54:51,720
+it could be gray or black,
+
+1132
+00:54:51,960 --> 00:54:54,300
+it's the different LSTM flavors
+
+1133
+00:54:54,500 --> 00:54:55,800
+producing that answer.
+
+1134
+00:54:56,180 --> 00:54:57,860
+Same with counting chairs
+
+1135
+00:54:58,040 --> 00:55:00,100
+you can give an image of a chair
+
+1136
+00:55:00,780 --> 00:55:03,300
+and as the question
+"how many chairs are there?"
+
+1137
+00:55:03,300 --> 00:55:06,540
+And it can produce an answer of "three".
+
+1138
+00:55:08,420 --> 00:55:11,060
+I should say this is really hard,
+
+1139
+00:55:11,100 --> 00:55:12,820
+arbitrary question
+
+1140
+00:55:12,880 --> 00:55:14,200
+asks an arbitrary image,
+
+1141
+00:55:14,200 --> 00:55:15,650
+you are both interpreting--
+
+1142
+00:55:15,680 --> 00:55:17,840
+you are doing natural languages processing
+
+1143
+00:55:17,880 --> 00:55:20,580
+and you're doing computer vision,
+all in one network.
+
+1144
+00:55:22,340 --> 00:55:25,640
+Same thing with
+the image capture generation,
+
+1145
+00:55:26,180 --> 00:55:28,640
+you can detect
+
+1146
+00:55:28,760 --> 00:55:30,660
+the different objects in the scene,
+
+1147
+00:55:31,300 --> 00:55:32,880
+generate those words,
+
+1148
+00:55:33,580 --> 00:55:37,760
+stitch them together
+in syntactically correct sentences
+
+1149
+00:55:37,840 --> 00:55:39,940
+and rearrange the sentences.
+
+1150
+00:55:40,000 --> 00:55:41,900
+All of those are LSTMs,
+
+1151
+00:55:41,940 --> 00:55:43,470
+the second and the third step,
+
+1152
+00:55:43,490 --> 00:55:46,400
+the first is computer vision
+detecting the objects,
+
+1153
+00:55:46,400 --> 00:55:48,690
+segmenting the image and
+detecting the objects,
+
+1154
+00:55:48,700 --> 00:55:51,010
+that way you can generate
+a caption that says
+
+1155
+00:55:51,020 --> 00:55:54,300
+"a man is sitting in a chair
+with a dog in his lap".
+
+1156
+00:55:56,900 --> 00:55:59,180
+Again, LSTMs for video.
+
+1157
+00:56:00,740 --> 00:56:02,440
+Caption generation for video,
+
+1158
+00:56:03,200 --> 00:56:07,020
+the input, and every frame it's an image
+
+1159
+00:56:07,100 --> 00:56:08,500
+that goes into the LSTM,
+
+1160
+00:56:08,560 --> 00:56:09,720
+the input is an image
+
+1161
+00:56:11,240 --> 00:56:13,660
+and the output is a set of characters.
+
+1162
+00:56:13,760 --> 00:56:15,160
+First, you load in the video,
+
+1163
+00:56:15,440 --> 00:56:17,140
+in this case the output is on top,
+
+1164
+00:56:18,040 --> 00:56:19,260
+you encode
+
+1165
+00:56:19,880 --> 00:56:20,980
+the video
+
+1166
+00:56:21,640 --> 00:56:24,660
+into a representation
+inside the network
+
+1167
+00:56:24,660 --> 00:56:26,660
+and then you start generating words
+
+1168
+00:56:26,720 --> 00:56:27,960
+about that video.
+
+1169
+00:56:28,020 --> 00:56:31,600
+First comes the input, the encoding
+stage,  then the decoding stage.
+
+1170
+00:56:32,700 --> 00:56:33,740
+Take in the video,
+
+1171
+00:56:33,920 --> 00:56:35,540
+say a man is taking,
+
+1172
+00:56:35,720 --> 00:56:37,140
+talking, whatever
+
+1173
+00:56:38,020 --> 00:56:41,500
+and because the input and
+the output are arbitrary,
+
+1174
+00:56:41,540 --> 00:56:44,600
+there also has to be indicators
+of the beginnings and
+
+1175
+00:56:44,680 --> 00:56:46,020
+the ends of a sentence,
+
+1176
+00:56:46,360 --> 00:56:47,980
+in this case, end of sentences.
+
+1177
+00:56:48,680 --> 00:56:50,400
+You want to know when you stop
+
+1178
+00:56:51,520 --> 00:56:54,520
+in order to generate syntactically
+correct sentences.
+
+1179
+00:56:54,520 --> 00:56:57,400
+that indicates the end of a sentence.
+You want also to be able
+to generate a period
+
+1180
+00:57:01,500 --> 00:57:04,580
+You can also, again,
+recurrent neural networks,
+
+1181
+00:57:04,940 --> 00:57:06,260
+LSTMs here,
+
+1182
+00:57:06,260 --> 00:57:07,400
+controlling
+
+1183
+00:57:07,800 --> 00:57:09,940
+the steering
+
+1184
+00:57:11,180 --> 00:57:14,460
+of a sliding window on an image
+
+1185
+00:57:15,360 --> 00:57:19,560
+that is used to classify
+what is contained in that image.
+
+1186
+00:57:19,560 --> 00:57:23,560
+Here, a CNN being steered by
+a recurrent neural network
+
+1187
+00:57:25,080 --> 00:57:28,600
+in order to convert this imagen
+
+1188
+00:57:28,620 --> 00:57:32,000
+into the number that's associated
+with a house number,
+
+1189
+00:57:33,300 --> 00:57:35,000
+it's called visual attention.
+
+1190
+00:57:35,000 --> 00:57:38,020
+That visual attention
+can be used to steer
+
+1191
+00:57:38,040 --> 00:57:39,800
+for the perception side
+
+1192
+00:57:39,900 --> 00:57:43,080
+and it can be used to steer
+a network for the generation.
+
+1193
+00:57:43,140 --> 00:57:43,820
+On the right,
+
+1194
+00:57:44,260 --> 00:57:47,120
+we can generate an image as--
+
+1195
+00:57:50,700 --> 00:57:52,180
+So the output of the network--
+
+1196
+00:57:52,240 --> 00:57:53,720
+it's a LSTM
+
+1197
+00:57:54,320 --> 00:57:56,940
+where the output on every time step
+
+1198
+00:57:57,640 --> 00:57:58,780
+is visual,
+
+1199
+00:57:59,720 --> 00:58:02,260
+and this way you can draw numbers.
+
+1200
+00:58:06,080 --> 00:58:07,200
+Here,
+
+1201
+00:58:09,840 --> 00:58:11,280
+I mention this before,
+
+1202
+00:58:12,780 --> 00:58:15,780
+is taking in as input silent video,
+
+1203
+00:58:15,920 --> 00:58:17,240
+sequence of images
+
+1204
+00:58:19,580 --> 00:58:21,160
+and producing audio.
+
+1205
+00:58:22,500 --> 00:58:23,920
+This is
+
+1206
+00:58:25,280 --> 00:58:26,620
+an LSTM
+
+1207
+00:58:28,960 --> 00:58:31,840
+that has convolutional layers
+for every single frame,
+
+1208
+00:58:32,760 --> 00:58:34,740
+takes images as input
+
+1209
+00:58:35,620 --> 00:58:36,940
+and produces
+
+1210
+00:58:37,820 --> 00:58:40,460
+a spectrogram, audio as output.
+
+1211
+00:58:45,780 --> 00:58:49,880
+The training set is a person hitting
+an object with a drumstick
+
+1212
+00:58:49,880 --> 00:58:53,580
+and your task is to generate,
+given a silent video,
+
+1213
+00:58:53,740 --> 00:58:57,500
+generate the sound that
+the drumstick will make
+
+1214
+00:58:57,500 --> 00:59:00,260
+when in contact with that object.
+
+1215
+00:59:03,040 --> 00:59:04,700
+Medical diagnosis,
+
+1216
+00:59:06,520 --> 00:59:07,360
+that's actually--
+
+1217
+00:59:07,380 --> 00:59:10,470
+I've listed some places
+where it has been really successful
+
+1218
+00:59:10,500 --> 00:59:11,340
+and pretty cool,
+
+1219
+00:59:11,370 --> 00:59:13,300
+but it's also beginning to be applied
+
+1220
+00:59:13,340 --> 00:59:15,580
+in places where
+
+1221
+00:59:16,660 --> 00:59:18,020
+can actually
+
+1222
+00:59:19,500 --> 00:59:21,000
+really help
+
+1223
+00:59:22,320 --> 00:59:25,840
+civilization, in medical applications.
+
+1224
+00:59:25,920 --> 00:59:27,840
+For medical diagnosis
+
+1225
+00:59:28,940 --> 00:59:30,840
+there's
+
+1226
+00:59:31,220 --> 00:59:33,900
+the highly spars and
+
+1227
+00:59:35,780 --> 00:59:37,220
+variable lengths
+
+1228
+00:59:38,160 --> 00:59:41,020
+sequence of information in the form of,
+
+1229
+00:59:41,080 --> 00:59:43,500
+for example, patient
+electronic health records.
+
+1230
+00:59:43,500 --> 00:59:45,420
+So, Every time you visit a doctor,
+
+1231
+00:59:45,500 --> 00:59:48,340
+there's a test being done,
+that information is there
+
+1232
+00:59:48,400 --> 00:59:51,780
+and you can look it as a sequence
+over a period of time
+
+1233
+00:59:51,780 --> 00:59:54,680
+and then given that data,
+that's the input,
+
+1234
+00:59:55,240 --> 00:59:57,400
+the output is the diagnosis,
+
+1235
+00:59:58,980 --> 01:00:00,240
+a medical diagnosis,
+
+1236
+01:00:00,300 --> 01:00:03,780
+in this case, we can look at
+predicting diabetes,
+
+1237
+01:00:04,640 --> 01:00:07,280
+scoliosis, asthma and\hso on,
+
+1238
+01:00:09,140 --> 01:00:10,700
+with pretty good accuracy.
+
+1239
+01:00:13,740 --> 01:00:14,960
+There's something that
+
+1240
+01:00:15,740 --> 01:00:17,260
+all of us wish we could do,
+
+1241
+01:00:20,220 --> 01:00:22,780
+is stock market prediction.
+
+1242
+01:00:25,580 --> 01:00:27,100
+You can input,
+
+1243
+01:00:27,180 --> 01:00:30,680
+for example, well first of all,
+you can input the raw stock data,
+
+1244
+01:00:30,680 --> 01:00:33,920
+[unintelligible 01:00:30] books
+and so on, financial data,
+
+1245
+01:00:33,940 --> 01:00:37,300
+but you can also look at news articles
+from all over the web
+
+1246
+01:00:38,240 --> 01:00:40,600
+and take those as input as shown here,
+
+1247
+01:00:40,680 --> 01:00:42,280
+on the X axis is time,
+
+1248
+01:00:42,280 --> 01:00:44,120
+articles from different days,
+
+1249
+01:00:45,620 --> 01:00:47,420
+LSTM, once again,
+
+1250
+01:00:48,920 --> 01:00:51,740
+and produce an output
+of your prediction,
+
+1251
+01:00:52,040 --> 01:00:55,140
+binary prediction, whether
+the stock would go up or down.
+
+1252
+01:00:56,870 --> 01:00:59,500
+Nobody has been able to
+really successfully do this
+
+1253
+01:00:59,540 --> 01:01:02,220
+but there is a bunch of results
+
+1254
+01:01:02,880 --> 01:01:04,760
+and trying to perform above random
+
+1255
+01:01:06,840 --> 01:01:09,600
+which is how you make money,
+
+1256
+01:01:10,500 --> 01:01:12,220
+significantly above random
+
+1257
+01:01:12,340 --> 01:01:14,540
+on the prediction of
+it's going up or down?
+
+1258
+01:01:14,600 --> 01:01:15,900
+So you could buy or sell
+
+1259
+01:01:16,680 --> 01:01:18,020
+and especially
+
+1260
+01:01:18,280 --> 01:01:19,080
+when there is--
+
+1261
+01:01:19,120 --> 01:01:22,560
+in the cases when there was crashes
+it's easier to predict,
+
+1262
+01:01:23,380 --> 01:01:25,760
+so you can predict
+an encroaching crash.
+
+1263
+01:01:26,080 --> 01:01:27,800
+These\hare shown in the table,
+
+1264
+01:01:27,980 --> 01:01:30,400
+the error rates from different stocks,
+
+1265
+01:01:31,740 --> 01:01:33,100
+automotive stocks.
+
+1266
+01:01:35,680 --> 01:01:38,340
+You can also generate audio,
+
+1267
+01:01:38,340 --> 01:01:41,200
+is the exact same process
+as it generates language,
+
+1268
+01:01:41,200 --> 01:01:42,520
+you generate audio.
+
+1269
+01:01:42,580 --> 01:01:44,280
+Here's trained on
+
+1270
+01:01:45,880 --> 01:01:47,580
+a single speaker,
+
+1271
+01:01:47,860 --> 01:01:50,920
+a few hours epics
+
+1272
+01:01:50,980 --> 01:01:52,080
+of them speaking
+
+1273
+01:01:52,600 --> 01:01:57,060
+and you just learn,
+that's raw audio of the speaker
+
+1274
+01:01:58,920 --> 01:02:03,480
+and it's learning slowly to generate
+
+1275
+01:02:03,840 --> 01:02:07,940
+[audio]
+
+1276
+01:02:19,860 --> 01:02:22,660
+Obviously, they were reading numbers.
+
+1277
+01:02:26,140 --> 01:02:28,720
+this is incredible, this is trained
+
+1278
+01:02:28,880 --> 01:02:34,120
+on a compress spectrogram
+of the audio, raw audio
+
+1279
+01:02:35,760 --> 01:02:38,240
+and is producing something that
+
+1280
+01:02:38,780 --> 01:02:43,340
+over just a few epics is producing
+something that sounds like words,
+
+1281
+01:02:43,340 --> 01:02:45,860
+it could do this lecture for me, I wish.
+
+1282
+01:02:59,840 --> 01:03:00,880
+This is amazing,
+
+1283
+01:03:02,000 --> 01:03:03,980
+this is raw input,
+
+1284
+01:03:04,340 --> 01:03:05,840
+raw output,
+
+1285
+01:03:06,100 --> 01:03:07,860
+all again, LSTMs,
+
+1286
+01:03:10,500 --> 01:03:13,080
+and there's a lot of work
+in voice recognition,
+
+1287
+01:03:13,120 --> 01:03:15,760
+audio recognition. You're mapping--
+
+1288
+01:03:20,660 --> 01:03:22,200
+let me turn it up.
+
+1289
+01:03:22,340 --> 01:03:25,540
+You are mapping any kind of audio
+to a classification,
+
+1290
+01:03:29,640 --> 01:03:32,200
+you can take the audio of the road
+
+1291
+01:03:35,680 --> 01:03:39,520
+and that's the spectrogram
+on the bottom there, being shown
+
+1292
+01:03:39,580 --> 01:03:42,240
+you could detect whether
+the road is wet
+
+1293
+01:03:42,300 --> 01:03:44,020
+is wet or the road is dry.
+
+1294
+01:03:47,640 --> 01:03:50,240
+you could do the same thing for
+
+1295
+01:03:51,400 --> 01:03:54,620
+recognizing the gender
+of the speaker
+
+1296
+01:03:54,700 --> 01:03:58,040
+or recognizing many to many map
+
+1297
+01:03:58,080 --> 01:03:59,940
+of the actual words
+being spoken,
+
+1298
+01:04:00,200 --> 01:04:01,760
+speech recognition.
+
+1299
+01:04:02,560 --> 01:04:04,220
+This is about driving,
+
+1300
+01:04:04,280 --> 01:04:07,800
+so let's see where recurrent neural|
+networks apply in driving.
+
+1301
+01:04:08,580 --> 01:04:11,860
+We talked about the NVIDIA approach,
+
+1302
+01:04:12,200 --> 01:04:16,260
+the thing that actually powers
+DeepTeslaJS,
+
+1303
+01:04:16,280 --> 01:04:19,000
+it is a simple convolutional neural network,
+
+1304
+01:04:19,040 --> 01:04:21,460
+there's five convolutional layers
+
+1305
+01:04:21,500 --> 01:04:24,940
+in their approach, three fully
+connected layers,
+
+1306
+01:04:25,000 --> 01:04:28,320
+you can add as many layers
+as you want in DeepTesla,
+
+1307
+01:04:29,380 --> 01:04:32,220
+that's a quarter of million
+
+1308
+01:04:32,540 --> 01:04:35,000
+parameters to optimize
+
+1309
+01:04:35,020 --> 01:04:36,920
+all you are taking is a single image,
+
+1310
+01:04:36,990 --> 01:04:39,220
+no temporal information,
+single image
+
+1311
+01:04:39,240 --> 01:04:42,160
+and producing the steering angle,
+that's the approach,
+
+1312
+01:04:42,190 --> 01:04:44,360
+that's the DeepTesla way,
+
+1313
+01:04:47,500 --> 01:04:49,280
+taking a single imagen
+
+1314
+01:04:50,060 --> 01:04:53,800
+image and learning a regression
+of the steering angle.
+
+1315
+01:04:55,280 --> 01:04:56,840
+One of the
+
+1316
+01:04:57,920 --> 01:05:01,320
+prizes for the competition is
+the Udacity, self-driving
+
+1317
+01:05:01,440 --> 01:05:03,900
+car engineer nanodegree
+
+1318
+01:05:04,700 --> 01:05:05,940
+for free,
+
+1319
+01:05:06,440 --> 01:05:07,620
+this thing is awesome,
+
+1320
+01:05:07,720 --> 01:05:09,860
+I encourage everyone to check it out,
+
+1321
+01:05:09,860 --> 01:05:11,480
+but they did a competition
+
+1322
+01:05:15,080 --> 01:05:17,120
+that's very similar to ours,
+
+1323
+01:05:18,580 --> 01:05:22,820
+but a very large group
+of obsessed people,
+
+1324
+01:05:23,690 --> 01:05:26,270
+they were very clever,
+they went beyond
+
+1325
+01:05:26,300 --> 01:05:28,800
+convolutional neural networks
+of predicting steering,
+
+1326
+01:05:28,820 --> 01:05:31,690
+taking a sequence of images
+and predicting steering,
+
+1327
+01:05:31,820 --> 01:05:34,660
+what they did is, the winners,
+
+1328
+01:05:34,660 --> 01:05:39,180
+at least the first and I'll talk about
+the second place winner tomorrow,
+
+1329
+01:05:39,820 --> 01:05:43,360
+on 3D convolutional neural networks,
+
+1330
+01:05:43,420 --> 01:05:46,380
+the first and the third place winners
+used RNNs,
+
+1331
+01:05:46,420 --> 01:05:50,320
+used LSTMs, recurrent neural networks
+
+1332
+01:05:50,320 --> 01:05:53,660
+and map a sequence of images
+
+1333
+01:05:53,680 --> 01:05:55,380
+to a sequence of steering angles.
+
+1334
+01:05:55,880 --> 01:05:57,500
+For anyone,
+
+1335
+01:05:58,340 --> 01:06:00,160
+statistically speaking,
+
+1336
+01:06:00,440 --> 01:06:03,560
+anybody here who is
+not a computer vision person,
+
+1337
+01:06:03,600 --> 01:06:06,580
+most likely what'd you want to use,
+for whatever application
+
+1338
+01:06:06,580 --> 01:06:08,020
+you're interested in,
+
+1339
+01:06:08,060 --> 01:06:09,240
+is RNNs,
+
+1340
+01:06:09,600 --> 01:06:12,700
+the world is full of time series data,
+
+1341
+01:06:13,200 --> 01:06:15,420
+very few of us are working on
+
+1342
+01:06:16,000 --> 01:06:18,680
+data that is no time series data,
+
+1343
+01:06:18,740 --> 01:06:21,120
+in fact, whenever it's just snapshots,
+
+1344
+01:06:21,440 --> 01:06:24,460
+you're really just reducing
+the problem to
+
+1345
+01:06:24,460 --> 01:06:26,220
+the size that you can handle
+
+1346
+01:06:26,260 --> 01:06:27,380
+but most data
+
+1347
+01:06:27,460 --> 01:06:29,800
+in the world is time series data.
+
+1348
+01:06:29,860 --> 01:06:32,600
+This is the approach you end up using
+
+1349
+01:06:32,680 --> 01:06:36,000
+if you want to apply it
+in your own research,
+
+1350
+01:06:41,320 --> 01:06:43,300
+RNNs is the way to go.
+
+1351
+01:06:46,700 --> 01:06:49,760
+Again, what are they doing?
+
+1352
+01:06:49,960 --> 01:06:53,700
+How do you put images
+
+1353
+01:06:53,780 --> 01:06:56,100
+into a recurrent neural network?
+
+1354
+01:06:56,180 --> 01:06:58,200
+it's the same thing,
+
+1355
+01:06:58,640 --> 01:06:59,780
+you take,
+
+1356
+01:07:00,300 --> 01:07:02,800
+you have to convert
+an image into numbers
+
+1357
+01:07:02,880 --> 01:07:04,300
+in some kind of way,
+
+1358
+01:07:04,600 --> 01:07:07,980
+a powerful way of doing that
+is convolutional neural networks,
+
+1359
+01:07:08,040 --> 01:07:09,340
+so you can take
+
+1360
+01:07:10,300 --> 01:07:13,060
+either 3D convolutional
+neural networks
+
+1361
+01:07:13,100 --> 01:07:15,780
+or 2D convolutional neural networks
+
+1362
+01:07:15,840 --> 01:07:18,740
+once it takes time into
+consideration and whatnot,
+
+1363
+01:07:18,800 --> 01:07:20,380
+process that image
+
+1364
+01:07:20,500 --> 01:07:22,980
+to extract a representation
+of that image
+
+1365
+01:07:23,700 --> 01:07:26,880
+and that becomes the input
+to the LSTM
+
+1366
+01:07:27,220 --> 01:07:28,500
+and the output
+
+1367
+01:07:28,540 --> 01:07:31,360
+at every single cell,
+at every single timestep,
+
+1368
+01:07:31,380 --> 01:07:33,020
+is a predicted steering angle,
+
+1369
+01:07:33,050 --> 01:07:35,000
+the speed of the vehicle
+and the torque
+
+1370
+01:07:35,020 --> 01:07:37,020
+that's what the first place winner did,
+
+1371
+01:07:37,050 --> 01:07:38,990
+they didn't just do the steering angle,
+
+1372
+01:07:39,030 --> 01:07:41,200
+also did the speed and torque
+
+1373
+01:07:42,000 --> 01:07:44,720
+and the sequence length
+that they were using
+
+1374
+01:07:45,300 --> 01:07:47,640
+for training and for testing,
+
+1375
+01:07:48,060 --> 01:07:49,520
+for the input and the output,
+
+1376
+01:07:49,580 --> 01:07:51,320
+is a sequence length of 10\h
+
+1377
+01:07:52,860 --> 01:07:55,140
+did they used supervised learning
+
+1378
+01:07:55,180 --> 01:07:57,780
+or did they used reinforcement
+learning?
+
+1379
+01:07:57,780 --> 01:08:00,740
+The question was, did they used
+supervised learning?
+
+1380
+01:08:00,800 --> 01:08:03,820
+Yes, they were given the same thing
+as in DeepTesla,
+
+1381
+01:08:03,820 --> 01:08:06,540
+a sequence of frames
+where the have a sequence of
+
+1382
+01:08:06,930 --> 01:08:08,680
+steering angles, speed and torque,
+
+1383
+01:08:08,680 --> 01:08:11,400
+I think there's other information
+too available,
+
+1384
+01:08:12,720 --> 01:08:15,140
+there's no reinforcement
+learning here.
+
+1385
+01:08:15,180 --> 01:08:15,700
+Question.\h
+
+1386
+01:08:15,700 --> 01:08:18,940
+Do you have a sense of
+how much information
+
+1387
+01:08:19,000 --> 01:08:21,780
+is being passed,\hhow many
+LSTM gates are there
+
+1388
+01:08:21,840 --> 01:08:23,640
+in this problem?
+
+1389
+01:08:27,740 --> 01:08:28,820
+The question was,
+
+1390
+01:08:28,820 --> 01:08:31,440
+how many LSTM gates
+are\hin this problem?
+
+1391
+01:08:33,820 --> 01:08:36,280
+This network,
+
+1392
+01:08:41,180 --> 01:08:42,920
+it's true
+
+1393
+01:08:43,000 --> 01:08:45,140
+that this diagrams kind of hide
+
+1394
+01:08:45,250 --> 01:08:48,210
+the number of parameters here,
+but it's arbitrary
+
+1395
+01:08:48,220 --> 01:08:51,280
+just like convolutional
+neural networks are arbitrary,
+
+1396
+01:08:52,380 --> 01:08:55,060
+the size of the input is arbitrary,
+
+1397
+01:08:55,100 --> 01:08:57,660
+the size of Sigmoid function,
+
+1398
+01:08:57,700 --> 01:08:59,260
+TANH is arbitrary,
+
+1399
+01:08:59,280 --> 01:09:02,440
+so you can make it as large as you want,
+as deep as you want
+
+1400
+01:09:02,440 --> 01:09:04,440
+and the deeper and larger, the better.\h
+
+1401
+01:09:05,600 --> 01:09:07,900
+What these folks actually used--
+
+1402
+01:09:08,120 --> 01:09:10,160
+the way these competitions work
+
+1403
+01:09:10,970 --> 01:09:14,200
+and I encourage you, if you're
+interested in machine learning
+
+1404
+01:09:14,200 --> 01:09:15,820
+to participate in Kaggle,
+
+1405
+01:09:15,820 --> 01:09:19,120
+I don't know how to pronounce it,
+competitions
+
+1406
+01:09:19,360 --> 01:09:22,040
+where basically everyone
+is doing the same thing,
+
+1407
+01:09:22,040 --> 01:09:24,040
+you're using LSTMs
+
+1408
+01:09:24,080 --> 01:09:25,660
+or if it's one- on-one mapping,
+
+1409
+01:09:25,680 --> 01:09:28,980
+using convolutional neural network
+fully connecting networks
+
+1410
+01:09:28,990 --> 01:09:30,740
+with some clever pre-processing
+
+1411
+01:09:30,760 --> 01:09:32,840
+and the whole job is
+that takes months
+
+1412
+01:09:32,870 --> 01:09:34,550
+and you probably,
+if you're a researcher,
+
+1413
+01:09:34,580 --> 01:09:36,570
+that's what you'd be doing
+your own research,
+
+1414
+01:09:36,580 --> 01:09:37,900
+playing with parameters,
+
+1415
+01:09:37,930 --> 01:09:40,000
+playing with pre-processing
+of the data,
+
+1416
+01:09:40,040 --> 01:09:43,400
+playing with the different parameter
+that controls the size of the network
+
+1417
+01:09:43,430 --> 01:09:44,560
+the learning rate,
+
+1418
+01:09:44,590 --> 01:09:47,060
+I've mentioned, this type of optimizer,
+
+1419
+01:09:47,060 --> 01:09:49,890
+all these kinds of things,
+that's what you're playing with,
+
+1420
+01:09:49,920 --> 01:09:51,550
+using your own human intuition
+
+1421
+01:09:51,640 --> 01:09:53,780
+and you're using your--
+
+1422
+01:09:56,920 --> 01:09:58,660
+whatever probing you can do
+
+1423
+01:09:58,700 --> 01:10:01,020
+in monitoring the performansce of the network
+
+1424
+01:10:01,400 --> 01:10:02,600
+through time.
+
+1425
+01:10:03,940 --> 01:10:04,640
+Yes?
+
+1426
+01:10:17,020 --> 01:10:18,180
+The question was,
+
+1427
+01:10:20,820 --> 01:10:23,040
+you said that there's a
+
+1428
+01:10:23,080 --> 01:10:26,560
+memory of tenth in this LCM,
+
+1429
+01:10:26,660 --> 01:10:30,760
+and I thought RNNs are
+supposed to be arbitrary.
+
+1430
+01:10:32,740 --> 01:10:34,580
+It has to do
+
+1431
+01:10:35,480 --> 01:10:36,920
+with the training,
+
+1432
+01:10:37,580 --> 01:10:39,540
+how the network is trained.
+
+1433
+01:10:39,600 --> 01:10:41,290
+It's trained with sequences of 10.
+
+1434
+01:10:41,340 --> 01:10:44,070
+The structure is still the same,
+you only have one
+
+1435
+01:10:44,420 --> 01:10:46,390
+cell that's
+looping onto each other.
+
+1436
+01:10:46,480 --> 01:10:47,840
+But the question is,
+
+1437
+01:10:48,180 --> 01:10:49,860
+in what chunks,
+
+1438
+01:10:51,480 --> 01:10:53,700
+what is the size of the sequence
+
+1439
+01:10:53,720 --> 01:10:56,620
+that we should do in the training
+and then the testing.
+
+1440
+01:10:57,540 --> 01:10:59,580
+It can be arbitrary length.
+
+1441
+01:10:59,640 --> 01:11:01,960
+It's just usually better
+to be consistent
+
+1442
+01:11:02,020 --> 01:11:03,740
+and have a fixed length.
+
+1443
+01:11:07,060 --> 01:11:10,440
+You're not stacking 10 cells together.
+
+1444
+01:11:10,560 --> 01:11:12,300
+It's just a single cell still.
+
+1445
+01:11:16,460 --> 01:11:18,300
+The third-place winner,
+
+1446
+01:11:19,300 --> 01:11:20,520
+Team Chauffeur,
+
+1447
+01:11:21,860 --> 01:11:24,100
+used something called
+transfer learning
+
+1448
+01:11:24,160 --> 01:11:26,600
+and it's something I don't think
+I mentioned
+
+1449
+01:11:27,280 --> 01:11:29,040
+but it's kind of implied,
+
+1450
+01:11:31,900 --> 01:11:34,140
+the amazing power of neural networks.
+
+1451
+01:11:35,000 --> 01:11:37,700
+First, you need a lot of data
+to do anything.
+
+1452
+01:11:37,940 --> 01:11:40,960
+That's the cost, that's
+the limitation in neural networks.
+
+1453
+01:11:40,960 --> 01:11:43,100
+But what you could do is,
+
+1454
+01:11:43,160 --> 01:11:45,200
+there's
+
+1455
+01:11:46,840 --> 01:11:49,980
+neural networks that have been
+trained on very large data sets.
+
+1456
+01:11:49,980 --> 01:11:50,760
+ImageNet,
+
+1457
+01:11:51,920 --> 01:11:56,060
+Vdg Net, AlexNet, ResNet,
+
+1458
+01:11:56,100 --> 01:11:59,480
+all these networks are trained
+on a huge amount of data.
+
+1459
+01:12:01,200 --> 01:12:03,640
+Those networks are trained to tell
+
+1460
+01:12:03,700 --> 01:12:07,440
+the differences between a cat and dog
+Specific optical recognition
+
+1461
+01:12:07,440 --> 01:12:08,380
+of single images.
+
+1462
+01:12:09,200 --> 01:12:11,200
+How do I then take that network
+
+1463
+01:12:11,280 --> 01:12:12,680
+and apply it to my problem,
+
+1464
+01:12:12,720 --> 01:12:14,660
+say of driving or length detection,
+
+1465
+01:12:14,740 --> 01:12:18,560
+or medical diagnosis, or cancer or not?
+
+1466
+01:12:19,460 --> 01:12:21,100
+The beauty of neural networks,
+
+1467
+01:12:26,160 --> 01:12:28,200
+the promise of transfer learning,
+
+1468
+01:12:28,200 --> 01:12:30,400
+is that you can just take that network,
+
+1469
+01:12:30,400 --> 01:12:32,480
+chop off the final layer,
+
+1470
+01:12:33,060 --> 01:12:34,520
+the fully connected layer
+
+1471
+01:12:34,520 --> 01:12:37,000
+that maps from all those cool
+
+1472
+01:12:37,120 --> 01:12:40,800
+high-dimensional features that you
+have learned about visual space,
+
+1473
+01:12:41,360 --> 01:12:44,720
+and as opposed to predicting cat vs. dog,
+
+1474
+01:12:44,720 --> 01:12:47,480
+you teach it to predict
+cancer or no cancer.
+
+1475
+01:12:47,940 --> 01:12:52,240
+You teach it to predict lane or no lane,
+truck or no truck.
+
+1476
+01:12:53,240 --> 01:12:54,980
+As long as the visual space
+
+1477
+01:12:55,020 --> 01:12:56,750
+under which that network operates
+
+1478
+01:12:56,800 --> 01:13:00,340
+is similar or the data like
+if it's audio or whatever
+
+1479
+01:13:00,440 --> 01:13:03,600
+if it's similar, if the features are
+useful then you learn,
+
+1480
+01:13:04,380 --> 01:13:07,400
+in studying the problem of
+cat vs dog deeply,
+
+1481
+01:13:07,860 --> 01:13:10,700
+you have learned actually
+how to see the world.
+
+1482
+01:13:10,700 --> 01:13:13,660
+As you're going to apply
+that visual knowledge,
+
+1483
+01:13:13,660 --> 01:13:15,660
+you can transfer that learning
+
+1484
+01:13:15,660 --> 01:13:17,360
+to another domain.
+
+1485
+01:13:17,620 --> 01:13:20,240
+That's the beautiful power
+of neural networks
+
+1486
+01:13:20,240 --> 01:13:22,240
+it's that they're transferable.
+
+1487
+01:13:23,880 --> 01:13:26,000
+What they did here is--
+
+1488
+01:13:27,960 --> 01:13:31,680
+I didn't spend enough time
+looking through the code
+
+1489
+01:13:31,760 --> 01:13:34,720
+I'm not sure which of the
+giant nework they took
+
+1490
+01:13:34,720 --> 01:13:37,540
+but they took a giant
+convolutional neural network,
+
+1491
+01:13:39,220 --> 01:13:41,020
+they chopped off
+
+1492
+01:13:41,700 --> 01:13:42,960
+the end layer,
+
+1493
+01:13:43,200 --> 01:13:45,180
+which produced 3000 features,
+
+1494
+01:13:45,320 --> 01:13:47,180
+and they took those 3000 features
+
+1495
+01:13:47,240 --> 01:13:49,060
+to every single image frame,
+
+1496
+01:13:49,440 --> 01:13:50,780
+and that's the Xt.
+
+1497
+01:13:51,040 --> 01:13:54,100
+They gave that as the input to LSTM.
+
+1498
+01:13:54,420 --> 01:13:56,800
+And the sequence length,
+in that case, was 50.
+
+1499
+01:13:57,500 --> 01:14:00,200
+This process is pretty
+
+1500
+01:14:04,200 --> 01:14:06,760
+similar across domains.
+That's the beauty of it.
+
+1501
+01:14:07,540 --> 01:14:11,640
+The art of neural networks is in the--
+
+1502
+01:14:13,300 --> 01:14:14,620
+Well\hthat's a good sign
+
+1503
+01:14:14,720 --> 01:14:15,300
+[chuckles],
+
+1504
+01:14:15,300 --> 01:14:17,120
+I guess I should warp it up--
+
+1505
+01:14:27,640 --> 01:14:31,180
+The art of the neural networks is
+in the proper parameter tuning.\h
+
+1506
+01:14:31,180 --> 01:14:32,560
+That's the tricky part,
+
+1507
+01:14:32,620 --> 01:14:34,840
+and that's the part you can't be taught.
+
+1508
+01:14:34,940 --> 01:14:35,960
+That's experience,
+
+1509
+01:14:37,280 --> 01:14:38,440
+sadly enough.
+
+1510
+01:14:38,680 --> 01:14:40,880
+That's why they talk about
+
+1511
+01:14:41,900 --> 01:14:44,240
+Stochastic Gradient Descent SGD,
+
+1512
+01:14:44,240 --> 01:14:47,240
+That's what Geoffrey Hinton
+
+1513
+01:14:47,240 --> 01:14:49,080
+refers to as
+
+1514
+01:14:49,160 --> 01:14:51,760
+Stochastic Graduate Student Descent,
+
+1515
+01:14:53,040 --> 01:14:55,980
+meaning you just keep
+hiring graduate students
+
+1516
+01:14:55,980 --> 01:14:57,680
+to play with the hyperparameters
+
+1517
+01:14:57,780 --> 01:14:59,340
+until the problem is solved
+
+1518
+01:14:59,980 --> 01:15:02,180
+[laughter].
+
+1519
+01:15:06,700 --> 01:15:07,740
+I have about
+
+1520
+01:15:07,980 --> 01:15:11,120
+100+ slides on driver state,
+
+1521
+01:15:11,220 --> 01:15:15,900
+which is the thing that
+I'm most passionate about,
+
+1522
+01:15:15,900 --> 01:15:19,120
+and I think will save the best for last.
+
+1523
+01:15:19,560 --> 01:15:23,220
+I'll talk about that tomorrow.
+We have a guest speaker
+
+1524
+01:15:24,020 --> 01:15:25,190
+from the White House,
+
+1525
+01:15:25,220 --> 01:15:28,310
+will talk about the future
+of Artificial Intelligence
+
+1526
+01:15:28,350 --> 01:15:30,100
+from the perspective of policy,
+
+1527
+01:15:32,310 --> 01:15:36,010
+and what I would like you to do first
+off you registered students is submit
+
+1528
+01:15:36,030 --> 01:15:37,640
+the two tutorial assignments,
+
+1529
+01:15:37,660 --> 01:15:38,980
+and pick up
+
+1530
+01:15:40,240 --> 01:15:42,680
+can we just set the boxes right here
+or something?
+
+1531
+01:15:42,760 --> 01:15:44,840
+Just stop by and pick up a shirt.
+
+1532
+01:15:46,300 --> 01:15:48,080
+And give us a card on the way.
+
+1533
+01:15:48,800 --> 01:15:50,060
+Thanks guys.
+
+1534
+01:15:52,450 --> 01:15:56,420
+[Applause]
+
